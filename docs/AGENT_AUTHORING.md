@@ -1,21 +1,10 @@
 # Agent workflow
 
-## Before authoring
+1. Read `AGENTS.md` and select a project explicitly.
+2. Gather source canon, roleplay tone, cast boundaries, and available media.
+3. Write the smallest useful world foundation first: world prompts, then character profiles and important places.
+4. Add relationships, schedules, events, or systems only when they make behavior more natural. Do not translate game mechanics into hard constraints by default.
+5. Run schema/reference validation and the OpenAI token report before building.
+6. Build CharX, regenerate viewer data, and review the result as a roleplay world rather than as a quest implementation.
 
-1. Read root `AGENTS.md`.
-2. Confirm the target project id with `bun run charx projects`.
-3. Inspect the example project to learn structure; do not copy its setting-specific content.
-4. Gather the user's canon, cast list, boundaries, desired gameplay loop, and available media.
-
-## Recommended build order for a world
-
-1. World premise and system constraints in `card/prompts/`.
-2. Folder/category lore entries.
-3. One character directory per cast member.
-4. Locations, schedules, relationships, progression, and event rules.
-5. RisuAI regex/trigger behaviors.
-6. Assets and `x_meta` records.
-7. Alternate greetings and scenario variants.
-8. Validation, build, viewer catalog, and user review.
-
-The primary Stardew Valley project currently contains only the empty valid scaffold. It should remain empty until the user provides or approves the actual design direction.
+The primary Stardew Valley project is intentionally empty. Its next phase should begin with discussion of roleplay goals and canon scope, not bulk content generation.

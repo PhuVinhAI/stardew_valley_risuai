@@ -1,0 +1,13 @@
+schema: risuai-world/v1
+id: minimal-world
+name: Minimal Roleplay World
+version: 0.1.0
+creator: Test
+language: en
+tags: [roleplay]
+module:
+  description: Minimal compiler fixture
+tokenCheck:
+  encoding: o200k_base
+  warnAt: 1000
+  errorAt: 2000

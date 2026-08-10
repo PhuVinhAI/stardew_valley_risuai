@@ -1,5 +1,7 @@
-# Stardew Valley primary project
+# Stardew Valley roleplay world
 
-This is the canonical project that will be authored later. It is intentionally empty except for a valid CCv3/RisuM scaffold and build metadata.
+This is the primary authoring project and is intentionally content-empty.
 
-Do not infer or add cast, lore, prompts, schedules, relationships, assets, or gameplay rules until the user starts that design phase.
+The future goal is an open-ended RisuAI world where the user lives and creates new stories with Stardew Valley characters. It is not a deterministic recreation of the game. Canon should ground personalities, relationships, places, culture, and everyday life while leaving time, romance, conflict, and outcomes free to emerge through roleplay.
+
+Optional `schedules`, `events`, and `systems` directories exist for soft context only. Leave them empty unless a specific roleplay need justifies them.

@@ -5,9 +5,17 @@ import { parseArchiveOrder, WorldManifestSchema } from "@charx/project-schema";
 import { type DecodedRisum, decodeRisum, encodeRisum } from "@charx/risum-codec";
 import { unzipSync } from "fflate";
 import { compareArchives, createZip, zipMtime } from "./archive.ts";
+import {
+  buildAuthoringProject,
+  checkAuthoringProject,
+  compileAuthoringSources,
+  loadWorldIR,
+  scaffoldAuthoringProject,
+} from "./authoring.ts";
 import { type CharacterIndexEntry, internalLoreToCcv3, readLorebook, splitLorebook } from "./lore.ts";
 import { resolveTemplate } from "./templates.ts";
-import type { ArchiveComparison, BuiltSources, CheckReport, ProjectContext } from "./types.ts";
+import { countBuiltSourceTokens } from "./tokens.ts";
+import type { ArchiveComparison, BuiltSources, CheckReport, ProjectContext, TokenReport } from "./types.ts";
 import {
   copyRpackMap,
   ensureDir,
@@ -97,6 +105,7 @@ function updateCharacterAssetIndexes(
 }
 
 export function buildSources(context: ProjectContext): BuiltSources {
+  if (context.config.structure === "authoring") return compileAuthoringSources(context, false);
   const internalLorebook = readLorebook(path.join(context.worldDir, "content"));
   const templateContext = { internalLorebook };
   const cardTemplate = readJson(path.join(context.worldDir, "card", "card.template.json"));
@@ -124,6 +133,7 @@ export function buildSources(context: ProjectContext): BuiltSources {
 }
 
 export function checkProject(context: ProjectContext): CheckReport {
+  if (context.config.structure === "authoring") return checkAuthoringProject(context);
   const built = buildSources(context);
   const errors: string[] = [];
   const warnings: string[] = [];
@@ -270,6 +280,12 @@ export function importCharx(context: ProjectContext, inputPath: string, risuaiRo
 }
 
 export function scaffoldProject(context: ProjectContext, name: string, risuaiRoot: string): void {
+  if (context.config.structure === "authoring") {
+    ensureDir(context.stateDir);
+    copyRpackMap(risuaiRoot, context.stateDir);
+    scaffoldAuthoringProject(context, name);
+    return;
+  }
   if (fs.existsSync(context.worldDir) && fs.readdirSync(context.worldDir).length > 0) {
     throw new Error(`Refusing to overwrite non-empty ${context.worldDir}`);
   }
@@ -373,6 +389,10 @@ export function buildProject(
   context: ProjectContext,
   exact = false,
 ): { output: string; comparison?: ArchiveComparison } {
+  if (context.config.structure === "authoring") {
+    if (exact) throw new Error("Exact builds are only available for decompiled reference projects");
+    return buildAuthoringProject(context);
+  }
   const report = checkProject(context);
   if (report.errors.length) throw new Error(report.errors.join("\n"));
   const built = buildSources(context);
@@ -426,6 +446,9 @@ export function buildProject(
 }
 
 export function reindexCharacterAssets(context: ProjectContext): number {
+  if (context.config.structure === "authoring") {
+    throw new Error("Authoring projects use stable asset ids and do not need reindexing");
+  }
   const built = buildSources(context);
   const contentDir = path.join(context.worldDir, "content");
   const characters = readJson<CharacterIndexEntry[]>(path.join(contentDir, "characters", "index.json"));
@@ -441,11 +464,54 @@ export function verifyProject(context: ProjectContext): ArchiveComparison {
   );
 }
 
+export function projectTokenReport(context: ProjectContext): TokenReport {
+  const built = buildSources(context);
+  const tokenCheck = context.config.structure === "authoring" ? loadWorldIR(context).tokenCheck : undefined;
+  return countBuiltSourceTokens(built, tokenCheck);
+}
+
 export function readWorldManifest(context: ProjectContext): Record<string, unknown> {
+  if (context.config.structure === "authoring")
+    return loadWorldIR(context) as unknown as Record<string, unknown>;
   return WorldManifestSchema.parse(readJson(path.join(context.worldDir, "world.json")));
 }
 
+function viewerTokenSummary(context: ProjectContext): Record<string, unknown> {
+  const report = projectTokenReport(context);
+  return {
+    encoding: report.encoding,
+    total: report.total,
+    archiveTextTokens: report.archiveTextTokens,
+    status: report.status,
+  };
+}
+
 export function projectViewerData(context: ProjectContext): Record<string, unknown> {
+  if (context.config.structure === "authoring") {
+    const ir = loadWorldIR(context);
+    return {
+      id: context.projectId,
+      kind: context.config.kind,
+      structure: context.config.structure,
+      name: ir.name,
+      description: ir.prompts.description,
+      scenario: ir.prompts.scenario,
+      firstMessage: ir.prompts.firstMessage,
+      stats: checkAuthoringProject(context).stats,
+      tokens: viewerTokenSummary(context),
+      tags: ir.tags,
+      lore: ir.entities.map((entity) => ({
+        id: entity.id,
+        name: entity.name,
+        kind: entity.kind,
+        keys: entity.keywords.join(", "),
+        content: entity.content,
+        assets: entity.assets,
+        references: entity.references,
+      })),
+      assets: ir.assets.map((asset) => ({ id: asset.id, name: asset.name, ext: asset.extension })),
+    };
+  }
   const built = buildSources(context);
   const characters = readJson<CharacterIndexEntry[]>(
     path.join(context.worldDir, "content", "characters", "index.json"),
@@ -467,11 +533,13 @@ export function projectViewerData(context: ProjectContext): Record<string, unkno
   return {
     id: context.projectId,
     kind: context.config.kind,
+    structure: context.config.structure,
     name: built.card.data.name,
     description: built.card.data.description,
     scenario: built.card.data.scenario,
     firstMessage: built.card.data.first_mes,
     stats: checkProject(context).stats,
+    tokens: viewerTokenSummary(context),
     tags: built.card.data.tags ?? [],
     lore,
     assets: built.card.data.assets ?? [],

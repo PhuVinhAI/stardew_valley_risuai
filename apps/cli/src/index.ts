@@ -6,6 +6,7 @@ import {
   importCharx,
   inspectCharx,
   listProjects,
+  projectTokenReport,
   projectViewerData,
   registerExampleProject,
   reindexCharacterAssets,
@@ -23,6 +24,27 @@ const program = new Command()
   .name("charx")
   .description("Agent-first RisuAI multi-project world authoring CLI")
   .version("1.0.0");
+
+program
+  .command("tokens")
+  .description("Count effective world text with an OpenAI tiktoken encoding before using it in RisuAI")
+  .requiredOption("--project <id>", "Workspace project id")
+  .option("--top <count>", "Number of largest sections to print", "20")
+  .action((options: { project: string; top: string }) => {
+    const report = projectTokenReport(resolveProject(workspaceRoot, options.project));
+    const top = Math.max(1, Number.parseInt(options.top, 10) || 20);
+    console.log(`Encoding: ${report.encoding}`);
+    console.log(`Effective unique text: ${report.total.toLocaleString("en-US")} tokens`);
+    console.log(`Serialized card + module text: ${report.archiveTextTokens.toLocaleString("en-US")} tokens`);
+    console.log(`Budget status: ${report.status} (warn ${report.warnAt}, error ${report.errorAt})`);
+    console.log("");
+    for (const section of report.sections.slice(0, top)) {
+      console.log(
+        `${String(section.tokens).padStart(8)}  ${section.kind.padEnd(12)}  ${section.id}  ${section.name}`,
+      );
+    }
+    if (report.status === "error") process.exitCode = 1;
+  });
 
 program
   .command("projects")
@@ -79,7 +101,8 @@ program
   .action((options: { project: string; name: string; risuai: string }) => {
     const context = resolveProject(workspaceRoot, options.project);
     scaffoldProject(context, options.name, path.resolve(workspaceRoot, options.risuai));
-    consola.success(`Scaffolded ${pc.cyan(context.projectId)} at ${context.worldDir}`);
+    const target = context.config.structure === "authoring" ? context.sourceDir : context.worldDir;
+    consola.success(`Scaffolded ${pc.cyan(context.projectId)} at ${target}`);
   });
 
 program
@@ -217,7 +240,11 @@ program
     const candidates = [
       ...listProjects(workspaceRoot).flatMap((project) => {
         const context = resolveProject(workspaceRoot, project.id);
-        return [path.join(context.projectRoot, "dist"), path.join(context.stateDir, "cache")];
+        return [
+          path.join(context.projectRoot, "dist"),
+          path.join(context.projectRoot, "generated"),
+          path.join(context.stateDir, "cache"),
+        ];
       }),
       path.join(workspaceRoot, "apps", "viewer", "dist"),
       path.join(workspaceRoot, "apps", "viewer", "src", "assets"),

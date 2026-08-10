@@ -1,0 +1,17 @@
+schema: risuai-world/v1
+id: stardew-valley
+name: Stardew Valley
+version: 0.1.0
+creator: ""
+language: en
+tags: []
+prompts: {}
+greetings: {}
+lorebook: {}
+module:
+  description: RisuAI module for Stardew Valley
+risuai: {}
+tokenCheck:
+  encoding: o200k_base
+  warnAt: 100000
+  errorAt: 120000

@@ -1,99 +1,60 @@
 # RisuAI Multi-Character World Workspace
 
-A Bun + TypeScript workspace for agents to author large RisuAI worlds and for people to inspect them through a read-only Svelte viewer. The compiler emits Character Card v3 `.charx` archives with RisuAI-compatible `module.risum`, assets, and metadata.
+A Bun + TypeScript workspace for agents to author open-ended roleplay worlds and compile Character Card v3 `.charx` archives for RisuAI. People inspect content through a read-only Svelte viewer; agents work with YAML, Markdown, stable ids, and assets.
 
-## Projects
+## Two source models
 
 ```text
 projects/
-├── stardew-valley/                  # Primary project; intentionally empty for the next authoring phase
-└── examples/
-    ├── danganronpa-her/             # Losslessly decomposed reference CharX
-    ├── haewol-island/               # Losslessly decomposed reference CharX
-    └── welcome-to-seikan/           # Losslessly decomposed Korean reference CharX
+|-- stardew-valley/             authoring source: YAML + Markdown + assets
+`-- examples/                   lossless decompiled CharX fixtures
+    |-- danganronpa-her/
+    |-- haewol-island/
+    `-- welcome-to-seikan/
 ```
 
-The sample is isolated as one example project so future references can be added without mixing their prompts, lore, scripts, or media with the primary world.
+Imported examples retain low-level CharX structure so they can round-trip exactly. New worlds do not copy that structure. They compile through a canonical `WorldIR`, so authors never manage RisuAI UUIDs, embedded URIs, archive ordering, or `x_meta` by hand.
 
-Raw `.charx` references and generated `.charx` outputs are intentionally excluded from Git. The repository stores the fully decomposed source and loose assets instead.
+Raw and generated `.charx` files are excluded from Git.
 
-## Toolchain
+## Authoring pipeline
 
-- Bun runtime, package manager, workspace, and test runner
-- TypeScript strict mode
-- Commander CLI and Consola output
-- Zod project/config schemas
-- fflate streaming-compatible CharX ZIP codec
-- Dedicated RisuM/RPack codec package
-- Svelte 5 + Vite read-only viewer
-- Biome lint/format and GitHub Actions quality checks
+```text
+YAML + Markdown + assets
+          |
+          v
+      canonical WorldIR
+          |
+          v
+  CCv3 card + RisuM module + generated metadata
+          |
+          v
+        .charx
+```
 
-Dependencies and the viewer scaffold are installed/generated through Bun commands. `bun.lock` records the actual resolved versions.
+The world model is intentionally soft. Character personalities, relationships, locations, and setting knowledge provide roleplay context. Schedules, events, and systems are optional and must not force a game-like plot or predetermined outcome.
 
-## Common commands
+## Commands
 
 ```powershell
 bun install --frozen-lockfile
 
-# Agent/compiler workflow
 bun run charx projects
-bun run check:projects
-bun run check:sample
-bun run build:sample
-bun run verify
-bun run build:exact
+bun run charx check --project stardew-valley
+bun run charx tokens --project stardew-valley
+bun run charx build --project stardew-valley
 
-# Primary project (currently an intentionally empty scaffold)
-bun run check:world
-bun run build
-
-# Read-only user viewer
 bun run viewer:data
 bun run viewer
 
-# Quality
 bun run check
-bun run lint
 bun run viewer:build
 ```
 
-Add future examples with one command:
+Add another imported reference:
 
 ```powershell
 bun run charx add-example "C:\path\to\reference.charx" --id example-id --risuai ../Risuai
 ```
 
-If the card name is ASCII, `--id` can be omitted and the CLI derives it from `card.json`.
-
-## Equality guarantees
-
-`bun run build:sample` rebuilds the reference from the decomposed editable source. Verification currently proves all 1,138 archive entries have identical names, order, and uncompressed bytes.
-
-ZIP container bytes can differ because container headers are serialization metadata. `bun run build:exact` is available for the unchanged imported example and produces the original SHA-256 byte-for-byte.
-
-## Source model
-
-Within each initialized project:
-
-```text
-world/
-├── card/
-│   ├── card.template.json
-│   ├── prompts/*.md
-│   ├── greetings/**/*.md
-│   └── assets.json
-├── content/
-│   ├── characters/<character>/entry.template.json + content.md + assets.json
-│   ├── lorebook/<category>/<entry>/entry.template.json + content.md
-│   └── lore-order.json
-├── module/
-│   ├── module.template.json
-│   ├── regex/*.json
-│   └── triggers/*.json
-├── assets/**
-├── x_meta/**
-├── archive-order.json
-└── world.json
-```
-
-Humans are expected to use the viewer. Agents author the structured files and must run validation/tests before handing off a new CharX.
+See [docs/AUTHORING_SCHEMA.md](docs/AUTHORING_SCHEMA.md) for the source contract and [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for package boundaries.

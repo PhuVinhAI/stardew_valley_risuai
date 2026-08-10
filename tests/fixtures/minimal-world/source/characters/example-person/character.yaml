@@ -1,0 +1,12 @@
+schema: risuai-character/v1
+id: example-person
+name: Example Person
+content: content.md
+aliases: []
+keywords: [example-person]
+alwaysActive: true
+relationships: []
+locations: []
+schedules: []
+systems: []
+assets: []

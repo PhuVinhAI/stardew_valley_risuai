@@ -1,18 +1,26 @@
 # Architecture
 
-The workspace separates authoring data from transport codecs and presentation.
+The workspace deliberately separates human/agent authoring concepts from RisuAI transport details.
 
 ```text
-apps/cli                 Commander-based agent/compiler interface
-apps/viewer              Svelte 5 read-only human interface
-packages/project-schema  Zod schemas for workspace/project/archive manifests
-packages/risum-codec     RisuM container and RPack substitution codec
-packages/charx-core      Import, decomposition, validation, build, verify, catalog
-projects                 Independent primary/example world projects
+apps/cli                 validation, token reports, compile, import, verify
+apps/viewer              read-only Svelte browser for people
+packages/project-schema  Zod schemas for both project modes and authoring entities
+packages/risum-codec     RisuM container and RPack codec
+packages/charx-core      WorldIR loader, compiler, CharX archive, viewer catalog
+projects                 primary authoring worlds and imported fixtures
 ```
 
-The top-level Character Card is a world card. Individual cast members are canonical internal Risu lore entries stored as separate character directories. During build, the compiler converts those canonical entries to CCv3 `character_book.entries` while embedding the same internal entries in `module.risum`.
+## Authoring projects
 
-Template directives (`$text`, `$textArray`, `$json`, `$orderedJson`, `$internalLorebook`, `$ccv3Lorebook`) keep prose and ordered collections in manageable source files without losing JSON property order.
+`source/` is canonical. YAML carries identity, activation hints, and stable references; Markdown carries prose. The loader validates everything and creates `WorldIR`. The RisuAI adapter then emits CCv3 lore entries, `card.json`, `module.risum`, embedded asset paths, and metadata.
 
-The viewer never edits source. `charx catalog` produces a read model at `apps/viewer/public/catalog.json`, and Svelte renders project, character, lore, prompt, script, and asset summaries.
+`generated/` is inspectable compiler output and `dist/` contains CharX archives. Both are disposable and excluded from Git.
+
+## Decompiled examples
+
+`projects/examples/*/world` preserves imported ordering, text bytes, RisuAI fields, and archive metadata. Template directives keep large text editable while retaining a lossless rebuild. This mode exists for analysis and regression testing, not as the recommended authoring API.
+
+## Soft-canon roleplay
+
+WorldIR stores knowledge, not a game state machine. Characters, places, lore, relationships, schedules, systems, and events all compile to context entries. Only characters and general world knowledge are expected in most projects. The other entity kinds are optional hints and must remain descriptive unless the user explicitly requests simulation mechanics.

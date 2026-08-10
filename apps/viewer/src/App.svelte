@@ -2,28 +2,32 @@
 import { onMount } from "svelte";
 
 type Lore = {
+  id?: string;
   name: string;
-  kind: "character" | "folder" | "lore";
+  kind: "character" | "folder" | "lore" | "location" | "relationship" | "schedule" | "system" | "event";
   keys: string;
   content: string;
   assets: string[];
+  references?: Record<string, string[]>;
 };
 type Project = {
   id: string;
   kind: "primary" | "example";
+  structure: "authoring" | "decompiled";
   name: string;
   description: string;
   scenario: string;
   firstMessage: string;
   tags: string[];
   stats: { characters: number; loreEntries: number; assets: number; regexScripts: number; triggers: number };
+  tokens: { encoding: string; total: number; archiveTextTokens: number; status: "ok" | "warning" | "error" };
   lore: Lore[];
 };
 
 let projects: Project[] = $state([]);
 let selectedId = $state("");
 let query = $state("");
-let activeTab = $state<"characters" | "lore" | "overview">("overview");
+let activeTab = $state<"characters" | "world" | "overview">("overview");
 // biome-ignore lint/correctness/noUnusedVariables: referenced by the Svelte template
 let error = $state("");
 const selected = $derived(projects.find((project) => project.id === selectedId) ?? projects[0]);
@@ -33,8 +37,8 @@ const visibleLore = $derived(
     const matchesTab =
       activeTab === "characters"
         ? entry.kind === "character"
-        : activeTab === "lore"
-          ? entry.kind === "lore"
+        : activeTab === "world"
+          ? entry.kind !== "character" && entry.kind !== "folder"
           : false;
     const text = `${entry.name} ${entry.keys} ${entry.content}`.toLowerCase();
     return matchesTab && text.includes(query.toLowerCase());
@@ -69,7 +73,7 @@ onMount(async () => {
 </header>
 
 {#if error}
-  <main><div class="empty"><h2>Viewer data chưa được tạo</h2><p>{error}</p></div></main>
+  <main><div class="empty"><h2>Viewer data has not been generated</h2><p>{error}</p></div></main>
 {:else if selected}
   <main>
     <section class="hero">
@@ -81,16 +85,16 @@ onMount(async () => {
       </div>
       <div class="stats">
         <article><strong>{selected.stats.characters}</strong><span>characters</span></article>
-        <article><strong>{selected.stats.loreEntries}</strong><span>lore entries</span></article>
+        <article><strong>{selected.stats.loreEntries}</strong><span>world entries</span></article>
         <article><strong>{selected.stats.assets}</strong><span>assets</span></article>
-        <article><strong>{selected.stats.regexScripts}</strong><span>scripts</span></article>
+        <article><strong>{selected.tokens.total.toLocaleString()}</strong><span>OpenAI tokens</span></article>
       </div>
     </section>
 
     <nav>
       <button class:active={activeTab === "overview"} onclick={() => (activeTab = "overview")}>Overview</button>
       <button class:active={activeTab === "characters"} onclick={() => (activeTab = "characters")}>Characters</button>
-      <button class:active={activeTab === "lore"} onclick={() => (activeTab = "lore")}>Lore & rules</button>
+      <button class:active={activeTab === "world"} onclick={() => (activeTab = "world")}>World knowledge</button>
     </nav>
 
     {#if activeTab === "overview"}
@@ -103,7 +107,7 @@ onMount(async () => {
       <section class="cards">
         {#each visibleLore as entry}
           <article>
-            <div class="card-title"><h3>{entry.name}</h3><span>{entry.assets?.length ?? 0} assets</span></div>
+            <div class="card-title"><h3>{entry.name}</h3><span>{entry.kind} · {entry.assets?.length ?? 0} assets</span></div>
             {#if entry.keys}<code>{entry.keys}</code>{/if}
             <p>{entry.content}</p>
           </article>

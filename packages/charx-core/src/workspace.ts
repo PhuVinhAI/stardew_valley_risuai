@@ -34,6 +34,8 @@ export function resolveProject(workspaceRoot: string, requestedProject?: string)
     projectRoot,
     config,
     worldDir: path.resolve(projectRoot, config.worldDir),
+    sourceDir: path.resolve(projectRoot, config.sourceDir),
+    generatedDir: path.resolve(projectRoot, config.generatedDir),
     stateDir: path.resolve(projectRoot, config.stateDir),
   };
 }
@@ -60,6 +62,7 @@ export function registerExampleProject(
     format: "risuai-charx-world-project",
     formatVersion: 1,
     kind: "example",
+    structure: "decompiled",
     worldDir: "world",
     stateDir: ".charx",
     referenceCharx: referenceRelative,
