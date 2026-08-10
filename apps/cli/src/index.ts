@@ -4,6 +4,8 @@ import {
   buildProject,
   checkProject,
   importCharx,
+  importMudPortraits,
+  importOoPortraits,
   inspectCharx,
   listProjects,
   projectTokenReport,
@@ -24,6 +26,40 @@ const program = new Command()
   .name("charx")
   .description("Agent-first RisuAI multi-project world authoring CLI")
   .version("1.0.0");
+
+program
+  .command("import-oo-portraits")
+  .description("Split OO anime portrait sheets and create non-destructive 2x RisuAI derivatives")
+  .requiredOption("--project <id>", "Workspace project id")
+  .requiredOption("--pack <path>", "OO Anime Style Skimpy Portraits pack directory")
+  .action(async (options: { project: string; pack: string }) => {
+    const context = resolveProject(workspaceRoot, options.project);
+    const report = await importOoPortraits(context, path.resolve(options.pack));
+    consola.success(
+      `Imported ${report.summary.characters} characters, ${report.summary.outfitVariants} outfits, ${report.summary.expressionImages} expressions in original and 2x variants`,
+    );
+    consola.info(`Preferred RisuAI variant: ${report.preferredVariant}`);
+    consola.info(`Local-only asset root: ${report.outputRoot}`);
+  });
+
+program
+  .command("import-mud-portraits")
+  .description("Split Mud portrait sheets into standalone lossless WebP assets for an authoring project")
+  .requiredOption("--project <id>", "Workspace project id")
+  .requiredOption("--volume-1 <path>", "Mud Skimpy Portraits volume 1 directory")
+  .requiredOption("--volume-2 <path>", "Mud Skimpy Portraits volume 2 directory")
+  .action(async (options: { project: string; volume1: string; volume2: string }) => {
+    const context = resolveProject(workspaceRoot, options.project);
+    const report = await importMudPortraits(
+      context,
+      path.resolve(options.volume1),
+      path.resolve(options.volume2),
+    );
+    consola.success(
+      `Imported ${report.summary.characters} characters, ${report.summary.outfitVariants} outfits, ${report.summary.expressionImages} standalone expressions`,
+    );
+    consola.info(`Local-only asset root: ${report.outputRoot}`);
+  });
 
 program
   .command("tokens")

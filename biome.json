@@ -7,6 +7,8 @@
       "!**/projects/**/.charx",
       "!**/apps/viewer/public/catalog.json",
       "!**/dist",
+      "!**/generated",
+      "!**/projects/**/source/assets/imported",
       "!**/node_modules"
     ]
   },

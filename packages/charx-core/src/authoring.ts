@@ -110,11 +110,15 @@ function entityReferences(kind: WorldEntityKind, value: Record<string, unknown>)
 }
 
 function loadAssets(sourceDir: string): WorldIrAsset[] {
-  const manifestFile = path.join(sourceDir, "assets", "manifest.yaml");
-  if (!fs.existsSync(manifestFile)) return [];
-  const manifest = AssetManifestSchema.parse(readYaml(manifestFile));
   const root = path.resolve(sourceDir);
-  return manifest.assets.map((asset) => {
+  const manifestFiles = listFiles(path.join(root, "assets"), "**/manifest.yaml");
+  const assets = manifestFiles.flatMap(
+    (manifestFile) => AssetManifestSchema.parse(readYaml(manifestFile)).assets,
+  );
+  const seen = new Set<string>();
+  return assets.map((asset) => {
+    if (seen.has(asset.id)) throw new Error(`Duplicate asset id: ${asset.id}`);
+    seen.add(asset.id);
     const sourceFile = path.resolve(root, asset.file);
     if (!isInside(root, sourceFile)) throw new Error(`Unsafe asset path: ${asset.file}`);
     if (!fs.existsSync(sourceFile)) throw new Error(`Missing asset '${asset.id}': ${asset.file}`);
