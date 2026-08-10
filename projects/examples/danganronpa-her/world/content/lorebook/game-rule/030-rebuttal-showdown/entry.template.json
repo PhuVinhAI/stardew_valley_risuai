@@ -1,0 +1,15 @@
+{
+  "key": "재판, trial, court, court_1, court_2, court_3, 반론 쇼다운, Rebuttal Showdown",
+  "comment": "Rebuttal Showdown",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "folder": "folder:be5b62e3-93b2-4341-9e00-205399b4cc0f",
+  "bookVersion": 2,
+  "useRegex": false
+}

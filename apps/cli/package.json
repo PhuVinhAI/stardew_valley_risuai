@@ -1,0 +1,12 @@
+{
+  "name": "@charx/cli",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@charx/core": "workspace:*",
+    "commander": "15.0.0",
+    "consola": "3.4.2",
+    "picocolors": "1.1.1"
+  }
+}

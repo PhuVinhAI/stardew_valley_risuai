@@ -1,0 +1,11 @@
+{
+  "format": "risuai-charx-workspace",
+  "formatVersion": 1,
+  "defaultProject": "stardew-valley",
+  "projects": {
+    "stardew-valley": "projects/stardew-valley",
+    "danganronpa-her": "projects/examples/danganronpa-her",
+    "haewol-island": "projects/examples/haewol-island",
+    "welcome-to-seikan": "projects/examples/welcome-to-seikan"
+  }
+}

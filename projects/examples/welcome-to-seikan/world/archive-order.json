@@ -1,0 +1,990 @@
+{
+  "mtime": "2026-08-10T06:44:36.000Z",
+  "note": "Entry order and RisuAI compression levels captured from the imported reference.",
+  "entries": [
+    {
+      "name": "x_meta/iconx.json",
+      "level": 6
+    },
+    {
+      "name": "assets/icon/image/iconx.png",
+      "level": 0
+    },
+    {
+      "name": "x_meta/haruka.massage.full.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/haruka.massage.full.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/haruka.massage.full.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/haruka.massage.full.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/haruka.massage.full.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/haruka.massage.full.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/haruka.massage.lower.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/haruka.massage.lower.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/haruka.massage.lower.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/haruka.massage.lower.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/haruka.massage.lower.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/haruka.massage.lower.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/haruka.massage.upper.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/haruka.massage.upper.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/haruka.massage.upper.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/haruka.massage.upper.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/haruka.massage.upper.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/haruka.massage.upper.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/lucy.massage.full.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/lucy.massage.full.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/lucy.massage.full.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/lucy.massage.full.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/lucy.massage.full.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/lucy.massage.full.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/lucy.massage.lower.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/lucy.massage.lower.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/lucy.massage.lower.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/lucy.massage.lower.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/lucy.massage.lower.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/lucy.massage.lower.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/lucy.massage.upper.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/lucy.massage.upper.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/lucy.massage.upper.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/lucy.massage.upper.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/lucy.massage.upper.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/lucy.massage.upper.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/maki.massage.full.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/maki.massage.full.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/maki.massage.full.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/maki.massage.full.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/maki.massage.full.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/maki.massage.full.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/maki.massage.lower.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/maki.massage.lower.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/maki.massage.lower.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/maki.massage.lower.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/maki.massage.lower.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/maki.massage.lower.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/maki.massage.upper.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/maki.massage.upper.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/maki.massage.upper.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/maki.massage.upper.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/maki.massage.upper.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/maki.massage.upper.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/misaki.massage.full.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/misaki.massage.full.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/misaki.massage.full.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/misaki.massage.full.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/misaki.massage.full.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/misaki.massage.full.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/misaki.massage.lower.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/misaki.massage.lower.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/misaki.massage.lower.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/misaki.massage.lower.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/misaki.massage.lower.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/misaki.massage.lower.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/misaki.massage.upper.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/misaki.massage.upper.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/misaki.massage.upper.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/misaki.massage.upper.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/misaki.massage.upper.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/misaki.massage.upper.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/yukako.massage.full.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/yukako.massage.full.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/yukako.massage.full.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/yukako.massage.full.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/yukako.massage.full.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/yukako.massage.full.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/yukako.massage.lower.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/yukako.massage.lower.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/yukako.massage.lower.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/yukako.massage.lower.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/yukako.massage.lower.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/yukako.massage.lower.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/yukako.massage.upper.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/yukako.massage.upper.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/yukako.massage.upper.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/yukako.massage.upper.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/yukako.massage.upper.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/yukako.massage.upper.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/haruka.face.0_19.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/haruka.face.0_19.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/haruka.face.20_39.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/haruka.face.20_39.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/haruka.face.40_59.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/haruka.face.40_59.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/haruka.face.60_79.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/haruka.face.60_79.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/haruka.face.80_100.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/haruka.face.80_100.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/haruka.face.negative.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/haruka.face.negative.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/lucy.face.0_19.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/lucy.face.0_19.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/lucy.face.20_39.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/lucy.face.20_39.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/lucy.face.40_59.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/lucy.face.40_59.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/lucy.face.60_79.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/lucy.face.60_79.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/lucy.face.80_100.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/lucy.face.80_100.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/lucy.face.negative.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/lucy.face.negative.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/maki.face.0_19.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/maki.face.0_19.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/maki.face.20_39.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/maki.face.20_39.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/maki.face.40_59.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/maki.face.40_59.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/maki.face.60_79.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/maki.face.60_79.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/maki.face.80_100.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/maki.face.80_100.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/maki.face.negative.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/maki.face.negative.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/misaki.face.0_19.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/misaki.face.0_19.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/misaki.face.20_39.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/misaki.face.20_39.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/misaki.face.40_59.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/misaki.face.40_59.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/misaki.face.60_79.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/misaki.face.60_79.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/misaki.face.80_100.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/misaki.face.80_100.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/misaki.face.negative.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/misaki.face.negative.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/yukako.face.0_19.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/yukako.face.0_19.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/yukako.face.20_39.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/yukako.face.20_39.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/yukako.face.40_59.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/yukako.face.40_59.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/yukako.face.60_79.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/yukako.face.60_79.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/yukako.face.80_100.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/yukako.face.80_100.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/yukako.face.negative.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/yukako.face.negative.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/leira.face.0_19.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/leira.face.0_19.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/leira.face.20_39.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/leira.face.20_39.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/leira.face.40_59.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/leira.face.40_59.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/leira.face.60_79.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/leira.face.60_79.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/leira.face.80_100.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/leira.face.80_100.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/leira.face.negative.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/leira.face.negative.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/leira.massage.full.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/leira.massage.full.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/leira.massage.full.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/leira.massage.full.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/leira.massage.full.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/leira.massage.full.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/leira.massage.lower.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/leira.massage.lower.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/leira.massage.lower.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/leira.massage.lower.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/leira.massage.lower.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/leira.massage.lower.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/leira.massage.upper.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/leira.massage.upper.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/leira.massage.upper.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/leira.massage.upper.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/leira.massage.upper.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/leira.massage.upper.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/natsume.massage.full.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/natsume.massage.full.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/natsume.massage.full.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/natsume.massage.full.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/natsume.massage.full.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/natsume.massage.full.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/natsume.massage.lower.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/natsume.massage.lower.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/natsume.massage.lower.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/natsume.massage.lower.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/natsume.massage.lower.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/natsume.massage.lower.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/natsume.massage.upper.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/natsume.massage.upper.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/natsume.massage.upper.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/natsume.massage.upper.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/natsume.massage.upper.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/natsume.massage.upper.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/natsume.face.0_19.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/natsume.face.0_19.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/natsume.face.20_39.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/natsume.face.20_39.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/natsume.face.40_59.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/natsume.face.40_59.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/natsume.face.60_79.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/natsume.face.60_79.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/natsume.face.80_100.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/natsume.face.80_100.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/natsume.face.negative.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/natsume.face.negative.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/shino.face.0_19.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/shino.face.0_19.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/shino.face.20_39.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/shino.face.20_39.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/shino.face.40_59.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/shino.face.40_59.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/shino.face.60_79.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/shino.face.60_79.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/shino.face.80_100.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/shino.face.80_100.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/shino.face.negative.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/shino.face.negative.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/shino.massage.full.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/shino.massage.full.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/shino.massage.full.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/shino.massage.full.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/shino.massage.full.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/shino.massage.full.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/shino.massage.lower.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/shino.massage.lower.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/shino.massage.lower.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/shino.massage.lower.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/shino.massage.lower.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/shino.massage.lower.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/shino.massage.upper.nude.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/shino.massage.upper.nude.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/shino.massage.upper.towel.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/shino.massage.upper.towel.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/shino.massage.upper.underwear.webp.json",
+      "level": 6
+    },
+    {
+      "name": "assets/other/image/shino.massage.upper.underwear.webp.webp",
+      "level": 0
+    },
+    {
+      "name": "x_meta/main.json",
+      "level": 6
+    },
+    {
+      "name": "assets/icon/image/main.png",
+      "level": 0
+    },
+    {
+      "name": "module.risum",
+      "level": 0
+    },
+    {
+      "name": "card.json",
+      "level": 0
+    }
+  ]
+}

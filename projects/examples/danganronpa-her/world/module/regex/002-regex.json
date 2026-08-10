@@ -1,0 +1,7 @@
+{
+  "comment": "대화창 꺼져",
+  "in": "\\[ID:\\s*(.+?)\\s*\\|\\sLocation:\\s*(.+?)\\s*\\|\\s*Character:\\s*(.+?)\\s*\\|\\s*Character Situation:\\s*(.+?)\\s*\\|\\s*Dialogue:\\s*(.+?)\\s*\\|\\s*Friendship:\\s*(.+?)\\s*\\]",
+  "out": "<style>  .container {   display: grid;   place-items: center;   width: 100%; }  .roundedImage {   max-width: 300px; width: 100%; height: auto; border-radius: 10px; } </style> <div class=\"container\"> <img class=\"roundedImage\" src=\"{{raw::$3_$4}}\"> </div> “$5”",
+  "type": "disabled",
+  "ableFlag": false
+}

@@ -1,0 +1,13 @@
+{
+  "key": "folder:13a47e16-8fe5-45d2-b27c-74f66f077053",
+  "comment": "모드 설정",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "folder",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "bookVersion": 2
+}

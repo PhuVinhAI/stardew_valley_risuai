@@ -1,0 +1,14 @@
+{
+  "key": "",
+  "comment": "🧾 해월도 평판 (Haewol's Reputation)",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 600,
+  "alwaysActive": true,
+  "secondkey": "",
+  "selective": false,
+  "useRegex": false,
+  "bookVersion": 2
+}

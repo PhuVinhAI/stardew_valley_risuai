@@ -1,0 +1,14 @@
+{
+  "comment": "평판 계산 식",
+  "type": "output",
+  "conditions": [],
+  "effect": [
+    {
+      "type": "setvar",
+      "var": "Reputation",
+      "value": "{{calc::{{getvar::Soyou_aff}}+{{getvar::Mi-yeon_aff}}+{{getvar::Ga-yeon_aff}}+{{getvar::Nan-hee_aff}}}}",
+      "operator": "="
+    }
+  ],
+  "lowLevelAccess": false
+}

@@ -1,0 +1,10 @@
+{
+  "format": "risuai-charx-world-project",
+  "formatVersion": 1,
+  "kind": "example",
+  "worldDir": "world",
+  "stateDir": ".charx",
+  "referenceCharx": "reference/CharX File.charx",
+  "outputCharx": "dist/Danganronpa-HER.charx",
+  "exactOutputCharx": "dist/Danganronpa-HER.exact.charx"
+}

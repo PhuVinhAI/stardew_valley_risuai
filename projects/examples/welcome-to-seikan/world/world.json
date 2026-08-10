@@ -1,0 +1,11 @@
+{
+  "name": "어서 오세요! 세이칸에",
+  "format": "RisuAI CharX v3",
+  "source": "source.charx",
+  "sourceSha256": "5a9a9ae761daca2cd200c514918dc9d88f5bf197ebb991db2d5ddbb660e1ea6a",
+  "characters": 8,
+  "loreEntries": 52,
+  "regexScripts": 2,
+  "triggers": 1,
+  "assets": 122
+}

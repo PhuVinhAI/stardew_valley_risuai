@@ -1,0 +1,18 @@
+{
+  "key": "난희, Nan-hee, Nanhee, 술",
+  "secondkey": "",
+  "insertorder": 100,
+  "comment": "🎣 최난희 (Choi Nan-hee)",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "alwaysActive": false,
+  "selective": false,
+  "extentions": {
+    "risu_case_sensitive": false
+  },
+  "loreCache": null,
+  "useRegex": false,
+  "bookVersion": 2
+}

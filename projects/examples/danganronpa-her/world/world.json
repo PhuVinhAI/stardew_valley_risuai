@@ -1,0 +1,11 @@
+{
+  "name": "Danganronpa HER",
+  "format": "RisuAI CharX v3",
+  "source": "CharX File.charx",
+  "sourceSha256": "367caff3a37074bbc77c6c410297d351a1cab0ba7a84614be6d5f98a735b829f",
+  "characters": 18,
+  "loreEntries": 48,
+  "regexScripts": 16,
+  "triggers": 1,
+  "assets": 568
+}

@@ -1,0 +1,13 @@
+{
+  "key": "folder:0f32a515-702c-43a4-ac49-cc05774f9ae0",
+  "comment": "Character",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "folder",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "bookVersion": 2
+}

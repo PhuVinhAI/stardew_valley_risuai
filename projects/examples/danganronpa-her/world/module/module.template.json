@@ -1,0 +1,18 @@
+{
+  "module": {
+    "name": "Danganronpa HER Module",
+    "description": "Module for Danganronpa HER",
+    "id": "25af5b83-0706-4a5a-bf8f-caf03d5a0385",
+    "trigger": {
+      "$orderedJson": "triggers"
+    },
+    "regex": {
+      "$orderedJson": "regex"
+    },
+    "lorebook": {
+      "$internalLorebook": "../content/lore-order.json"
+    },
+    "assets": []
+  },
+  "type": "risuModule"
+}

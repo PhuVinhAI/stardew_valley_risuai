@@ -1,0 +1,66 @@
+{
+  "spec": "chara_card_v3",
+  "spec_version": "3.0",
+  "data": {
+    "name": "Stardew Valley",
+    "description": {
+      "$text": "prompts/description.md"
+    },
+    "personality": {
+      "$text": "prompts/personality.md"
+    },
+    "scenario": {
+      "$text": "prompts/scenario.md"
+    },
+    "first_mes": {
+      "$text": "prompts/first-message.md"
+    },
+    "mes_example": {
+      "$text": "prompts/example-messages.md"
+    },
+    "creator_notes": {
+      "$text": "prompts/creator-notes.md"
+    },
+    "system_prompt": {
+      "$text": "prompts/system-prompt.md"
+    },
+    "post_history_instructions": {
+      "$text": "prompts/post-history-instructions.md"
+    },
+    "alternate_greetings": {
+      "$textArray": "greetings/alternate"
+    },
+    "character_book": {
+      "scan_depth": 8,
+      "token_budget": 4096,
+      "recursive_scanning": true,
+      "extensions": {},
+      "entries": {
+        "$ccv3Lorebook": "../content/lore-order.json"
+      }
+    },
+    "tags": [],
+    "creator": "",
+    "character_version": "1.0.0",
+    "extensions": {
+      "risuai": {
+        "lowLevelAccess": false,
+        "defaultVariables": "",
+        "prebuiltAssetCommand": "",
+        "prebuiltAssetExclude": [],
+        "prebuiltAssetStyle": "",
+        "toggles": {}
+      }
+    },
+    "group_only_greetings": {
+      "$textArray": "greetings/group-only"
+    },
+    "nickname": "",
+    "source": [],
+    "creation_date": 1786343462,
+    "modification_date": 1786343462,
+    "assets": {
+      "$json": "assets.json"
+    }
+  }
+}

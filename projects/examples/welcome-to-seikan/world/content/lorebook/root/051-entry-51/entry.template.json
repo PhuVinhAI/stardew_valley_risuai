@@ -1,0 +1,15 @@
+{
+  "key": "선술집, 이자카야, 술집, tarven, izakaya",
+  "comment": "선술집",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "folder": "folder:296ed73d-7a22-4f66-b461-472bea122f2d",
+  "useRegex": false,
+  "bookVersion": 2
+}

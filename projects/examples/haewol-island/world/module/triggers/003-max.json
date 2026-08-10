@@ -1,0 +1,21 @@
+{
+  "comment": "가연 호감도 max",
+  "type": "input",
+  "conditions": [
+    {
+      "type": "var",
+      "var": "Ga-yeon_aff",
+      "value": "250",
+      "operator": ">"
+    }
+  ],
+  "effect": [
+    {
+      "type": "setvar",
+      "var": "Ga-yeon_aff",
+      "value": "250",
+      "operator": "="
+    }
+  ],
+  "lowLevelAccess": false
+}

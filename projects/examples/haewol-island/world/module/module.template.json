@@ -1,0 +1,18 @@
+{
+  "module": {
+    "name": "Haewol Island Module",
+    "description": "Module for Haewol Island",
+    "id": "8f5c204e-17be-4b31-96c9-f825981ffa2b",
+    "trigger": {
+      "$orderedJson": "triggers"
+    },
+    "regex": {
+      "$orderedJson": "regex"
+    },
+    "lorebook": {
+      "$internalLorebook": "../content/lore-order.json"
+    },
+    "assets": []
+  },
+  "type": "risuModule"
+}

@@ -1,0 +1,15 @@
+{
+  "key": "",
+  "comment": "모드 호출",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 1,
+  "alwaysActive": true,
+  "secondkey": "",
+  "selective": false,
+  "folder": "folder:13a47e16-8fe5-45d2-b27c-74f66f077053",
+  "useRegex": false,
+  "bookVersion": 2
+}

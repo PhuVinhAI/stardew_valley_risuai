@@ -1,0 +1,21 @@
+{
+  "comment": "미연 호감도 min",
+  "type": "input",
+  "conditions": [
+    {
+      "type": "var",
+      "var": "Mi-yeon_aff",
+      "value": "-100",
+      "operator": "<"
+    }
+  ],
+  "effect": [
+    {
+      "type": "setvar",
+      "var": "Mi-yeon_aff",
+      "value": "-100",
+      "operator": "="
+    }
+  ],
+  "lowLevelAccess": false
+}

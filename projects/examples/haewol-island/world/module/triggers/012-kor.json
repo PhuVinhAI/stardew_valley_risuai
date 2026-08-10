@@ -1,0 +1,14 @@
+{
+  "comment": "kor",
+  "type": "manual",
+  "conditions": [],
+  "effect": [
+    {
+      "type": "setvar",
+      "var": "lang",
+      "value": "0",
+      "operator": "="
+    }
+  ],
+  "lowLevelAccess": false
+}

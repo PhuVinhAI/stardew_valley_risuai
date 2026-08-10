@@ -1,0 +1,122 @@
+{
+  "spec": "chara_card_v3",
+  "spec_version": "3.0",
+  "data": {
+    "name": "어서 오세요! 세이칸에",
+    "description": {
+      "$text": "prompts/description.md"
+    },
+    "personality": {
+      "$text": "prompts/personality.md"
+    },
+    "scenario": {
+      "$text": "prompts/scenario.md"
+    },
+    "first_mes": {
+      "$text": "prompts/first-message.md"
+    },
+    "mes_example": {
+      "$text": "prompts/example-messages.md"
+    },
+    "creator_notes": {
+      "$text": "prompts/creator-notes.md"
+    },
+    "system_prompt": {
+      "$text": "prompts/system-prompt.md"
+    },
+    "post_history_instructions": {
+      "$text": "prompts/post-history-instructions.md"
+    },
+    "alternate_greetings": {
+      "$textArray": "greetings/alternate"
+    },
+    "character_book": {
+      "extensions": {
+        "risu_fullWordMatching": false
+      },
+      "entries": {
+        "$ccv3Lorebook": "../content/lore-order.json"
+      }
+    },
+    "tags": [],
+    "creator": "메러난데요",
+    "character_version": "1.22",
+    "extensions": {
+      "risuai": {
+        "bias": [],
+        "viewScreen": "none",
+        "utilityBot": false,
+        "sdData": [
+          [
+            "always",
+            "solo, 1girl"
+          ],
+          [
+            "negative",
+            ""
+          ],
+          [
+            "|character's appearance",
+            ""
+          ],
+          [
+            "current situation",
+            ""
+          ],
+          [
+            "$character's pose",
+            ""
+          ],
+          [
+            "$character's emotion",
+            ""
+          ],
+          [
+            "current location",
+            ""
+          ]
+        ],
+        "backgroundHTML": "<style>\nseikan-side-ui,\n.seikan-side-dock {\n  z-index: 400 !important;\n}\n.seikan-floating-ui[open],\n.seikan-floating-panel {\n  z-index: 401 !important;\n}\n\n.x-risu-risu-fold-asset {\n  display: block;\n  width: min(76%, 390px);\n  max-height: clamp(115px, 28vw, 300px);\n  margin: 16px auto;\n  overflow: hidden;\n  border-radius: 14px;\n  cursor: pointer;\n  touch-action: manipulation;\n  -webkit-tap-highlight-color: transparent;\n  transition:\n    max-height 1.5s cubic-bezier(.32,.72,.2,1),\n    width .72s cubic-bezier(.32,.72,.2,1),\n    transform 1.5s cubic-bezier(.32,.72,.2,1),\n    box-shadow 1.55s ease;\n}\n.x-risu-risu-fold-asset > img {\n  display: block;\n  width: 100%;\n  height: auto;\n  margin: 0 auto;\n  transform: translateY(-12%) scale(1);\n  transform-origin: center top;\n  transition: transform 1.5s cubic-bezier(.32,.72,.2,1);\n}\n.x-risu-risu-fold-asset:hover,\n.x-risu-risu-fold-asset:focus,\n.x-risu-risu-fold-asset:focus-visible,\n.x-risu-risu-fold-asset:active {\n  width: min(82%, 430px);\n  max-height: 600px;\n  transform: translateY(-1px);\n  box-shadow: 0 10px 24px rgba(55,35,65,.16);\n  outline: none;\n}\n.x-risu-risu-fold-asset:hover > img,\n.x-risu-risu-fold-asset:focus > img,\n.x-risu-risu-fold-asset:focus-visible > img,\n.x-risu-risu-fold-asset:active > img {\n  transform: translateY(-6%) scale(1.01);\n}\n</style>",
+        "additionalText": "",
+        "virtualscript": "",
+        "largePortrait": false,
+        "lorePlus": false,
+        "inlayViewScreen": false,
+        "newGenData": {
+          "prompt": "",
+          "negative": "",
+          "instructions": "",
+          "emotionInstructions": ""
+        },
+        "vits": {},
+        "lowLevelAccess": true,
+        "defaultVariables": "",
+        "prebuiltAssetCommand": "",
+        "prebuiltAssetExclude": [],
+        "prebuiltAssetStyle": "",
+        "toggles": ""
+      },
+      "depth_prompt": {
+        "depth": 0,
+        "prompt": ""
+      },
+      "pngExif": {
+        "Title": "NovelAI generated image",
+        "Description": "realistic, 1.5::artist:solipsist::,   2.5::artist:teshima nari::, 2::artist:nekojira::,   0.5::artist:herio, artist:henken::, 2::artist:ohisashiburi, artist:vertigris, artist:ningen mame, artist:rusellunt ::, 1::artist:pija_(pianiishimo)::, 1::artist:sohn woohyoung, artist:imamura_ryou ::, ::artist: ie (raarami)::, 1.5::artist:lonklink::, year 2025, year 2024,  year 2023,   2.2::artist:inoue kiyoshirou ::,   2.0::artist:gogalking ::,   1.4::artist:kurono mitsuki ::,   -1::flat color::, pastel color,   1.2::photorealistic::,   1.5::realistic texture, smooth gradients, balanced contrast, detailed shading::,    -3.0::multiple views::, -1.0::greyscale::, -2.0::bad hands::, -4.0::username::, -4.0::signature::, -5::artist collaboration::, -3::anatomical nonsense::,     -2::artist name, artist socials, multiple views, bad anatomy, crowd ::, best illustration, best quality, highres, absurdres, aesthetic, nsfw, very aesthetic, masterpiece, no text, very aesthetic, masterpiece, no text, {best quality, amazing quality, very aesthetic, highres, incredibly absurdres}",
+        "Software": "NovelAI",
+        "Source": "NovelAI Diffusion V4.5 4BDE2A90",
+        "Comment": "{\"prompt\": \"realistic, 1.5::artist:solipsist::,   2.5::artist:teshima nari::, 2::artist:nekojira::,   0.5::artist:herio, artist:henken::, 2::artist:ohisashiburi, artist:vertigris, artist:ningen mame, artist:rusellunt ::, 1::artist:pija_(pianiishimo)::, 1::artist:sohn woohyoung, artist:imamura_ryou ::, ::artist: ie (raarami)::, 1.5::artist:lonklink::, year 2025, year 2024,  year 2023,   2.2::artist:inoue kiyoshirou ::,   2.0::artist:gogalking ::,   1.4::artist:kurono mitsuki ::,   -1::flat color::, pastel color,   1.2::photorealistic::,   1.5::realistic texture, smooth gradients, balanced contrast, detailed shading::,    -3.0::multiple views::, -1.0::greyscale::, -2.0::bad hands::, -4.0::username::, -4.0::signature::, -5::artist collaboration::, -3::anatomical nonsense::,     -2::artist name, artist socials, multiple views, bad anatomy, crowd ::, best illustration, best quality, highres, absurdres, aesthetic, nsfw, very aesthetic, masterpiece, no text, very aesthetic, masterpiece, no text, {best quality, amazing quality, very aesthetic, highres, incredibly absurdres}\", \"steps\": 28, \"height\": 1024, \"width\": 1024, \"scale\": 5.0, \"uncond_scale\": 0.0, \"cfg_rescale\": 0.3, \"seed\": 1755915817, \"n_samples\": 1, \"noise_schedule\": \"karras\", \"legacy_v3_extend\": false, \"reference_information_extracted_multiple\": [], \"reference_strength_multiple\": [], \"extra_passthrough_testing\": {\"prompt\": null, \"uc\": null, \"hide_debug_overlay\": false, \"r\": 0.0, \"eta\": 1.0, \"negative_momentum\": 0.0, \"director_reference_images\": null, \"director_reference_descriptions\": null, \"director_reference_information_extracted\": null, \"director_reference_strengths\": null, \"director_reference_secondary_strengths\": null, \"crash_hydra\": false}, \"v4_prompt\": {\"caption\": {\"base_caption\": \"realistic, 1.5::artist:solipsist::,   2.5::artist:teshima nari::, 2::artist:nekojira::,   0.5::artist:herio, artist:henken::, 2::artist:ohisashiburi, artist:vertigris, artist:ningen mame, artist:rusellunt ::, 1::artist:pija_(pianiishimo)::, 1::artist:sohn woohyoung, artist:imamura_ryou ::, ::artist: ie (raarami)::, 1.5::artist:lonklink::, year 2025, year 2024,  year 2023,   2.2::artist:inoue kiyoshirou ::,   2.0::artist:gogalking ::,   1.4::artist:kurono mitsuki ::,   -1::flat color::, pastel color,   1.2::photorealistic::,   1.5::realistic texture, smooth gradients, balanced contrast, detailed shading::,    -3.0::multiple views::, -1.0::greyscale::, -2.0::bad hands::, -4.0::username::, -4.0::signature::, -5::artist collaboration::, -3::anatomical nonsense::,     -2::artist name, artist socials, multiple views, bad anatomy, crowd ::, best illustration, best quality, highres, absurdres, aesthetic, nsfw, very aesthetic, masterpiece, no text, very aesthetic, masterpiece, no text, {best quality, amazing quality, very aesthetic, highres, incredibly absurdres}\", \"char_captions\": [{\"char_caption\": \"girl, solo, gyaru, pale skin, large breasts, long straight blonde hair, 3::red streaked hair::, 2::blue eyes::, white towel, wrapped towel, 2::v sign::, -2::white back ground::, bright smile, massage shop, selfie, \", \"centers\": [{\"x\": 0.5, \"y\": 0.5}]}]}, \"use_coords\": false, \"use_order\": true, \"legacy_uc\": false}, \"v4_negative_prompt\": {\"caption\": {\"base_caption\": \"text, logo, watermark, too many watermarks, blank page, text-only page, reference, username, signature, artist:xinzoruo, artist:milkpanda, artist collaboration, variant set, large variant set, 4koma, 2koma, toon (style), chibi, turnaround, film grain, monochrome, dithering, halftone, screentones, dated, old, 1990s (style), mutation, deformed, distorted, disfigured, artistic error, bad anatomy, distorted anatomy, anatomical structure error, asymmetrical face, unnatural hair, bad eyes, cloudy eyes, blank eyes, bad proportions, bad limb, extra digits, fewer digits, bad legs, extra legs, amputee, distorted composition, bad perspective, multiple views, negative space, animation error, chromatic aberration, disorganized colors, scan artifacts, jpeg artifacts, vertical lines, vertical banding, worst quality, bad quality, lowres, blurry, upscaled, fewer details, unfinished, incomplete, amateur, cheesy, unsatisfactory, inadequate, deficient, subpar, poor, displeasing, very displeasing, bad illustration, bad portrait, lips\", \"char_captions\": [{\"char_caption\": \"\", \"centers\": [{\"x\": 0.5, \"y\": 0.5}]}]}, \"use_coords\": false, \"use_order\": false, \"legacy_uc\": false}, \"director_reference_strengths\": null, \"director_reference_descriptions\": null, \"director_reference_information_extracted\": null, \"director_reference_secondary_strengths\": null, \"sampler\": \"k_euler_ancestral\", \"controlnet_strength\": 1.0, \"controlnet_model\": null, \"dynamic_thresholding\": false, \"dynamic_thresholding_percentile\": 0.999, \"dynamic_thresholding_mimic_scale\": 10.0, \"sm\": false, \"sm_dyn\": false, \"skip_cfg_above_sigma\": null, \"skip_cfg_below_sigma\": 0.0, \"lora_unet_weights\": null, \"lora_clip_weights\": null, \"deliberate_euler_ancestral_bug\": false, \"prefer_brownian\": true, \"cfg_sched_eligibility\": \"enable_for_post_summer_samplers\", \"explike_fine_detail\": false, \"minimize_sigma_inf\": false, \"uncond_per_vibe\": true, \"wonky_vibe_correlation\": true, \"stream\": \"msgpack\", \"version\": 1, \"uc\": \"text, logo, watermark, too many watermarks, blank page, text-only page, reference, username, signature, artist:xinzoruo, artist:milkpanda, artist collaboration, variant set, large variant set, 4koma, 2koma, toon (style), chibi, turnaround, film grain, monochrome, dithering, halftone, screentones, dated, old, 1990s (style), mutation, deformed, distorted, disfigured, artistic error, bad anatomy, distorted anatomy, anatomical structure error, asymmetrical face, unnatural hair, bad eyes, cloudy eyes, blank eyes, bad proportions, bad limb, extra digits, fewer digits, bad legs, extra legs, amputee, distorted composition, bad perspective, multiple views, negative space, animation error, chromatic aberration, disorganized colors, scan artifacts, jpeg artifacts, vertical lines, vertical banding, worst quality, bad quality, lowres, blurry, upscaled, fewer details, unfinished, incomplete, amateur, cheesy, unsatisfactory, inadequate, deficient, subpar, poor, displeasing, very displeasing, bad illustration, bad portrait, lips\", \"request_type\": \"PromptGenerateRequest\", \"signed_hash\": \"oHukhHeFR9Xx07osHaLGoU7QxVKKj7S57RzhAyEXLOWR1e4uxu51BaWXMkij4LCUnPbPa5G3y3YgJCCvzbm+AQ==\"}"
+      }
+    },
+    "group_only_greetings": {
+      "$textArray": "greetings/group-only"
+    },
+    "nickname": "",
+    "source": [],
+    "creation_date": 1785335048516,
+    "modification_date": 1786344276,
+    "assets": {
+      "$json": "assets.json"
+    }
+  }
+}

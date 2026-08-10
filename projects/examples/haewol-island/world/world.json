@@ -1,0 +1,11 @@
+{
+  "name": "Haewol Island",
+  "format": "RisuAI CharX v3",
+  "source": "source.charx",
+  "sourceSha256": "251948a861bac91142afb5fd90de86ce79e3e870f6119b2f535d898560decf55",
+  "characters": 4,
+  "loreEntries": 14,
+  "regexScripts": 15,
+  "triggers": 14,
+  "assets": 520
+}

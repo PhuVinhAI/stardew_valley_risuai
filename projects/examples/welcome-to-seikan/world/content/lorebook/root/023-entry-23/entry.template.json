@@ -1,0 +1,13 @@
+{
+  "key": "folder:6de80b88-25e5-4420-b1e4-0dc3b1697a63",
+  "comment": "수상한 잡화점",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "folder",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "bookVersion": 2
+}

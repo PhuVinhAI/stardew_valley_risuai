@@ -1,0 +1,21 @@
+{
+  "comment": "평판 max",
+  "type": "output",
+  "conditions": [
+    {
+      "type": "var",
+      "var": "Reputation",
+      "value": "1000",
+      "operator": ">"
+    }
+  ],
+  "effect": [
+    {
+      "type": "setvar",
+      "var": "Reputation",
+      "value": "1000",
+      "operator": "="
+    }
+  ],
+  "lowLevelAccess": false
+}

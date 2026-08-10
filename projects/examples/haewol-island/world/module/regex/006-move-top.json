@@ -1,0 +1,7 @@
+{
+  "comment": "안 죽은 @@move_top 죽이기",
+  "in": "@@move_top",
+  "out": "",
+  "type": "editdisplay",
+  "ableFlag": false
+}

@@ -1,0 +1,14 @@
+{
+  "key": "",
+  "comment": "💙 난희와 호감도 (Nan-hee)",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 200,
+  "alwaysActive": true,
+  "secondkey": "",
+  "selective": false,
+  "useRegex": false,
+  "bookVersion": 2
+}

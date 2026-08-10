@@ -1,0 +1,21 @@
+{
+  "comment": "평판 min",
+  "type": "output",
+  "conditions": [
+    {
+      "type": "var",
+      "var": "Reputation",
+      "value": "-400",
+      "operator": "<"
+    }
+  ],
+  "effect": [
+    {
+      "type": "setvar",
+      "var": "Reputation",
+      "value": "-400",
+      "operator": "="
+    }
+  ],
+  "lowLevelAccess": false
+}

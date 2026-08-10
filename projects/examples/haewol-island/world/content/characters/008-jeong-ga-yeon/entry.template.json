@@ -1,0 +1,18 @@
+{
+  "key": "가연, Ga-yeon, Gayeon, 이장, 회관, 마을장, chief",
+  "secondkey": "",
+  "insertorder": 100,
+  "comment": "👩‍🦯 정가연 (Jeong Ga-yeon)",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "alwaysActive": false,
+  "selective": false,
+  "extentions": {
+    "risu_case_sensitive": false
+  },
+  "loreCache": null,
+  "useRegex": false,
+  "bookVersion": 2
+}

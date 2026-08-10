@@ -1,0 +1,18 @@
+{
+  "key": "",
+  "secondkey": "",
+  "insertorder": 500,
+  "comment": "🗨 충청도 사투리(Dialogue) - [한국어 선택시 자동]",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "alwaysActive": true,
+  "selective": false,
+  "extentions": {
+    "risu_case_sensitive": false
+  },
+  "loreCache": null,
+  "useRegex": false,
+  "bookVersion": 2
+}

@@ -1,0 +1,7 @@
+{
+  "comment": "공백",
+  "in": "<p style=\"color: transparent;\">([\\s\\S]*?)</p>",
+  "out": " ",
+  "type": "editdisplay",
+  "ableFlag": false
+}

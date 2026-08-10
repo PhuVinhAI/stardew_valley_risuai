@@ -1,0 +1,3410 @@
+[
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/kotodama.webp.webp",
+    "name": "kotodama.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/class_trial.webp.webp",
+    "name": "class_trial.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/hide_5.webp.webp",
+    "name": "hide_5.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/hide_0.webp.webp",
+    "name": "hide_0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/hide_1.webp.webp",
+    "name": "hide_1.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/hide_2.webp.webp",
+    "name": "hide_2.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/hide_3.webp.webp",
+    "name": "hide_3.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/hide_4.webp.webp",
+    "name": "hide_4.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/hide_7.webp.webp",
+    "name": "hide_7.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/hide_6.webp.webp",
+    "name": "hide_6.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/hide_8.webp.webp",
+    "name": "hide_8.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/hide_9.webp.webp",
+    "name": "hide_9.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/hide_10.webp.webp",
+    "name": "hide_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/class_TA.webp.webp",
+    "name": "class_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Monokuma_happy_1.webp.webp",
+    "name": "Monokuma_happy_1.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Monokuma_angry_1.webp.webp",
+    "name": "Monokuma_angry_1.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Monokuma_happy_2.webp.webp",
+    "name": "Monokuma_happy_2.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Monokuma_angry_2.webp.webp",
+    "name": "Monokuma_angry_2.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Monokuma_neutral_1.webp.webp",
+    "name": "Monokuma_neutral_1.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Monokuma_sad_1.webp.webp",
+    "name": "Monokuma_sad_1.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Monokuma_sad_2.webp.webp",
+    "name": "Monokuma_sad_2.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Monokuma_neutral_2.webp.webp",
+    "name": "Monokuma_neutral_2.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_monokuma.WEBP.webp",
+    "name": "textbox_monokuma.WEBP",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/user_neutral_2.webp.webp",
+    "name": "user_neutral_2.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/user_happy_1.webp.webp",
+    "name": "user_happy_1.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/user_angry_1.webp.webp",
+    "name": "user_angry_1.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/user_happy_2.webp.webp",
+    "name": "user_happy_2.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/user_angry_2.webp.webp",
+    "name": "user_angry_2.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/user_sad_1.webp.webp",
+    "name": "user_sad_1.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_user.WEBP.webp",
+    "name": "textbox_user.WEBP",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/user_sad_2.webp.webp",
+    "name": "user_sad_2.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/user_neutral_1.webp.webp",
+    "name": "user_neutral_1.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/unknwon.jpeg.jpeg",
+    "name": "unknwon.jpeg",
+    "ext": "jpeg"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/TrialTheme.mp3.mp3",
+    "name": "TrialTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/TrialEndTheme.mp3.mp3",
+    "name": "TrialEndTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/DespairTheme.mp3.mp3",
+    "name": "DespairTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/PeaceTheme.mp3.mp3",
+    "name": "PeaceTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/TrialStartTheme.mp3.mp3",
+    "name": "TrialStartTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/TrialDebateTheme.mp3.mp3",
+    "name": "TrialDebateTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/NumeralTheme.mp3.mp3",
+    "name": "NumeralTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/ArgumentArmamentTheme.mp3.mp3",
+    "name": "ArgumentArmamentTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/SadTheme.mp3.mp3",
+    "name": "SadTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/RebuttalShowdownTheme.mp3.mp3",
+    "name": "RebuttalShowdownTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/DangerTheme.mp3.mp3",
+    "name": "DangerTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/SayaNoUta.mp3.mp3",
+    "name": "SayaNoUta.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/YumemizuTrialTheme.mp3.mp3",
+    "name": "YumemizuTrialTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/YumemizuTheme.mp3.mp3",
+    "name": "YumemizuTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/OukaTheme.mp3.mp3",
+    "name": "OukaTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/KoyomiTrialTheme.mp3.mp3",
+    "name": "KoyomiTrialTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/KoyomiTheme.mp3.mp3",
+    "name": "KoyomiTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/KainTrialTheme.mp3.mp3",
+    "name": "KainTrialTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/KainTheme.mp3.mp3",
+    "name": "KainTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/RainaTrialTheme.mp3.mp3",
+    "name": "RainaTrialTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/MesuTrialTheme.mp3.mp3",
+    "name": "MesuTrialTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/RainaTheme.mp3.mp3",
+    "name": "RainaTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/GusaTheme.mp3.mp3",
+    "name": "GusaTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/HanameTrialTheme.mp3.mp3",
+    "name": "HanameTrialTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/HanameTheme.mp3.mp3",
+    "name": "HanameTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/StarTrialTheme.mp3.mp3",
+    "name": "StarTrialTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/StarTheme.mp3.mp3",
+    "name": "StarTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/SayaTrialTheme.mp3.mp3",
+    "name": "SayaTrialTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Chitama Koyomi_sex_NL.webp.webp",
+    "name": "CG_Chitama Koyomi_sex_NL.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Maizyono Saya_sex_NL.webp.webp",
+    "name": "CG_Maizyono Saya_sex_NL.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Shiroshima Yasu_sex_NL.webp.webp",
+    "name": "CG_Shiroshima Yasu_sex_NL.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Chitama Koyomi_sex_GL_seme.webp.webp",
+    "name": "CG_Chitama Koyomi_sex_GL_seme.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Shiroshima Yasu_sex_GL_seme.webp.webp",
+    "name": "CG_Shiroshima Yasu_sex_GL_seme.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Kain Mariegomez_sex_BL_uke.webp.webp",
+    "name": "CG_Kain Mariegomez_sex_BL_uke.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Suzuki Raina_sex _GL_seme.webp.webp",
+    "name": "CG_Suzuki Raina_sex _GL_seme.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Sangatsu Nanoka_sex_NL.webp.webp",
+    "name": "CG_Sangatsu Nanoka_sex_NL.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Suoh Ouka_sex_BL_uke.webp.webp",
+    "name": "CG_Suoh Ouka_sex_BL_uke.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Suzuki Raina_sex_NL.webp.webp",
+    "name": "CG_Suzuki Raina_sex_NL.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Suoh Ouka_sex_NL.webp.webp",
+    "name": "CG_Suoh Ouka_sex_NL.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Sangatsu Nanoka_sex_GL_seme.webp.webp",
+    "name": "CG_Sangatsu Nanoka_sex_GL_seme.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Kain Mariegomez_sex_NL.webp.webp",
+    "name": "CG_Kain Mariegomez_sex_NL.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Haninozuka Lina_sex _GL_seme.webp.webp",
+    "name": "CG_Haninozuka Lina_sex _GL_seme.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Maizyono Saya_sex _BL_uke.webp.webp",
+    "name": "CG_Maizyono Saya_sex _BL_uke.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Takano Mesu_sex_GL_seme.webp.webp",
+    "name": "CG_Takano Mesu_sex_GL_seme.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Haninozuka Lina_sex_NL.webp.webp",
+    "name": "CG_Haninozuka Lina_sex_NL.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Takano Mesu_sex_NL.webp.webp",
+    "name": "CG_Takano Mesu_sex_NL.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Towa Kazer_sex_BL_uke.webp.webp",
+    "name": "CG_Towa Kazer_sex_BL_uke.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Wasurena Gusa_sex_NL.webp.webp",
+    "name": "CG_Wasurena Gusa_sex_NL.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Haninozuka Lion_sex_BL_uke.webp.webp",
+    "name": "CG_Haninozuka Lion_sex_BL_uke.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Haninozuka Lion_sex_NL.webp.webp",
+    "name": "CG_Haninozuka Lion_sex_NL.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Wasurena Gusa_sex_BL_uke.webp.webp",
+    "name": "CG_Wasurena Gusa_sex_BL_uke.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_HER Haname_sex_BL_uke.webp.webp",
+    "name": "CG_HER Haname_sex_BL_uke.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Yumemizu Ann_sex_NL.webp.webp",
+    "name": "CG_Yumemizu Ann_sex_NL.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Hikari Star_sex_GL_seme.webp.webp",
+    "name": "CG_Hikari Star_sex_GL_seme.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Hikari Star_sex_NL.webp.webp",
+    "name": "CG_Hikari Star_sex_NL.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Yumemizu Ann_sex_GL_seme.webp.webp",
+    "name": "CG_Yumemizu Ann_sex_GL_seme.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_HER haname_execution.webp.webp",
+    "name": "CG_HER haname_execution.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_yumemizu ann_execution.webp.webp",
+    "name": "CG_yumemizu ann_execution.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_chitama koyomi_corpse.webp.webp",
+    "name": "CG_chitama koyomi_corpse.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_suoh ouka_execution.webp.webp",
+    "name": "CG_suoh ouka_execution.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_suzuki raina_corpse.webp.webp",
+    "name": "CG_suzuki raina_corpse.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_shiroshima yasu_corpse.webp.webp",
+    "name": "CG_shiroshima yasu_corpse.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_yumemizu ann_corpse.webp.webp",
+    "name": "CG_yumemizu ann_corpse.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_haninozuka lina_execution.webp.webp",
+    "name": "CG_haninozuka lina_execution.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_hikari star_execution.webp.webp",
+    "name": "CG_hikari star_execution.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_towa kazer_execution 2.webp.webp",
+    "name": "CG_towa kazer_execution 2.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_hikari star_corpse.webp.webp",
+    "name": "CG_hikari star_corpse.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_haninozuka lion_corpse.webp.webp",
+    "name": "CG_haninozuka lion_corpse.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_wasurena gusa_execution.webp.webp",
+    "name": "CG_wasurena gusa_execution.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_takano mesu_corpse.webp.webp",
+    "name": "CG_takano mesu_corpse.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Prologue_1.webp.webp",
+    "name": "CG_Prologue_1.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_sangatsu nanoka_corpse.webp.webp",
+    "name": "CG_sangatsu nanoka_corpse.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_sangatsu nanoka_Fight.webp.webp",
+    "name": "CG_sangatsu nanoka_Fight.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_kain mariegomez_execution.webp.webp",
+    "name": "CG_kain mariegomez_execution.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Prologue_2.webp.webp",
+    "name": "CG_Prologue_2.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_HER haname_corpse.webp.webp",
+    "name": "CG_HER haname_corpse.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_chitama koyomi_execution.webp.webp",
+    "name": "CG_chitama koyomi_execution.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Ultimate_Celebrity_Prologue.webp.webp",
+    "name": "CG_Ultimate_Celebrity_Prologue.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_shiroshima yasu_execution.webp.webp",
+    "name": "CG_shiroshima yasu_execution.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_suzuki raina_execution.webp.webp",
+    "name": "CG_suzuki raina_execution.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_maizyono saya_corpse.webp.webp",
+    "name": "CG_maizyono saya_corpse.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_towa kazer_Fight.webp.webp",
+    "name": "CG_towa kazer_Fight.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_towa kazer_Swimming.webp.webp",
+    "name": "CG_towa kazer_Swimming.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Ultimate_Fashionista_Prologue.webp.webp",
+    "name": "CG_Ultimate_Fashionista_Prologue.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_HER haname_Swimming.webp.webp",
+    "name": "CG_HER haname_Swimming.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_haninozuka lina_corpse.webp.webp",
+    "name": "CG_haninozuka lina_corpse.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_haninozuka lion_execution.webp.webp",
+    "name": "CG_haninozuka lion_execution.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_sangatsu nanoka_Swimming.webp.webp",
+    "name": "CG_sangatsu nanoka_Swimming.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_wasurena gusa_corpse.webp.webp",
+    "name": "CG_wasurena gusa_corpse.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_kain mariegomez_corpse.webp.webp",
+    "name": "CG_kain mariegomez_corpse.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Takano Mesu_execution.webp.webp",
+    "name": "CG_Takano Mesu_execution.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_towa kazer_corpse.webp.webp",
+    "name": "CG_towa kazer_corpse.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_suoh ouka_corpse.webp.webp",
+    "name": "CG_suoh ouka_corpse.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Maizyono Saya_neutral_20.webp.webp",
+    "name": "Maizyono Saya_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Maizyono Saya_neutral_10.webp.webp",
+    "name": "Maizyono Saya_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Maizyono Saya_happy_10.webp.webp",
+    "name": "Maizyono Saya_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Maizyono Saya_sad_20.webp.webp",
+    "name": "Maizyono Saya_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Maizyono Saya_happy_20.webp.webp",
+    "name": "Maizyono Saya_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Hikari Star_angry_20.webp.webp",
+    "name": "Hikari Star_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Hikari Star_angry_10.webp.webp",
+    "name": "Hikari Star_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Maizyono Saya_sad_10.webp.webp",
+    "name": "Maizyono Saya_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Hikari Star_happy_10.webp.webp",
+    "name": "Hikari Star_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Hikari Star_happy_20.webp.webp",
+    "name": "Hikari Star_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Hikari Star_neutral_20.webp.webp",
+    "name": "Hikari Star_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Hikari Star_sad_10.webp.webp",
+    "name": "Hikari Star_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Maizyono Saya_angry_10.webp.webp",
+    "name": "Maizyono Saya_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Maizyono Saya_angry_20.webp.webp",
+    "name": "Maizyono Saya_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Hikari Star_neutral_10.webp.webp",
+    "name": "Hikari Star_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Hikari Star_sad_20.webp.webp",
+    "name": "Hikari Star_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Sangatsu Nanoka_sad_10.webp.webp",
+    "name": "Sangatsu Nanoka_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Sangatsu Nanoka_sad_20.webp.webp",
+    "name": "Sangatsu Nanoka_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Sangatsu Nanoka_angry_10.webp.webp",
+    "name": "Sangatsu Nanoka_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Sangatsu Nanoka_happy_20.webp.webp",
+    "name": "Sangatsu Nanoka_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Sangatsu Nanoka_happy_10.webp.webp",
+    "name": "Sangatsu Nanoka_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Sangatsu Nanoka_angry_20.webp.webp",
+    "name": "Sangatsu Nanoka_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/wasurena gusa_sad_10.webp.webp",
+    "name": "wasurena gusa_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/wasurena gusa_sad_20.webp.webp",
+    "name": "wasurena gusa_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/wasurena gusa_angry_10.webp.webp",
+    "name": "wasurena gusa_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/wasurena gusa_neutral_10.webp.webp",
+    "name": "wasurena gusa_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/wasurena gusa_happy_10.webp.webp",
+    "name": "wasurena gusa_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/wasurena gusa_neutral_20.webp.webp",
+    "name": "wasurena gusa_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/wasurena gusa_angry_20.webp.webp",
+    "name": "wasurena gusa_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/wasurena gusa_happy_20.webp.webp",
+    "name": "wasurena gusa_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suzuki Raina_angry_20.webp.webp",
+    "name": "Suzuki Raina_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suzuki Raina_happy_10.webp.webp",
+    "name": "Suzuki Raina_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suzuki Raina_neutral_20.webp.webp",
+    "name": "Suzuki Raina_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suzuki Raina_neutral_10.webp.webp",
+    "name": "Suzuki Raina_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suzuki Raina_happy_20.webp.webp",
+    "name": "Suzuki Raina_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suzuki Raina_sad_20.webp.webp",
+    "name": "Suzuki Raina_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suzuki Raina_angry_10.webp.webp",
+    "name": "Suzuki Raina_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suzuki Raina_sad_10.webp.webp",
+    "name": "Suzuki Raina_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Takano Mesu_sad_20.webp.webp",
+    "name": "Takano Mesu_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Takano Mesu_sad_10.webp.webp",
+    "name": "Takano Mesu_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Takano Mesu_happy_20.webp.webp",
+    "name": "Takano Mesu_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Takano Mesu_neutral_20.webp.webp",
+    "name": "Takano Mesu_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Takano Mesu_happy_10.webp.webp",
+    "name": "Takano Mesu_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Takano Mesu_angry_10.webp.webp",
+    "name": "Takano Mesu_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Takano Mesu_neutral_10.webp.webp",
+    "name": "Takano Mesu_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Takano Mesu_angry_20.webp.webp",
+    "name": "Takano Mesu_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suoh Ouka_happy_10.webp.webp",
+    "name": "Suoh Ouka_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suoh Ouka_neutral_10.webp.webp",
+    "name": "Suoh Ouka_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suoh Ouka_happy_20.webp.webp",
+    "name": "Suoh Ouka_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suoh Ouka_sad_10.webp.webp",
+    "name": "Suoh Ouka_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suoh Ouka_angry_10.webp.webp",
+    "name": "Suoh Ouka_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suoh Ouka_neutral_20.webp.webp",
+    "name": "Suoh Ouka_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suoh Ouka_angry_20.webp.webp",
+    "name": "Suoh Ouka_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suoh Ouka_sad_20.webp.webp",
+    "name": "Suoh Ouka_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Chitama Koyomi_sad_20.webp.webp",
+    "name": "Chitama Koyomi_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Chitama Koyomi_sad_10.webp.webp",
+    "name": "Chitama Koyomi_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Chitama Koyomi_neutral_10.webp.webp",
+    "name": "Chitama Koyomi_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Chitama Koyomi_angry_10.webp.webp",
+    "name": "Chitama Koyomi_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Chitama Koyomi_angry_20.webp.webp",
+    "name": "Chitama Koyomi_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Chitama Koyomi_neutral_20.webp.webp",
+    "name": "Chitama Koyomi_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Chitama Koyomi_happy_20.webp.webp",
+    "name": "Chitama Koyomi_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Chitama Koyomi_happy_10.webp.webp",
+    "name": "Chitama Koyomi_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Yumemizu Ann_sad_10.webp.webp",
+    "name": "Yumemizu Ann_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Yumemizu Ann_angry_20.webp.webp",
+    "name": "Yumemizu Ann_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_Kain Mariegomez0.webp.webp",
+    "name": "textbox_Kain Mariegomez0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lina_neutral_20.webp.webp",
+    "name": "Haninozuka Lina_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_Wasurena Gusa0.webp.webp",
+    "name": "textbox_Wasurena Gusa0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lina_sad_10.webp.webp",
+    "name": "Haninozuka Lina_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroshima Yasu_neutral_10.webp.webp",
+    "name": "Shiroshima Yasu_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroshima Yasu_happy_10.webp.webp",
+    "name": "Shiroshima Yasu_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_Haninozuka Lion0.webp.webp",
+    "name": "textbox_Haninozuka Lion0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_Shiroshima Yasu0.webp.webp",
+    "name": "textbox_Shiroshima Yasu0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroshima Yasu_happy_20.webp.webp",
+    "name": "Shiroshima Yasu_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_Haninozuka Lina0.webp.webp",
+    "name": "textbox_Haninozuka Lina0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_Takano Mesu0.webp.webp",
+    "name": "textbox_Takano Mesu0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroshima Yasu_sad_10.webp.webp",
+    "name": "Shiroshima Yasu_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroshima Yasu_angry_20.webp.webp",
+    "name": "Shiroshima Yasu_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_Sangatsu Nanoka0.webp.webp",
+    "name": "textbox_Sangatsu Nanoka0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/HER Haname_happy_20.webp.webp",
+    "name": "HER Haname_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lina_happy_10.webp.webp",
+    "name": "Haninozuka Lina_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroshima Yasu_sad_20.webp.webp",
+    "name": "Shiroshima Yasu_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_Suzuki Raina0.webp.webp",
+    "name": "textbox_Suzuki Raina0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/HER Haname_neutral_20.webp.webp",
+    "name": "HER Haname_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lina_angry_20.webp.webp",
+    "name": "Haninozuka Lina_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lina_happy_20.webp.webp",
+    "name": "Haninozuka Lina_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_Hikari Star0.webp.webp",
+    "name": "textbox_Hikari Star0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_Yumemizu Ann0.webp.webp",
+    "name": "textbox_Yumemizu Ann0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lina_angry_10.webp.webp",
+    "name": "Haninozuka Lina_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lina_neutral_10.webp.webp",
+    "name": "Haninozuka Lina_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_Chitama Koyomi0.webp.webp",
+    "name": "textbox_Chitama Koyomi0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_HER Haname0.webp.webp",
+    "name": "textbox_HER Haname0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroshima Yasu_neutral_20.webp.webp",
+    "name": "Shiroshima Yasu_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lina_sad_20.webp.webp",
+    "name": "Haninozuka Lina_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/HER Haname_happy_10.webp.webp",
+    "name": "HER Haname_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_Maizyono Saya0.webp.webp",
+    "name": "textbox_Maizyono Saya0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_Suoh Ouka0.webp.webp",
+    "name": "textbox_Suoh Ouka0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_Towa Kazer0.webp.webp",
+    "name": "textbox_Towa Kazer0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroshima Yasu_angry_10.webp.webp",
+    "name": "Shiroshima Yasu_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lion_neutral_10.webp.webp",
+    "name": "Haninozuka Lion_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lion_sad_10.webp.webp",
+    "name": "Haninozuka Lion_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lion_angry_20.webp.webp",
+    "name": "Haninozuka Lion_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kain Mariegomez_happy_10.webp.webp",
+    "name": "Kain Mariegomez_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kain Mariegomez_neutral_10.webp.webp",
+    "name": "Kain Mariegomez_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kain Mariegomez_angry_10.webp.webp",
+    "name": "Kain Mariegomez_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kain Mariegomez_sad_20.webp.webp",
+    "name": "Kain Mariegomez_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kain Mariegomez_happy_20.webp.webp",
+    "name": "Kain Mariegomez_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kain Mariegomez_neutral_20.webp.webp",
+    "name": "Kain Mariegomez_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/SayaTheme.mp3.mp3",
+    "name": "SayaTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/SpyTheme.mp3.mp3",
+    "name": "SpyTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/NanokaTrialTheme.mp3.mp3",
+    "name": "NanokaTrialTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/lion's lab.webp.webp",
+    "name": "lion's lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Art Room.webp.webp",
+    "name": "Art Room.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/hallway.webp.webp",
+    "name": "hallway.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Towa Kazer_happy_10.webp.webp",
+    "name": "Towa Kazer_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/yumemizu's lab.webp.webp",
+    "name": "yumemizu's lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Swimming Pool.webp.webp",
+    "name": "Swimming Pool.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Incinerator.webp.webp",
+    "name": "Incinerator.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/gusa's lab.webp.webp",
+    "name": "gusa's lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Towa Kazer_angry_10.webp.webp",
+    "name": "Towa Kazer_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/nanoka's lab.webp.webp",
+    "name": "nanoka's lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/hall.webp.webp",
+    "name": "hall.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/yasu's lab.webp.webp",
+    "name": "yasu's lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/koyomi's lab.webp.webp",
+    "name": "koyomi's lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Chemistry Lab.webp.webp",
+    "name": "Chemistry Lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/nurse's office.webp.webp",
+    "name": "nurse's office.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Lounge.webp.webp",
+    "name": "Lounge.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/classroom.webp.webp",
+    "name": "classroom.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/nature garden.webp.webp",
+    "name": "nature garden.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/user's lab.webp.webp",
+    "name": "user's lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Dining Hall.webp.webp",
+    "name": "Dining Hall.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/raina's lab.webp.webp",
+    "name": "raina's lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/ouka's lab.webp.webp",
+    "name": "ouka's lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/changing room.webp.webp",
+    "name": "changing room.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/star's lab.webp.webp",
+    "name": "star's lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/kain's lab.webp.webp",
+    "name": "kain's lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/masu's lab.webp.webp",
+    "name": "masu's lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/bathhouse.webp.webp",
+    "name": "bathhouse.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/lina's lab.webp.webp",
+    "name": "lina's lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Storage Room.webp.webp",
+    "name": "Storage Room.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Gymnasium.webp.webp",
+    "name": "Gymnasium.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/saya's lab.webp.webp",
+    "name": "saya's lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/music room.webp.webp",
+    "name": "music room.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Library.webp.webp",
+    "name": "Library.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/kazer's lab.webp.webp",
+    "name": "kazer's lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/YasuTheme.mp3.mp3",
+    "name": "YasuTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/NanokaTheme.mp3.mp3",
+    "name": "NanokaTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/MesuTheme.mp3.mp3",
+    "name": "MesuTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/HER Haname_TA.webp.webp",
+    "name": "HER Haname_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroshima Yasu_TA.webp.webp",
+    "name": "Shiroshima Yasu_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Chitama Koyomi_TA.webp.webp",
+    "name": "Chitama Koyomi_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Sangatsu Nanoka_TA.webp.webp",
+    "name": "Sangatsu Nanoka_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Takano Mesu_TA.webp.webp",
+    "name": "Takano Mesu_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Towa Kazer_TA.webp.webp",
+    "name": "Towa Kazer_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Maizyono Saya_TA.webp.webp",
+    "name": "Maizyono Saya_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Yumemizu Ann_TA.webp.webp",
+    "name": "Yumemizu Ann_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suoh Ouka_TA.webp.webp",
+    "name": "Suoh Ouka_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kain Mariegomez_TA.webp.webp",
+    "name": "Kain Mariegomez_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Hikari Star_TA.webp.webp",
+    "name": "Hikari Star_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Wasurena Gusa_TA.webp.webp",
+    "name": "Wasurena Gusa_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suzuki Raina_TA.webp.webp",
+    "name": "Suzuki Raina_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Takano Mesu_Rebuttal.webp.webp",
+    "name": "Takano Mesu_Rebuttal.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suzuki Raina_Rebuttal.webp.webp",
+    "name": "Suzuki Raina_Rebuttal.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lion_Rebuttal.webp.webp",
+    "name": "Haninozuka Lion_Rebuttal.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Wasurena Gusa_Rebuttal.webp.webp",
+    "name": "Wasurena Gusa_Rebuttal.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Maizyono Saya_Rebuttal.webp.webp",
+    "name": "Maizyono Saya_Rebuttal.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Hikari Star_Rebuttal.webp.webp",
+    "name": "Hikari Star_Rebuttal.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kain Mariegomez_Rebuttal.webp.webp",
+    "name": "Kain Mariegomez_Rebuttal.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroshima Yasu_Rebuttal.webp.webp",
+    "name": "Shiroshima Yasu_Rebuttal.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Towa Kazer_Rebuttal.webp.webp",
+    "name": "Towa Kazer_Rebuttal.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suoh Ouka_Rebuttal.webp.webp",
+    "name": "Suoh Ouka_Rebuttal.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Chitama Koyomi_Rebuttal.webp.webp",
+    "name": "Chitama Koyomi_Rebuttal.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Sangatsu Nanoka_Rebuttal.webp.webp",
+    "name": "Sangatsu Nanoka_Rebuttal.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lina_Rebuttal.webp.webp",
+    "name": "Haninozuka Lina_Rebuttal.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/HER Haname_angry_20.webp.webp",
+    "name": "HER Haname_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/HER Haname_sad_10.webp.webp",
+    "name": "HER Haname_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/HER Haname_Rebuttal.webp.webp",
+    "name": "HER Haname_Rebuttal.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/HER Haname_angry_10.webp.webp",
+    "name": "HER Haname_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/HER Haname_sad_20.webp.webp",
+    "name": "HER Haname_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/HER Haname_neutral_10.webp.webp",
+    "name": "HER Haname_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/background_TA.webp.webp",
+    "name": "background_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Haninozuka Lion_sex_BL_seme.webp.webp",
+    "name": "CG_Haninozuka Lion_sex_BL_seme.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Maizyono Saya_sex_BL_seme.webp.webp",
+    "name": "CG_Maizyono Saya_sex_BL_seme.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Sangatsu Nanoka_neutral_2.webp.webp",
+    "name": "Sangatsu Nanoka_neutral_2.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Sangatsu Nanoka_neutral_1.webp.webp",
+    "name": "Sangatsu Nanoka_neutral_1.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Shiroshima Yasu_sex_GL_uke.webp.webp",
+    "name": "CG_Shiroshima Yasu_sex_GL_uke.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Haninozuka Lina_sex_GL_uke.webp.webp",
+    "name": "CG_Haninozuka Lina_sex_GL_uke.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Suzuki Raina_sex_GL_uke.webp.webp",
+    "name": "CG_Suzuki Raina_sex_GL_uke.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Sangatsu Nanoka_sex_GL_uke.webp.webp",
+    "name": "CG_Sangatsu Nanoka_sex_GL_uke.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Kain Mariegomez_sex_BL_seme.webp.webp",
+    "name": "CG_Kain Mariegomez_sex_BL_seme.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Suoh Ouka_sex_BL_seme.webp.webp",
+    "name": "CG_Suoh Ouka_sex_BL_seme.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Takano Mesu_sex_GL_uke.webp.webp",
+    "name": "CG_Takano Mesu_sex_GL_uke.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Wasurena Gusa_sex_BL_seme.webp.webp",
+    "name": "CG_Wasurena Gusa_sex_BL_seme.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Chitama Koyomi_sex_GL_uke.webp.webp",
+    "name": "CG_Chitama Koyomi_sex_GL_uke.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Yumemizu Ann_sex_GL_uke.webp.webp",
+    "name": "CG_Yumemizu Ann_sex_GL_uke.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Hikari Star_sex_GL_uke.webp.webp",
+    "name": "CG_Hikari Star_sex_GL_uke.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Towa Kazer_sex_NL.png.png",
+    "name": "CG_Towa Kazer_sex_NL.png",
+    "ext": "png"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Towa Kazer_sex_BL_seme.png.png",
+    "name": "CG_Towa Kazer_sex_BL_seme.png",
+    "ext": "png"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Maizyono Saya_nude_20.webp.webp",
+    "name": "Maizyono Saya_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lina_swimsuit0.webp.webp",
+    "name": "Haninozuka Lina_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Chitama Koyomi_swimsuit0.webp.webp",
+    "name": "Chitama Koyomi_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Sangatsu Nanoka_nude_20.webp.webp",
+    "name": "Sangatsu Nanoka_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroshima Yasu_nude_20.webp.webp",
+    "name": "Shiroshima Yasu_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Wasurena Gusa_nude_10.webp.webp",
+    "name": "Wasurena Gusa_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lion_swimsuit0.webp.webp",
+    "name": "Haninozuka Lion_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suoh Ouka_nude_20.webp.webp",
+    "name": "Suoh Ouka_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Yumemizu Ann_nude_10.webp.webp",
+    "name": "Yumemizu Ann_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Hikari Star_swimsuit0.webp.webp",
+    "name": "Hikari Star_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kain Mariegomez_swimsuit0.webp.webp",
+    "name": "Kain Mariegomez_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suzuki Raina_nude_20.webp.webp",
+    "name": "Suzuki Raina_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Takano Mesu_nude_20.webp.webp",
+    "name": "Takano Mesu_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Maizyono Saya_swimsuit0.webp.webp",
+    "name": "Maizyono Saya_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Sangatsu Nanoka_swimsuit0.webp.webp",
+    "name": "Sangatsu Nanoka_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Wasurena Gusa_nude_20.webp.webp",
+    "name": "Wasurena Gusa_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lion_nude_10.webp.webp",
+    "name": "Haninozuka Lion_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroshima Yasu_swimsuit0.webp.webp",
+    "name": "Shiroshima Yasu_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Chitama Koyomi_nude_10.webp.webp",
+    "name": "Chitama Koyomi_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Yumemizu Ann_nude_20.webp.webp",
+    "name": "Yumemizu Ann_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lina_nude_10.webp.webp",
+    "name": "Haninozuka Lina_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Hikari Star_nude_10.webp.webp",
+    "name": "Hikari Star_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suzuki Raina_swimsuit0.webp.webp",
+    "name": "Suzuki Raina_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Takano Mesu_swimsuit0.webp.webp",
+    "name": "Takano Mesu_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kain Mariegomez_nude_10.webp.webp",
+    "name": "Kain Mariegomez_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Chitama Koyomi_nude_20.webp.webp",
+    "name": "Chitama Koyomi_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Maizyono Saya_nude_10.webp.webp",
+    "name": "Maizyono Saya_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Sangatsu Nanoka_nude_10.webp.webp",
+    "name": "Sangatsu Nanoka_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suoh Ouka_swimsuit0.webp.webp",
+    "name": "Suoh Ouka_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroshima Yasu_nude_10.webp.webp",
+    "name": "Shiroshima Yasu_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lina_nude_20.webp.webp",
+    "name": "Haninozuka Lina_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lion_nude_20.webp.webp",
+    "name": "Haninozuka Lion_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Towa Kazer_swimsuit0.webp.webp",
+    "name": "Towa Kazer_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Wasurena Gusa_swimsuit0.webp.webp",
+    "name": "Wasurena Gusa_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suzuki Raina_nude_10.webp.webp",
+    "name": "Suzuki Raina_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Suoh Ouka_nude_10.webp.webp",
+    "name": "Suoh Ouka_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Yumemizu Ann_swimsuit0.webp.webp",
+    "name": "Yumemizu Ann_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kain Mariegomez_nude_20.webp.webp",
+    "name": "Kain Mariegomez_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Takano Mesu_nude_10.webp.webp",
+    "name": "Takano Mesu_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Hikari Star_nude_20.webp.webp",
+    "name": "Hikari Star_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kasane Tenno_neutral_20.webp.webp",
+    "name": "Kasane Tenno_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kasane Tenno_rebuttal.webp.webp",
+    "name": "Kasane Tenno_rebuttal.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Kasane Tenno_execution.webp.webp",
+    "name": "CG_Kasane Tenno_execution.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Kasane Tenno_sex_BL_uke.webp.webp",
+    "name": "CG_Kasane Tenno_sex_BL_uke.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kasane Tenno_TA.webp.webp",
+    "name": "Kasane Tenno_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Kasane Tenno_corpse.webp.webp",
+    "name": "CG_Kasane Tenno_corpse.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kasane Tenno_nude_20.webp.webp",
+    "name": "Kasane Tenno_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kasane Tenno_sad_20.webp.webp",
+    "name": "Kasane Tenno_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kasane Tenno_angry_10.webp.webp",
+    "name": "Kasane Tenno_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kasane Tenno_happy_10.webp.webp",
+    "name": "Kasane Tenno_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kasane Tenno_neutral_10.webp.webp",
+    "name": "Kasane Tenno_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Kasane Tenno_sex_NL.webp.webp",
+    "name": "CG_Kasane Tenno_sex_NL.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kasane Tenno_sad_10.webp.webp",
+    "name": "Kasane Tenno_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Kasane Tenno_sex_BL_seme.webp.webp",
+    "name": "CG_Kasane Tenno_sex_BL_seme.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_Kasane Tenno.webp.webp",
+    "name": "textbox_Kasane Tenno.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kasane Tenno_happy_20.webp.webp",
+    "name": "Kasane Tenno_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kasane Tenno_nude_10.webp.webp",
+    "name": "Kasane Tenno_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kasane Tenno_angry_20.webp.webp",
+    "name": "Kasane Tenno_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kasane Tenno_swimsuit0.webp.webp",
+    "name": "Kasane Tenno_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/TennoTrialTheme.mp3.mp3",
+    "name": "TennoTrialTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/TennoTheme.mp3.mp3",
+    "name": "TennoTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Tenno's lab.webp.webp",
+    "name": "Tenno's lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatsun_angry_20.webp.webp",
+    "name": "fuminori chatsun_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/court_1.webp.webp",
+    "name": "court_1.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatsun_neutral_20.webp.webp",
+    "name": "fuminori chatsun_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatsun_nude_10.webp.webp",
+    "name": "fuminori chatsun_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatbung_swimsuit0.webp.webp",
+    "name": "fuminori chatbung_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatbung_sad_10.webp.webp",
+    "name": "fuminori chatbung_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatbung_sad_20.webp.webp",
+    "name": "fuminori chatbung_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatbung_nude_20.webp.webp",
+    "name": "fuminori chatbung_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatsun_angry_10.webp.webp",
+    "name": "fuminori chatsun_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatsun_happy_10.webp.webp",
+    "name": "fuminori chatsun_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatsun_nude_20.webp.webp",
+    "name": "fuminori chatsun_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatsun_neutral_10.webp.webp",
+    "name": "fuminori chatsun_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/court_2.webp.webp",
+    "name": "court_2.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/court_3.webp.webp",
+    "name": "court_3.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatsun_sad_10.webp.webp",
+    "name": "fuminori chatsun_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatsun_happy_20.webp.webp",
+    "name": "fuminori chatsun_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatbung_angry_10.webp.webp",
+    "name": "fuminori chatbung_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_fuminori chatbung.webp.webp",
+    "name": "textbox_fuminori chatbung.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatsun_sad_20.webp.webp",
+    "name": "fuminori chatsun_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatbung_happy_10.webp.webp",
+    "name": "fuminori chatbung_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_fuminori chatsun.webp.webp",
+    "name": "textbox_fuminori chatsun.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatbung_angry_20.webp.webp",
+    "name": "fuminori chatbung_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatsun_swimsuit0.webp.webp",
+    "name": "fuminori chatsun_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatbung_neutral_20.webp.webp",
+    "name": "fuminori chatbung_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatbung_nude_10.webp.webp",
+    "name": "fuminori chatbung_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatbung_happy_20.webp.webp",
+    "name": "fuminori chatbung_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/fuminori chatbung_neutral_10.webp.webp",
+    "name": "fuminori chatbung_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/HER Haname_swimsuit0.webp.webp",
+    "name": "HER Haname_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Maizyono Saya_execution.webp.webp",
+    "name": "CG_Maizyono Saya_execution.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Kurose Akalrin_execution.webp.webp",
+    "name": "CG_Kurose Akalrin_execution.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lion_neutral_20.webp.webp",
+    "name": "Haninozuka Lion_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroyuki Hime_sad_10.webp.webp",
+    "name": "Shiroyuki Hime_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kain_angry_20.webp.webp",
+    "name": "Kain_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kain_sad_10.webp.webp",
+    "name": "Kain_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroyuki Hime_neutral_10.webp.webp",
+    "name": "Shiroyuki Hime_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Yumemizu Ann_happy_10.webp.webp",
+    "name": "Yumemizu Ann_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Yumemizu Ann_happy_20.webp.webp",
+    "name": "Yumemizu Ann_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Yumemizu Ann_neutral_20.webp.webp",
+    "name": "Yumemizu Ann_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Shiroyuki Hime_execution.webp.webp",
+    "name": "CG_Shiroyuki Hime_execution.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Sato Akalrin_neutral_10.webp.webp",
+    "name": "Sato Akalrin_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kurose Akalrin_Rebuttal.webp.webp",
+    "name": "Kurose Akalrin_Rebuttal.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroyuki Hime_Rebuttal.webp.webp",
+    "name": "Shiroyuki Hime_Rebuttal.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroyuki Hime_sad_20.webp.webp",
+    "name": "Shiroyuki Hime_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Yumemizu Ann_neutral_10.webp.webp",
+    "name": "Yumemizu Ann_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Yumemizu Ann_Rebuttal.webp.webp",
+    "name": "Yumemizu Ann_Rebuttal.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lion_angry_10.webp.webp",
+    "name": "Haninozuka Lion_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lion_happy_10.webp.webp",
+    "name": "Haninozuka Lion_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lion_sad_20.webp.webp",
+    "name": "Haninozuka Lion_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kurose Akalrin_happy_10.webp.webp",
+    "name": "Kurose Akalrin_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroyuki Hime_angry_10.webp.webp",
+    "name": "Shiroyuki Hime_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroyuki Hime_happy_10.webp.webp",
+    "name": "Shiroyuki Hime_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroyuki Hime_happy_20.webp.webp",
+    "name": "Shiroyuki Hime_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroyuki Hime_neutral_20.webp.webp",
+    "name": "Shiroyuki Hime_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroyuki Hime_swimsuit0.webp.webp",
+    "name": "Shiroyuki Hime_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Yumemizu Ann_sad_20.webp.webp",
+    "name": "Yumemizu Ann_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lina_TA.webp.webp",
+    "name": "Haninozuka Lina_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lion_happy_20.webp.webp",
+    "name": "Haninozuka Lion_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Haninozuka Lion_TA.webp.webp",
+    "name": "Haninozuka Lion_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kurose Akalrin_angry_10.webp.webp",
+    "name": "Kurose Akalrin_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kurose Akalrin_angry_20.webp.webp",
+    "name": "Kurose Akalrin_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kurose Akalrin_happy_20.webp.webp",
+    "name": "Kurose Akalrin_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kurose Akalrin_sad_10.webp.webp",
+    "name": "Kurose Akalrin_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kurose Akalrin_sad_20.webp.webp",
+    "name": "Kurose Akalrin_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kurose Akalrin_TA.webp.webp",
+    "name": "Kurose Akalrin_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroyuki Hime_angry_20.webp.webp",
+    "name": "Shiroyuki Hime_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kurose Akalrin_neutral_20.webp.webp",
+    "name": "Kurose Akalrin_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Yumemizu Ann_angry_10.webp.webp",
+    "name": "Yumemizu Ann_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroyuki Hime_TA.webp.webp",
+    "name": "Shiroyuki Hime_TA.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Sangatsu Nanoka_execution.webp.webp",
+    "name": "CG_Sangatsu Nanoka_execution.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Towa Kazer_nude_10.webp.webp",
+    "name": "Towa Kazer_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Towa Kazer_nude_20.webp.webp",
+    "name": "Towa Kazer_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/HER Haname_nude_10.webp.webp",
+    "name": "HER Haname_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/HER Haname_nude_20.webp.webp",
+    "name": "HER Haname_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroyuki Hime_nude_10.webp.webp",
+    "name": "Shiroyuki Hime_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Shiroyuki Hime_sex_BL_uke.webp.webp",
+    "name": "CG_Shiroyuki Hime_sex_BL_uke.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Kurose Akalrin_sex_NL.webp.webp",
+    "name": "CG_Kurose Akalrin_sex_NL.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kurose Akalrin_nude_20.webp.webp",
+    "name": "Kurose Akalrin_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kurose Akalrin_swimsuit0.webp.webp",
+    "name": "Kurose Akalrin_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Shiroyuki Hime_sex_NL.webp.webp",
+    "name": "CG_Shiroyuki Hime_sex_NL.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroyuki Hime_nude_20.webp.webp",
+    "name": "Shiroyuki Hime_nude_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Kurose Akalrin_sex_GL_seme.webp.webp",
+    "name": "CG_Kurose Akalrin_sex_GL_seme.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Kurose Akalrin_nude_10.webp.webp",
+    "name": "Kurose Akalrin_nude_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Kurose Akalrin_sex_GL_uke.webp.webp",
+    "name": "CG_Kurose Akalrin_sex_GL_uke.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/CG_Shiroyuki Hime_sex_BL_seme.webp.webp",
+    "name": "CG_Shiroyuki Hime_sex_BL_seme.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/KazerTrialTheme.mp3.mp3",
+    "name": "KazerTrialTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/ShiroyukiTrialTheme.mp3.mp3",
+    "name": "ShiroyukiTrialTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/ShiroyukiTheme.mp3.mp3",
+    "name": "ShiroyukiTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/AkalrinTheme.mp3.mp3",
+    "name": "AkalrinTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/audio/KazerTheme.mp3.mp3",
+    "name": "KazerTheme.mp3",
+    "ext": "mp3"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_2_dead.webp.webp",
+    "name": "profile_2_dead.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_17_dead.webp.webp",
+    "name": "profile_17_dead.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_15_alive.webp.webp",
+    "name": "profile_15_alive.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_10_dead.webp.webp",
+    "name": "profile_10_dead.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_14_dead.webp.webp",
+    "name": "profile_14_dead.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_5_dead.webp.webp",
+    "name": "profile_5_dead.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_2_alive.webp.webp",
+    "name": "profile_2_alive.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_7_dead.webp.webp",
+    "name": "profile_7_dead.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_18_dead.webp.webp",
+    "name": "profile_18_dead.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_9_dead.webp.webp",
+    "name": "profile_9_dead.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_12_alive.webp.webp",
+    "name": "profile_12_alive.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_18_alive.webp.webp",
+    "name": "profile_18_alive.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_8_alive.webp.webp",
+    "name": "profile_8_alive.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_4_dead.webp.webp",
+    "name": "profile_4_dead.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_1_alive.webp.webp",
+    "name": "profile_1_alive.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_5_alive.webp.webp",
+    "name": "profile_5_alive.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_14_alive.webp.webp",
+    "name": "profile_14_alive.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_11_alive.webp.webp",
+    "name": "profile_11_alive.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_1_dead.webp.webp",
+    "name": "profile_1_dead.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_16_dead.webp.webp",
+    "name": "profile_16_dead.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_15_dead.webp.webp",
+    "name": "profile_15_dead.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_9_alive.webp.webp",
+    "name": "profile_9_alive.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_13_dead.webp.webp",
+    "name": "profile_13_dead.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_12_dead.webp.webp",
+    "name": "profile_12_dead.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_8_dead.webp.webp",
+    "name": "profile_8_dead.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_6_alive.webp.webp",
+    "name": "profile_6_alive.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_10_alive.webp.webp",
+    "name": "profile_10_alive.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_17_alive.webp.webp",
+    "name": "profile_17_alive.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_16_alive.webp.webp",
+    "name": "profile_16_alive.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_13_alive.webp.webp",
+    "name": "profile_13_alive.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_7_alive.webp.webp",
+    "name": "profile_7_alive.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_6_dead.webp.webp",
+    "name": "profile_6_dead.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_3_alive.webp.webp",
+    "name": "profile_3_alive.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_4_alive.webp.webp",
+    "name": "profile_4_alive.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_3_dead.webp.webp",
+    "name": "profile_3_dead.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/profile_11_dead.webp.webp",
+    "name": "profile_11_dead.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_kurose akalrin.webp.webp",
+    "name": "textbox_kurose akalrin.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_shiroyuki hime.webp.webp",
+    "name": "textbox_shiroyuki hime.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Towa Kazer_happy_20.webp.webp",
+    "name": "Towa Kazer_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Towa Kazer_neutral_10.webp.webp",
+    "name": "Towa Kazer_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Towa Kazer_angry_20.webp.webp",
+    "name": "Towa Kazer_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Towa Kazer_neutral_20.webp.webp",
+    "name": "Towa Kazer_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Shiroyuki's lab.webp.webp",
+    "name": "Shiroyuki's lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Akalrin's lab.webp.webp",
+    "name": "Akalrin's lab.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Towa Kazer_sad_10.webp.webp",
+    "name": "Towa Kazer_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Towa Kazer_sad_20.webp.webp",
+    "name": "Towa Kazer_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/alive_2.webp.webp",
+    "name": "alive_2.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/dead_11.webp.webp",
+    "name": "dead_11.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/dead_15.webp.webp",
+    "name": "dead_15.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/alive_9.webp.webp",
+    "name": "alive_9.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/alive_12.webp.webp",
+    "name": "alive_12.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/alive_5.webp.webp",
+    "name": "alive_5.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/dead_13.webp.webp",
+    "name": "dead_13.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/dead_6.webp.webp",
+    "name": "dead_6.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/alive_17.webp.webp",
+    "name": "alive_17.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/dead_1.webp.webp",
+    "name": "dead_1.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/dead_4.webp.webp",
+    "name": "dead_4.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/dead_12.webp.webp",
+    "name": "dead_12.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/dead_18.webp.webp",
+    "name": "dead_18.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/dead_3.webp.webp",
+    "name": "dead_3.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/alive_6.webp.webp",
+    "name": "alive_6.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/dead_7.webp.webp",
+    "name": "dead_7.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/alive_8.webp.webp",
+    "name": "alive_8.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/alive_15.webp.webp",
+    "name": "alive_15.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/alive_11.webp.webp",
+    "name": "alive_11.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/alive_3.webp.webp",
+    "name": "alive_3.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/dead_16.webp.webp",
+    "name": "dead_16.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/alive_14.webp.webp",
+    "name": "alive_14.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/alive_4.webp.webp",
+    "name": "alive_4.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/dead_10.webp.webp",
+    "name": "dead_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/dead_9.webp.webp",
+    "name": "dead_9.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/dead_14.webp.webp",
+    "name": "dead_14.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/alive_18.webp.webp",
+    "name": "alive_18.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/alive_1.webp.webp",
+    "name": "alive_1.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/alive_7.webp.webp",
+    "name": "alive_7.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/dead_17.webp.webp",
+    "name": "dead_17.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/dead_2.webp.webp",
+    "name": "dead_2.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/dead_8.webp.webp",
+    "name": "dead_8.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/alive_10.webp.webp",
+    "name": "alive_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/alive_13.webp.webp",
+    "name": "alive_13.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/dead_5.webp.webp",
+    "name": "dead_5.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/alive_16.webp.webp",
+    "name": "alive_16.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Monomi_neutral_10.webp.webp",
+    "name": "Monomi_neutral_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Monomi_neutral_20.webp.webp",
+    "name": "Monomi_neutral_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Monomi_happy_10.webp.webp",
+    "name": "Monomi_happy_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Monomi_happy_20.webp.webp",
+    "name": "Monomi_happy_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Monomi_sad_20.webp.webp",
+    "name": "Monomi_sad_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Monomi_sad_10.webp.webp",
+    "name": "Monomi_sad_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Monomi_angry_10.webp.webp",
+    "name": "Monomi_angry_10.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Monomi_angry_20.webp.webp",
+    "name": "Monomi_angry_20.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/textbox_monomi.webp.webp",
+    "name": "textbox_monomi.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Monokuma_swimsuit0.webp.webp",
+    "name": "Monokuma_swimsuit0.webp",
+    "ext": "webp"
+  },
+  {
+    "type": "x-risu-asset",
+    "uri": "embeded://assets/other/image/Monomi_swimsuit0.png.png",
+    "name": "Monomi_swimsuit0.png",
+    "ext": "png"
+  },
+  {
+    "type": "icon",
+    "uri": "embeded://assets/icon/image/main.png",
+    "name": "main",
+    "ext": "png"
+  }
+]

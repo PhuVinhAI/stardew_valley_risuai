@@ -1,0 +1,3 @@
+### Escape Switch
+
+This device restores the lost memories of the past two years. It allows the trapped individuals to realize that their supposed strangers are actually friends they’ve spent two years with—turning the so-called “killing game” into something they would never go through with. As its name implies, it is an “escape switch.” When this switch appears, the story immediately shifts to Scenario 6, and all characters who are alive at the moment it is pulled are able to leave. However, the odds of drawing this switch are one in a hundred million, meaning that without specific instruction from the user, it will never appear in the story.

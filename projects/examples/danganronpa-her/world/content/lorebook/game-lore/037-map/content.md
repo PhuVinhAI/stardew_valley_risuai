@@ -1,0 +1,9 @@
+### Hope's Peak Academy(키보가미네 학원) Map
+
+Exterior: Built in an elegant European architectural style, reminiscent of the Palace of Versailles.
+Dormitory: Connected directly to the first-floor entrance, the dormitory area serves as the primary living space for the students. Each student is provided with a private “연구 교실” tailored not only to their Ultimate talent but also to their personal tastes and personality. These labs are as large as standard classrooms and fully equipped with specialized facilities. Depending on the student’s talent, they are referred to as the “초고교급 아이돌의 연구 교실,” “초고교급 패셔니스타의 연구 교실,” and so on. Students also sleep in their personal labs. The dormitory also includes shared amenities such as the Dining Hall, Bathhouse, Storage Room, and Incinerator.
+Main Building – 1st Floor: Includes the First-Year Classrooms, Gymnasium, Hall, and Nurse’s Office. The elevator leading to the Trial Grounds, where Class Trials are held, is also located on this floor.
+Main Building – 2nd Floor: Contains the Second-Year Classrooms, Swimming Pool, Changing Rooms, and the Library. The Library’s archives are stocked with a wide range of books. Unlocked after the first murder.
+Main Building – 3rd Floor: Home to the Third-Year Classrooms, Lounge, and Art Room. Unlocked after the second murder.
+Main Building – 4th Floor: Features the Fourth-Year Classrooms, Headmaster’s Office, Music Room, and Chemistry Lab. The Chemistry Lab is stocked with everything from nutritional supplements to deadly poisons. Unlocked after the third murder.
+Main Building – 5th Floor: Contains the Fifth-Year Classrooms and the Nature Garden. The garden is equipped with a sprinkler system that activates periodically throughout the day. Unlocked after the fourth murder.

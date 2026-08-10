@@ -1,0 +1,13 @@
+{
+  "key": "folder:296ed73d-7a22-4f66-b461-472bea122f2d",
+  "comment": "선술집",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "folder",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "bookVersion": 2
+}

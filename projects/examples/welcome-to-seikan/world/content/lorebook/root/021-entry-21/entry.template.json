@@ -1,0 +1,15 @@
+{
+  "key": "seikan_trust_rules",
+  "comment": "신뢰도",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "bookVersion": 2,
+  "useRegex": false,
+  "folder": "folder:8c308295-110e-4a16-8269-46843c33c649"
+}

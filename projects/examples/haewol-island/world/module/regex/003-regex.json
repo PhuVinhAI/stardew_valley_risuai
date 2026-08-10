@@ -1,0 +1,7 @@
+{
+  "comment": "⚙︎ 호감도 확인 버튼 디스플레이",
+  "in": "\\[(.*?): (.*?)\\: (.*?)\\]",
+  "out": "<!-- 부모 컨테이너 -->\n<div class=\"affection-button-container\">\n    <!-- 버튼과 팝업 박스를 만드는 details -->\n    <details>\n        <summary class=\"affection-summary\">$1꒰১♥໒꒱ </summary>\n        <div class=\"affection-popup\">\n            <div style=\"font-size: 100%; font-family: 'Comic Sans MS', 'Nanum Pen Script';\">\n                <div class=\"text-default\" style=\"color: white;\">($2)</div>{{#if {{equal::$2::Really like it}}}}\n                <span style=\"color: #48ff37;\">+4 </span>\n                <span style=\"color: #f1a5cd;\"> ˗ˋˏ❤︎ˎˊ˗ </span>{{/if}}{{#if {{equal::$2::Like it}}}}\n                <span style=\"color: #90ff85;\">+2 </span>\n                <span style=\"color: #ffbde0;\"> ॰｡ཻ˚♥ </span>{{/if}}{{#if {{equal::$2::Indifferent}}}}\n                <span style=\"color: #ffffff;\">+0 </span>\n                <span style=\"color: #bebebe;\"> —̳͟͞͞❤︎</span>{{/if}}{{#if {{equal::$2::Dislike it}}}}\n                <span style=\"color: #da7452;\"> -2 </span>\n                <span style=\"color: #da7452;\"> ⤜⤞♥</span>{{/if}}{{#if {{equal::$2::Really dislike it}}}}\n                <span style=\"color: #ff0000;\"> -4</span>\n                <span style=\"color: #751818;\"> 💢💔</span>{{/if}}\n                <div>호감: $3</div> <!-- 마지막 최종 호감도 표시 -->\n            </div>\n        </div>\n    </details>\n</div>",
+  "type": "editdisplay",
+  "ableFlag": false
+}

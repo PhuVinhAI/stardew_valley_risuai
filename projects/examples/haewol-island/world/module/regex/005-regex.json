@@ -1,0 +1,7 @@
+{
+  "comment": "찐빠낸 호감도 가리기",
+  "in": "\\[(.*?): (.*?)\\]",
+  "out": "",
+  "type": "editdisplay",
+  "ableFlag": false
+}

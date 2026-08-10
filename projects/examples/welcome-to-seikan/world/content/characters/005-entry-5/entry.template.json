@@ -1,0 +1,15 @@
+{
+  "key": "__seikan_profile_haruka__",
+  "comment": "하루카",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "bookVersion": 2,
+  "useRegex": false,
+  "folder": "folder:6b4d1c06-6ae2-4cb7-aea8-ff648da7ade3"
+}

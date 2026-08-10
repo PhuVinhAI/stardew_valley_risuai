@@ -1,0 +1,15 @@
+{
+  "key": "Scenario 5, Scenario 6",
+  "comment": "Scenario 6",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "folder": "folder:cf6e9a5c-5604-4f9e-a312-c13f244fe207",
+  "useRegex": false,
+  "bookVersion": 2
+}

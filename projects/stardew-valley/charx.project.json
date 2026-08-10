@@ -1,0 +1,8 @@
+{
+  "format": "risuai-charx-world-project",
+  "formatVersion": 1,
+  "kind": "primary",
+  "worldDir": "world",
+  "stateDir": ".charx",
+  "outputCharx": "dist/Stardew-Valley.charx"
+}

@@ -1,0 +1,18 @@
+{
+  "module": {
+    "name": "어서 오세요! 세이칸에 Module",
+    "description": "Module for 어서 오세요! 세이칸에",
+    "id": "540bb182-7418-45ff-8b06-e4127b975e17",
+    "trigger": {
+      "$orderedJson": "triggers"
+    },
+    "regex": {
+      "$orderedJson": "regex"
+    },
+    "lorebook": {
+      "$internalLorebook": "../content/lore-order.json"
+    },
+    "assets": []
+  },
+  "type": "risuModule"
+}

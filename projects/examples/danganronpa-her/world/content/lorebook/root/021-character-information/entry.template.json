@@ -1,0 +1,13 @@
+{
+  "key": "folder:9902c3b4-c469-43df-8019-4eeb8c4eaa8b",
+  "comment": "Character Information",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "folder",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "bookVersion": 2
+}

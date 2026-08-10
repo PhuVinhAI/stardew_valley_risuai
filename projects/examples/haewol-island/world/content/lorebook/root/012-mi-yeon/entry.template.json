@@ -1,0 +1,14 @@
+{
+  "key": "",
+  "comment": "💙 미연과 호감도 (Mi-yeon)",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 200,
+  "alwaysActive": true,
+  "secondkey": "",
+  "selective": false,
+  "useRegex": false,
+  "bookVersion": 2
+}

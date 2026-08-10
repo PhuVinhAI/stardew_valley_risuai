@@ -1,0 +1,10 @@
+{
+  "format": "risuai-charx-world-project",
+  "formatVersion": 1,
+  "kind": "example",
+  "worldDir": "world",
+  "stateDir": ".charx",
+  "referenceCharx": "reference/source.charx",
+  "outputCharx": "dist/haewol-island.charx",
+  "exactOutputCharx": "dist/haewol-island.exact.charx"
+}

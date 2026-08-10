@@ -1,0 +1,7 @@
+{
+  "comment": "토큰 먹는 호감도 리퀘스트 죽이기",
+  "in": "\\[(.*?): (.*?)\\: (.*?)\\]",
+  "out": " ",
+  "type": "editprocess",
+  "ableFlag": false
+}

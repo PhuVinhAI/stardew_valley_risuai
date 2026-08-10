@@ -1,0 +1,7 @@
+{
+  "comment": "CG [PC]",
+  "in": "\\[CG:\\s*(.+?)\\s*\\]",
+  "out": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"UTF-8\">\n  <style>\n    .image-stack {\n      position: relative;\n      width: 540px;\n      height: 369px;\n    }\n    .image-stack img {\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      border-radius: 0px;\n      border: 3px solid #ccc;\n    }\n    .image-stack .back {\n      z-index: 1;\n    }\n  </style>\n</head>\n<body>\n  <center>\n\n<div class=\"asset-container\" style=\"background-image: url('{{raw::$1.webp}}');\" tabindex=\"0\"></div>\n    <div class=\"image-stack\">\n      <img src=\"{{raw::CG_$1}}\" alt=\"Background\" class=\"back\">\n    </div>\n<br><br>\n  </center>\n</body>\n</html>\n",
+  "type": "editdisplay",
+  "ableFlag": false
+}

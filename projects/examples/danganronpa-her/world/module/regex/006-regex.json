@@ -1,0 +1,7 @@
+{
+  "comment": "반론 [모바일]",
+  "in": "\\[Location:\\s*(.+?)\\s*\\|\\s*Character:\\s*(.+?)\\s*\\|\\s*(.+?)\\s*\\]",
+  "out": "<!DOCTYPE html>\n<html>\n<head>\n  <meta charset=\"UTF-8\">\n  <style>\n    .image2-stack {\n      position: relative;\n      width: 292px;\n      height: 163px;\n    }\n    .image2-stack img {\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%;\n      border-radius: 0px;\n      border: 3px solid #ccc;\n    }\n    .image2-stack .front {\n      z-index: 2;\n      width: auto;\n      height: 100%;\n      left: 50%;\n      transform: translateX(-50%);\n      border: none;\n    }\n    .image2-stack .back {\n      z-index: 1;\n    }\n  </style></head><body><center><div class=\"image2-stack\"><img src=\"{{raw::$1}}\" alt=\"Background\" class=\"back\"><img src=\"{{raw::$2_$3}}\" alt=\"Character\" class=\"front\"></div></center><br><br></body></html>\n\n\n",
+  "type": "disabled",
+  "ableFlag": false
+}

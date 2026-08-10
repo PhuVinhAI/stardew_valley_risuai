@@ -1,0 +1,16 @@
+[
+  "lorebook/root/001-world-setting/entry.template.json",
+  "lorebook/root/002-haewoldo/entry.template.json",
+  "lorebook/root/003-haewol-s-reputation/entry.template.json",
+  "lorebook/root/004-dialogue/entry.template.json",
+  "lorebook/root/005-npc/entry.template.json",
+  "characters/006-yoo-soyou/entry.template.json",
+  "characters/007-kang-mi-yeon/entry.template.json",
+  "characters/008-jeong-ga-yeon/entry.template.json",
+  "characters/009-choi-nan-hee/entry.template.json",
+  "lorebook/root/010-affection/entry.template.json",
+  "lorebook/root/011-soyou/entry.template.json",
+  "lorebook/root/012-mi-yeon/entry.template.json",
+  "lorebook/root/013-ga-yeon/entry.template.json",
+  "lorebook/root/014-nan-hee/entry.template.json"
+]

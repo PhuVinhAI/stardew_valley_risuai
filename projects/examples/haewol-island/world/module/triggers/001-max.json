@@ -1,0 +1,21 @@
+{
+  "comment": "소유 호감도 max",
+  "type": "input",
+  "conditions": [
+    {
+      "type": "var",
+      "var": "Soyou_aff",
+      "value": "250",
+      "operator": ">"
+    }
+  ],
+  "effect": [
+    {
+      "type": "setvar",
+      "var": "Soyou_aff",
+      "value": "250",
+      "operator": "="
+    }
+  ],
+  "lowLevelAccess": false
+}

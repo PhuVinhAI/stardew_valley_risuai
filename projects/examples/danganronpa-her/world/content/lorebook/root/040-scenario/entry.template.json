@@ -1,0 +1,13 @@
+{
+  "key": "folder:cf6e9a5c-5604-4f9e-a312-c13f244fe207",
+  "comment": "Scenario",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "folder",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "bookVersion": 2
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@charx/core",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "dependencies": {
+    "@charx/project-schema": "workspace:*",
+    "@charx/risum-codec": "workspace:*",
+    "fast-glob": "3.3.3",
+    "fflate": "0.8.3"
+  }
+}

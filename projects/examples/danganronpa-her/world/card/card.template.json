@@ -1,0 +1,120 @@
+{
+  "spec": "chara_card_v3",
+  "spec_version": "3.0",
+  "data": {
+    "name": "Danganronpa HER",
+    "description": {
+      "$text": "prompts/description.md"
+    },
+    "personality": {
+      "$text": "prompts/personality.md"
+    },
+    "scenario": {
+      "$text": "prompts/scenario.md"
+    },
+    "first_mes": {
+      "$text": "prompts/first-message.md"
+    },
+    "mes_example": {
+      "$text": "prompts/example-messages.md"
+    },
+    "creator_notes": {
+      "$text": "prompts/creator-notes.md"
+    },
+    "system_prompt": {
+      "$text": "prompts/system-prompt.md"
+    },
+    "post_history_instructions": {
+      "$text": "prompts/post-history-instructions.md"
+    },
+    "alternate_greetings": {
+      "$textArray": "greetings/alternate"
+    },
+    "character_book": {
+      "scan_depth": 50,
+      "token_budget": 80000,
+      "recursive_scanning": false,
+      "extensions": {
+        "risu_fullWordMatching": false
+      },
+      "entries": {
+        "$ccv3Lorebook": "../content/lore-order.json"
+      }
+    },
+    "tags": [],
+    "creator": "",
+    "character_version": "",
+    "extensions": {
+      "risuai": {
+        "bias": [],
+        "viewScreen": "none",
+        "utilityBot": false,
+        "sdData": [
+          [
+            "always",
+            "solo, 1girl"
+          ],
+          [
+            "negative",
+            ""
+          ],
+          [
+            "|character's appearance",
+            ""
+          ],
+          [
+            "current situation",
+            ""
+          ],
+          [
+            "$character's pose",
+            ""
+          ],
+          [
+            "$character's emotion",
+            ""
+          ],
+          [
+            "current location",
+            ""
+          ]
+        ],
+        "backgroundHTML": "{{audio::SayaNoUta.mp3}}",
+        "additionalText": "",
+        "virtualscript": "",
+        "largePortrait": false,
+        "lorePlus": false,
+        "inlayViewScreen": false,
+        "newGenData": {
+          "prompt": "",
+          "negative": "",
+          "instructions": "",
+          "emotionInstructions": ""
+        },
+        "vits": {},
+        "lowLevelAccess": false,
+        "defaultVariables": "",
+        "prebuiltAssetCommand": "",
+        "prebuiltAssetExclude": [
+          "assets/5c12ddf9e066de48ccd65e31c9c36d55c7d11afa0056559ca9af6e768af8ef1a.png"
+        ],
+        "prebuiltAssetStyle": "",
+        "toggles": {}
+      },
+      "depth_prompt": {
+        "depth": 0,
+        "prompt": ""
+      }
+    },
+    "group_only_greetings": {
+      "$textArray": "greetings/group-only"
+    },
+    "nickname": "",
+    "source": [],
+    "creation_date": 1748320276534,
+    "modification_date": 1786340118,
+    "assets": {
+      "$json": "assets.json"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "key": "동기, motive",
+  "comment": "Motive",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 90,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "folder": "folder:be5b62e3-93b2-4341-9e00-205399b4cc0f",
+  "bookVersion": 2,
+  "useRegex": false
+}

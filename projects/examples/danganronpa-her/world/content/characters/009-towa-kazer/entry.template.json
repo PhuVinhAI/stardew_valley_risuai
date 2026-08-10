@@ -1,0 +1,14 @@
+{
+  "key": "",
+  "comment": "Towa Kazer",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 100,
+  "alwaysActive": true,
+  "secondkey": "",
+  "selective": false,
+  "folder": "folder:0f32a515-702c-43a4-ac49-cc05774f9ae0",
+  "bookVersion": 2
+}

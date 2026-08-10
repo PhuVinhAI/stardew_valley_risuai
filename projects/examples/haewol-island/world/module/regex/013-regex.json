@@ -1,0 +1,7 @@
+{
+  "comment": "⚙︎ 호감도 (-) 치트 인풋 변경 ",
+  "in": "/love\\s+(.*?)\\s+-(\\d+)",
+  "out": "{{addvar::$1_aff::-$2}}\n",
+  "type": "editinput",
+  "ableFlag": false
+}

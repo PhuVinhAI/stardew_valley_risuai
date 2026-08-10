@@ -1,0 +1,7 @@
+{
+  "comment": "⚙︎ 호감도 출력문 수정 & 변수 계산",
+  "in": "\\[(.*?): (.*?)\\]",
+  "out": "[$1: $2{{#if {{equal::$2::Really like it}}}}\n{{addvar::$1_aff::4}}: {{calc::{{getvar::$1_aff}}+4}}\n{{/if}}{{#if {{equal::$2::Like it}}}} \n{{addvar::$1_aff::2}}: {{calc::{{getvar::$1_aff}}+2}}\n{{/if}}{{#if {{equal::$2::Indifferent}}}}\n: {{getvar::$1_aff}}\n{{/if}}{{#if {{equal::$2::Dislike it}}}}\n{{addvar::$1_aff::-2}}: {{calc::{{getvar::$1_aff}}-2}}\n{{/if}}{{#if {{equal::$2::Really dislike it}}}}\n{{addvar::$1_aff::-4}}: {{calc::{{getvar::$1_aff}}-4}}\n{{/if}}]",
+  "type": "editoutput",
+  "ableFlag": false
+}

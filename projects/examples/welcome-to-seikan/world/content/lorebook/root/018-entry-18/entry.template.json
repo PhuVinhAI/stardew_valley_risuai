@@ -1,0 +1,15 @@
+{
+  "key": "출장, 출장 마사지, 방문 마사지, 집으로 와, outcall, house call, home visit, hotel massage",
+  "comment": "출장 마사지",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 111,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "bookVersion": 2,
+  "useRegex": false,
+  "folder": "folder:7b82761f-d401-4f6c-83a1-ee926c2f617c"
+}

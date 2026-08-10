@@ -1,0 +1,15 @@
+{
+  "key": "팁, 사례금, tip, tips, ",
+  "comment": "팁 규칙",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 110,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "bookVersion": 2,
+  "folder": "folder:7b82761f-d401-4f6c-83a1-ee926c2f617c",
+  "useRegex": false
+}

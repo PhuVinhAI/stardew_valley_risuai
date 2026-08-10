@@ -1,0 +1,14 @@
+{
+  "key": "",
+  "comment": "---- <♥️ 호감도 (Affection)> ----",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "useRegex": false,
+  "bookVersion": 2
+}

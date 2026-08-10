@@ -1,0 +1,15 @@
+{
+  "key": "seikan_massage_service",
+  "comment": "마사지 서비스",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "bookVersion": 2,
+  "useRegex": false,
+  "folder": "folder:7b82761f-d401-4f6c-83a1-ee926c2f617c"
+}

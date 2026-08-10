@@ -1,0 +1,13 @@
+{
+  "key": "folder:5d468148-c913-4a07-a09b-6553fc396e94",
+  "comment": "Prompt Fragment",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "folder",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "bookVersion": 2
+}

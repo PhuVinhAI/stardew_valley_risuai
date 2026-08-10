@@ -1,0 +1,7 @@
+{
+  "comment": "망가진 ' }} ' 삭제",
+  "in": "}}",
+  "out": "",
+  "type": "editdisplay",
+  "ableFlag": false
+}

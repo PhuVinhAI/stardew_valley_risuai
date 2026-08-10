@@ -1,0 +1,7 @@
+{
+  "comment": "언어 선택 리퀘스트 죽이기",
+  "in": "\\[-Language-\\]",
+  "out": "",
+  "type": "editprocess",
+  "ableFlag": false
+}

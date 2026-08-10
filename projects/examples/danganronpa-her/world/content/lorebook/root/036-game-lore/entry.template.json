@@ -1,0 +1,13 @@
+{
+  "key": "folder:ac7d2924-42c4-4162-99a9-7935aac1df8d",
+  "comment": "Game Lore",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "folder",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "bookVersion": 2
+}

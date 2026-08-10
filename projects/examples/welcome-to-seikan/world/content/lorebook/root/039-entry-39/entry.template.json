@@ -1,0 +1,13 @@
+{
+  "key": "folder:2b7cc5fa-9d27-4acf-8913-665ae7f7df2b",
+  "comment": "손님 모드",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "folder",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "bookVersion": 2
+}

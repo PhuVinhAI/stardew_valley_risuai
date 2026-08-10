@@ -1,0 +1,18 @@
+{
+  "key": "소유, Soyou, 밭, farm, 농장, 농부, farmer",
+  "secondkey": "",
+  "insertorder": 100,
+  "comment": "👩‍🌾 유소유 (Yoo Soyou)",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "alwaysActive": false,
+  "selective": false,
+  "extentions": {
+    "risu_case_sensitive": false
+  },
+  "loreCache": null,
+  "useRegex": false,
+  "bookVersion": 2
+}

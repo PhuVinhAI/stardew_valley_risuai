@@ -1,0 +1,13 @@
+{
+  "key": "folder:be5b62e3-93b2-4341-9e00-205399b4cc0f",
+  "comment": "Game Rule",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "folder",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "bookVersion": 2
+}

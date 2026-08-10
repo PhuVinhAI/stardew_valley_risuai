@@ -1,0 +1,8 @@
+{
+  "comment": "에셋",
+  "in": "<img\\s+src\\s*=\\s*[\"']?([a-z0-9_-]+)\\.([a-z0-9_-]+)\\.([a-z0-9_-]+)[\"']?\\s*/?>",
+  "out": "<div class=\"risu-fold-asset\" tabindex=\"0\">\n  <img src=\"{{raw::$1.$2.$3.webp}}\" alt=\"\">\n</div>",
+  "type": "editdisplay",
+  "ableFlag": false,
+  "flag": "g"
+}

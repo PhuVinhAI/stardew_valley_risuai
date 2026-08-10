@@ -1,0 +1,18 @@
+{
+  "key": "",
+  "secondkey": "",
+  "insertorder": 100,
+  "comment": "---- <👩‍👩‍👦‍👦 NPC> ----",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "alwaysActive": false,
+  "selective": false,
+  "extentions": {
+    "risu_case_sensitive": false
+  },
+  "loreCache": null,
+  "useRegex": false,
+  "bookVersion": 2
+}

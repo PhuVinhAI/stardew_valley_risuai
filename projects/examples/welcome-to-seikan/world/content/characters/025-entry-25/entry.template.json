@@ -1,0 +1,15 @@
+{
+  "key": "__seikan_profile_lucy__",
+  "comment": "루시",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "bookVersion": 2,
+  "useRegex": false,
+  "folder": "folder:6de80b88-25e5-4420-b1e4-0dc3b1697a63"
+}

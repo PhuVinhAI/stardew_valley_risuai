@@ -1,0 +1,15 @@
+{
+  "key": "",
+  "comment": "School Mode",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 1,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "folder": "folder:5d468148-c913-4a07-a09b-6553fc396e94",
+  "useRegex": false,
+  "bookVersion": 2
+}

@@ -1,0 +1,15 @@
+{
+  "key": "seikan_mode_owner",
+  "comment": "점장 모드",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "folder": "folder:13a47e16-8fe5-45d2-b27c-74f66f077053",
+  "useRegex": false,
+  "bookVersion": 2
+}

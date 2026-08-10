@@ -1,0 +1,14 @@
+{
+  "key": "",
+  "comment": "💙 가연과 호감도 (Ga-yeon)",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 200,
+  "alwaysActive": true,
+  "secondkey": "",
+  "selective": false,
+  "useRegex": false,
+  "bookVersion": 2
+}

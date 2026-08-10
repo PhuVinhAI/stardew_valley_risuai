@@ -1,0 +1,14 @@
+{
+  "key": "",
+  "comment": "Character Position",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 110,
+  "alwaysActive": true,
+  "secondkey": "",
+  "selective": false,
+  "folder": "folder:9902c3b4-c469-43df-8019-4eeb8c4eaa8b",
+  "bookVersion": 2
+}

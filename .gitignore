@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.charx
+!**/.charx/
+!**/.charx/**
+**/.charx/cache/
+.DS_Store
+*.tmp
+*.log

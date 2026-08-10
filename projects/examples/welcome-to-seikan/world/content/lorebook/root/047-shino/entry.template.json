@@ -1,0 +1,14 @@
+{
+  "key": "",
+  "comment": "손님 모드:shino",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 105,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "bookVersion": 2,
+  "folder": "folder:2b7cc5fa-9d27-4acf-8913-665ae7f7df2b"
+}

@@ -1,0 +1,15 @@
+{
+  "key": "common_sense_notebook, Common-Sense Rewriting Notebook, Common-Sense Alteration Notebook, 상식 개변 노트",
+  "comment": "상식 개변 노트",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "bookVersion": 2,
+  "useRegex": false,
+  "folder": "folder:6de80b88-25e5-4420-b1e4-0dc3b1697a63"
+}

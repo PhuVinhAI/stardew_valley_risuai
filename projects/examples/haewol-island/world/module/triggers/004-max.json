@@ -1,0 +1,21 @@
+{
+  "comment": "난희 호감도 max",
+  "type": "input",
+  "conditions": [
+    {
+      "type": "var",
+      "var": "Nan-hee_aff",
+      "value": "250",
+      "operator": ">"
+    }
+  ],
+  "effect": [
+    {
+      "type": "setvar",
+      "var": "Nan-hee_aff",
+      "value": "250",
+      "operator": "="
+    }
+  ],
+  "lowLevelAccess": false
+}

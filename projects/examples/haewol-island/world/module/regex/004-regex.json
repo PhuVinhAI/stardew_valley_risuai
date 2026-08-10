@@ -1,0 +1,7 @@
+{
+  "comment": "⚙︎ 언어 선택 버튼 디스플레이",
+  "in": "\\[-Language-\\]",
+  "out": "{{button::한국어(충청 방언)::kor}} | {{button::영어, 대사만 한글::en_kor}} |  {{button::Full English::en}}",
+  "type": "editdisplay",
+  "ableFlag": false
+}

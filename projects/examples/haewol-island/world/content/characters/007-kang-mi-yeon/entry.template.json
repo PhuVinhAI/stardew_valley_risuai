@@ -1,0 +1,18 @@
+{
+  "key": "미연, Mi-yeon, Miyeon, 경찰, police",
+  "secondkey": "",
+  "insertorder": 100,
+  "comment": "👮‍♀ 강미연 (Kang Mi-yeon)",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "alwaysActive": false,
+  "selective": false,
+  "extentions": {
+    "risu_case_sensitive": false
+  },
+  "loreCache": null,
+  "useRegex": false,
+  "bookVersion": 2
+}

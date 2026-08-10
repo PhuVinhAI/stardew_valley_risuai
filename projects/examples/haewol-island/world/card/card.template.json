@@ -1,0 +1,125 @@
+{
+  "spec": "chara_card_v3",
+  "spec_version": "3.0",
+  "data": {
+    "name": "Haewol Island",
+    "description": {
+      "$text": "prompts/description.md"
+    },
+    "personality": {
+      "$text": "prompts/personality.md"
+    },
+    "scenario": {
+      "$text": "prompts/scenario.md"
+    },
+    "first_mes": {
+      "$text": "prompts/first-message.md"
+    },
+    "mes_example": {
+      "$text": "prompts/example-messages.md"
+    },
+    "creator_notes": {
+      "$text": "prompts/creator-notes.md"
+    },
+    "system_prompt": {
+      "$text": "prompts/system-prompt.md"
+    },
+    "post_history_instructions": {
+      "$text": "prompts/post-history-instructions.md"
+    },
+    "alternate_greetings": {
+      "$textArray": "greetings/alternate"
+    },
+    "character_book": {
+      "scan_depth": 6,
+      "token_budget": 44000,
+      "recursive_scanning": false,
+      "extensions": {
+        "risu_fullWordMatching": false
+      },
+      "entries": {
+        "$ccv3Lorebook": "../content/lore-order.json"
+      }
+    },
+    "tags": [],
+    "creator": "Catlover",
+    "character_version": "V1.0",
+    "extensions": {
+      "risuai": {
+        "bias": [],
+        "viewScreen": "none",
+        "utilityBot": false,
+        "sdData": [
+          [
+            "always",
+            "solo, 1girl"
+          ],
+          [
+            "negative",
+            ""
+          ],
+          [
+            "|character's appearance",
+            ""
+          ],
+          [
+            "current situation",
+            ""
+          ],
+          [
+            "$character's pose",
+            ""
+          ],
+          [
+            "$character's emotion",
+            ""
+          ],
+          [
+            "current location",
+            ""
+          ]
+        ],
+        "backgroundHTML": "<style>\n    /* 손글씨 폰트 추가 */\n    @import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap');\n\n\n    /* 기본 텍스트 스타일  */\n    .text-default {\n        font-family: 'Comic Sans MS', 'Nanum Pen Script', cursive;\n        color: #000000;\n        font-size: 0.9em;\n    }\n\n    /* 평판 출력용 텍스트 스타일  */\n    .reputation-text {\n        font-family: 'Comic Sans MS', 'Nanum Pen Script', cursive;\n        color: #a81616;\n    }\n\n    /* 분리 선 */\n    .status-divider {\n        width: 80%;\n        /* 선 길이 조정 */\n        border: none;\n        border-top: 2px solid #5c4a38;\n        /* 선 색상 및 굵기 */\n        margin-top: 0.1em;\n        margin-bottom: 0.05em;\n    }\n\n\n\n    .page-container {\n        width: 100%;\n        height: 100%;\n        border: 8px solid #5b4426;\n        border-radius: 12px;\n        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.95);\n        padding: 1em;\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        position: relative;\n    }\n\n    /* 수첩 양쪽 동그란 구멍 디자인 */\n    .page-container::before,\n    .page-container::after {\n        content: '';\n        position: absolute;\n        top: 1em;\n        width: 20px;\n        height: 20px;\n        border-radius: 50%;\n        border: 4px solid #5c4a38;\n        z-index: 1;\n    }\n\n    .page-container::before {\n        left: 20px;\n    }\n\n    .page-container::after {\n        right: 20px;\n    }\n\n    .page {\n        position: relative;\n        background-color: rgba(254, 249, 234, 1);\n        border: 5px dashed #937b61;\n        box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);\n        padding: 0.5em;\n        height: 100%;\n        width: 100%;\n        z-index: 2;\n        display: flex;\n        justify-content: center;\n    }\n\n    .status-item {\n        text-align: center;\n        position: relative;\n        z-index: 3;\n        margin-top: 0.1em;\n        margin-bottom: 0.1em;\n    }\n\n\n\n\n\n\n\n\n    /* 호감도 상태창 & 게1이지바 */\n\n    .aff-stat-button-container {\n        position: relative;\n    }\n\n    .aff-stat-summary {\n        cursor: pointer;\n        width: 100%;\n        padding: 0.1em 0.1em;\n        background-color: #937b61;\n        color: #ffffff;\n        border: none;\n        border-radius: 1em;\n        list-style: none;\n        transition: background-color 0.3s ease;\n        margin-bottom: 0.1em;\n    }\n\n    .aff-stat-popup {\n        position: relative;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: auto;\n        background: #424242;\n        color: #fff;\n        border-radius: 1em;\n        text-align: left;\n        padding: 1em;\n    }\n\n    /* 🌸 이름 + 게이지바 가로 정렬 */\n    .aff-stat-container {\n        display: flex;\n        /* 가로 정렬 */\n        align-items: center;\n        /* 세로 중앙 정렬 */\n        gap: 10px;\n        /* 이름과 바 사이 간격 */\n        margin-bottom: 5px;\n        /* 줄 간격 */\n    }\n\n    /* 🎨 이름 스타일 */\n    .aff-name {\n        font-weight: bold;\n        color: #ffddef;\n        min-width: 80px;\n        /* 이름이 정렬되도록 최소 너비 지정 */\n        text-align: right;\n        /* 오른쪽 정렬 */\n    }\n\n    /* 🎯 프로그레스 바 스타일 */\n    .gauge {\n        appearance: none;\n        width: 200px;\n        height: 20px;\n        border-radius: 10px;\n        border: 2px solid #db4f7e;\n        overflow: hidden;\n    }\n\n    /* 🏆 바의 배경 */\n    .gauge::-webkit-progress-bar {\n        background: #424242;\n        border-radius: 10px;\n    }\n\n    /* 🎯 바의 채워지는 부분 */\n    .gauge::-webkit-progress-value {\n        background: linear-gradient(to bottom, #ffe0fc 0%, #ffffff 100%);\n        border-radius: 10px;\n    }\n\n\n\n\n\n\n\n\n    /* 맨 아래 호감도 버튼 관련 */\n    .affection-button-container {\n        position: relative;\n        display: inline-block;\n        margin-right: 1em;\n    }\n\n    .affection-summary {\n        cursor: pointer;\n        width: auto;\n        padding: 1em 1em;\n        background-color: #ffddef;\n        color: #000000;\n        border: none;\n        border-radius: 1em;\n        list-style: none;\n        transition: background-color 0.3s ease;\n        margin-bottom: 1em;\n    }\n\n\n\n\n    .affection-popup {\n        position: relative;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: auto;\n        background: #424242;\n        color: #fff;\n        border-radius: 1em;\n        text-align: left;\n        padding: 1em;\n    }\n\n    details[open] {\n        display: block;\n    }\n</style>",
+        "additionalText": "",
+        "virtualscript": "",
+        "largePortrait": true,
+        "lorePlus": false,
+        "inlayViewScreen": false,
+        "newGenData": {
+          "prompt": "",
+          "negative": "",
+          "instructions": "",
+          "emotionInstructions": ""
+        },
+        "vits": {},
+        "lowLevelAccess": false,
+        "defaultVariables": "Reputation=0\nSoyou_aff=0\nMi-yeon_aff=0\nGa-yeon_aff=0\nNan-hee_aff=0\n\nlang=0\n",
+        "prebuiltAssetCommand": "",
+        "prebuiltAssetExclude": [],
+        "prebuiltAssetStyle": "",
+        "toggles": {}
+      },
+      "depth_prompt": {
+        "depth": 0,
+        "prompt": ""
+      },
+      "pngExif": {
+        "Software": "NovelAI",
+        "Source": "Stable Diffusion XL 7BCCAA2C",
+        "Comment": "{\"prompt\": \"1girl, {{{1girl}}}, {artist: kakure_eria, sangbob, eonsang, tsunako}, {{{{{{{{{{amazing quality}}}}}}}}}}, very aesthetic, highres, incredibly absurdres, brown hair, large breasts, long hair, braid, side braid, hand up, straw hat, suspender skirt, orange eyes, smile, tall, brown skirt, brown headwear, hair flower, {{{{{narrowed eyes}}}}}, neck ribbon, red ribbon, mature female, looking at viewer, {{head down}}, shaded face, half-closed eyes, glowing eyes, parted lips, hand on own chin, clenched hand, arm at side, white background, {best quality, amazing quality, very aesthetic, highres, incredibly absurdres}\", \"steps\": 28, \"height\": 1216, \"width\": 832, \"scale\": 5.0, \"uncond_scale\": 0.0, \"cfg_rescale\": 0.0, \"seed\": 1100022730, \"n_samples\": 1, \"hide_debug_overlay\": false, \"noise_schedule\": \"native\", \"legacy_v3_extend\": false, \"reference_information_extracted_multiple\": [], \"reference_strength_multiple\": [], \"sampler\": \"k_euler_ancestral\", \"controlnet_strength\": 1.0, \"controlnet_model\": null, \"dynamic_thresholding\": false, \"dynamic_thresholding_percentile\": 0.999, \"dynamic_thresholding_mimic_scale\": 10.0, \"sm\": false, \"sm_dyn\": false, \"skip_cfg_above_sigma\": null, \"skip_cfg_below_sigma\": 0.0, \"lora_unet_weights\": null, \"lora_clip_weights\": null, \"deliberate_euler_ancestral_bug\": true, \"prefer_brownian\": false, \"cfg_sched_eligibility\": \"enable_for_post_summer_samplers\", \"explike_fine_detail\": false, \"minimize_sigma_inf\": false, \"uncond_per_vibe\": true, \"wonky_vibe_correlation\": true, \"version\": 1, \"uc\": \", worst quality, bad quality, displeasing, very displeasing, lowres, bad anatomy, bad perspective, bad proportions, bad aspect ratio, bad face, long face, bad teeth, bad neck, long neck, bad arm, bad hands, bad ass, bad leg, bad feet, bad reflection, bad shadow, bad link, bad source, wrong hand, wrong feet, missing limb, missing eye, missing tooth, missing ear, missing finger, extra faces, extra eyes, extra eyebrows, extra mouth, extra tongue, extra teeth, extra ears, extra breasts, extra arms, extra hands, extra legs, extra digits, fewer digits, cropped head, cropped torso, cropped shoulders, cropped arms, cropped legs, mutation, deformed, disfigured, unfinished, chromatic aberration, text, error, jpeg artifacts, watermark, scan, scan artifacts\", \"request_type\": \"PromptGenerateRequest\", \"signed_hash\": \"f6JKagj0MLE7NhIo7CphclHuST2n7UhRIBiURODfWWKZWR4j5A4ZOK/ym5p8gHGZqv6wSJGgY+BfjhgYaYLVDA==\"}",
+        "Title": "AI generated image",
+        "Description": "1girl, {{{1girl}}}, {artist: kakure_eria, sangbob, eonsang, tsunako}, {{{{{{{{{{amazing quality}}}}}}}}}}, very aesthetic, highres, incredibly absurdres, brown hair, large breasts, long hair, braid, side braid, hand up, straw hat, suspender skirt, orange eyes, smile, tall, brown skirt, brown headwear, hair flower, {{{{{narrowed eyes}}}}}, neck ribbon, red ribbon, mature female, looking at viewer, {{head down}}, shaded face, half-closed eyes, glowing eyes, parted lips, hand on own chin, clenched hand, arm at side, white background, {best quality, amazing quality, very aesthetic, highres, incredibly absurdres}"
+      }
+    },
+    "group_only_greetings": {
+      "$textArray": "greetings/group-only"
+    },
+    "nickname": "",
+    "source": [],
+    "creation_date": 1737643116697,
+    "modification_date": 1786343987,
+    "assets": {
+      "$json": "assets.json"
+    }
+  }
+}

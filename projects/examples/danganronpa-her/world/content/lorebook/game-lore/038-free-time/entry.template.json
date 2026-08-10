@@ -1,0 +1,15 @@
+{
+  "key": "선물, gift, 머신",
+  "comment": "Free Time",
+  "content": {
+    "$text": "content.md"
+  },
+  "mode": "normal",
+  "insertorder": 100,
+  "alwaysActive": false,
+  "secondkey": "",
+  "selective": false,
+  "folder": "folder:ac7d2924-42c4-4162-99a9-7935aac1df8d",
+  "useRegex": false,
+  "bookVersion": 2
+}
