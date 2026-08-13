@@ -4,10 +4,23 @@ name: Stardew Valley
 version: 0.1.0
 creator: ""
 language: en
-tags: []
-prompts: {}
-greetings: {}
-lorebook: {}
+tags: [stardew-valley, open-ended-roleplay, pelican-town]
+prompts:
+  description: world/description.md
+  personality: world/personality.md
+  scenario: world/scenario.md
+  firstMessage: world/first-message.md
+  exampleMessages: world/example-messages.md
+  creatorNotes: world/creator-notes.md
+  systemPrompt: world/system-prompt.md
+  postHistoryInstructions: world/post-history-instructions.md
+greetings:
+  alternateDir: presentation/greetings/alternate
+  groupOnlyDir: presentation/greetings/group-only
+lorebook:
+  scanDepth: 8
+  tokenBudget: 4096
+  recursiveScanning: true
 module:
   description: RisuAI module for Stardew Valley
 risuai: {}

@@ -1,5 +1,6 @@
 export * from "./archive.ts";
 export * from "./authoring.ts";
+export * from "./canon.ts";
 export * from "./lore.ts";
 export * from "./portraits.ts";
 export * from "./project.ts";

@@ -2,6 +2,7 @@ node_modules/
 dist/
 **/generated/
 projects/**/source/assets/imported/
+projects/**/.research/
 *.charx
 !**/.charx/
 !**/.charx/**

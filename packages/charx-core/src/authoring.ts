@@ -7,6 +7,7 @@ import {
   EventSourceSchema,
   LocationSourceSchema,
   LoreSourceSchema,
+  PortraitCurationSchema,
   RelationshipSourceSchema,
   ScheduleSourceSchema,
   SystemSourceSchema,
@@ -109,30 +110,67 @@ function entityReferences(kind: WorldEntityKind, value: Record<string, unknown>)
   return {};
 }
 
-function loadAssets(sourceDir: string): WorldIrAsset[] {
+function loadAssets(sourceDir: string): { assets: WorldIrAsset[]; declaredIds: Set<string> } {
   const root = path.resolve(sourceDir);
-  const manifestFiles = listFiles(path.join(root, "assets"), "**/manifest.yaml");
-  const assets = manifestFiles.flatMap(
+  const curationFiles = listFiles(path.join(root, "assets", "curation"), "*.yaml");
+  const importedRoot = path.join(root, "assets", "imported");
+  const curatedCharacters = new Set(
+    curationFiles.map((curationFile) => PortraitCurationSchema.parse(readYaml(curationFile)).character),
+  );
+  const manifestFiles = listFiles(path.join(root, "assets"), "**/manifest.yaml").filter((manifestFile) => {
+    if (!isInside(importedRoot, manifestFile) || curatedCharacters.size === 0) return true;
+    const relative = path.relative(importedRoot, manifestFile).replaceAll("\\", "/");
+    const character = relative.split("/")[1];
+    return character ? curatedCharacters.has(character) : true;
+  });
+  const manifestAssets = manifestFiles.flatMap(
     (manifestFile) => AssetManifestSchema.parse(readYaml(manifestFile)).assets,
   );
-  const seen = new Set<string>();
-  return assets.map((asset) => {
-    if (seen.has(asset.id)) throw new Error(`Duplicate asset id: ${asset.id}`);
-    seen.add(asset.id);
+  const curatedAssets = curationFiles.flatMap((curationFile) => {
+    const curation = PortraitCurationSchema.parse(readYaml(curationFile));
+    return Object.entries(curation.outfits).flatMap(([outfit, spec]) => {
+      const duplicateFrames = new Set(spec.duplicates.map((item) => item.frame));
+      return Object.entries(spec.frames)
+        .filter(([frame]) => !duplicateFrames.has(frame))
+        .map(([frame, label]) => ({
+          id: `portrait-${curation.character}-${outfit}-${frame}`,
+          file: `${curation.sourceRoot}/${outfit}/${frame}.webp`,
+          name: `${curation.character} / ${outfit} / ${label}`,
+          type: "x-risu-asset",
+          optional: true,
+        }));
+    });
+  });
+  const assets = [...manifestAssets, ...curatedAssets];
+  const seen = new Map<string, string>();
+  const declaredIds = new Set<string>();
+  const loaded: WorldIrAsset[] = [];
+  for (const asset of assets) {
+    declaredIds.add(asset.id);
     const sourceFile = path.resolve(root, asset.file);
+    const previous = seen.get(asset.id);
+    if (previous) {
+      if (previous !== sourceFile) throw new Error(`Duplicate asset id: ${asset.id}`);
+      continue;
+    }
+    seen.set(asset.id, sourceFile);
     if (!isInside(root, sourceFile)) throw new Error(`Unsafe asset path: ${asset.file}`);
-    if (!fs.existsSync(sourceFile)) throw new Error(`Missing asset '${asset.id}': ${asset.file}`);
+    if (!fs.existsSync(sourceFile)) {
+      if (asset.optional) continue;
+      throw new Error(`Missing asset '${asset.id}': ${asset.file}`);
+    }
     const extension = path.extname(sourceFile).slice(1).toLowerCase();
     if (!extension) throw new Error(`Asset '${asset.id}' must have a file extension`);
-    return {
+    loaded.push({
       id: asset.id,
       name: asset.name ?? path.basename(sourceFile),
       type: asset.type,
       extension,
       sourceFile,
       archivePath: normalizeArchivePath(`assets/other/${extension}/${asset.id}.${extension}`),
-    };
-  });
+    });
+  }
+  return { assets: loaded, declaredIds };
 }
 
 export function loadWorldIR(context: ProjectContext): WorldIR {
@@ -173,8 +211,7 @@ export function loadWorldIR(context: ProjectContext): WorldIR {
     if (ids.has(entity.id)) throw new Error(`Duplicate authoring entity id: ${entity.id}`);
     ids.add(entity.id);
   }
-  const assets = loadAssets(context.sourceDir);
-  const assetIds = new Set(assets.map((asset) => asset.id));
+  const { assets, declaredIds: assetIds } = loadAssets(context.sourceDir);
   for (const entity of entities) {
     for (const asset of entity.assets)
       if (!assetIds.has(asset)) throw new Error(`${entity.id} references unknown asset '${asset}'`);

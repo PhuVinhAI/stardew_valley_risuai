@@ -1,0 +1,51 @@
+schema: risuai-portrait-curation/v1
+character: abigail
+sourcePack: Mud's Skimpy Portraits Vol. 1
+sourceRoot: assets/imported/mud-portraits/abigail
+outfits:
+  default:
+    context: everyday
+    frames: &abigail-frames
+      expression-00: composed
+      expression-01: celebratory
+      expression-02: annoyed
+      expression-03: uneasy
+      expression-04: bashful
+      expression-05: teasing
+      expression-06: composed-alt
+      expression-07: startled
+      expression-09: soft
+    duplicates:
+      - frame: expression-08
+        duplicateOf: expression-06
+  winter:
+    context: cold-weather
+    frames: *abigail-frames
+    duplicates:
+      - frame: expression-08
+        duplicateOf: expression-06
+  beach:
+    context: beach
+    frames: *abigail-frames
+    duplicates:
+      - frame: expression-08
+        duplicateOf: expression-06
+  swimsuit:
+    context: swimwear
+    frames: *abigail-frames
+    duplicates:
+      - frame: expression-08
+        duplicateOf: expression-06
+  swimsuit-ex:
+    context: swimwear-private
+    frames: *abigail-frames
+    duplicates:
+      - frame: expression-08
+        duplicateOf: expression-06
+  nude:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *abigail-frames
+    duplicates:
+      - frame: expression-08
+        duplicateOf: expression-06

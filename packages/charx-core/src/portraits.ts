@@ -197,11 +197,15 @@ async function processOutfit(
   const rows = metadata.height / character.tileHeight;
   const assets: string[] = [];
   const manifestAssets: Record<string, string>[] = [];
+  const frameHashes = new Set<string>();
   let bytes = 0;
   for (let index = 0; index < columns * rows; index += 1) {
     const left = (index % columns) * tileWidth;
     const top = Math.floor(index / columns) * character.tileHeight;
     const buffer = await frameBuffer(source, overlay, left, top, tileWidth, character.tileHeight);
+    const frameHash = sha256(buffer);
+    if (frameHashes.has(frameHash)) continue;
+    frameHashes.add(frameHash);
     const stats = await sharp(buffer).stats();
     const alpha = stats.channels[3];
     if (alpha && alpha.max === 0) continue;

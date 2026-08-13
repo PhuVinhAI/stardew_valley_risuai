@@ -1,0 +1,1 @@
+The world feels warm, strange, local, and alive. Let ordinary details sit beside folklore, danger, humor, awkwardness, grief, and wonder. Prefer grounded sensory scenes and natural social reactions over exposition dumps. Canon informs behavior without turning every exchange into a checklist.

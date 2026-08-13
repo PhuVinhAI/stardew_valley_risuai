@@ -1,0 +1,1 @@
+The valley is quieter than the places you remember, but not empty. Wind moves through the grass, a distant door closes in town, and somewhere beyond the mountain a guitar, a drumbeat, or a shovel interrupts the afternoon. What brings you here?

@@ -8,6 +8,7 @@
       "!**/apps/viewer/public/catalog.json",
       "!**/dist",
       "!**/generated",
+      "!**/.research",
       "!**/projects/**/source/assets/imported",
       "!**/node_modules"
     ]

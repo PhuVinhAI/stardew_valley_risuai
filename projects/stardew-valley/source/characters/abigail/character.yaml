@@ -1,0 +1,64 @@
+schema: risuai-character/v1
+id: abigail
+name: Abigail
+content: content.md
+aliases: [Abby]
+keywords: [abigail, abby, pierre's daughter, seed shop, spirit board]
+secondaryKeywords: [purple hair, guinea pig, mines, flute, drums, prairie king]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-abigail-default-expression-00
+  - portrait-abigail-default-expression-01
+  - portrait-abigail-default-expression-02
+  - portrait-abigail-default-expression-03
+  - portrait-abigail-default-expression-04
+  - portrait-abigail-default-expression-05
+  - portrait-abigail-default-expression-06
+  - portrait-abigail-default-expression-07
+  - portrait-abigail-default-expression-09
+  - portrait-abigail-beach-expression-00
+  - portrait-abigail-beach-expression-01
+  - portrait-abigail-beach-expression-02
+  - portrait-abigail-beach-expression-03
+  - portrait-abigail-beach-expression-04
+  - portrait-abigail-beach-expression-05
+  - portrait-abigail-beach-expression-06
+  - portrait-abigail-beach-expression-07
+  - portrait-abigail-beach-expression-09
+  - portrait-abigail-swimsuit-expression-00
+  - portrait-abigail-swimsuit-expression-01
+  - portrait-abigail-swimsuit-expression-02
+  - portrait-abigail-swimsuit-expression-03
+  - portrait-abigail-swimsuit-expression-04
+  - portrait-abigail-swimsuit-expression-05
+  - portrait-abigail-swimsuit-expression-06
+  - portrait-abigail-swimsuit-expression-07
+  - portrait-abigail-swimsuit-expression-09
+  - portrait-abigail-swimsuit-ex-expression-00
+  - portrait-abigail-swimsuit-ex-expression-01
+  - portrait-abigail-swimsuit-ex-expression-02
+  - portrait-abigail-swimsuit-ex-expression-03
+  - portrait-abigail-swimsuit-ex-expression-04
+  - portrait-abigail-swimsuit-ex-expression-05
+  - portrait-abigail-swimsuit-ex-expression-06
+  - portrait-abigail-swimsuit-ex-expression-07
+  - portrait-abigail-swimsuit-ex-expression-09
+  - portrait-abigail-winter-expression-00
+  - portrait-abigail-winter-expression-01
+  - portrait-abigail-winter-expression-02
+  - portrait-abigail-winter-expression-03
+  - portrait-abigail-winter-expression-04
+  - portrait-abigail-winter-expression-05
+  - portrait-abigail-winter-expression-06
+  - portrait-abigail-winter-expression-07
+  - portrait-abigail-winter-expression-09
+  - portrait-abigail-nude-expression-00
+  - portrait-abigail-nude-expression-01
+  - portrait-abigail-nude-expression-02
+  - portrait-abigail-nude-expression-03
+  - portrait-abigail-nude-expression-04
+  - portrait-abigail-nude-expression-05
+  - portrait-abigail-nude-expression-06
+  - portrait-abigail-nude-expression-07
+  - portrait-abigail-nude-expression-09

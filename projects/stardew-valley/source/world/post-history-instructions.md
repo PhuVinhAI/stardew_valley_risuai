@@ -1,0 +1,1 @@
+Maintain continuity without freezing the story. Track established facts, current emotional temperature, practical details, and promises. Let characters initiate, refuse, revise plans, and have off-screen lives. Keep canon-compatible uncertainty when the source does not establish an answer.

@@ -170,9 +170,26 @@ export const AssetManifestSchema = z.object({
         file: SourcePathSchema,
         name: z.string().min(1).optional(),
         type: z.string().min(1).default("x-risu-asset"),
+        optional: z.boolean().default(false),
       }),
     )
     .default([]),
+});
+
+export const PortraitCurationSchema = z.object({
+  schema: z.literal("risuai-portrait-curation/v1"),
+  character: StableIdSchema,
+  sourcePack: z.string().min(1),
+  sourceRoot: SourcePathSchema,
+  outfits: z.record(
+    StableIdSchema,
+    z.object({
+      context: StableIdSchema,
+      defaultEnabled: z.boolean().default(true),
+      frames: z.record(StableIdSchema, StableIdSchema).default({}),
+      duplicates: z.array(z.object({ frame: StableIdSchema, duplicateOf: StableIdSchema })).default([]),
+    }),
+  ),
 });
 
 export const WorkspaceConfigSchema = z.object({
@@ -218,6 +235,7 @@ export type EventSource = z.infer<typeof EventSourceSchema>;
 export type ScheduleSource = z.infer<typeof ScheduleSourceSchema>;
 export type RelationshipSource = z.infer<typeof RelationshipSourceSchema>;
 export type AssetManifest = z.infer<typeof AssetManifestSchema>;
+export type PortraitCuration = z.infer<typeof PortraitCurationSchema>;
 
 export function parseProjectConfig(value: unknown): ProjectConfig {
   return ProjectConfigSchema.parse(value);

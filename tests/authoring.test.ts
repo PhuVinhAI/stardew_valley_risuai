@@ -1,4 +1,6 @@
 import { describe, expect, test } from "bun:test";
+import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
 import { compileAuthoringSources, countBuiltSourceTokens, loadWorldIR, resolveProject } from "@charx/core";
 
@@ -28,5 +30,70 @@ describe("agent authoring source", () => {
     const report = countBuiltSourceTokens(built, built.ir.tokenCheck);
     expect(report.total).toBeGreaterThan(0);
     expect(report.status).toBe("ok");
+  });
+
+  test("keeps per-outfit frame counts independent and permits missing local-only assets", () => {
+    const temporaryRoot = fs.mkdtempSync(path.join(os.tmpdir(), "charx-curation-"));
+    try {
+      fs.cpSync(fixtureRoot, temporaryRoot, { recursive: true });
+      const source = path.join(temporaryRoot, "source");
+      fs.mkdirSync(path.join(source, "assets", "curation"), { recursive: true });
+      for (const file of ["default/frame-a.webp", "beach/frame-a.webp", "beach/frame-b.webp"]) {
+        const target = path.join(source, "assets", "imported", "test-person", file);
+        fs.mkdirSync(path.dirname(target), { recursive: true });
+        fs.writeFileSync(target, "fixture");
+      }
+      fs.writeFileSync(
+        path.join(source, "assets", "curation", "test-person.yaml"),
+        [
+          "schema: risuai-portrait-curation/v1",
+          "character: test-person",
+          "sourcePack: Test",
+          "sourceRoot: assets/imported/test-person",
+          "outfits:",
+          "  default:",
+          "    context: everyday",
+          "    frames: { frame-a: neutral }",
+          "  beach:",
+          "    context: beach",
+          "    frames: { frame-a: neutral, frame-b: happy }",
+          "  nude:",
+          "    context: adult-private-consensual-only",
+          "    defaultEnabled: false",
+          "    frames: { frame-a: unclassified-01 }",
+          "",
+        ].join("\n"),
+      );
+      fs.writeFileSync(
+        path.join(source, "characters", "example-person", "character.yaml"),
+        [
+          "schema: risuai-character/v1",
+          "id: example-person",
+          "name: Example Person",
+          "content: content.md",
+          "keywords: [example-person]",
+          "alwaysActive: true",
+          "assets:",
+          "  - portrait-test-person-default-frame-a",
+          "  - portrait-test-person-beach-frame-a",
+          "  - portrait-test-person-beach-frame-b",
+          "  - portrait-test-person-nude-frame-a",
+          "",
+        ].join("\n"),
+      );
+      const ir = loadWorldIR({
+        ...context,
+        projectRoot: temporaryRoot,
+        sourceDir: source,
+        generatedDir: path.join(temporaryRoot, "generated"),
+      });
+      expect(ir.assets.map((asset) => asset.id)).toEqual([
+        "portrait-test-person-default-frame-a",
+        "portrait-test-person-beach-frame-a",
+        "portrait-test-person-beach-frame-b",
+      ]);
+    } finally {
+      fs.rmSync(temporaryRoot, { recursive: true, force: true });
+    }
   });
 });

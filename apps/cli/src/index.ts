@@ -3,6 +3,7 @@ import path from "node:path";
 import {
   buildProject,
   checkProject,
+  extractCharacterCanon,
   importCharx,
   importMudPortraits,
   importOoPortraits,
@@ -26,6 +27,24 @@ const program = new Command()
   .name("charx")
   .description("Agent-first RisuAI multi-project world authoring CLI")
   .version("1.0.0");
+
+program
+  .command("extract-canon")
+  .description("Build a local-only canon research corpus from an installed Stardew Valley game")
+  .requiredOption("--project <id>", "Workspace project id")
+  .requiredOption("--game <path>", "Stardew Valley game directory containing Content")
+  .requiredOption("--character <name>", "Canonical in-game character name")
+  .action(async (options: { project: string; game: string; character: string }) => {
+    const context = resolveProject(workspaceRoot, options.project);
+    const report = await extractCharacterCanon(context, path.resolve(options.game), options.character);
+    consola.success(
+      `Extracted ${report.summary.sources} matching sources and ${report.summary.entries} entries for ${report.character}`,
+    );
+    consola.info(
+      `Scanned ${report.summary.scanned} English XNB files; ${report.summary.unreadable} structured/binary files were left unread`,
+    );
+    consola.info(`Local-only research root: ${report.outputRoot}`);
+  });
 
 program
   .command("import-oo-portraits")
