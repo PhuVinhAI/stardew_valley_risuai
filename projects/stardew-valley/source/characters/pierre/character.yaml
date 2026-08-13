@@ -1,0 +1,25 @@
+schema: risuai-character/v1
+id: pierre
+name: Pierre
+content: content.md
+aliases: [Ms. Pierre]
+keywords: [pierre, general store, seed shop, pierre's shop, abigail's mother]
+secondaryKeywords: [caroline's wife, shopkeeper, jojamart rivalry, grange display, stocklist]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-pierre-default-expression-00
+  - portrait-pierre-default-expression-01
+  - portrait-pierre-default-expression-02
+  - portrait-pierre-default-expression-03
+  - portrait-pierre-default-expression-04
+  - portrait-pierre-winter-expression-00
+  - portrait-pierre-winter-expression-01
+  - portrait-pierre-winter-expression-02
+  - portrait-pierre-winter-expression-03
+  - portrait-pierre-winter-expression-04
+  - portrait-pierre-beach-expression-00
+  - portrait-pierre-beach-expression-01
+  - portrait-pierre-beach-expression-02
+  - portrait-pierre-beach-expression-03
+  - portrait-pierre-beach-expression-04

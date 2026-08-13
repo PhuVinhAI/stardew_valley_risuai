@@ -1,0 +1,12 @@
+schema: risuai-character/v1
+id: wizard
+name: Wizard
+content: content.md
+aliases: [Rasmodius, M. Rasmodius]
+keywords: [wizard, rasmodius, wizard's tower, magic, elementals]
+secondaryKeywords: [junimos, cauldron, magic ink, ex-wife the witch, apprentice]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-wizard-default-expression-00
+  - portrait-wizard-default-expression-01

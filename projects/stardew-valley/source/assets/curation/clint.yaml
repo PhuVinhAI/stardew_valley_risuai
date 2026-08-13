@@ -1,0 +1,47 @@
+schema: risuai-portrait-curation/v1
+character: clint
+sourcePack: OO's Anime Style Skimpy Portraits
+sourceRoot: assets/imported/oo-anime-portraits/clint
+variant: upscaled-2x
+outfits:
+  default:
+    context: forge-apron
+    frames: &clint-frames
+      expression-00: bashful
+      expression-01: pleased
+      expression-02: downcast
+      expression-03: flustered
+      expression-04: hesitant
+      expression-05: unwinding
+      expression-06: weary
+      expression-07: resigned
+    duplicates: []
+  beach:
+    context: swimwear
+    frames: *clint-frames
+    duplicates: []
+  winter:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *clint-frames
+    duplicates: []
+  swimsuit:
+    context: swimwear
+    frames: *clint-frames
+    duplicates:
+      - frame: expression-00
+        duplicateOf: expression-00
+      - frame: expression-01
+        duplicateOf: expression-01
+      - frame: expression-02
+        duplicateOf: expression-02
+      - frame: expression-03
+        duplicateOf: expression-03
+      - frame: expression-04
+        duplicateOf: expression-04
+      - frame: expression-05
+        duplicateOf: expression-05
+      - frame: expression-06
+        duplicateOf: expression-06
+      - frame: expression-07
+        duplicateOf: expression-07

@@ -1,0 +1,63 @@
+schema: risuai-character/v1
+id: alex
+name: Alex
+content: content.md
+aliases: []
+keywords: [alex, gridball, evelyn's granddaughter, george's granddaughter, dusty]
+secondaryKeywords: [going pro, training, letterman jacket, music box, river road]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-alex-default-expression-00
+  - portrait-alex-default-expression-01
+  - portrait-alex-default-expression-02
+  - portrait-alex-default-expression-03
+  - portrait-alex-default-expression-04
+  - portrait-alex-default-expression-05
+  - portrait-alex-default-expression-06
+  - portrait-alex-default-expression-07
+  - portrait-alex-default-expression-08
+  - portrait-alex-default-expression-09
+  - portrait-alex-default-expression-10
+  - portrait-alex-winter-expression-00
+  - portrait-alex-winter-expression-01
+  - portrait-alex-winter-expression-02
+  - portrait-alex-winter-expression-03
+  - portrait-alex-winter-expression-04
+  - portrait-alex-winter-expression-05
+  - portrait-alex-winter-expression-06
+  - portrait-alex-winter-expression-07
+  - portrait-alex-winter-expression-08
+  - portrait-alex-winter-expression-09
+  - portrait-alex-winter-expression-10
+  - portrait-alex-beach-expression-00
+  - portrait-alex-beach-expression-01
+  - portrait-alex-beach-expression-02
+  - portrait-alex-beach-expression-03
+  - portrait-alex-beach-expression-04
+  - portrait-alex-beach-expression-05
+  - portrait-alex-beach-expression-06
+  - portrait-alex-beach-expression-07
+  - portrait-alex-beach-expression-08
+  - portrait-alex-beach-expression-09
+  - portrait-alex-beach-expression-10
+  - portrait-alex-swimsuit-ex-expression-00
+  - portrait-alex-swimsuit-ex-expression-01
+  - portrait-alex-swimsuit-ex-expression-02
+  - portrait-alex-swimsuit-ex-expression-03
+  - portrait-alex-swimsuit-ex-expression-04
+  - portrait-alex-swimsuit-ex-expression-05
+  - portrait-alex-swimsuit-ex-expression-06
+  - portrait-alex-swimsuit-ex-expression-07
+  - portrait-alex-swimsuit-ex-expression-08
+  - portrait-alex-swimsuit-ex-expression-09
+  - portrait-alex-swimsuit-ex-expression-10
+  - portrait-alex-nude-expression-00
+  - portrait-alex-nude-expression-01
+  - portrait-alex-nude-expression-02
+  - portrait-alex-nude-expression-03
+  - portrait-alex-nude-expression-04
+  - portrait-alex-nude-expression-05
+  - portrait-alex-nude-expression-07
+  - portrait-alex-nude-expression-09
+  - portrait-alex-nude-expression-10

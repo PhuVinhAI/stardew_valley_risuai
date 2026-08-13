@@ -1,0 +1,11 @@
+schema: risuai-character/v1
+id: gunther
+name: Gunther
+content: content.md
+aliases: [Professor Gunther]
+keywords: [gunther, museum, curator, library, artifacts]
+secondaryKeywords: [archaeology, minerals, donations, bones, display cases]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-gunther-default-expression-00

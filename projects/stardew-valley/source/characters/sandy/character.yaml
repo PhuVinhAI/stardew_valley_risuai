@@ -1,0 +1,14 @@
+schema: risuai-character/v1
+id: sandy
+name: Sandy
+content: content.md
+aliases: []
+keywords: [sandy, oasis, calico desert, desert shop, emily's friend]
+secondaryKeywords: [seasonal seeds, cactus fruit, air conditioning, back room club, makeover]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-sandy-default-expression-00
+  - portrait-sandy-default-expression-03
+  - portrait-sandy-default-expression-01
+  - portrait-sandy-default-expression-02

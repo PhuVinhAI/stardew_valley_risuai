@@ -1,0 +1,28 @@
+schema: risuai-character/v1
+id: lewis
+name: Lewis
+content: content.md
+aliases: [Mayor Lewis, Ms. Lewis]
+keywords: [lewis, mayor, manor house, town hall, mayor's office]
+secondaryKeywords: [festivals, shipping box, town garden, business tax, town's image]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-lewis-default-expression-00
+  - portrait-lewis-default-expression-01
+  - portrait-lewis-default-expression-02
+  - portrait-lewis-default-expression-03
+  - portrait-lewis-default-expression-04
+  - portrait-lewis-default-expression-05
+  - portrait-lewis-beach-expression-00
+  - portrait-lewis-beach-expression-01
+  - portrait-lewis-beach-expression-02
+  - portrait-lewis-beach-expression-03
+  - portrait-lewis-beach-expression-04
+  - portrait-lewis-beach-expression-05
+  - portrait-lewis-winter-expression-00
+  - portrait-lewis-winter-expression-01
+  - portrait-lewis-winter-expression-02
+  - portrait-lewis-winter-expression-03
+  - portrait-lewis-winter-expression-04
+  - portrait-lewis-winter-expression-05

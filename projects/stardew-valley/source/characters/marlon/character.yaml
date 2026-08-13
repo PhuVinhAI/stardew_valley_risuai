@@ -1,0 +1,11 @@
+schema: risuai-character/v1
+id: marlon
+name: Marlon
+content: content.md
+aliases: []
+keywords: [marlon, adventurer's guild, guild leader, monster slayer, mine entrance]
+secondaryKeywords: [weapons, item recovery, slime eggs, eyepatch, gil]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-marlon-default-expression-00

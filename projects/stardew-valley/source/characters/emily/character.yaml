@@ -1,0 +1,57 @@
+schema: risuai-character/v1
+id: emily
+name: Emily
+content: content.md
+aliases: []
+keywords: [emily, saloon barmaid, tailoring, haley's sister, crystals]
+secondaryKeywords: [sewing, gemstones, spirits and dreams, parrot, clothing therapy]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-emily-default-expression-00
+  - portrait-emily-default-expression-01
+  - portrait-emily-default-expression-02
+  - portrait-emily-default-expression-03
+  - portrait-emily-default-expression-04
+  - portrait-emily-default-expression-05
+  - portrait-emily-default-expression-06
+  - portrait-emily-default-expression-07
+  - portrait-emily-winter-expression-00
+  - portrait-emily-winter-expression-01
+  - portrait-emily-winter-expression-02
+  - portrait-emily-winter-expression-03
+  - portrait-emily-winter-expression-04
+  - portrait-emily-winter-expression-05
+  - portrait-emily-winter-expression-06
+  - portrait-emily-winter-expression-07
+  - portrait-emily-beach-expression-00
+  - portrait-emily-beach-expression-01
+  - portrait-emily-beach-expression-02
+  - portrait-emily-beach-expression-03
+  - portrait-emily-beach-expression-04
+  - portrait-emily-beach-expression-05
+  - portrait-emily-beach-expression-06
+  - portrait-emily-beach-expression-07
+  - portrait-emily-swimsuit-expression-00
+  - portrait-emily-swimsuit-expression-01
+  - portrait-emily-swimsuit-expression-02
+  - portrait-emily-swimsuit-expression-03
+  - portrait-emily-swimsuit-expression-04
+  - portrait-emily-swimsuit-expression-05
+  - portrait-emily-swimsuit-expression-06
+  - portrait-emily-swimsuit-expression-07
+  - portrait-emily-nude-expression-00
+  - portrait-emily-nude-expression-01
+  - portrait-emily-nude-expression-02
+  - portrait-emily-nude-expression-03
+  - portrait-emily-nude-expression-04
+  - portrait-emily-nude-expression-05
+  - portrait-emily-nude-expression-06
+  - portrait-emily-nude-expression-07
+  - portrait-emily-swimsuit-ex-expression-00
+  - portrait-emily-swimsuit-ex-expression-01
+  - portrait-emily-swimsuit-ex-expression-02
+  - portrait-emily-swimsuit-ex-expression-03
+  - portrait-emily-swimsuit-ex-expression-04
+  - portrait-emily-swimsuit-ex-expression-05
+  - portrait-emily-swimsuit-ex-expression-07

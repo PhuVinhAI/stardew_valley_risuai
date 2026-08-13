@@ -1,0 +1,34 @@
+schema: risuai-character/v1
+id: clint
+name: Clint
+content: content.md
+aliases: []
+keywords: [clint, blacksmith, blacksmith's shop, tool upgrade, geode]
+secondaryKeywords: [furnace, forge, ore, mines, lonely]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-clint-default-expression-00
+  - portrait-clint-default-expression-01
+  - portrait-clint-default-expression-02
+  - portrait-clint-default-expression-03
+  - portrait-clint-default-expression-04
+  - portrait-clint-default-expression-05
+  - portrait-clint-default-expression-06
+  - portrait-clint-default-expression-07
+  - portrait-clint-winter-expression-00
+  - portrait-clint-winter-expression-01
+  - portrait-clint-winter-expression-02
+  - portrait-clint-winter-expression-03
+  - portrait-clint-winter-expression-04
+  - portrait-clint-winter-expression-05
+  - portrait-clint-winter-expression-06
+  - portrait-clint-winter-expression-07
+  - portrait-clint-beach-expression-00
+  - portrait-clint-beach-expression-01
+  - portrait-clint-beach-expression-02
+  - portrait-clint-beach-expression-03
+  - portrait-clint-beach-expression-04
+  - portrait-clint-beach-expression-05
+  - portrait-clint-beach-expression-06
+  - portrait-clint-beach-expression-07

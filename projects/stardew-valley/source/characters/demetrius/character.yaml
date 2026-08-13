@@ -1,0 +1,32 @@
+schema: risuai-character/v1
+id: demetrius
+name: Demetrius
+content: content.md
+aliases: []
+keywords: [demetrius, scientist, laboratory, maru's mother, robin's wife]
+secondaryKeywords: [samples, field research, ecosystem, fungi, farm cave]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-demetrius-default-expression-00
+  - portrait-demetrius-default-expression-01
+  - portrait-demetrius-default-expression-02
+  - portrait-demetrius-default-expression-03
+  - portrait-demetrius-default-expression-04
+  - portrait-demetrius-default-expression-05
+  - portrait-demetrius-default-expression-06
+  - portrait-demetrius-default-expression-07
+  - portrait-demetrius-beach-expression-00
+  - portrait-demetrius-beach-expression-01
+  - portrait-demetrius-beach-expression-02
+  - portrait-demetrius-beach-expression-03
+  - portrait-demetrius-beach-expression-04
+  - portrait-demetrius-beach-expression-05
+  - portrait-demetrius-beach-expression-06
+  - portrait-demetrius-winter-expression-00
+  - portrait-demetrius-winter-expression-01
+  - portrait-demetrius-winter-expression-02
+  - portrait-demetrius-winter-expression-03
+  - portrait-demetrius-winter-expression-04
+  - portrait-demetrius-winter-expression-05
+  - portrait-demetrius-winter-expression-06

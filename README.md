@@ -57,4 +57,4 @@ Add another imported reference:
 bun run charx add-example "C:\path\to\reference.charx" --id example-id --risuai ../Risuai
 ```
 
-See [docs/AUTHORING_SCHEMA.md](docs/AUTHORING_SCHEMA.md) for the source contract and [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for package boundaries.
+See [docs/AUTHORING_SCHEMA.md](docs/AUTHORING_SCHEMA.md) for the source contract and [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for package boundaries. [docs/CANON_NOTES.md](docs/CANON_NOTES.md) records canon grounding decisions and open items; read it before changing character prose to match a raw game-data field.

@@ -1,0 +1,22 @@
+schema: risuai-character/v1
+id: caroline
+name: Caroline
+content: content.md
+aliases: []
+keywords: [caroline, pierre's wife, abigail's mother, sunroom, aerobics club]
+secondaryKeywords: [green tea, tea sapling, public gardens, back garden, holiday shopping]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-caroline-default-expression-00
+  - portrait-caroline-default-expression-01
+  - portrait-caroline-default-expression-02
+  - portrait-caroline-default-expression-03
+  - portrait-caroline-winter-expression-00
+  - portrait-caroline-winter-expression-01
+  - portrait-caroline-winter-expression-02
+  - portrait-caroline-winter-expression-03
+  - portrait-caroline-beach-expression-00
+  - portrait-caroline-beach-expression-01
+  - portrait-caroline-beach-expression-02
+  - portrait-caroline-beach-expression-03

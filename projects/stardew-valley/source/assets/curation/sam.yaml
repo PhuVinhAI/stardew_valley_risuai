@@ -1,0 +1,80 @@
+schema: risuai-portrait-curation/v1
+character: sam
+sourcePack: Mud's Skimpy Portraits
+sourceRoot: assets/imported/mud-portraits/sam
+outfits:
+  default:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: &sam-frames
+      expression-00: cheerful
+      expression-01: sheepish
+      expression-02: turned
+      expression-03: content
+      expression-04: bashful
+      expression-05: indignant
+      expression-06: sulking
+      expression-07: coy
+      expression-08: alarmed
+      expression-09: tearful
+      expression-10: weary
+      expression-11: flustered
+    duplicates: []
+  beach:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *sam-frames
+    duplicates: []
+  winter:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *sam-frames
+    duplicates:
+      - frame: expression-11
+        duplicateOf: expression-11
+  joja-uniform:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *sam-frames
+    duplicates:
+      - frame: expression-11
+        duplicateOf: expression-11
+  swimsuit-ex:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *sam-frames
+    duplicates:
+      - frame: expression-11
+        duplicateOf: expression-11
+  nude:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *sam-frames
+    duplicates: []
+  swimsuit:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *sam-frames
+    duplicates:
+      - frame: expression-00
+        duplicateOf: expression-00
+      - frame: expression-01
+        duplicateOf: expression-01
+      - frame: expression-02
+        duplicateOf: expression-02
+      - frame: expression-03
+        duplicateOf: expression-03
+      - frame: expression-04
+        duplicateOf: expression-04
+      - frame: expression-05
+        duplicateOf: expression-05
+      - frame: expression-07
+        duplicateOf: expression-07
+      - frame: expression-08
+        duplicateOf: expression-08
+      - frame: expression-09
+        duplicateOf: expression-09
+      - frame: expression-10
+        duplicateOf: expression-10
+      - frame: expression-11
+        duplicateOf: expression-11

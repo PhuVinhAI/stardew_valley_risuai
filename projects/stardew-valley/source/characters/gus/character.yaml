@@ -1,0 +1,22 @@
+schema: risuai-character/v1
+id: gus
+name: Gus
+content: content.md
+aliases: []
+keywords: [gus, stardrop saloon, saloon, chef, bartender]
+secondaryKeywords: [secret sauce, dish of the day, giant omelet, jukebox, regulars]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-gus-default-expression-00
+  - portrait-gus-default-expression-01
+  - portrait-gus-default-expression-02
+  - portrait-gus-default-expression-03
+  - portrait-gus-beach-expression-00
+  - portrait-gus-beach-expression-01
+  - portrait-gus-beach-expression-02
+  - portrait-gus-beach-expression-03
+  - portrait-gus-winter-expression-00
+  - portrait-gus-winter-expression-01
+  - portrait-gus-winter-expression-02
+  - portrait-gus-winter-expression-03

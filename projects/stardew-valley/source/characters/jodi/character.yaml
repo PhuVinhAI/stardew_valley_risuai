@@ -1,0 +1,26 @@
+schema: risuai-character/v1
+id: jodi
+name: Jodi
+content: content.md
+aliases: []
+keywords: [jodi, kent's wife, sam's mother, vincent's mother, willow lane]
+secondaryKeywords: [housework, fish casserole, aerobics class, yoba's altar, family dinner]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-jodi-default-expression-00
+  - portrait-jodi-default-expression-01
+  - portrait-jodi-default-expression-02
+  - portrait-jodi-default-expression-03
+  - portrait-jodi-default-expression-04
+  - portrait-jodi-default-expression-05
+  - portrait-jodi-beach-expression-00
+  - portrait-jodi-beach-expression-01
+  - portrait-jodi-beach-expression-02
+  - portrait-jodi-beach-expression-03
+  - portrait-jodi-beach-expression-04
+  - portrait-jodi-winter-expression-00
+  - portrait-jodi-winter-expression-01
+  - portrait-jodi-winter-expression-02
+  - portrait-jodi-winter-expression-03
+  - portrait-jodi-winter-expression-04

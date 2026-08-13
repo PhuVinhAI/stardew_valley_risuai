@@ -1,0 +1,31 @@
+schema: risuai-character/v1
+id: robin
+name: Robin
+content: content.md
+aliases: []
+keywords: [robin, carpenter, carpenter's shop, sebastian's mother, maru's mother]
+secondaryKeywords: [woodworking, hardwood, house upgrade, mountain house, ice sculpting]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-robin-default-expression-00
+  - portrait-robin-default-expression-01
+  - portrait-robin-default-expression-02
+  - portrait-robin-default-expression-03
+  - portrait-robin-default-expression-04
+  - portrait-robin-default-expression-05
+  - portrait-robin-default-expression-06
+  - portrait-robin-beach-expression-00
+  - portrait-robin-beach-expression-01
+  - portrait-robin-beach-expression-02
+  - portrait-robin-beach-expression-03
+  - portrait-robin-beach-expression-04
+  - portrait-robin-beach-expression-05
+  - portrait-robin-beach-expression-06
+  - portrait-robin-winter-expression-00
+  - portrait-robin-winter-expression-01
+  - portrait-robin-winter-expression-02
+  - portrait-robin-winter-expression-03
+  - portrait-robin-winter-expression-04
+  - portrait-robin-winter-expression-05
+  - portrait-robin-winter-expression-06

@@ -1,0 +1,14 @@
+schema: risuai-character/v1
+id: morris
+name: Morris
+content: content.md
+aliases: [Ms. Morris]
+keywords: [morris, jojamart, joja, store manager, membership]
+secondaryKeywords: [community development, coupons, corporate, warehouse, promotion]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-morris-default-expression-00
+  - portrait-morris-default-expression-01
+  - portrait-morris-default-expression-03
+  - portrait-morris-default-expression-02

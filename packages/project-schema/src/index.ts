@@ -181,11 +181,13 @@ export const PortraitCurationSchema = z.object({
   character: StableIdSchema,
   sourcePack: z.string().min(1),
   sourceRoot: SourcePathSchema,
+  variant: StableIdSchema.optional(),
   outfits: z.record(
     StableIdSchema,
     z.object({
       context: StableIdSchema,
       defaultEnabled: z.boolean().default(true),
+      variant: StableIdSchema.optional(),
       frames: z.record(StableIdSchema, StableIdSchema).default({}),
       duplicates: z.array(z.object({ frame: StableIdSchema, duplicateOf: StableIdSchema })).default([]),
     }),

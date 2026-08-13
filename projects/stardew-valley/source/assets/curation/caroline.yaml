@@ -1,0 +1,34 @@
+schema: risuai-portrait-curation/v1
+character: caroline
+sourcePack: OO's Anime Style Skimpy Portraits
+sourceRoot: assets/imported/oo-anime-portraits/caroline
+variant: upscaled-2x
+outfits:
+  default:
+    context: everyday
+    frames: &caroline-frames
+      expression-00: pleasant
+      expression-01: amused
+      expression-02: bashful
+      expression-03: downcast
+    duplicates: []
+  beach:
+    context: swimwear
+    frames: *caroline-frames
+    duplicates: []
+  winter:
+    context: cold-weather
+    frames: *caroline-frames
+    duplicates: []
+  swimsuit:
+    context: swimwear
+    frames: *caroline-frames
+    duplicates:
+      - frame: expression-00
+        duplicateOf: expression-00
+      - frame: expression-01
+        duplicateOf: expression-01
+      - frame: expression-02
+        duplicateOf: expression-02
+      - frame: expression-03
+        duplicateOf: expression-03

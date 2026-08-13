@@ -1,0 +1,62 @@
+schema: risuai-portrait-curation/v1
+character: leah
+sourcePack: Mud's Skimpy Portraits
+sourceRoot: assets/imported/mud-portraits/leah
+outfits:
+  default:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: &leah-frames
+      expression-00: grinning
+      expression-01: laughing
+      expression-02: turned
+      expression-03: wry
+      expression-04: bashful
+      expression-05: assertive
+      expression-06: dismayed
+      expression-07: unimpressed
+      expression-08: on-the-phone
+    duplicates: []
+  beach:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *leah-frames
+    duplicates: []
+  winter:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *leah-frames
+    duplicates: []
+  swimsuit-ex:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *leah-frames
+    duplicates: []
+  nude:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *leah-frames
+    duplicates: []
+  swimsuit:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *leah-frames
+    duplicates:
+      - frame: expression-00
+        duplicateOf: expression-00
+      - frame: expression-01
+        duplicateOf: expression-01
+      - frame: expression-02
+        duplicateOf: expression-02
+      - frame: expression-03
+        duplicateOf: expression-03
+      - frame: expression-04
+        duplicateOf: expression-04
+      - frame: expression-05
+        duplicateOf: expression-05
+      - frame: expression-06
+        duplicateOf: expression-06
+      - frame: expression-07
+        duplicateOf: expression-07
+      - frame: expression-08
+        duplicateOf: expression-08

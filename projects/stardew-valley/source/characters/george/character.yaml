@@ -1,0 +1,18 @@
+schema: risuai-character/v1
+id: george
+name: George
+content: content.md
+aliases: [Ms. Mullner]
+keywords: [george, evelyn's wife, alex's grandmother, retired miner, wheelchair]
+secondaryKeywords: [television, leeks, coal mine accident, river road, gridball game]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-george-default-expression-00
+  - portrait-george-default-expression-01
+  - portrait-george-default-expression-02
+  - portrait-george-default-expression-03
+  - portrait-george-winter-expression-00
+  - portrait-george-winter-expression-01
+  - portrait-george-winter-expression-02
+  - portrait-george-winter-expression-03

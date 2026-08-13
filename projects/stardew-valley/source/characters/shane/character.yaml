@@ -1,0 +1,108 @@
+schema: risuai-character/v1
+id: shane
+name: Shane
+content: content.md
+aliases: []
+keywords: [shane, marnie's niece, jas's godmother, blue chickens, tunnelers]
+secondaryKeywords: [warehouse job, saloon, gridball, arcade game, frozen pizza]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-shane-default-expression-00
+  - portrait-shane-default-expression-01
+  - portrait-shane-default-expression-02
+  - portrait-shane-default-expression-03
+  - portrait-shane-default-expression-04
+  - portrait-shane-default-expression-05
+  - portrait-shane-default-expression-06
+  - portrait-shane-default-expression-07
+  - portrait-shane-default-expression-08
+  - portrait-shane-default-expression-09
+  - portrait-shane-default-expression-10
+  - portrait-shane-beach-expression-00
+  - portrait-shane-beach-expression-01
+  - portrait-shane-beach-expression-02
+  - portrait-shane-beach-expression-03
+  - portrait-shane-beach-expression-04
+  - portrait-shane-beach-expression-05
+  - portrait-shane-beach-expression-06
+  - portrait-shane-beach-expression-07
+  - portrait-shane-beach-expression-08
+  - portrait-shane-beach-expression-09
+  - portrait-shane-beach-expression-10
+  - portrait-shane-joja-uniform-expression-00
+  - portrait-shane-joja-uniform-expression-01
+  - portrait-shane-joja-uniform-expression-02
+  - portrait-shane-joja-uniform-expression-03
+  - portrait-shane-joja-uniform-expression-04
+  - portrait-shane-joja-uniform-expression-05
+  - portrait-shane-joja-uniform-expression-06
+  - portrait-shane-joja-uniform-expression-07
+  - portrait-shane-joja-uniform-expression-08
+  - portrait-shane-joja-uniform-expression-09
+  - portrait-shane-joja-uniform-expression-10
+  - portrait-shane-winter-expression-00
+  - portrait-shane-winter-expression-01
+  - portrait-shane-winter-expression-02
+  - portrait-shane-winter-expression-03
+  - portrait-shane-winter-expression-04
+  - portrait-shane-winter-expression-05
+  - portrait-shane-winter-expression-06
+  - portrait-shane-winter-expression-07
+  - portrait-shane-winter-expression-08
+  - portrait-shane-winter-expression-09
+  - portrait-shane-winter-expression-10
+  - portrait-shane-swimsuit-ex-expression-00
+  - portrait-shane-swimsuit-ex-expression-01
+  - portrait-shane-swimsuit-ex-expression-02
+  - portrait-shane-swimsuit-ex-expression-03
+  - portrait-shane-swimsuit-ex-expression-04
+  - portrait-shane-swimsuit-ex-expression-05
+  - portrait-shane-swimsuit-ex-expression-06
+  - portrait-shane-swimsuit-ex-expression-07
+  - portrait-shane-swimsuit-ex-expression-08
+  - portrait-shane-swimsuit-ex-expression-09
+  - portrait-shane-swimsuit-ex-expression-10
+  - portrait-shane-nude-expression-00
+  - portrait-shane-nude-expression-01
+  - portrait-shane-nude-expression-02
+  - portrait-shane-nude-expression-03
+  - portrait-shane-nude-expression-04
+  - portrait-shane-nude-expression-05
+  - portrait-shane-nude-expression-06
+  - portrait-shane-nude-expression-07
+  - portrait-shane-nude-expression-08
+  - portrait-shane-nude-expression-09
+  - portrait-shane-nude-expression-10
+  - portrait-shane-default-post-event-expression-00
+  - portrait-shane-default-post-event-expression-01
+  - portrait-shane-default-post-event-expression-02
+  - portrait-shane-default-post-event-expression-03
+  - portrait-shane-default-post-event-expression-04
+  - portrait-shane-default-post-event-expression-06
+  - portrait-shane-default-post-event-expression-09
+  - portrait-shane-default-post-event-expression-10
+  - portrait-shane-beach-post-event-expression-00
+  - portrait-shane-beach-post-event-expression-01
+  - portrait-shane-beach-post-event-expression-02
+  - portrait-shane-beach-post-event-expression-03
+  - portrait-shane-beach-post-event-expression-04
+  - portrait-shane-beach-post-event-expression-06
+  - portrait-shane-beach-post-event-expression-09
+  - portrait-shane-beach-post-event-expression-10
+  - portrait-shane-joja-uniform-post-event-expression-00
+  - portrait-shane-joja-uniform-post-event-expression-01
+  - portrait-shane-joja-uniform-post-event-expression-02
+  - portrait-shane-joja-uniform-post-event-expression-03
+  - portrait-shane-joja-uniform-post-event-expression-04
+  - portrait-shane-joja-uniform-post-event-expression-06
+  - portrait-shane-joja-uniform-post-event-expression-09
+  - portrait-shane-joja-uniform-post-event-expression-10
+  - portrait-shane-winter-post-event-expression-00
+  - portrait-shane-winter-post-event-expression-01
+  - portrait-shane-winter-post-event-expression-02
+  - portrait-shane-winter-post-event-expression-03
+  - portrait-shane-winter-post-event-expression-04
+  - portrait-shane-winter-post-event-expression-06
+  - portrait-shane-winter-post-event-expression-09
+  - portrait-shane-winter-post-event-expression-10

@@ -1,0 +1,45 @@
+schema: risuai-portrait-curation/v1
+character: emily
+sourcePack: Mud's Skimpy Portraits
+sourceRoot: assets/imported/mud-portraits/emily
+outfits:
+  default:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: &emily-frames
+      expression-00: serene
+      expression-01: bright
+      expression-02: startled
+      expression-03: reserved
+      expression-04: dreamy
+      expression-05: alarmed
+      expression-06: delighted
+      expression-07: radiant-explicit
+    duplicates: []
+  beach:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *emily-frames
+    duplicates: []
+  winter:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *emily-frames
+    duplicates: []
+  swimsuit:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *emily-frames
+    duplicates: []
+  swimsuit-ex:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *emily-frames
+    duplicates:
+      - frame: expression-06
+        duplicateOf: expression-06
+  nude:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *emily-frames
+    duplicates: []

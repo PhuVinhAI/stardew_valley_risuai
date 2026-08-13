@@ -1,0 +1,11 @@
+schema: risuai-portrait-curation/v1
+character: gunther
+sourcePack: OO's Anime Style Skimpy Portraits
+sourceRoot: assets/imported/oo-anime-portraits/gunther
+variant: upscaled-2x
+outfits:
+  default:
+    context: museum-curator
+    frames:
+      expression-00: pleased
+    duplicates: []

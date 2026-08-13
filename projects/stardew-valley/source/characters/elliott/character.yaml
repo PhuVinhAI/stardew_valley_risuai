@@ -1,0 +1,45 @@
+schema: risuai-character/v1
+id: elliott
+name: Elliott
+content: content.md
+aliases: []
+keywords: [elliott, writer, beach cabin, novel, writing desk]
+secondaryKeywords: [piano, poetry, seashells, reading tour, rowboat]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-elliott-default-expression-00
+  - portrait-elliott-default-expression-01
+  - portrait-elliott-default-expression-02
+  - portrait-elliott-default-expression-03
+  - portrait-elliott-default-expression-04
+  - portrait-elliott-default-expression-05
+  - portrait-elliott-default-expression-06
+  - portrait-elliott-winter-expression-00
+  - portrait-elliott-winter-expression-01
+  - portrait-elliott-winter-expression-02
+  - portrait-elliott-winter-expression-03
+  - portrait-elliott-winter-expression-04
+  - portrait-elliott-winter-expression-05
+  - portrait-elliott-winter-expression-06
+  - portrait-elliott-beach-expression-00
+  - portrait-elliott-beach-expression-01
+  - portrait-elliott-beach-expression-02
+  - portrait-elliott-beach-expression-03
+  - portrait-elliott-beach-expression-04
+  - portrait-elliott-beach-expression-05
+  - portrait-elliott-beach-expression-06
+  - portrait-elliott-swimsuit-ex-expression-00
+  - portrait-elliott-swimsuit-ex-expression-01
+  - portrait-elliott-swimsuit-ex-expression-02
+  - portrait-elliott-swimsuit-ex-expression-03
+  - portrait-elliott-swimsuit-ex-expression-04
+  - portrait-elliott-swimsuit-ex-expression-05
+  - portrait-elliott-swimsuit-ex-expression-06
+  - portrait-elliott-nude-expression-00
+  - portrait-elliott-nude-expression-01
+  - portrait-elliott-nude-expression-02
+  - portrait-elliott-nude-expression-03
+  - portrait-elliott-nude-expression-04
+  - portrait-elliott-nude-expression-05
+  - portrait-elliott-nude-expression-06

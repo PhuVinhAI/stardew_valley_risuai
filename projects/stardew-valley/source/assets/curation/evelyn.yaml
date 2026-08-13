@@ -1,0 +1,24 @@
+schema: risuai-portrait-curation/v1
+character: evelyn
+sourcePack: OO's Anime Style Skimpy Portraits
+sourceRoot: assets/imported/oo-anime-portraits/evelyn
+variant: upscaled-2x
+outfits:
+  default:
+    context: everyday
+    frames: &evelyn-frames
+      expression-00: fond
+      expression-01: delighted
+      expression-02: worried
+      expression-03: gentle
+    duplicates: []
+  swimsuit:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *evelyn-frames
+    duplicates: []
+  winter:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *evelyn-frames
+    duplicates: []

@@ -1,0 +1,80 @@
+schema: risuai-character/v1
+id: haley
+name: Haley
+content: content.md
+aliases: []
+keywords: [haley, emily's sister, photography, fashion, dark room]
+secondaryKeywords: [camera, sunflowers, great-grandmother's bracelet, beach, magazines]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-haley-default-expression-00
+  - portrait-haley-default-expression-01
+  - portrait-haley-default-expression-02
+  - portrait-haley-default-expression-03
+  - portrait-haley-default-expression-04
+  - portrait-haley-default-expression-05
+  - portrait-haley-default-expression-06
+  - portrait-haley-default-expression-07
+  - portrait-haley-default-expression-08
+  - portrait-haley-default-expression-09
+  - portrait-haley-default-expression-10
+  - portrait-haley-default-expression-11
+  - portrait-haley-default-expression-12
+  - portrait-haley-default-expression-13
+  - portrait-haley-winter-expression-00
+  - portrait-haley-winter-expression-01
+  - portrait-haley-winter-expression-02
+  - portrait-haley-winter-expression-03
+  - portrait-haley-winter-expression-04
+  - portrait-haley-winter-expression-05
+  - portrait-haley-winter-expression-06
+  - portrait-haley-winter-expression-07
+  - portrait-haley-winter-expression-08
+  - portrait-haley-winter-expression-09
+  - portrait-haley-winter-expression-10
+  - portrait-haley-winter-expression-11
+  - portrait-haley-winter-expression-12
+  - portrait-haley-winter-expression-13
+  - portrait-haley-beach-expression-00
+  - portrait-haley-beach-expression-01
+  - portrait-haley-beach-expression-02
+  - portrait-haley-beach-expression-03
+  - portrait-haley-beach-expression-04
+  - portrait-haley-beach-expression-05
+  - portrait-haley-beach-expression-06
+  - portrait-haley-beach-expression-07
+  - portrait-haley-beach-expression-08
+  - portrait-haley-beach-expression-09
+  - portrait-haley-beach-expression-10
+  - portrait-haley-beach-expression-11
+  - portrait-haley-beach-expression-12
+  - portrait-haley-beach-expression-13
+  - portrait-haley-swimsuit-ex-expression-00
+  - portrait-haley-swimsuit-ex-expression-01
+  - portrait-haley-swimsuit-ex-expression-02
+  - portrait-haley-swimsuit-ex-expression-03
+  - portrait-haley-swimsuit-ex-expression-04
+  - portrait-haley-swimsuit-ex-expression-05
+  - portrait-haley-swimsuit-ex-expression-06
+  - portrait-haley-swimsuit-ex-expression-07
+  - portrait-haley-swimsuit-ex-expression-08
+  - portrait-haley-swimsuit-ex-expression-09
+  - portrait-haley-swimsuit-ex-expression-10
+  - portrait-haley-swimsuit-ex-expression-11
+  - portrait-haley-swimsuit-ex-expression-12
+  - portrait-haley-swimsuit-ex-expression-13
+  - portrait-haley-nude-expression-00
+  - portrait-haley-nude-expression-01
+  - portrait-haley-nude-expression-02
+  - portrait-haley-nude-expression-03
+  - portrait-haley-nude-expression-04
+  - portrait-haley-nude-expression-05
+  - portrait-haley-nude-expression-06
+  - portrait-haley-nude-expression-07
+  - portrait-haley-nude-expression-08
+  - portrait-haley-nude-expression-09
+  - portrait-haley-nude-expression-10
+  - portrait-haley-nude-expression-11
+  - portrait-haley-nude-expression-12
+  - portrait-haley-nude-expression-13

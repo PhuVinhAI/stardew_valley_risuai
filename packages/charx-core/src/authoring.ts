@@ -117,12 +117,9 @@ function loadAssets(sourceDir: string): { assets: WorldIrAsset[]; declaredIds: S
   const curatedCharacters = new Set(
     curationFiles.map((curationFile) => PortraitCurationSchema.parse(readYaml(curationFile)).character),
   );
-  const manifestFiles = listFiles(path.join(root, "assets"), "**/manifest.yaml").filter((manifestFile) => {
-    if (!isInside(importedRoot, manifestFile) || curatedCharacters.size === 0) return true;
-    const relative = path.relative(importedRoot, manifestFile).replaceAll("\\", "/");
-    const character = relative.split("/")[1];
-    return character ? curatedCharacters.has(character) : true;
-  });
+  const manifestFiles = listFiles(path.join(root, "assets"), "**/manifest.yaml").filter(
+    (manifestFile) => !isInside(importedRoot, manifestFile) || curatedCharacters.size === 0,
+  );
   const manifestAssets = manifestFiles.flatMap(
     (manifestFile) => AssetManifestSchema.parse(readYaml(manifestFile)).assets,
   );
@@ -130,18 +127,24 @@ function loadAssets(sourceDir: string): { assets: WorldIrAsset[]; declaredIds: S
     const curation = PortraitCurationSchema.parse(readYaml(curationFile));
     return Object.entries(curation.outfits).flatMap(([outfit, spec]) => {
       const duplicateFrames = new Set(spec.duplicates.map((item) => item.frame));
+      const variant = spec.variant ?? curation.variant;
+      const directory = [curation.sourceRoot, outfit, variant].filter(Boolean).join("/");
       return Object.entries(spec.frames)
         .filter(([frame]) => !duplicateFrames.has(frame))
         .map(([frame, label]) => ({
           id: `portrait-${curation.character}-${outfit}-${frame}`,
-          file: `${curation.sourceRoot}/${outfit}/${frame}.webp`,
+          file: `${directory}/${frame}.webp`,
           name: `${curation.character} / ${outfit} / ${label}`,
           type: "x-risu-asset",
           optional: true,
         }));
     });
   });
-  const assets = [...manifestAssets, ...curatedAssets];
+  const curatedFiles = new Set(curatedAssets.map((asset) => normalizeArchivePath(asset.file)));
+  const assets = [
+    ...manifestAssets.filter((asset) => !curatedFiles.has(normalizeArchivePath(asset.file))),
+    ...curatedAssets,
+  ];
   const seen = new Map<string, string>();
   const declaredIds = new Set<string>();
   const loaded: WorldIrAsset[] = [];

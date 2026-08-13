@@ -1,0 +1,28 @@
+schema: risuai-character/v1
+id: kent
+name: Kent
+content: content.md
+aliases: []
+keywords: [kent, soldier, jodi's wife, sam's mother, veteran]
+secondaryKeywords: [gotoro empire, deployment, prison camp, insomnia, anniversary gift]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-kent-default-expression-00
+  - portrait-kent-default-expression-01
+  - portrait-kent-default-expression-02
+  - portrait-kent-default-expression-03
+  - portrait-kent-default-expression-04
+  - portrait-kent-default-expression-05
+  - portrait-kent-beach-expression-00
+  - portrait-kent-beach-expression-01
+  - portrait-kent-beach-expression-02
+  - portrait-kent-beach-expression-03
+  - portrait-kent-beach-expression-04
+  - portrait-kent-beach-expression-05
+  - portrait-kent-winter-expression-00
+  - portrait-kent-winter-expression-01
+  - portrait-kent-winter-expression-02
+  - portrait-kent-winter-expression-03
+  - portrait-kent-winter-expression-04
+  - portrait-kent-winter-expression-05

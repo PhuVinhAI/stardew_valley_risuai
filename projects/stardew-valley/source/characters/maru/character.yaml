@@ -1,0 +1,85 @@
+schema: risuai-character/v1
+id: maru
+name: Maru
+content: content.md
+aliases: []
+keywords: [maru, inventor, gadgets, clinic assistant, marilda]
+secondaryKeywords: [telescope, stargazing, robin's daughter, workshop, sebastian's half-sister]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-maru-default-expression-00
+  - portrait-maru-default-expression-01
+  - portrait-maru-default-expression-02
+  - portrait-maru-default-expression-03
+  - portrait-maru-default-expression-04
+  - portrait-maru-default-expression-05
+  - portrait-maru-default-expression-06
+  - portrait-maru-default-expression-07
+  - portrait-maru-default-expression-08
+  - portrait-maru-default-glasses-expression-00
+  - portrait-maru-default-glasses-expression-01
+  - portrait-maru-default-glasses-expression-02
+  - portrait-maru-default-glasses-expression-03
+  - portrait-maru-default-glasses-expression-04
+  - portrait-maru-default-glasses-expression-05
+  - portrait-maru-default-glasses-expression-06
+  - portrait-maru-default-glasses-expression-07
+  - portrait-maru-default-glasses-expression-08
+  - portrait-maru-winter-expression-00
+  - portrait-maru-winter-expression-01
+  - portrait-maru-winter-expression-02
+  - portrait-maru-winter-expression-03
+  - portrait-maru-winter-expression-04
+  - portrait-maru-winter-expression-05
+  - portrait-maru-winter-expression-06
+  - portrait-maru-winter-expression-07
+  - portrait-maru-winter-expression-08
+  - portrait-maru-winter-glasses-expression-00
+  - portrait-maru-winter-glasses-expression-01
+  - portrait-maru-winter-glasses-expression-02
+  - portrait-maru-winter-glasses-expression-03
+  - portrait-maru-winter-glasses-expression-04
+  - portrait-maru-winter-glasses-expression-05
+  - portrait-maru-winter-glasses-expression-06
+  - portrait-maru-winter-glasses-expression-07
+  - portrait-maru-winter-glasses-expression-08
+  - portrait-maru-hospital-expression-00
+  - portrait-maru-hospital-expression-01
+  - portrait-maru-hospital-expression-02
+  - portrait-maru-hospital-expression-03
+  - portrait-maru-hospital-expression-04
+  - portrait-maru-hospital-expression-05
+  - portrait-maru-hospital-glasses-expression-00
+  - portrait-maru-hospital-glasses-expression-01
+  - portrait-maru-hospital-glasses-expression-02
+  - portrait-maru-hospital-glasses-expression-03
+  - portrait-maru-hospital-glasses-expression-04
+  - portrait-maru-hospital-glasses-expression-05
+  - portrait-maru-nude-expression-00
+  - portrait-maru-nude-expression-01
+  - portrait-maru-nude-expression-02
+  - portrait-maru-nude-expression-03
+  - portrait-maru-nude-expression-04
+  - portrait-maru-nude-expression-05
+  - portrait-maru-beach-expression-00
+  - portrait-maru-beach-expression-01
+  - portrait-maru-beach-expression-02
+  - portrait-maru-beach-expression-03
+  - portrait-maru-beach-expression-04
+  - portrait-maru-beach-expression-05
+  - portrait-maru-beach-expression-06
+  - portrait-maru-beach-expression-07
+  - portrait-maru-beach-expression-08
+  - portrait-maru-beach-expression-09
+  - portrait-maru-swimsuit-ex-expression-00
+  - portrait-maru-swimsuit-ex-expression-01
+  - portrait-maru-swimsuit-ex-expression-02
+  - portrait-maru-swimsuit-ex-expression-03
+  - portrait-maru-swimsuit-ex-expression-04
+  - portrait-maru-swimsuit-ex-expression-05
+  - portrait-maru-swimsuit-ex-expression-06
+  - portrait-maru-swimsuit-ex-expression-07
+  - portrait-maru-swimsuit-ex-expression-08
+  - portrait-maru-swimsuit-ex-expression-09
+  - portrait-maru-swimsuit-expression-03

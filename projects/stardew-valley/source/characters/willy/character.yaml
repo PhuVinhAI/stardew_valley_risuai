@@ -1,0 +1,22 @@
+schema: risuai-character/v1
+id: willy
+name: Willy
+content: content.md
+aliases: []
+keywords: [willy, fish shop, fisherwoman, angler, beach pier]
+secondaryKeywords: [bait and tackle, crab pots, pipe, old boat, fern islands]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-willy-default-expression-00
+  - portrait-willy-default-expression-01
+  - portrait-willy-default-expression-02
+  - portrait-willy-default-expression-03
+  - portrait-willy-beach-expression-00
+  - portrait-willy-beach-expression-01
+  - portrait-willy-beach-expression-02
+  - portrait-willy-beach-expression-03
+  - portrait-willy-winter-expression-00
+  - portrait-willy-winter-expression-01
+  - portrait-willy-winter-expression-02
+  - portrait-willy-winter-expression-03

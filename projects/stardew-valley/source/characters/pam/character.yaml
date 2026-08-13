@@ -1,0 +1,25 @@
+schema: risuai-character/v1
+id: pam
+name: Pam
+content: content.md
+aliases: []
+keywords: [pam, bus driver, penny's mother, river road trailer, saloon regular]
+secondaryKeywords: [bus stop, pale ale, ice fishing contest, tab at the saloon, sign of the vessel]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-pam-default-expression-00
+  - portrait-pam-default-expression-01
+  - portrait-pam-default-expression-02
+  - portrait-pam-default-expression-03
+  - portrait-pam-default-expression-04
+  - portrait-pam-winter-expression-00
+  - portrait-pam-winter-expression-01
+  - portrait-pam-winter-expression-02
+  - portrait-pam-winter-expression-03
+  - portrait-pam-winter-expression-04
+  - portrait-pam-beach-expression-00
+  - portrait-pam-beach-expression-01
+  - portrait-pam-beach-expression-02
+  - portrait-pam-beach-expression-03
+  - portrait-pam-beach-expression-04

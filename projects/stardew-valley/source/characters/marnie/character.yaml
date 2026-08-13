@@ -1,0 +1,25 @@
+schema: risuai-character/v1
+id: marnie
+name: Marnie
+content: content.md
+aliases: []
+keywords: [marnie, marnie's ranch, animal shop, jas's aunt, livestock]
+secondaryKeywords: [chickens, cows, goats, animal feed, pet adoption]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-marnie-default-expression-00
+  - portrait-marnie-default-expression-01
+  - portrait-marnie-default-expression-02
+  - portrait-marnie-default-expression-03
+  - portrait-marnie-default-expression-04
+  - portrait-marnie-winter-expression-00
+  - portrait-marnie-winter-expression-01
+  - portrait-marnie-winter-expression-02
+  - portrait-marnie-winter-expression-03
+  - portrait-marnie-winter-expression-04
+  - portrait-marnie-beach-expression-00
+  - portrait-marnie-beach-expression-01
+  - portrait-marnie-beach-expression-02
+  - portrait-marnie-beach-expression-03
+  - portrait-marnie-beach-expression-04

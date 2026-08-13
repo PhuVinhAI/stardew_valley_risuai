@@ -1,0 +1,20 @@
+schema: risuai-character/v1
+id: linus
+name: Linus
+content: content.md
+aliases: []
+keywords: [linus, tent, mountain lake, forager, wild woman]
+secondaryKeywords: [wild bait, foraging, blackberries, living outdoors, firepit]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-linus-default-expression-04
+  - portrait-linus-default-expression-05
+  - portrait-linus-default-expression-00
+  - portrait-linus-default-expression-01
+  - portrait-linus-default-expression-02
+  - portrait-linus-default-expression-03
+  - portrait-linus-winter-expression-00
+  - portrait-linus-winter-expression-01
+  - portrait-linus-winter-expression-02
+  - portrait-linus-winter-expression-03

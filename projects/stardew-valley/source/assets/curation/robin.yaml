@@ -1,0 +1,44 @@
+schema: risuai-portrait-curation/v1
+character: robin
+sourcePack: OO's Anime Style Skimpy Portraits
+sourceRoot: assets/imported/oo-anime-portraits/robin
+variant: upscaled-2x
+outfits:
+  default:
+    context: carpenter-workwear
+    frames: &robin-frames
+      expression-00: friendly
+      expression-01: laughing
+      expression-02: considering
+      expression-03: appraising
+      expression-04: greeting
+      expression-05: warm
+      expression-06: annoyed
+    duplicates: []
+  beach:
+    context: swimwear
+    frames: *robin-frames
+    duplicates: []
+  winter:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *robin-frames
+    duplicates: []
+  swimsuit:
+    context: swimwear
+    frames: *robin-frames
+    duplicates:
+      - frame: expression-00
+        duplicateOf: expression-00
+      - frame: expression-01
+        duplicateOf: expression-01
+      - frame: expression-02
+        duplicateOf: expression-02
+      - frame: expression-03
+        duplicateOf: expression-03
+      - frame: expression-04
+        duplicateOf: expression-04
+      - frame: expression-05
+        duplicateOf: expression-05
+      - frame: expression-06
+        duplicateOf: expression-06

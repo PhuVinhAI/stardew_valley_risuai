@@ -1,0 +1,22 @@
+schema: risuai-character/v1
+id: evelyn
+name: Evelyn
+content: content.md
+aliases: [Granny]
+keywords: [evelyn, granny, george's wife, alex's grandmother, town gardens]
+secondaryKeywords: [cookies, flower beds, tulips, river road, old memories]
+insertionOrder: 100
+enabled: true
+assets:
+  - portrait-evelyn-default-expression-00
+  - portrait-evelyn-default-expression-01
+  - portrait-evelyn-default-expression-02
+  - portrait-evelyn-default-expression-03
+  - portrait-evelyn-swimsuit-expression-00
+  - portrait-evelyn-swimsuit-expression-01
+  - portrait-evelyn-swimsuit-expression-02
+  - portrait-evelyn-swimsuit-expression-03
+  - portrait-evelyn-winter-expression-00
+  - portrait-evelyn-winter-expression-01
+  - portrait-evelyn-winter-expression-02
+  - portrait-evelyn-winter-expression-03

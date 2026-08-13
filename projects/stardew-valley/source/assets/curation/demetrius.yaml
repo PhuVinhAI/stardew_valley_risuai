@@ -1,0 +1,52 @@
+schema: risuai-portrait-curation/v1
+character: demetrius
+sourcePack: OO's Anime Style Skimpy Portraits
+sourceRoot: assets/imported/oo-anime-portraits/demetrius
+variant: upscaled-2x
+outfits:
+  default:
+    context: lab-workwear
+    frames:
+      expression-00: composed
+      expression-01: analysing
+      expression-02: unimpressed
+      expression-03: explaining
+      expression-04: disapproving
+      expression-05: satisfied
+      expression-06: distracted
+      expression-07: hazmat-explicit
+    duplicates: []
+  beach:
+    context: swimwear
+    frames: &demetrius-clothed
+      expression-00: composed
+      expression-01: analysing
+      expression-02: unimpressed
+      expression-03: explaining
+      expression-04: disapproving
+      expression-05: satisfied
+      expression-06: distracted
+    duplicates: []
+  winter:
+    context: adult-private-consensual-only
+    defaultEnabled: false
+    frames: *demetrius-clothed
+    duplicates: []
+  swimsuit:
+    context: swimwear
+    frames: *demetrius-clothed
+    duplicates:
+      - frame: expression-00
+        duplicateOf: expression-00
+      - frame: expression-01
+        duplicateOf: expression-01
+      - frame: expression-02
+        duplicateOf: expression-02
+      - frame: expression-03
+        duplicateOf: expression-03
+      - frame: expression-04
+        duplicateOf: expression-04
+      - frame: expression-05
+        duplicateOf: expression-05
+      - frame: expression-06
+        duplicateOf: expression-06
