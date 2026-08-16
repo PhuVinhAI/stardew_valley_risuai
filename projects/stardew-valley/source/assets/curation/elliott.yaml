@@ -4,53 +4,33 @@ sourcePack: Mud's Skimpy Portraits
 sourceRoot: assets/imported/mud-portraits/elliott
 outfits:
   default:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: default
     frames: &elliott-frames
       expression-00: poised
       expression-01: delighted
       expression-02: dismayed
-      expression-03: coy
-      expression-04: aside
-      expression-05: flustered
-      expression-06: demure
+      expression-04: coy
+      expression-05: aside
+      expression-07: flustered
+      expression-08: demure
     duplicates: []
   beach:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: beach
     frames: *elliott-frames
     duplicates: []
   winter:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: winter
     frames: *elliott-frames
     duplicates: []
   swimsuit-ex:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: swimsuit-ex
     frames: *elliott-frames
     duplicates: []
   nude:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: nude
     frames: *elliott-frames
     duplicates: []
   swimsuit:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: swimsuit
     frames: *elliott-frames
-    duplicates:
-      - frame: expression-00
-        duplicateOf: expression-00
-      - frame: expression-01
-        duplicateOf: expression-01
-      - frame: expression-02
-        duplicateOf: expression-02
-      - frame: expression-03
-        duplicateOf: expression-03
-      - frame: expression-04
-        duplicateOf: expression-04
-      - frame: expression-05
-        duplicateOf: expression-05
-      - frame: expression-06
-        duplicateOf: expression-06
+    duplicates: []

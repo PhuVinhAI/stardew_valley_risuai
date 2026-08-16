@@ -5,8 +5,7 @@ sourceRoot: assets/imported/oo-anime-portraits/jodi
 variant: upscaled-2x
 outfits:
   default:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: default
     frames:
       expression-00: warm
       expression-01: amused
@@ -16,8 +15,7 @@ outfits:
       expression-05: unclassified-01
     duplicates: []
   beach:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: beach
     frames: &jodi-frames
       expression-00: warm
       expression-01: amused
@@ -26,13 +24,11 @@ outfits:
       expression-04: brisk
     duplicates: []
   winter:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: winter
     frames: *jodi-frames
     duplicates: []
   swimsuit:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: swimsuit
     frames: *jodi-frames
     duplicates:
       - frame: expression-00

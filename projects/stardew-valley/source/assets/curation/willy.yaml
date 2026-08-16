@@ -17,8 +17,7 @@ outfits:
     frames: *willy-frames
     duplicates: []
   winter:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: winter
     frames: *willy-frames
     duplicates: []
   swimsuit:

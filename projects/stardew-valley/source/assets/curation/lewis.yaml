@@ -19,8 +19,7 @@ outfits:
     frames: *lewis-frames
     duplicates: []
   winter:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: winter
     frames: *lewis-frames
     duplicates: []
   swimsuit:

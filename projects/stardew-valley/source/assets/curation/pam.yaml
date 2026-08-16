@@ -18,8 +18,7 @@ outfits:
     frames: *pam-frames
     duplicates: []
   winter:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: winter
     frames: *pam-frames
     duplicates: []
   swimsuit:

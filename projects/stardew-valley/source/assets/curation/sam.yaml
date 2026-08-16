@@ -4,8 +4,7 @@ sourcePack: Mud's Skimpy Portraits
 sourceRoot: assets/imported/mud-portraits/sam
 outfits:
   default:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: default
     frames: &sam-frames
       expression-00: cheerful
       expression-01: sheepish
@@ -21,39 +20,33 @@ outfits:
       expression-11: flustered
     duplicates: []
   beach:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: beach
     frames: *sam-frames
     duplicates: []
   winter:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: winter
     frames: *sam-frames
     duplicates:
       - frame: expression-11
         duplicateOf: expression-11
   joja-uniform:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: joja-uniform
     frames: *sam-frames
     duplicates:
       - frame: expression-11
         duplicateOf: expression-11
   swimsuit-ex:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: swimsuit-ex
     frames: *sam-frames
     duplicates:
       - frame: expression-11
         duplicateOf: expression-11
   nude:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: nude
     frames: *sam-frames
     duplicates: []
   swimsuit:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: swimsuit
     frames: *sam-frames
     duplicates:
       - frame: expression-00

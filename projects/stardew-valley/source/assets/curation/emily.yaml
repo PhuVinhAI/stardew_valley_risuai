@@ -4,8 +4,7 @@ sourcePack: Mud's Skimpy Portraits
 sourceRoot: assets/imported/mud-portraits/emily
 outfits:
   default:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: default
     frames: &emily-frames
       expression-00: serene
       expression-01: bright
@@ -17,29 +16,22 @@ outfits:
       expression-07: radiant-explicit
     duplicates: []
   beach:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: beach
     frames: *emily-frames
     duplicates: []
   winter:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: winter
     frames: *emily-frames
     duplicates: []
   swimsuit:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: swimsuit
     frames: *emily-frames
     duplicates: []
   swimsuit-ex:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: swimsuit-ex
     frames: *emily-frames
-    duplicates:
-      - frame: expression-06
-        duplicateOf: expression-06
+    duplicates: []
   nude:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: nude
     frames: *emily-frames
     duplicates: []

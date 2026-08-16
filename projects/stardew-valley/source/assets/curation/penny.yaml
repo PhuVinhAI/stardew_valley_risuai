@@ -4,8 +4,7 @@ sourcePack: Mud's Skimpy Portraits
 sourceRoot: assets/imported/mud-portraits/penny
 outfits:
   default:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: default
     frames: &penny-frames
       expression-00: gentle
       expression-01: laughing
@@ -20,8 +19,7 @@ outfits:
       expression-10: placeholder-sketch
     duplicates: []
   beach:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: beach
     frames: *penny-frames
     duplicates:
       - frame: expression-05
@@ -35,15 +33,13 @@ outfits:
       - frame: expression-10
         duplicateOf: expression-10
   winter:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: winter
     frames: *penny-frames
     duplicates:
       - frame: expression-10
         duplicateOf: expression-10
   swimsuit-ex:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: swimsuit-ex
     frames: *penny-frames
     duplicates:
       - frame: expression-05
@@ -57,8 +53,7 @@ outfits:
       - frame: expression-10
         duplicateOf: expression-10
   nude:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: nude
     frames: *penny-frames
     duplicates:
       - frame: expression-06
@@ -70,8 +65,7 @@ outfits:
       - frame: expression-10
         duplicateOf: expression-10
   swimsuit:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: swimsuit
     frames: *penny-frames
     duplicates:
       - frame: expression-00

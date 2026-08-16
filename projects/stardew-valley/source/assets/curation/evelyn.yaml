@@ -13,12 +13,10 @@ outfits:
       expression-03: gentle
     duplicates: []
   swimsuit:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: swimsuit
     frames: *evelyn-frames
     duplicates: []
   winter:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: winter
     frames: *evelyn-frames
     duplicates: []

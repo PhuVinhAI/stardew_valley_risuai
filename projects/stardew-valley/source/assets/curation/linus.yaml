@@ -5,8 +5,7 @@ sourceRoot: assets/imported/oo-anime-portraits/linus
 variant: upscaled-2x
 outfits:
   default:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: default
     frames: &linus-frames
       expression-00: content
       expression-01: cheerful
@@ -16,8 +15,7 @@ outfits:
       expression-05: quiet-portrait
     duplicates: []
   winter:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: winter
     frames:
       expression-00: content
       expression-01: cheerful
@@ -25,8 +23,7 @@ outfits:
       expression-03: thoughtful
     duplicates: []
   beach:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: beach
     frames: *linus-frames
     duplicates: &linus-dups
       - frame: expression-00
@@ -42,7 +39,6 @@ outfits:
       - frame: expression-05
         duplicateOf: expression-05
   swimsuit:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: swimsuit
     frames: *linus-frames
     duplicates: *linus-dups

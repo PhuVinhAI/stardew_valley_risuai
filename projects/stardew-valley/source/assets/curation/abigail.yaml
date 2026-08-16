@@ -43,8 +43,7 @@ outfits:
       - frame: expression-08
         duplicateOf: expression-06
   nude:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: nude
     frames: *abigail-frames
     duplicates:
       - frame: expression-08

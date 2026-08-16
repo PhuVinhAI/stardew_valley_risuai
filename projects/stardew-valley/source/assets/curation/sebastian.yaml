@@ -4,8 +4,7 @@ sourcePack: Mud's Skimpy Portraits
 sourceRoot: assets/imported/mud-portraits/sebastian
 outfits:
   default:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: default
     frames: &seb-frames
       expression-00: sullen
       expression-01: amused
@@ -18,28 +17,23 @@ outfits:
       expression-08: explicit-spread
     duplicates: []
   beach:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: beach
     frames: *seb-frames
     duplicates: []
   winter:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: winter
     frames: *seb-frames
     duplicates: []
   swimsuit-ex:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: swimsuit-ex
     frames: *seb-frames
     duplicates: []
   nude:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: nude
     frames: *seb-frames
     duplicates: []
   swimsuit:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: swimsuit
     frames: *seb-frames
     duplicates:
       - frame: expression-00

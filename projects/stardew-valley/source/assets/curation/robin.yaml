@@ -20,8 +20,7 @@ outfits:
     frames: *robin-frames
     duplicates: []
   winter:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: winter
     frames: *robin-frames
     duplicates: []
   swimsuit:

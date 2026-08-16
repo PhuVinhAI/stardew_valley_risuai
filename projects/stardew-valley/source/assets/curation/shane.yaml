@@ -4,8 +4,7 @@ sourcePack: Mud's Skimpy Portraits
 sourceRoot: assets/imported/mud-portraits/shane
 outfits:
   default:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: default
     frames: &shane-frames
       expression-00: weary
       expression-01: flat
@@ -20,33 +19,27 @@ outfits:
       expression-10: startled
     duplicates: []
   beach:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: beach
     frames: *shane-frames
     duplicates: []
   joja-uniform:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: joja-uniform
     frames: *shane-frames
     duplicates: []
   winter:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: winter
     frames: *shane-frames
     duplicates: []
   swimsuit-ex:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: swimsuit-ex
     frames: *shane-frames
     duplicates: []
   nude:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: nude
     frames: *shane-frames
     duplicates: []
   default-post-event:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: default-post-event
     frames: *shane-frames
     duplicates:
       - frame: expression-05
@@ -56,8 +49,7 @@ outfits:
       - frame: expression-08
         duplicateOf: expression-08
   beach-post-event:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: beach-post-event
     frames: *shane-frames
     duplicates:
       - frame: expression-05
@@ -67,8 +59,7 @@ outfits:
       - frame: expression-08
         duplicateOf: expression-08
   joja-uniform-post-event:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: joja-uniform-post-event
     frames: *shane-frames
     duplicates:
       - frame: expression-05
@@ -78,8 +69,7 @@ outfits:
       - frame: expression-08
         duplicateOf: expression-08
   winter-post-event:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: winter-post-event
     frames: *shane-frames
     duplicates:
       - frame: expression-05
@@ -89,8 +79,7 @@ outfits:
       - frame: expression-08
         duplicateOf: expression-08
   swimsuit:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: swimsuit
     frames: *shane-frames
     duplicates:
       - frame: expression-00
@@ -116,8 +105,7 @@ outfits:
       - frame: expression-10
         duplicateOf: expression-10
   swimsuit-post-event:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: swimsuit-post-event
     frames: *shane-frames
     duplicates:
       - frame: expression-00

@@ -17,8 +17,7 @@ outfits:
     frames: *gus-frames
     duplicates: []
   winter:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: winter
     frames: *gus-frames
     duplicates: []
   swimsuit:

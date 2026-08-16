@@ -21,8 +21,7 @@ outfits:
     frames: *clint-frames
     duplicates: []
   winter:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: winter
     frames: *clint-frames
     duplicates: []
   swimsuit:

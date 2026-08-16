@@ -28,8 +28,7 @@ outfits:
       expression-06: distracted
     duplicates: []
   winter:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: winter
     frames: *demetrius-clothed
     duplicates: []
   swimsuit:

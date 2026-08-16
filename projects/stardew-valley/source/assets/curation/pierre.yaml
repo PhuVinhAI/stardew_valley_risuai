@@ -18,8 +18,7 @@ outfits:
     frames: *pierre-frames
     duplicates: []
   winter:
-    context: adult-private-consensual-only
-    defaultEnabled: false
+    context: winter
     frames: *pierre-frames
     duplicates: []
   swimsuit:
