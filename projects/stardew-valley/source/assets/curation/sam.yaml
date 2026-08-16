@@ -5,7 +5,7 @@ sourceRoot: assets/imported/mud-portraits/sam
 outfits:
   default:
     context: default
-    frames: &sam-frames
+    frames: &sam-frames-full
       expression-00: cheerful
       expression-01: sheepish
       expression-02: turned
@@ -21,29 +21,34 @@ outfits:
     duplicates: []
   beach:
     context: beach
-    frames: *sam-frames
+    frames: &sam-frames
+      expression-00: cheerful
+      expression-01: sheepish
+      expression-02: turned
+      expression-03: content
+      expression-04: bashful
+      expression-05: indignant
+      expression-06: holding-paper
+      expression-07: coy
+      expression-08: hair-on-end
+      expression-09: bawling
+      expression-10: stretching
     duplicates: []
   winter:
     context: winter
     frames: *sam-frames
-    duplicates:
-      - frame: expression-11
-        duplicateOf: beach/expression-11
+    duplicates: []
   joja-uniform:
     context: joja-uniform
     frames: *sam-frames
-    duplicates:
-      - frame: expression-11
-        duplicateOf: beach/expression-11
+    duplicates: []
   swimsuit-ex:
     context: swimsuit-ex
     frames: *sam-frames
-    duplicates:
-      - frame: expression-11
-        duplicateOf: beach/expression-11
+    duplicates: []
   nude:
     context: nude
-    frames: *sam-frames
+    frames: *sam-frames-full
     duplicates: []
   swimsuit:
     context: swimsuit
@@ -69,5 +74,3 @@ outfits:
         duplicateOf: beach/expression-09
       - frame: expression-10
         duplicateOf: beach/expression-10
-      - frame: expression-11
-        duplicateOf: beach/expression-11

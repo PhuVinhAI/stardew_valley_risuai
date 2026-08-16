@@ -12,7 +12,6 @@ outfits:
       expression-02: weary
       expression-03: exasperated
       expression-04: brisk
-      expression-05: unclassified-01
     duplicates: []
   beach:
     context: beach

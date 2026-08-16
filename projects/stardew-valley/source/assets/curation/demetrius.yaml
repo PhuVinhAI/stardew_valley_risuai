@@ -8,21 +8,21 @@ outfits:
     context: lab-workwear
     frames:
       expression-00: composed
-      expression-01: analysing
+      expression-01: hand-to-mouth
       expression-02: unimpressed
-      expression-03: explaining
+      expression-03: hands-on-hips
       expression-04: disapproving
       expression-05: satisfied
       expression-06: distracted
-      expression-07: hazmat-explicit
+      expression-07: respirator-stars
     duplicates: []
   beach:
     context: swimwear
     frames: &demetrius-clothed
       expression-00: composed
-      expression-01: analysing
+      expression-01: hand-to-mouth
       expression-02: unimpressed
-      expression-03: explaining
+      expression-03: hands-on-hips
       expression-04: disapproving
       expression-05: satisfied
       expression-06: distracted
