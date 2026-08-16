@@ -11,12 +11,11 @@ outfits:
       expression-02: startled
       expression-03: puzzled
       expression-04: bashful
-      expression-05: turned
-      expression-06: bare-quiet
-      expression-08: bare-soft
-      expression-09: bare-covering
-      expression-10: bare-aside
-      expression-12: placeholder-sketch
+      expression-05: arms-crossed
+      expression-06: topless-smiling
+      expression-08: cupping-breast
+      expression-09: turned-covering
+      expression-10: covering-shy
     duplicates: []
   beach:
     context: beach

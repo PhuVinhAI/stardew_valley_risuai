@@ -12,12 +12,12 @@ outfits:
       expression-03: content
       expression-04: bashful
       expression-05: indignant
-      expression-06: sulking
+      expression-06: holding-paper
       expression-07: coy
-      expression-08: alarmed
-      expression-09: tearful
-      expression-10: weary
-      expression-11: flustered
+      expression-08: hair-on-end
+      expression-09: bawling
+      expression-10: stretching
+      expression-11: heart-eyes
     duplicates: []
   beach:
     context: beach

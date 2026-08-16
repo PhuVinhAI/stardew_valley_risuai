@@ -7,14 +7,14 @@ outfits:
     context: default
     frames: &seb-frames
       expression-00: sullen
-      expression-01: amused
-      expression-02: aloof
-      expression-03: bored
-      expression-04: irritated
-      expression-05: smug
+      expression-01: laughing
+      expression-02: over-shoulder
+      expression-03: flushed-aside
+      expression-04: sly-smile
+      expression-05: hand-on-hip
       expression-07: quiet
-      expression-08: content
-      expression-09: explicit-spread
+      expression-08: arms-folded
+      expression-09: spread-on-bench
     duplicates: []
   beach:
     context: beach

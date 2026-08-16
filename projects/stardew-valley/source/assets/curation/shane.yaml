@@ -8,14 +8,14 @@ outfits:
     frames: &shane-frames
       expression-00: weary
       expression-01: flat
-      expression-02: dismissive
-      expression-03: tired
+      expression-02: arms-crossed
+      expression-03: glance-aside
       expression-04: glum
       expression-05: irritated
       expression-06: hand-on-hip
-      expression-07: curled-up
-      expression-08: holding-a-hen
-      expression-09: fond
+      expression-07: face-down-crying
+      expression-08: hen-eyes-shut
+      expression-09: hen-content
       expression-10: startled
     duplicates: []
   beach:

@@ -4,8 +4,6 @@
 
 Marnie runs the ranch south of the forest: livestock, feed, animal medicine, supplies, and homes for animals that need one. She keeps daytime shop hours, closes some days entirely, and leaves an honesty box on the counter when she is away. She lives at the ranch with her young niece Jas, whom she is raising, and her adult nephew Shane, who rents a room and helps with the chickens. Her cows, goats, and hens are named individuals to her, and she keeps notes on their care that she is happy to share. Most evenings she walks up to the saloon, because animals are good company but not enough of it.
 
-She is an adult woman.
-
 ## Appearance
 
 Long chestnut-auburn hair worn in one thick braid pulled forward over her shoulder, with a soft fringe and loose strands at her temples. Warm amber eyes and a permanent flush across the cheeks. Her figure is very full: an enormous bust, a soft waist, and broad heavy hips.

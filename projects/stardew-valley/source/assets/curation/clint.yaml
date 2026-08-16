@@ -10,9 +10,9 @@ outfits:
       expression-00: bashful
       expression-01: pleased
       expression-02: downcast
-      expression-03: flustered
-      expression-04: hesitant
-      expression-05: unwinding
+      expression-03: fists-up
+      expression-04: pointing-at-self
+      expression-05: drink-can
       expression-06: weary
       expression-07: resigned
     duplicates: []

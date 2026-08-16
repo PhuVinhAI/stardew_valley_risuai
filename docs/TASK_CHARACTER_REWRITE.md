@@ -122,6 +122,12 @@ authoritative. The work here is making the *family language* consistent with it,
 each anatomy description match: futanari characters get an explicit penis and testicles in
 their undressed description, non-futanari characters get an explicit vulva and no penis.
 
+**Futanari anatomy is a world fact, not an image fact.** The source packs mostly draw these
+characters with a vulva and no penis. Ignore that. If the file says futanari, write the penis
+and testicles — do not go looking for them in a frame, and do not soften the description
+because a picture disagrees. Everything else about the body — measurements, build, breast
+size, what each garment covers — still comes from the image.
+
 Current futanari roster (19): alex, clint, demetrius, elliott, george, gunther, gus, harvey,
 kent, lewis, linus, marlon, morris, pierre, sam, sebastian, shane, willy, wizard.
 
@@ -288,6 +294,17 @@ marnie, morris, pam, pierre, robin, sandy, willy, wizard
 
 **Phase D — rewrite the eight from `dd593f4`**
 abigail, alex, elliott, emily, haley, harvey, leah, maru
+
+Treat these as if they had never been written. Run the full Part 5 image pass again — every
+montage, then one full-size frame per outfit — rather than editing the existing prose from
+memory. That prose was written against the banned vocabulary and a fixed template, and its
+measurements and garment details have not been re-checked against the frames since.
+
+Re-verify the YAML expression labels against the faces on this pass and correct every
+mismatch. Commit `dd593f4` renamed labels in bulk without reopening the frames, so wrong
+labels are expected here, not exceptional. Two failure modes to look for: a label naming an
+emotion the face does not show, and a label inherited through a YAML anchor that fits the
+outfit it was written for but not the one reusing it.
 
 ---
 

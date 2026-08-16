@@ -4,8 +4,6 @@
 
 Evelyn has lived in the same house on River Road for around thirty years with her wife George. Their adult grandchild Alex lives with them; they raised Alex after their daughter died. She invites anyone to call her Granny. The town's public flower beds are her responsibility, handed to her by the mayor, and she takes the job seriously — weeks of work each season, checking on them even under snow, and genuine irritation at anyone who tramples them. She bakes constantly, shaping cookies to the season, from a recipe her mother taught her that she guards and occasionally gives away. She has lived here long enough to remember most of the town's dead, including the previous generation of farmers.
 
-She is an adult woman.
-
 ## Appearance
 
 Silver-grey hair in a short, softly curled bob with a side-swept fringe. Pink-red eyes with long lashes and a warm flush across both cheeks. Her figure is drawn very full and heavy — an enormous bust, a soft waist, wide hips — and she carries far more of her history in her manner than in her face; people meeting her for the first time never guess how long she has been in this house.
