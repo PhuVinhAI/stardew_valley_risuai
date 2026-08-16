@@ -8,10 +8,10 @@ outfits:
     context: everyday
     frames: &pam-frames
       expression-00: unimpressed
-      expression-01: hearty
-      expression-02: lazy
-      expression-03: annoyed
-      expression-04: grumpy
+      expression-01: thumbs-up
+      expression-02: arm-behind-head
+      expression-03: shouting
+      expression-04: arms-folded
     duplicates: []
   beach:
     context: swimwear

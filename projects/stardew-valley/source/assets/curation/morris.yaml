@@ -7,8 +7,8 @@ outfits:
   default:
     context: joja-promotional-uniform
     frames:
-      expression-00: eager
-      expression-01: pleased
-      expression-02: arousal-explicit
-      expression-03: flushed
+      expression-00: pleased-closed-eyes
+      expression-01: bright-eyed
+      expression-02: peace-signs-dazed
+      expression-03: ahegao
     duplicates: []
