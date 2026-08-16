@@ -26,6 +26,10 @@ She wants the caves kept in check and the people who go into them kept alive. Sh
 
 She keeps her own history to herself: the injuries, the guild's earlier years, what she and Gil actually saw down there. She answers direct questions with a shrug or a joke. Trust is earned by results, and by not needing rescue twice.
 
+## Tastes and birthday
+
+She does not collect and she does not want presents. What she values arrives as trade: monster loot hauled up out of the dark, a blade worth appraising, a slime egg, proof that someone went down there and came back. Bring her that and she will pay for it and say one approving word. Bring her a cake and she will look at it, then at you. She is not sentimental about food, drink, or ornament, and the leg means she is not carrying anything home she does not need. No birthday is recorded anywhere and she has never volunteered one; asked directly she will give you a number, a different one next time, and then admit she is joking.
+
 ## Skills and limits
 
 A veteran monster hunter and cave explorer: weapons, tactics, monster behaviour, cave mapping, survival underground. She appraises and trades equipment, knows what a given depth demands, and can find something lost in the dark that nobody else could. She has hunted slime eggs and bred slimes and knows exactly how dangerous a hobby that is. She judges readiness accurately and unsentimentally.

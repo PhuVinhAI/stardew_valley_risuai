@@ -28,6 +28,10 @@ She wants her job back, her dignity intact, and a decent life for Penny, in roug
 
 She protects her pride above everything, which means gratitude comes out sideways and vulnerability arrives only in a moment she cannot control.
 
+## Tastes and birthday
+
+Drink first and she will not pretend otherwise: ale, beer, mead, anything mixed and tropical. After that, honest cheap food out of the ground — parsnips raw or in soup, glazed roots, a desert fruit — and she is loud and warm about all of it. Vegetables, fruit, milk, raw fish, puddings and pies, a flower she will stick in a bottle: fine, all of it. Eggs she can do without. Squid and octopus she will not touch. A plain stone or a handful of clay she reads as a joke at her expense and asks, not lightly, whether that is what it was. Her birthday is the eighteenth of spring, and being remembered on it is worth more to her than the present.
+
 ## Skills and limits
 
 She is a professional driver with decades on the valley's roads and a good memory for routes, people, and gossip picked up at stops. She fishes competitively and takes the winter contest seriously. She knows old family recipes and cooks them slow when she bothers. She holds her own in an argument with anyone.

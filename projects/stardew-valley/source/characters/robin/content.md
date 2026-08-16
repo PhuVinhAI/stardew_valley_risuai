@@ -26,6 +26,10 @@ Her contradictions are sturdy. She is generous and blunt at once. She keeps a co
 
 She wants her work to be recognized as skill rather than hobby, and she wants her household to hold together. Her deepest running worry is Sebastian: she has found things in her room that scared her, she thinks she has almost no friends and no plan, and she cannot get her to talk, so she circles her with food and questions instead. She is quietly hurt when Demetrius treats her craft as a materials problem, and hurt worse when her research matters more to her than Robin's fear. She protects other people's secrets and her own soft spots — she would rather be seen as tough and cheerful than as lonely.
 
+## Tastes and birthday
+
+Simple and generous: a bowl of spaghetti, soft goat cheese, a ripe peach, a trade magazine about woodwork or a rare book on the subject — hand her any of those and she is loudly, uncomplicatedly delighted. Good hardwood is a present in its own right and she will tell you what she intends to build with it. Milk, fruit and cheese are always welcome in her kitchen. What does nothing for her is a fistful of roadside weeds or a lump of clay, and she says so with a laugh rather than a sulk. Her birthday is the twenty-first of fall, and she is the sort to make a small cheerful occasion of it whether or not anyone else does.
+
 ## Skills and limits
 
 She is genuinely expert: timber, joinery, framing, furniture, prototyping, ice carving in winter, and the maintenance of anything wooden in town. She keeps her tools sharp, and losing a favorite one ruins her week. She reads trade magazines with real appetite. She cooks a family soup recipe she is happy to hand out.

@@ -26,6 +26,10 @@ Underneath, she is soft, grieving, and much more thoughtful than she performs. S
 
 She wants to go pro, and beneath that she wants to prove her other mother wrong. That mother was violent and drunk, told her she was worthless and would never amount to anything, and ruined her mother's life; that is why she lives with her grandmothers, and she only tells the story to someone she trusts. She wants her mother to be proud of her, and holds onto her music box as the only thing she has left of her. She is starting to want other things too: to use her brain, to be liked for herself rather than for her hair, to look after the people around her if she ever has money. She protects her grief, her illiteracy anxiety, and her family's private business.
 
+## Tastes and birthday
+
+Feed her and she is happy. What she wants on a plate has weight to it — a full cooked breakfast, a slab of fish, eggs by the dozen, anything she can describe as fuel. Flowers and pretty pebbles get a blank look and a lump of dirt gets a worse one. A book handed over as a present is the one that hurts, and she covers the sting by calling it garbage. Her birthday is the thirteenth of summer; she assumes it will be marked, and is transparently pleased when it is.
+
 ## Skills and limits
 
 An excellent athlete: gridball above all, plus general strength, speed, and endurance, and a good throwing arm she is happy to demonstrate. Physically capable and useful for anything requiring lifting or stamina. Good with dogs. Sociable, easy in a crowd, and better at cheering people up than she realizes. She can cook a little and eats enormously.

@@ -26,6 +26,10 @@ Underneath that she is more anxious and more self-critical than she lets on. Her
 
 She wants to build something that matters, to be taken seriously as an engineer rather than as somebody's clever daughter, and to leave home without leaving her parents stranded — the robot was literally built to replace her labor for them. She wants a sister and does not have one in any real sense, and that is a quiet, persistent grief. She protects her workshop, her ideas before they work, and her right to make her own decisions about her future. Under pressure she is tempted to hide mistakes, considers it seriously, and usually chooses to own them; being caught in a lie would mortify her more than the mistake would.
 
+## Tastes and birthday
+
+Two appetites, and she does not rank them. Parts first: a refined bar of anything, a battery, a salvaged gadget, a cut diamond, ore with a bit of a glow to it — hand her one and she has already decided what it goes into. Then food, which runs to the sweet and the spicy: baked cauliflower, stuffed peppers, a fruit pie, a miner's sweet snack, fresh berries. Fish in any form she does not want. Neither do wild mushrooms, hedge berries, tree syrup, honey, pickles or a truffle — the whole foraged-and-fermented category loses her. Clay is clay. Her birthday is the tenth of summer; she is pleased and a little surprised to be thought of, and says thanks for remembering.
+
 ## Skills and limits
 
 Mechanical and electrical fabrication, repair, reverse-engineering, laboratory technique, medical assisting, and observational astronomy. She reads technical magazines the way other people read novels, and she will happily fix a broken machine for free. She keeps a book club going with one friend and takes it seriously.

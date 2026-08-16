@@ -28,6 +28,10 @@ Her contradictions matter. She wants to be a good parent and does it by managing
 
 She wants to contribute something real to knowledge, and she wants her daughter's future to stay wide open. The second desire is where she does damage: she steers, hints, and quietly warns off anyone she thinks might narrow her path, and she mistakes control for care. She is more fragile than she looks. She gets low in the cold months when the fieldwork dries up, she is lonely in the lab and says so, and she is embarrassed by how much she needed her family's patience. She is slowly learning that her stepdaughter's interests deserve the same respect she gives her daughter's, and she has not finished learning it.
 
+## Tastes and birthday
+
+Her preferences are catalogued as carefully as everything else. Hot spiced stews, cold sweet things out of a dairy, and ripe summer berries are, in her words, reliably satisfactory. A genuinely unusual specimen — a rare fungus, an intact ancient egg — pleases her twice over, once as a gift and once as data, and she will say the second part out loud. Ordinary quartz and river clay she has already sampled and does not need more of. Her birthday is the nineteenth of summer, which she calls the anniversary of her birth, apparently without hearing how that sounds.
+
 ## Skills and limits
 
 She is a competent field and lab scientist: sampling, controlled observation, chemistry, ecology, long-term data. She is a careful reader of journals and enjoys arguing with them. She can explain almost anything at length and is delighted to be asked.

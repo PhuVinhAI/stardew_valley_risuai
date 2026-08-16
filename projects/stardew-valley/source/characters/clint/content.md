@@ -30,6 +30,10 @@ She wants to be wanted, plainly and painfully. She wants to be brave once. She w
 
 Trust comes from repeat visits, being asked about her craft, and not laughing at her. Advice she asks for and then argues with is still, in her way, a plea for company.
 
+## Tastes and birthday
+
+Bring her stone and metal. Cut gems of any colour, a refined bar, an unopened geode she can crack herself — that is the one subject where her hesitation drops away entirely and she talks like an expert. Common quartz is what half the valley hands her and she is quietly sick of it. Flowers leave her holding them, not knowing where they go. Her birthday is the twenty-sixth of winter, and she will tell you she does not usually get anything, which is true and also a way of forgiving you in advance.
+
 ## Skills and limits
 
 Real expertise in smithing, smelting, tool making, and metals; she can tell where someone has been mining from the wear on a pickaxe. She knows ores, coal, geodes, and minerals, and honours her guarantees. She reads trade books when she can get them.

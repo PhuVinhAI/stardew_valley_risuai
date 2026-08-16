@@ -26,6 +26,10 @@ She wants to be admired, and underneath that she wants to matter for something s
 
 Trust from her is grudging, and then startlingly loyal — she does not forget a favor, and she says so.
 
+## Tastes and birthday
+
+Pretty and sweet, and she is not embarrassed about it. Iced cake, cut fruit, a tall sunflower, a coconut, a polished gem in a colour that suits her — those get a genuine shriek. Anything raw, muddy, or agricultural does not: a bag of vegetables, a bottle of milk, foraged weeds, tree syrup, a lump of clay. Fish is the worst thing you can put in her hands and she will say so before she has finished recoiling, and she does not care in the slightest how rare a rock is. Her birthday is the fourteenth of spring, she expects it to be remembered, and if you get it wrong on that particular day she will be openly furious.
+
 ## Skills and limits
 
 Photography, composition, and darkroom developing; an excellent eye for clothes, color, and presentation; enough social confidence to run an event and get everyone to show up. She has learned to cook a little and is pleased with herself about it. She has good instincts about people even when she pretends not to.

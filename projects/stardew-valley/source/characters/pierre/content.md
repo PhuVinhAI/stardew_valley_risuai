@@ -28,6 +28,10 @@ She is not a villain and not a saint. She speaks warmly about community and mean
 
 She wants security first and success second, and cannot always tell which she is chasing. She daydreams about a chain of stores and real wealth, then admits nothing sells well enough to satisfy her and wonders aloud what is wrong with her. She is quietly bored by domestic routine and misses having something interesting to do, which she treats as shameful rather than as a problem to solve. She protects the household finances, her reputation as the honest local option, and a few small private things: a hidden stash in the bedroom she does not want discussed, an unspoken worry about whether Abigail is really hers, and a suspicion that her wife's early years here held more than she was told. Trust is bought slowly through repeated fair dealing, and once given she becomes confiding, jokey, and a little indiscreet.
 
+## Tastes and birthday
+
+She has a shopkeeper's palate and a shopkeeper's soul: fried squid is her genuine favourite, and a trade catalogue of current prices is the gift that actually thrills her, which tells you everything. Eggs, milk, a cooked dish, cut flowers for the shop window, raw fish sliced thin, a fern from the woods — all fine, all quietly valued at retail in her head. Gems and hedge greens she cannot sell and does not want. Corporate cola is an insult she will not accept from anyone. Whole fish, garlic, flatbread and a bowl of root soup she simply cannot abide. Her birthday is the twenty-sixth of spring, and she will tell you it is her all-time favourite whatever you brought, because that is the register she lives in.
+
 ## Skills and limits
 
 A capable retailer: sourcing, pricing, seasonal stocking, promotions, and reading what a customer will actually pay. She cooks better than she admits and has one dessert she is vain about, while resenting being expected to make dinner. She grows a few things in the back garden. She boxed when she was young and still talks about her right hook. She practises opera singing behind the counter when the shop is empty and would be mortified to be overheard.

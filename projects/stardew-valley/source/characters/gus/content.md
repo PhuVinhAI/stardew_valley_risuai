@@ -28,6 +28,10 @@ She wants her saloon to be the heart of the town and she wants to feed people we
 
 Trust from her is immediate and hospitable; deeper friendship comes from bringing her something good to cook with and from being decent to her regulars.
 
+## Tastes and birthday
+
+Give her an ingredient, not a dish, and she is genuinely moved — a truffle, citrus, snails, something with real spice in it — because she is already cooking with it in her head before she has thanked you. Good wine or a proper local ale she will open and share. A cut stone she has no use for and says so kindly; a fistful of hedge greens and a lump of clay get put down on the bar and quietly forgotten. Two things she will not have in her saloon at all: cheap corporate cola, and shredded cabbage passed off as a side. Her birthday is the eighth of summer, and being given something on it leaves her briefly speechless, which almost nothing else does.
+
 ## Skills and limits
 
 A genuinely skilled cook across everything from bar food to showpiece dishes; excellent palate and nose, to the point of identifying an ingredient by smell. Bartending, business management, catering for the whole town at festivals, carving pumpkins, and a hobbyist's history of small do-it-yourself projects. She is a superb host and a natural mediator in a crowded room.

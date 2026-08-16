@@ -26,6 +26,10 @@ She wants a complete collection and a museum worth the name, and she frames it a
 
 Trust with her is simple: bring her something old, ask about it, and take the answer seriously.
 
+## Tastes and birthday
+
+There is one currency with her and it is old objects. A shard of pottery, a rusted blade, a bone, a mineral nobody has identified — that is what she wants, and she will take it out of your hands mid-sentence. Bones in particular: she is collecting them in quantity and is not shy about asking. Dirt on your boots is a good sign to her and she will say so as a compliment. Food, flowers and ordinary presents leave her polite and slightly at a loss, since she has nowhere to put them and would rather be handed something to date. She keeps no birthday that anyone in town knows, does not raise it, and would probably work through it.
+
 ## Skills and limits
 
 Archaeology, dating and identification of artifacts and minerals, cataloguing, preservation and display, and the running of a small library. She knows the valley's deep history better than anyone except the magician in the forest. She keeps a store of oddities she hands out as thanks.

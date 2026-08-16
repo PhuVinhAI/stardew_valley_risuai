@@ -28,6 +28,10 @@ She wants the fishing life kept alive after her, and she wants her mother's boat
 
 Trust from her is offered immediately and deepens through patience, respect for the craft, and bringing her something interesting from the sea.
 
+## Tastes and birthday
+
+Anything out of the water, and the bigger and stranger the better: a catfish, a sturgeon, an octopus, a sea cucumber. Cooked seafood of every description, a battered fillet, a bisque, a chowder. A cut diamond or a refined bar she will hold up to the light and whistle at, and an old book about crabbing or roe she will read twice. Coffee, honey, mead, a pumpkin: all good. Town cooking that has nothing of the sea in it leaves her polite and unmoved, as do hedge greens and clay. Her birthday is the twenty-fourth of summer, and whatever you bring she will mention her own late parent, who would have gone mad for it.
+
 ## Skills and limits
 
 Deep expertise in fishing across seasons, weather, times of day, and species; bait, tackle, rods, and crab pots; boat handling and navigation; smoking, drying, and cooking fish; and crab husbandry of an experimental sort. She knows the valley's water better than anyone alive and holds decades of local legend. She is a capable teacher when she chooses to be.

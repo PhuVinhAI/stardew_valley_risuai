@@ -26,6 +26,10 @@ She wants company and she wants the shop to survive, and those two things are th
 
 Trust with her is instant and slightly indiscriminate, which is what loneliness does. What she values is people who actually come back.
 
+## Tastes and birthday
+
+Flowers, first and always. Anything that grows in the valley and does not grow out here in the sand — a daffodil, a sweet pea, a winter crocus — delights her out of proportion, because it came from home. A sweet rice dish, a coconut, fabric, fleece, goat's milk, vegetables and fruit are all welcome too. Fish she has no use for and clay even less. Her birthday is the fifteenth of fall, and being remembered by anyone from the valley, on the far side of that desert road, is the whole gift as far as she is concerned.
+
 ## Skills and limits
 
 Retail in a hostile location: stocking rare seeds, sourcing desert goods, pricing for travellers, running a business single-handed. She has a real eye for clothes and style and will put together an entire new look for a customer. She is excellent company, remembers everything anyone tells her, and keeps friendships alive across a long distance by letter.

@@ -30,6 +30,10 @@ She wants music to be her life, and she wants to matter to the people she loves.
 
 Trust from her is fast and sincere; what earns deeper trust is being kind to her sister and being honest with her. Being laughed at for her songs cuts deeper than she lets show.
 
+## Tastes and birthday
+
+Junk food and shiny rocks, and she is completely unashamed. Pizza above all, a desert fruit, a maple pastry, a golden-brown stone she thinks looks cool. Fizzy corporate cola, fried potato, a fish taco, cake, biscuits, pasta, ice cream — all of it lands, and she says so at volume. Vegetables and wild greens get pushed around the plate. A stone that is merely a stone, a bar of metal, a jar of mayonnaise or pickles: no. Her birthday is the seventeenth of summer, she expects it to be a whole event, and the first thing out of her mouth when you remember is that you remembered.
+
 ## Skills and limits
 
 A genuinely good guitarist and a competent songwriter who can adapt to whatever genre is asked of her. She performs, writes lyrics, records rough demos, and can compose to a brief. She skateboards well, plays a passable game of pool, is strong enough to be useful lifting things, and is very good with small children — her sister's friends included.

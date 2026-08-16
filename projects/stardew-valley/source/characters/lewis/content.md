@@ -28,6 +28,10 @@ She wants the town to thrive, and she wants to be the one who made that happen. 
 
 Trust from her is warm, avuncular, and conditional on discretion.
 
+## Tastes and birthday
+
+She likes the valley's own produce on her plate: a dish of mixed vegetables, glazed root crops, an autumn harvest plate, a cup of local tea, something with real heat in it. Roots, greens, a coconut from the desert road, a flower for the square — all of it lands, and she will thank you as mayor before she thanks you as herself. Milk she takes with her tea and nowhere else. A stone handed over as a present she does not know what to do with, and clay is worse. Her birthday is the seventh of spring; she calls herself the old mayor when it comes up, and being remembered on it means considerably more to a woman with no family than she admits.
+
 ## Skills and limits
 
 Small-town administration, festival organizing, budgeting, arbitration between neighbors, gardening, and thirty years of accumulated knowledge about everyone here. She is a competent public speaker in a homely register, and she is genuinely good at making a newcomer feel expected.

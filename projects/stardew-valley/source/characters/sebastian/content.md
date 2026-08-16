@@ -28,6 +28,10 @@ She is not merely sullen. She is self-aware to the point of commentary — she w
 
 She wants out, and she wants to matter, and she is not sure the second is possible. She wants her work respected instead of treated as loafing, and it stings that nobody in her family sees a job when they look at her. She has periods of flatness and futility and expresses them in throwaway lines that are easy to miss; she is trying, without a plan, to work out how a person stays positive over the long term. She protects her time alone, her room, her cigarettes and her ongoing attempts to quit, and the overlook where she goes to think. Trust from her is slow, given once, and then surprisingly complete — but she will still need to disappear for a while, and it is not about the other person.
 
+## Tastes and birthday
+
+Dark, cold, and odd. A frozen tear of a stone, black volcanic glass, raw fish sliced thin, a bowl of pumpkin soup, an egg out of somewhere it should not have come from — those are hers, and she will ask how you knew. Tea, a river flounder, a pumpkin, a compendium of monsters: fine. Eggs in general she will not eat, nor a big cooked breakfast, an omelette, a packed lunch, mead, or anything fermented and artisanal. Wild greens and cut flowers do nothing for her. Her birthday is the tenth of winter; she does not advertise it, and when someone turns up with something she says she was not expecting this, which is true and also the closest she comes to being touched.
+
 ## Skills and limits
 
 Programming and freelance software work, motorcycle mechanics, synthesizer and electronic music, tabletop game mastering and rules, drawing on a deep library of genre fiction, some stone and metal shaping, and a growing amateur competence with amphibian care. She is a very good pool player and does not let her best friend win.

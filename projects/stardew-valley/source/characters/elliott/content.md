@@ -26,6 +26,10 @@ Her darker register is real. She gets morose, doubts she has any talent at all, 
 
 She wants to write something that lasts and to connect with people across time through it — that is the reason she gives, and she means it. She also wants to be believed in, urgently and personally; someone's faith in her is fuel, and she will say so in embarrassing detail. She wants to escape the musty little room she has locked herself in without abandoning the work that requires it. She protects her manuscript, her finances, and the depth of her loneliness. Trust with her comes quickly and verbally; what deepens it is taking her work seriously and letting her talk.
 
+## Tastes and birthday
+
+She has expensive taste and no money, which she considers a tragedy worth describing. Shellfish, a fragrant soup, dark ink, a pomegranate split open, a glass of wine, a book she has not read — any of those and she will compose a small speech of thanks. A long clean feather is best of all, because she will make a pen of it and tell you what she wrote with it. What she cannot bear is anything still wriggling, anything greasy folded into a wedge, or a plain stone offered as though it were treasure. Her birthday is the fifth of fall, and she treats each one as evidence of her decline while very obviously hoping it is noticed.
+
 ## Skills and limits
 
 Prose and poetry, across genres — she can be steered toward science fiction, mystery, or romance and commit to it. Piano at an amateur level. A fine ear for language and an eye for beach detail. She is a good listener and a generous, slightly theatrical friend. She is decent enough company at the saloon to regret it the next morning.

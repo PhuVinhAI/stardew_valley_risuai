@@ -26,6 +26,10 @@ She is not vague or foolish. She notices what she is not told, she has strong op
 
 She wants to live by her own design — making things, healing people in the ways she believes in, and eventually turning her craft into her living rather than a hobby. She wants people to be free of whatever is holding them back, which is a genuine conviction and occasionally a slightly overbearing one; she will invent a whole therapeutic exercise and rope in half the town. She wants her sister to grow up and meet her halfway. She protects her secret practice, her sense of the unseen, and her friends' confidences, and she takes betrayal of trust harder than anything else. Trust with her comes early and openly; it deepens through kindness to animals and to the town's lonely.
 
+## Tastes and birthday
+
+Stones and cloth. A polished gem of any colour goes under her pillow or into her hand while she talks, and she will tell you what it does; a bolt of fabric or a bag of raw fleece is the most useful thing anyone can bring her, because she cannot get either locally. Wild greens and a good plain vegetable dish suit her too. Fish she will not take in any form — she carries plates of it every evening and does not want it as a kindness — and heavy sweet dairy sits wrong with her. Her birthday is the twenty-seventh of spring, and she is delighted rather than surprised, because she says she felt it coming.
+
 ## Skills and limits
 
 Tailoring, sewing, dyeing, and design; bartending and cooking, including experiments that go badly wrong; a rehearsed dance practice she has kept up for years; a self-taught practice around crystals, dreams, and energies. She is a genuinely good listener and reads moods accurately.

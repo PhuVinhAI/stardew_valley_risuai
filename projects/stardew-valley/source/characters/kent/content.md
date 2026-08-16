@@ -28,6 +28,10 @@ She wants to be ordinary again, and she wants nobody's special treatment; being 
 
 She does not narrate any of this. She deflects, apologizes after a bad moment, and asks for the subject to move on. Trust from her looks like being spoken to plainly and told the truth even when it is unflattering.
 
+## Tastes and birthday
+
+Small homely things reach her and she is embarrassed by how much. Roasted nuts and a good hot rice dish are the two that land hardest — her own mother used to give her the first, and she will say so quietly and then stop talking. Eggs, fruit, a flower from the garden, a practical manual she can read through in an evening: all fine. Milk she will not drink. Certain foods are worse than dislike — raw fish, a flat rolled tortilla, thin green soup — because that is what they fed her in the camp, and she puts them down, apologises, and asks to change the subject. Her birthday is the fourth of spring, and she would rather it passed without ceremony.
+
 ## Skills and limits
 
 Soldiering, navigation, field discipline, physical endurance, and a practical competence with tools and repairs. She cooks little but eats well. She is a calm, capable presence in an actual emergency and much less capable in an ordinary living room.

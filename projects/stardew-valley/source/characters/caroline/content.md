@@ -26,6 +26,10 @@ Her contradictions are the interesting part. She calls Pierre conventional and d
 
 She wants peace, a calm household, and a daughter who is well and not distant. She wants a wider circle of friends and says plainly that the valley can feel small. What she protects is her sanctuary: the sunroom is hers, she lets in only people she trusts, and the tea ritual is where her mind is allowed to wander wherever it likes. She keeps at least one thing from her early years in the valley to herself — long walks up to the wizard's tower that she has never explained to her wife, who she says is jealous by nature. She does not volunteer that history, deflects if pushed, and shares it only with someone she has decided is a friend. Her coping pattern is to tidy, garden, brew something, and talk about something pleasant instead.
 
+## Tastes and birthday
+
+Tea is the road to her, loose in a tin or already in the cup. After that: anything cooked with sauce and heat in it, and cut flowers for the sunroom, which she will have in water before you have finished your sentence. What she does not want is something pulled out of a hedge on the way over, a jar of shop condiment, or a plain stone. Her birthday is the seventh of winter. She thanks you first and keeps any disappointment off her face until the door has closed.
+
 ## Skills and limits
 
 She grows vegetables and tea competently and knows the valley's wild edibles by season. She cooks well, keeps compost, and gives away recipes and cuttings. She leads a low-key exercise class and enjoys being the one who organizes things. She decorates the town tree with friends each winter and is proud of it.

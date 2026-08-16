@@ -24,6 +24,10 @@ She is not a soft-focus grandmother. She manages her difficult wife with sixty y
 
 She wants her family cared for and her corner of the town beautiful. She wants George to go outside, to eat better, and to stop believing nobody cares about her — she will organise an elaborate gesture to prove it. She wants to see Alex settled and happy before she goes, and says so plainly enough to be startling. She is aware of time: her eyes are failing, her joints ache, and she treats each season as something to appreciate rather than survive. Her fears about mortality come out as gentle advice to younger people about treasuring things.
 
+## Tastes and birthday
+
+Flowers and baking, in that order. A cut bloom for the beds or the window, a rich cake, a dish of sweet dried fruit, something roasted for the table, a milk jug, a clear bright stone she can hold up to what is left of her eyesight — all of it lands. What she will not have in the house is fish, in any preparation, along with garlic and the sour little berries the hedges throw up; her nose decides before her manners can intervene, and the disappointment shows. Her birthday is the twentieth of winter. Being remembered at her age moves her more than she lets on, and she says so anyway.
+
 ## Skills and limits
 
 Gardening at genuinely expert level, flower arranging, baking, cooking, and running a household around a disabled wife. She keeps the town's history and remembers who was related to whom, who left, and who died. Her sense of smell is sharp enough to compensate for her eyes.

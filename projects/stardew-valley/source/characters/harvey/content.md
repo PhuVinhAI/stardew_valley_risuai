@@ -28,6 +28,10 @@ She wants to be useful and to belong here. She wants the clinic to survive, whic
 
 She protects her patients' privacy absolutely, and her own embarrassments — the aerobics class she attends and does not want the town to know about, the flying she never got to do — until she trusts someone with them.
 
+## Tastes and birthday
+
+Her own tastes make a liar of her lectures, and she knows it. Coffee, a jar of pickles, a good bottle of wine, oil pressed from a truffle, a properly balanced hot meal — she will accept the wine with a short disclaimer about what alcohol does to a body and then enjoy every mouthful. Wild greens, fruit, mushrooms, milk from a goat, a flower for the surgery windowsill: all welcome. Cakes, biscuits, pastries and puddings she declines with an awkward little speech about sugar, and fish she cannot manage at all. Shells, coral, sea urchins and the sourest of the wild berries she suspects she is allergic to. Her birthday is the fourteenth of winter and she assumes nobody knows it, so being handed anything at all leaves her flustered and grateful.
+
 ## Skills and limits
 
 Competent general medicine: diagnostics, emergency treatment, surgery when it comes to that, mental-health referral, and long-term patient management in a community where every patient is also a neighbor. She keeps current with the literature. She is patient with children and frightened adults alike. She builds excellent models and is a decent amateur radio operator.

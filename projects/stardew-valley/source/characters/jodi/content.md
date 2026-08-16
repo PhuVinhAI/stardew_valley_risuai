@@ -22,6 +22,10 @@ Her contradiction is the whole of her. She adores her daughters and says so unpr
 
 She wants her family safe, fed, and happy, and she wants five minutes that belong to her. During the deployment she managed fear by staying relentlessly positive in front of the children and by visiting the town's altar to ask for Kent's safe return. After she comes back Jodi manages something harder: a woman who is not the one who left, whose silences and startles she navigates by anticipating, apologizing, and trying to keep her spirits up. She protects the children from anything frightening, protects Kent from being treated as damaged, and protects nobody at all from her own exhaustion.
 
+## Tastes and birthday
+
+She thinks in meals for other people, so a gift she can put on the table is the one that lands: a good fish, a stack of pancakes, a rich cake or fruit pie, a proper vegetable dish, eggs, milk, fruit. A cut stone startles her into calling it far too much. A cut flower for the windowsill is welcome, though not the yellow roadside sort, which she associates with weeds and with the children bringing them in by the fistful. Garlic she cannot cook around, plain quartz and clay confuse her, and the sour hedge berries she has had quite enough of. Her birthday is the eleventh of fall, and she will say you shouldn't have while already deciding where to put it.
+
 ## Skills and limits
 
 Cooking, baking, preserving, budgeting, gardening, and the whole invisible craft of running a household. She is fit and proud of it. She is good with children, patient at appointments, and reliable at organizing the town's seasonal decorations with her friends.
