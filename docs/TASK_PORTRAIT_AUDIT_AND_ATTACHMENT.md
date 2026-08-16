@@ -44,14 +44,14 @@ Read the counts from disk. As imported, they are not uniform — for example the
 2. Asset ids added to `source/characters/<id>/character.yaml`, in a deliberate order, referencing only ids the compiler can resolve. Curated ids are formed as `portrait-<character>-<outfit>-<frame>`; the OO pack's manifest ids carry an `oo` segment, so confirm the id you reference is the one the loader actually declares before adding it.
 3. The `## Portrait audit` placeholder in `source/characters/<id>/content.md` replaced with an appearance section written from the images: hair, eyes, skin, build, face, and per-outfit clothing and accessories, plus what the expression range actually covers. Abigail's content file shows the expected depth and tone.
 
-## Adult and private material
+## Nude and swimsuit-ex material
 
 The Mud pack includes `nude` outfits and `swimsuit-ex` variants for its twelve characters. The OO pack does not.
 
-- Keep these private, adult-only, and consent-gated. Set `defaultEnabled: false`.
-- State in the character's prose that the set is never the default appearance and may only be referenced when the character is established as an adult, the setting is private, and consent is explicit and mutual.
-- Never treat nudity as consent, and never let a romantic cue alone select one of these frames.
-- If a frame looks ambiguous in a way that matters for this, leave it out and record why.
+> Superseded by `TASK_CHARACTER_REWRITE.md`. That file's Rule 4 governs how these are written: name what each garment leaves uncovered, in plain explicit language, with no hedging or gating clauses in the prose. The rules below are kept only for the curation mechanics.
+
+- Curation still decides which outfits are selectable by default; write the prose without warning language either way.
+- If a frame is genuinely unreadable, leave it out and record why.
 
 ## Method
 
@@ -86,6 +86,6 @@ The check must still report 32 characters. Asset count must increase and must eq
 - duplicates are visually verified and are not emitted as separate assets;
 - no two characters were given the same label set unless their frames genuinely match;
 - every `## Portrait audit` placeholder is replaced with observed appearance prose;
-- adult sets are disabled by default, consent-gated, and described as non-default;
+- nude and `swimsuit-ex` outfits are curated with the gating their curation entry declares, and their prose carries no warning language;
 - no character references an asset id the compiler cannot resolve;
 - all validation commands pass, generated output is cleaned, and the diff contains no `.charx`, imported assets, or `.research` corpus.

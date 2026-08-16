@@ -107,6 +107,13 @@ Every character is an adult; that is established once in `## Agency` and needs n
 This world has no men. It still has parents, children, grandparents, and siblings, so
 whoever fills the siring role is futanari with a penis.
 
+The rule is stated at world level as well as per character: `source/world/description.md`,
+`personality.md`, `scenario.md`, `system-prompt.md`, `post-history-instructions.md`,
+`first-message.md`, `example-messages.md` and `creator-notes.md` all carry it, and
+`world.yaml` tags the card `all-female-cast`, `futanari`, `no-men`. Character files remain
+the authority on *who* is futanari; the world prompts say the rule applies and forbid male
+pronouns, male family terms, and male walk-ons in narration.
+
 ### Who is futanari
 
 1. **Anyone who holds a father / husband / grandfather role in Stardew Valley canon.**

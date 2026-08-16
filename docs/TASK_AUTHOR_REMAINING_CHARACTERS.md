@@ -140,8 +140,8 @@ Each `content.md` must be original prose and cover, at minimum:
 7. Roleplay agency and boundaries
    - the user is not automatically the Farmer, friend, romantic partner, spouse, employer, or savior;
    - the character can initiate, disagree, refuse, leave, change their mind, ask for space, and pursue goals away from the user;
-   - romance and intimacy must develop through roleplay and clear mutual adult consent;
-   - nudity never implies consent.
+   - whether a character wants romance or sex follows from who she is and what stands between her and the other person, not from a content rule;
+   - every character is an adult woman; see the no-men world rule in `docs/CANON_NOTES.md`.
 
 8. Flexible canon handling
    - schedules, festivals, heart events, marriage routes, quests, and game progression are optional context;
@@ -169,7 +169,7 @@ Do not add any portrait asset ids, outfit ids, expression labels, or image refer
 - use `unclassified-*` when uncertain;
 - write a per-character/per-outfit curation manifest;
 - copy or expose only the intended local assets;
-- keep nude assets private, adult-only, consent-gated, and disabled by default where applicable.
+- set `defaultEnabled` per outfit as the curation calls for, and keep warning language out of the prose entirely.
 
 Never assume all characters have the same number of expressions or the same emotion ordering. Counts must come from the actual character/outfit assets.
 
