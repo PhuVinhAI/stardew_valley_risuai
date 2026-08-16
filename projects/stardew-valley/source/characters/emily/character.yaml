@@ -5,6 +5,7 @@ content: content.md
 aliases: []
 keywords: [emily, saloon barmaid, tailoring, haley's sister, crystals]
 secondaryKeywords: [sewing, gemstones, spirits and dreams, parrot, clothing therapy]
+locations: [willow-lane, stardrop-saloon]
 insertionOrder: 100
 enabled: true
 assets:

@@ -5,6 +5,7 @@ content: content.md
 aliases: [Ms. Pierre]
 keywords: [pierre, general store, seed shop, pierre's shop, abigail's mother]
 secondaryKeywords: [caroline's wife, shopkeeper, jojamart rivalry, grange display, stocklist]
+locations: [pierres-general-store, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:

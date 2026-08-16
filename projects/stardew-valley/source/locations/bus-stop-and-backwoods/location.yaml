@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: bus-stop-and-backwoods
+name: Bus Stop and Backwoods
+content: content.md
+keywords: [bus stop, the bus, backwoods, the tunnel, the road out, west of town, ticket to the desert]
+secondaryKeywords: [broken bus, pam driving, road tunnel, lock-box, scrub, farm gate, minecart to the bus stop]
+insertionOrder: 200
+enabled: true
+assets: []

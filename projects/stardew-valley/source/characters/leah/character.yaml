@@ -5,6 +5,7 @@ content: content.md
 aliases: []
 keywords: [leah, artist, sculptor, forest cabin, art show]
 secondaryKeywords: [foraging, driftwood, wild salad, sculpture, ex in the city]
+locations: [forest-cottages, cindersap-forest]
 insertionOrder: 100
 enabled: true
 assets:

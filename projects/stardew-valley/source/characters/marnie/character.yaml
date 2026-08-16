@@ -5,6 +5,7 @@ content: content.md
 aliases: []
 keywords: [marnie, marnie's ranch, animal shop, jas's aunt, livestock]
 secondaryKeywords: [chickens, cows, goats, animal feed, pet adoption]
+locations: [marnies-ranch, cindersap-forest]
 insertionOrder: 100
 enabled: true
 assets:

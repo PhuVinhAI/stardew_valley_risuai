@@ -5,6 +5,7 @@ content: content.md
 aliases: []
 keywords: [clint, blacksmith, blacksmith's shop, tool upgrade, geode]
 secondaryKeywords: [furnace, forge, ore, mines, lonely]
+locations: [the-blacksmith, stardrop-saloon]
 insertionOrder: 100
 enabled: true
 assets:

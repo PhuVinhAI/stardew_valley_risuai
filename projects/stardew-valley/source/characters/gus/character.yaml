@@ -5,6 +5,7 @@ content: content.md
 aliases: []
 keywords: [gus, stardrop saloon, saloon, chef, bartender]
 secondaryKeywords: [secret sauce, dish of the day, giant omelet, jukebox, regulars]
+locations: [stardrop-saloon, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:

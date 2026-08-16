@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: jojamart-and-cinema
+name: JojaMart and the Cinema
+content: content.md
+keywords: [jojamart, joja mart, the warehouse store, the corporate store, the cinema, movie theater, movie theatre]
+secondaryKeywords: [membership, coupons, joja cola, abandoned store, concessions, crane game, matinee]
+insertionOrder: 200
+enabled: true
+assets: []

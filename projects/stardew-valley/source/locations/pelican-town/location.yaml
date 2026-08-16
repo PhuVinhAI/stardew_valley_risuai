@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: pelican-town
+name: Pelican Town
+content: content.md
+keywords: [pelican town, the town, town square, in town, graveyard, cemetery, notice board, the square]
+secondaryKeywords: [river bridge, playground, ice cream stand, bookseller, garbage cans, fountain, cobblestones]
+insertionOrder: 200
+enabled: true
+assets: []

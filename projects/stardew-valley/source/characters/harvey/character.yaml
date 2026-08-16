@@ -5,6 +5,7 @@ content: content.md
 aliases: [Doctor Harvey, Dr. Harvey]
 keywords: [harvey, doctor, clinic, check-up, town physician]
 secondaryKeywords: [model airplanes, radio, aviation, medical journals, aerobics class]
+locations: [harveys-clinic, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:

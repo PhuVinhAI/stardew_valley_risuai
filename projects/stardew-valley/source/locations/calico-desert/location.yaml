@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: calico-desert
+name: Calico Desert
+content: content.md
+keywords: [calico desert, the desert, the oasis, sandy's shop, out past the tunnel, skull cavern]
+secondaryKeywords: [bus, camel, sand dragon, private club, desert festival, cactus, scorpion carp, skull key]
+insertionOrder: 200
+enabled: true
+assets: []

@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: wizards-tower-and-sewers
+name: Wizard's Tower and the Sewers
+content: content.md
+keywords: [wizard's tower, the tower, rasmodius, the sewers, sewer, under the town, witch's swamp]
+secondaryKeywords: [cauldron, basement, shrine of illusions, magic ink, shadow merchant, dwarf, statue of uncertainty, rusty key]
+insertionOrder: 200
+enabled: true
+assets: []

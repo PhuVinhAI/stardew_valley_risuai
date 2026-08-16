@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: secret-woods
+name: Secret Woods
+content: content.md
+keywords: [secret woods, the deep woods, the hidden clearing, old growth, hardwood stumps]
+secondaryKeywords: [mushrooms, morel, fiddlehead, woodskip, cannoli statue, slimes in the woods, mastery cave]
+insertionOrder: 210
+enabled: true
+assets: []

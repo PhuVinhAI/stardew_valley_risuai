@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: pierres-general-store
+name: Pierre's General Store
+content: content.md
+keywords: [pierre's general store, general store, seed shop, pierre's shop, pierre's, buy seeds]
+secondaryKeywords: [calendar, sunroom, tea, rebate, backpack, closed wednesday, money box]
+insertionOrder: 200
+enabled: true
+assets: []

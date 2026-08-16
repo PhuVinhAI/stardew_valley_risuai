@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: cindersap-forest
+name: Cindersap Forest
+content: content.md
+keywords: [cindersap forest, the forest, the woods south of town, forest river, forest lake]
+secondaryKeywords: [ruined house, sewer pipe, raccoon stump, travelling cart, flower dance, festival of ice]
+insertionOrder: 200
+enabled: true
+assets: []

@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: pelican-beach
+name: Pelican Beach
+content: content.md
+keywords: [pelican beach, the beach, the shore, the pier, the docks, tide pools, the sea]
+secondaryKeywords: [lonely stone, broken bridge, luau, moonlight jellies, night market, driftwood, seagulls]
+insertionOrder: 200
+enabled: true
+assets: []

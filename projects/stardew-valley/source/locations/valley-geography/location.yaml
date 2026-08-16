@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: valley-geography
+name: Valley Geography
+content: content.md
+keywords: [the valley, stardew valley, map, geography, directions, how far, travel, the road, walk to]
+secondaryKeywords: [north, south, east, west, footpath, bridge, gate, region]
+insertionOrder: 190
+enabled: true
+assets: []

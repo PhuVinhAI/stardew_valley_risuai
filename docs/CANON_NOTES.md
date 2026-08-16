@@ -27,6 +27,24 @@ Authored prose describes all five as adults. That is deliberate:
 - **Gift tastes stay unresolved.** `Data/NPCGiftTastes` gives numeric item ids. `Data/Objects.json` is now available locally and could resolve them, but prose only mentions a food or gift where dialogue or a secret note names it in words. Resolving the ids is optional flavor, not a correction.
 - **Marlon's lost eye stays a joke.** He blames the caves in one line and a slime-breeding hobby in another, then says he is kidding. No account is treated as true.
 
+## Locations: what the 28 place entries are grounded in
+
+The `source/locations/*` entries were written from the unpacked 1.6 data rather than from the wiki:
+
+- `Data/WorldMap.json` + `Strings/StringsFromCSFiles.json` (`MapPage.cs.*`) for canonical place names, house addresses, and posted opening hours.
+- `Data/Locations.json` for per-location forage by season, artifact spots, fish lists, and ambience.
+- `Maps/*.tmx` warp tables for which places actually connect, and the `Action`/`TouchAction` tile properties for what is interactive in each building.
+- `Strings/StringsFromMaps.json` for interior detail — the books on people's shelves, Clint's unsent letter to Emily, Clara's letter in the Mullner house, Kent's letter home, the mayor's hidden note, Pam's bottles, Maru's floppy disks.
+- `Data/Shops.json`, `Data/Festivals/*`, `Data/PassiveFestivals.json`, `Data/mail.json`, `Data/SecretNotes.json`, `Data/MuseumRewards.json`, `Data/Minecarts.json`, `Data/Monsters.json`, and `Data/Quests.json` for stock, festival dates and venues, unlock events, and the mine's 120 levels.
+
+Judgments made while writing them:
+
+- **Place names follow the game, characters do not.** "JojaMart", "Pelican Town", "Calico Desert", "Cindersap Forest", "Stardrop Saloon", "Sandy's Oasis", "Zuzu City", "Gotoro Empire", "Ferngill Republic" are used as written. Every person in them is a woman, and male pronouns in the extracted strings were converted (Gil, Gunther, Morris, Clint, George, Pierre, the Woods statue, the Old Mariner).
+- **Contested state is written as contested, not resolved.** The community center / warehouse-store / cinema outcome, the bus, Willy's boat, the beach bridge, the trailer, the greenhouse, and the railroad boulder are all presented as live possibilities. Locations say so explicitly instead of picking a timeline.
+- **No mechanics.** Shop inventories, prices, bundle checklists, museum donation counts, mine progression, and building costs were deliberately left out; the entries name what a place sells or gives in prose only.
+- **Off-cast NPCs stay peripheral.** Jas, Vincent, Gil, Leo, the sewer shadow-merchant, the dwarf, the witch, the junimos, and the Old Mariner appear as scenery in place entries because the game puts them there, and none has a character profile. They are described without pronouns where the game's gender would otherwise leak through.
+- **`locations:` references were added to all 32 character sources** — home plus one or two habitual places each. These are soft context for the compiler's reference graph, not schedules.
+
 ## Open items, deferred
 
 1. **`canon.ts` misses text reached by indirection.** Extraction filters `Strings/*` entries by character name, so lines referenced from elsewhere are dropped — `Data/Shops.json` points at keys like `ShopMenu.cs.11517`, which contain no name. That cost five Marlon lines and two Sandy lines until the keys were resolved by hand. A future pass should resolve `[LocalizedText …]` references and shop-owner dialogue into the per-character corpus.

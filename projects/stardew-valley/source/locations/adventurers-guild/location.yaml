@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: adventurers-guild
+name: Adventurer's Guild
+content: content.md
+keywords: [adventurer's guild, the guild, marlon's, weapons shop, bounty board, monster eradication]
+secondaryKeywords: [gil, item recovery, swords, boots, rings, slime hutch, guild membership]
+insertionOrder: 200
+enabled: true
+assets: []

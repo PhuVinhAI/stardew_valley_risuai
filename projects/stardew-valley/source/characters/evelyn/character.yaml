@@ -5,6 +5,7 @@ content: content.md
 aliases: [Granny]
 keywords: [evelyn, granny, george's wife, alex's grandmother, town gardens]
 secondaryKeywords: [cookies, flower beds, tulips, river road, old memories]
+locations: [river-road, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:

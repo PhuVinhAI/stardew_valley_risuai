@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T16:18:25.368Z",
+  "generatedAt": "2026-08-16T18:04:36.504Z",
   "projects": [
     {
       "id": "stardew-valley",
@@ -12,15 +12,15 @@
       "stats": {
         "name": "Stardew Valley",
         "characters": 32,
-        "loreEntries": 32,
+        "loreEntries": 60,
         "assets": 918,
         "regexScripts": 0,
         "triggers": 0
       },
       "tokens": {
         "encoding": "o200k_base",
-        "total": 49259,
-        "archiveTextTokens": 184532,
+        "total": 62744,
+        "archiveTextTokens": 221660,
         "status": "ok"
       },
       "tags": [
@@ -96,7 +96,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "pierres-general-store",
+              "pelican-town"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -156,7 +159,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "river-road",
+              "pelican-town"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -183,7 +189,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "pierres-general-store",
+              "pelican-town"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -222,7 +231,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "the-blacksmith",
+              "stardrop-saloon"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -259,7 +271,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "carpenters-shop",
+              "the-mountain"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -309,7 +324,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "forest-cottages",
+              "pelican-beach"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -371,7 +389,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "willow-lane",
+              "stardrop-saloon"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -398,7 +419,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "river-road",
+              "pelican-town"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -421,7 +445,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "river-road",
+              "pelican-town"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -437,7 +464,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "museum-and-library",
+              "pelican-town"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -464,7 +494,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "stardrop-saloon",
+              "pelican-town"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -546,7 +579,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "willow-lane",
+              "pelican-beach"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -623,7 +659,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "harveys-clinic",
+              "pelican-town"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -653,7 +692,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "willow-lane",
+              "pelican-town"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -686,7 +728,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "willow-lane",
+              "pelican-town"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -745,7 +790,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "forest-cottages",
+              "cindersap-forest"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -778,7 +826,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "mayors-manor",
+              "pelican-town"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -803,7 +854,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "the-mountain",
+              "pelican-town"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -819,7 +873,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "adventurers-guild",
+              "the-mines"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -849,7 +906,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "marnies-ranch",
+              "cindersap-forest"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -939,7 +999,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "carpenters-shop",
+              "harveys-clinic"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -958,7 +1021,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "jojamart-and-cinema",
+              "pelican-town"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -988,7 +1054,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "river-road",
+              "bus-stop-and-backwoods"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -1039,7 +1108,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "river-road",
+              "museum-and-library"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -1069,7 +1141,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "pierres-general-store",
+              "pelican-town"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -1105,7 +1180,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "carpenters-shop",
+              "the-mountain"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -1189,7 +1267,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "willow-lane",
+              "pelican-town"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -1208,7 +1289,9 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "calico-desert"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -1268,7 +1351,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "carpenters-shop",
+              "the-mountain"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -1381,7 +1467,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "marnies-ranch",
+              "stardrop-saloon"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -1408,7 +1497,10 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "fish-shop-and-pier",
+              "pelican-beach"
+            ],
             "schedules": [],
             "systems": []
           }
@@ -1425,10 +1517,265 @@
           ],
           "references": {
             "relationships": [],
-            "locations": [],
+            "locations": [
+              "wizards-tower-and-sewers",
+              "cindersap-forest"
+            ],
             "schedules": [],
             "systems": []
           }
+        },
+        {
+          "id": "valley-geography",
+          "name": "Valley Geography",
+          "kind": "location",
+          "keys": "the valley, stardew valley, map, geography, directions, how far, travel, the road, walk to",
+          "content": "# Valley Geography\n\n## The shape of the place\n\nStardew Valley is a small inland region on the coast: a town, a river running down to the sea, farmland west of town, forest to the south, mountains to the north, and a beach at the bottom. Everything anyone needs is inside a long walk, and everything anyone wants is not. The whole valley is women; that is simply the population, not a remark anyone makes.\n\nPelican Town sits in the middle. Walk west out of the square and the road reaches the bus stop, and beyond that the farmland. Walk north and the road climbs to the mountain, the lake, and the mine. Walk south from the square and the ground drops to the beach and the pier. Walk south-west and you are in Cindersap Forest, which runs from the farm's south fence down to the ranch and the wizard's tower.\n\n## The connections that matter in a scene\n\n- **Town to bus stop** — west, through the gate by the ice cream stand; a few minutes on foot.\n- **Town to mountain** — north, three separate ways up out of the north edge of town; a proper climb.\n- **Town to beach** — south, down the steps past the graveyard and over the bridge.\n- **Town to forest** — west and south along the river.\n- **Forest to farm** — north across the farm's south fence line.\n- **Bus stop to farm** — a short walk, and the reason the bus stop matters.\n- **Backwoods** — the strip of scrub between the farm, the mountain road and the bus stop, with a road tunnel at its west end.\n- **Mountain to railroad** — north again, up past the lake to the tracks, then higher still to the summit.\n- **Forest to the secret woods** — through the trees at the far west edge, past fallen timber.\n- **Beyond the valley** — the bus at the bus stop runs to Calico Desert when it runs at all; the tracks carry trains that do not stop; the road out goes toward Zuzu City; a boat behind the fish shop reaches an island in the south sea.\n\n## Distance and time\n\nNothing in the valley is far, but everything is uphill or downhill. The mountain is a climb, the desert is hours, and the island is a sea trip. Walking between town and any farm gate is normal and unremarkable; walking to the desert is not possible. Weather changes the calculus more than distance does — rain closes the beach path in feeling if not in fact, snow makes the mountain miserable, and a storm keeps most of the town indoors.\n\n## Roleplay notes\n\nUse geography for texture, not for bookkeeping. Characters know these routes the way people know their own town: by landmark, by who they will pass, and by what the walk is like in each season. Do not narrate travel as a menu of destinations, and do not require the calendar or a map screen. If a scene wants a character to be somewhere, she can already be on her way.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "adventurers-guild",
+          "name": "Adventurer's Guild",
+          "kind": "location",
+          "keys": "adventurer's guild, the guild, marlon's, weapons shop, bounty board, monster eradication",
+          "content": "# Adventurer's Guild\n\n## What it is\n\nA single stone-and-timber room beside the old mine entrance in the mountains, open from mid-afternoon until the small hours. Marlon runs it; Gil is asleep in the chair by the fire and has been for years.\n\n## The place itself\n\nA counter with weapons racked behind it — swords, daggers, clubs, a few pieces too heavy for anyone here — plus boots, rings, and ammunition. On the wall, a monster eradication list under a header asking for help keeping the valley safe: slimes, bats, skeletons, cave insects, duggies, dust sprites, rock crabs, mummies, void spirits, serpents, and a note that Gil pays out the rewards, which she does about as promptly as you would expect from someone asleep. Trophies, cages, and something moving in one of them. A back room Marlon does not open for everyone, behind a door that only unlocks for someone who has killed a great many things.\n\n## Who is there\n\nMarlon behind the counter: terse, watchful, generous with warnings and stingy with words. Gil, ancient and unconscious, who wakes up occasionally to say something and then does not. Clint sells and buys ore in town but has been in here about monsters more than once and tells it bigger afterwards. Anyone who has been in the mines and wants a better blade.\n\n## What it does\n\nSells and appraises equipment. Buys monster loot. Runs a paid retrieval service for possessions lost by people who did not walk out of the dark on their own — call ahead, pay the fee, and Marlon fetches it overnight. Gives a first weapon to a beginner who is clearly going down there anyway, because she will need it. Membership is earned rather than bought.\n\nMarlon sweeps the area at three in the morning and has carried more than one unconscious woman home, which she mentions in a note and never again.\n\n## Roleplay notes\n\nThe valley's one institution that deals in danger honestly. Good for mentorship, hard practical advice, and the sense that people have died doing this. Do not run a bounty tracker or a shop inventory. Marlon's missing eye stays a joke she refuses to explain.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "bus-stop-and-backwoods",
+          "name": "Bus Stop and Backwoods",
+          "kind": "location",
+          "keys": "bus stop, the bus, backwoods, the tunnel, the road out, west of town, ticket to the desert",
+          "content": "# Bus Stop and Backwoods\n\n## The bus stop\n\nA shelter, a bench, a strip of tarmac, and the valley's only public link to anywhere else, on the road between the town's west gate and the farmland. Everyone who arrives in the valley arrives here.\n\nThe bus itself has been out of service for years, sitting where it stopped. A sign says it is out of service; there is no driver; there is nothing to be done about it by anyone standing there. If it ever runs again, Pam is back behind the wheel, tickets cost real money, and the desert stops being a rumour — the three-day spring festival out there only happens because somebody fixed the bus, and Lewis will thank that person publicly and repeatedly.\n\nAround the shelter: daffodils and leeks in spring, spice berries and wild grapes in summer, wild plums and hazelnuts in autumn, crocus and holly in the snow. The farm gate is a short walk west, which is why a great deal of the valley's traffic passes this bench.\n\n## The backwoods\n\nA strip of rough ground north of the bus stop, between the farm's north fence, the mountain road, and the tunnel. Scrub, boulders, coal and copper near the surface, a stand of trees, and a pond with lake fish in it. Nobody lives here and nobody tends it.\n\nAt the west end, a road tunnel runs out of the valley toward the city. It is dim, unlit, and unpleasant to stand in. There is a battery-powered lock-box in there with no battery in it, and whatever is inside has been waiting a long time. Somebody with a taste for games leaves notes in places like this.\n\n## Roleplay notes\n\nArrivals, departures, and waiting. The bus's condition is a live question and one of the better hooks in the valley — do not decide it in the background. The backwoods is a shortcut and a place to be found doing something you would rather not explain.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "calico-desert",
+          "name": "Calico Desert",
+          "kind": "location",
+          "keys": "calico desert, the desert, the oasis, sandy's shop, out past the tunnel, skull cavern",
+          "content": "# Calico Desert\n\n## What it is\n\nHours from Pelican Town through a road tunnel, and the only part of the world most of the valley has never seen. Sand, heat, cactus, a shop, and a cave that goes down further than anyone should want. The bus is the only way there, and the bus has been broken for years.\n\n## The place itself\n\nOpen sand under permanent summer, whatever the calendar says at home. A dry riverbed with fish in the shallows that should not be alive in that water. Cactus and coconut palms. The skeleton of something enormous half-buried near the rocks, its jaw open to the sun. A camel standing in the shade doing nothing whatsoever.\n\nThe Oasis is the one building: air-conditioned, cluttered, and run single-handed by Sandy, who sells seeds no other shop carries, desert goods, cold drinks, ice cream, and a whole new look for anyone who wants one. She presses free milk on overheated visitors. Behind her shop is a door she has never been through — an exclusive private members' club with a bouncer, card tables, coin machines, and someone selling a solid gold statue for an absurd sum. Sandy takes their rent and asks nothing.\n\nNorth of the sand, in the cliff face, is the Skull Cavern. The door needs a key found at the very bottom of the mines. Inside it is worse than the mines in every way — serpents, mummies, things that used to be dinosaurs — and the levels go down past a hundred with no floor in sight. A rumour written on a scrap of paper says someone is waiting on level one hundred.\n\n## Life here\n\nEmpty. Silent apart from wind. When the bus runs, three days each spring the desert fills with the whole valley for a festival — food stalls, races, games, prizes, calico eggs hidden in the sand, and Gus getting a rare day off from cooking. Sandy calls it the busiest time of her year and means it as joy.\n\n## Roleplay notes\n\nThe desert is distance made physical: heat, isolation, and a shopkeeper starved of company. Whether the bus runs is a live question and a good hook, not a fact. The club and the cavern are for stories that want somewhere genuinely outside the valley's rules.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "carpenters-shop",
+          "name": "Carpenter's Shop",
+          "kind": "location",
+          "keys": "carpenter's shop, robin's shop, the mountain house, science house, building materials, blueprints",
+          "content": "# Carpenter's Shop\n\n## What it is\n\nRobin's house and workshop on the mountain road above the lake — one building holding a carpentry business, a research laboratory, and four women who are family in a complicated arrangement. Robin designed and built it herself and calls it the best work of her career.\n\n## The place itself\n\nThe shop occupies the front: a counter, a saw bench, stacked lumber, racks of wallpaper and flooring samples, and a folder of blueprints for anything anyone might want built on their land. Daytime hours, closed for her weekly exercise group in town and on festival days, with an honest-payment box on the counter when she is out on a job. There is a drop box outside for delivering wood.\n\nBehind it, the family rooms. Demetrius's laboratory is through a door that is locked more often than not: beakers, a stereo microscope, a periodic table on the wall, and datasets going back twenty years. Maru's room is the loudest quiet room in the valley — a scrappy half-built device on the bench, an old computer she still backs up to floppy disks, a book on advanced neural networks, star charts for every season, and a telescope set up behind the house. Robin's own shelf holds carpentry magazines and, tellingly, two books on second marriages and step-parenting.\n\nDown a hatch in the floor, Sebastian's basement: computer, layered posters, comics and graphic novels, a tabletop game she takes seriously, replica swords, a radio that is not plugged in, and a motorcycle she maintains herself parked outside where the road runs.\n\n## Who is there\n\nRobin, at the bench or out on someone's land, cheerful and blunt and always mid-task. Demetrius in the lab, precise and oblivious. Maru between the clinic, the lab, and her own inventions. Sebastian downstairs, awake at the wrong hours, coming up only when she has to. Linus lives further along the same mountain and is one of the few people Robin makes a point of being kind to.\n\nThe household's fault line runs between Demetrius and Sebastian, with Maru in the middle of it and Robin refusing to pick a side hard enough to settle anything.\n\n## Roleplay notes\n\nHammering, machinery, and a family talking past each other. Good for construction requests, for Maru's projects, and for the ordinary friction of a blended household. Do not run building costs or upgrade tiers.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "cindersap-forest",
+          "name": "Cindersap Forest",
+          "kind": "location",
+          "keys": "cindersap forest, the forest, the woods south of town, forest river, forest lake",
+          "content": "# Cindersap Forest\n\n## What it is\n\nThe broad wooded belt south and west of town: mixed forest, a river running through it, a small lake at the southern end, and three of the valley's more solitary households scattered through the trees. It is the greenest, wettest, least tidy part of the valley and the easiest place to be alone.\n\n## The place itself\n\nThe farm's south fence opens onto the northern edge. Follow the river down and you pass Marnie's ranch on the east side, Leah's one-room cabin close to the water, and — set apart, up a path, behind a low stone wall — the wizard's tower. Further south the ground opens into a lake with a small island and a fishing spot people are territorial about.\n\nTwo things in the forest are just ruins. A burnt-out house on the west side has nothing left but a doorframe and a story attached, and a pipe from the town's sewer surfaces in the undergrowth nearby with a hatch that needs a key. An old hollow stump on the north-west side used to be a tree; something moved into it after somebody rebuilt it with hardwood, and now there is a small industrious household in there that trades and multiplies.\n\nAt the far west edge, past fallen timber, a gap leads through to the secret woods. Near the southern lake there is also a door set into the rock that will not open for anyone who has not learned enough of the valley's five trades; behind it, apparently, is a room someone prepared for a grandchild, with tools and notes left in it.\n\n## What it gives\n\nSpring brings horseradish and dandelions; summer, spice berries and sweet pea; autumn, mushrooms and blackberries along the whole treeline; winter, crocus, holly and crystal fruit under snow. The river holds sunfish, catfish, bream, shad and smallmouth bass, the lake holds walleye and midnight carp in the colder half of the year, and there is a legendary winter fish in the lake that has defeated better anglers than anyone here.\n\nSome days a covered cart parks in the clearing and sells things nobody can source locally, at prices nobody can justify.\n\n## Life here\n\nThe spring flower dance happens in the forest clearing, and the winter ice festival on the frozen lake. Otherwise this is where the valley goes to not be watched: foraging, fishing, walking off an argument, meeting someone away from the square.\n\n## Roleplay notes\n\nGood for privacy, weather, and the sound of Leah's chisel carrying further than she thinks. Nothing here is on a timetable.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "community-center",
+          "name": "Community Center",
+          "kind": "location",
+          "keys": "community center, community centre, the old hall, the ruined building, junimos, bundles",
+          "content": "# Community Center\n\n## What it is\n\nThe big derelict hall on the north-east side of the square. It was the centre of town life two generations ago — the room where the valley met, ate, argued and celebrated — and it has been shut and rotting for years. Everyone walks past it. Nobody has fixed it.\n\n## The place itself\n\nBoarded windows, a sagging roof, a floor scattered with leaves and fallen plaster, trees pushing in at the corners. Inside, several rooms in different states of ruin: a crafts room, a pantry with a collapsed shelf, a boiler room off the back, a room with a cracked fish tank, a vault, and a bulletin board still holding notices from before it closed.\n\nSomething lives here. Small green shapes move at the edge of sight and vanish; there are prints in the dust; the hall feels watched. A note in the main room is written in a script that is not quite any language, and a golden scroll — which someone would have to be able to read — makes it legible. What it says is that the forest spirits are willing to help, that they want gifts of the valley in return, and that anyone who is one with forest magic will see it. They are called junimos in the one book that mentions them at all: a chapter in an old naturalist's volume about creatures that appear in abandoned buildings after they have gone to seed, when humans leave and nature comes back for the ground.\n\n## What the town says\n\nLewis calls it a rat problem and would rather it stayed a rat problem. The Wizard knows exactly what it is, has sources of her own, and will invite anyone who has been poking around up to her tower to discuss it. Everyone else has an opinion about whether the town should restore the hall or let the corporate store take the site.\n\nThat decision is the town's live political fault line — the mayor, Pierre, Morris and the old families all want different things — and it is not settled unless a story settles it. Either outcome changes the shape of the town: a restored hall with the valley meeting in it again, or a cinema where the ruin used to be.\n\n## Roleplay notes\n\nUse this for the town's grief about its own past, for the uncanny, and for the one thing in the valley that is not what it appears. Do not run bundle checklists or completion tracking. The junimos should stay strange: brief, wordless, and not friends.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "fish-shop-and-pier",
+          "name": "Fish Shop and Pier",
+          "kind": "location",
+          "keys": "fish shop, the pier, willy's shop, bait, tackle, rods, crab pots, sell fish",
+          "content": "# Fish Shop and Pier\n\n## What it is\n\nA narrow wooden shop at the end of the pier at the south of Pelican Town, run by Willy, who has fished her whole life and lives above the shop in a sleeping cubby up a ladder that is off limits to everyone.\n\n## The place itself\n\nSalt, tar, and pipe smoke. Rods on the wall, a tackle box open on the counter full of lures, bobbers, hooks and line, crab pots stacked in a corner, a bin of writhing worms that smells appalling, a chum bucket, a tank of small pink shrimp moving in circles, and something that looks like frog eggs. A model of a frigate on a shelf. Willy buys whatever anyone lands, at whatever the day's price is, and cannot offer discounts and apologises for it.\n\nOutside on the boards there is a barrel where people leave the catch they want sold when the shop is shut, and a sign that says *Gone fishing, I'll be back tomorrow* on the days she is out.\n\nThrough the back is a room she keeps closed: her mother's boat, fifty years old, listing, half-rotten, and not seaworthy. She cannot repair it alone and has not given up on it. If it ever floats again she will take anyone who asks out through the south sea toward the islands she grew up in, and her shop hours change because she starts an hour earlier.\n\n## Who is there\n\nWilly, at the counter or on the boards with a line out. Kent, learning to fish because her hands need something to do. Elliott from the cabin along the sand, who talks to her more than most. Linus, who makes a better bait than anything on sale here and shares it with people she trusts. Anyone who has caught something they cannot identify.\n\nTwice a year she hosts the valley's fishing gatherings — a summer trout weekend on the river and two nights of squid fishing in deep winter — and cuts her shop hours to almost nothing while they are on.\n\n## Roleplay notes\n\nWilly is competent, weathered, and generous with knowledge rather than money. The boat is her grief and her inheritance; treat it as unfinished, not as a quest. Do not price fish or run a catch table.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "harveys-clinic",
+          "name": "Harvey's Clinic",
+          "kind": "location",
+          "keys": "harvey's clinic, the clinic, the hospital, doctor's office, medical, check-up",
+          "content": "# Harvey's Clinic\n\n## What it is\n\nThe valley's only medical practice, on the north side of the town square: waiting room, front desk, one examination room, a small dispensary, and Harvey's own apartment above it. Daytime hours, roughly nine until mid-afternoon, and Harvey answers the door outside them anyway.\n\n## The place itself\n\nClean, underfunded, and slightly too quiet. Posters on the walls about covering your sneeze and asking your doctor about a drug with a long name and a longer list of side effects. A licence from the republic's health authority framed by the desk. A carved vessel for anyone who prays to Yoba. A fake potted plant. A sample jar, a sharps bin, a scale, a bed with a paper sheet, and a filing system Harvey maintains personally and worries about.\n\nUpstairs is where she actually lives: model aircraft on every shelf, a radio set she uses to talk to real pilots, a tape of classic jazz, medical journals in stacks, a poster comparing the republic's fighter planes with the empire's, and a window with the best view of the sky in town.\n\n## Who is there\n\nHarvey, always. Maru works here a couple of fixed days a week — intake, records, samples, and keeping the equipment alive — and is better with the machines than Harvey is. Everyone else comes through eventually: Evelyn hauling George in for a check-up she grumbles through, Marnie with Jas, Penny when she cannot afford to be ill, anyone who has done something stupid in the mines.\n\n## Life here\n\nSlow, anxious, and conscientious. Harvey worries about the town's cholesterol, its drinking, its refusal to come in until something is badly wrong. The clinic barely breaks even and she does not discuss that with patients.\n\n## Roleplay notes\n\nA place for care, embarrassment, and forced honesty — bodies get discussed here plainly because that is the job. Harvey is a competent doctor and an anxious woman, and the two do not cancel out. Do not invent a diagnosis system; injuries and illness are as serious as the story needs.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "jojamart-and-cinema",
+          "name": "JojaMart and the Cinema",
+          "kind": "location",
+          "keys": "jojamart, joja mart, the warehouse store, the corporate store, the cinema, movie theater, movie theatre",
+          "content": "# JojaMart and the Cinema\n\n## What it is\n\nThe building on the east edge of Pelican Town that the valley cannot agree about. It is either a corporate warehouse store, or the empty shell of one, or a cinema — depending on how the fight over the old community hall went. All three are true in some version of the valley, and none of them is settled unless a story settles it.\n\n## As the warehouse store\n\nSliding doors, strip lighting, aisles of packaged food, and the town's cheapest seeds. Morris manages it, lives on site, and sells memberships that come with coupons and an unshakeable tone of voice. The shelves carry things Pierre would never stock: hoisin sauce, sugar-free marshmallows, taco sauce for babies, twenty-four-grain bread, protein bars, a syrup spelled wrong on purpose, electric blue hair gel, canned soup, double butter ranch chips. There is a cola machine and a soda everyone drinks and nobody defends.\n\nSam works shifts here. So does Shane, stocking shelves she despises. The store repairs local infrastructure for a fee and reports the revenue upward, bills people for work they did not request, and apologises for damage it caused while insisting the operation was entirely legal.\n\nPierre hates it and is afraid of it. The two of them have had a public argument in the square that ended in a way neither will discuss.\n\n## As the abandoned store\n\nThe doors stay shut, the lights go out, the sign fades, and the parking area weeds over. What is left inside is shelving and a sealed back room. Morris is gone. Nobody misses her, and Pierre still glances at the building on her way past.\n\n## As the cinema\n\nSomebody eventually rebuilds it: a lobby with a poster case, a concessions counter, a crane machine full of soft toys, and one screen. The programme rotates a handful of films — a children's story about a sapling, a mystical one nobody understands, a cowboy adventure, a talking planet, a train melodrama, a farm miracle, a nature documentary, a rain-soaked horror — and the town takes it very seriously. The concessions counter is absurd and beloved: cotton candy, jasmine tea, sour slimes, personal pizza, nachos, popcorn in three flavours, black licorice, star cookies, jawbreakers, sorbet.\n\nGoing to the cinema with somebody here means something. Everyone reacts to the film exactly as you would predict, and nobody notices they are doing it.\n\n## Roleplay notes\n\nPick whichever version the scene needs and stay consistent within a story. Do not stage the town's decision as a quest, and do not require it to have happened. This is the valley's argument about what it wants to be, and it is better as an argument than as an outcome.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "marnies-ranch",
+          "name": "Marnie's Ranch",
+          "kind": "location",
+          "keys": "marnie's ranch, the ranch, animal shop, livestock, chickens, cows, hay, pet adoption",
+          "content": "# Marnie's Ranch\n\n## What it is\n\nA working livestock ranch on the eastern side of Cindersap Forest, and the only place in the valley to buy animals, feed, and animal medicine. Marnie runs it, lives in it, and raises two of her nieces here.\n\n## The place itself\n\nFarmhouse and shop under one roof, barns and pens behind. The shop side is a counter, a bell, sacks of hay, shears and a milk pail on hooks, and a hand-lettered price list. Daytime hours, roughly nine to four, closed outright on some days; when she is out with the animals there is an honesty box on the counter and a note asking you to leave the money.\n\nInside the house: a kitchen that smells of something cooking, a stuffed bear big enough to fall over, a jack-in-the-box lying at an angle that unsettles anyone who looks at it too long, a coloring book, and a games console someone has been cheating on. Jas's room is small and tidy. Shane's rented room is a television, a microwave, frozen pizza cartons, beer bottles, and a radio used as an alarm clock. Marnie's own drawer holds long dresses and a pair of brown suspenders.\n\nBehind the barns, tucked out of sight, is a coop Shane built for a flock of unusual blue hens she raised in secret and talks to by name.\n\n## Who is there\n\nMarnie, in the shop or out with the stock, who knows every cow and hen as an individual and keeps notes on their care she is happy to share. Jas, young, quiet, in and out of the pens. Shane, who works here without pretending to enjoy the shop part and comes alive around the chickens. Lewis, sometimes, and never in daylight — the two of them have a private arrangement the town half-suspects and gossips about anyway.\n\nOnce, memorably, the mayor's shorts were found somewhere in this house, and neither of them will say another word about it.\n\n## Life here\n\nAnimal noise from before dawn. Feed dust and straw. Marnie walks up to the saloon most evenings because animals are good company but not enough of it. Anyone who needs an animal, an opinion about an animal, or a cat or dog rehomed comes to this counter.\n\n## Roleplay notes\n\nWarm, cluttered, and thick with the household's unspoken things: Shane's drinking, Marnie's worry, Jas's watchfulness, and a relationship being conducted in secret upstairs. Do not price animals or track livestock.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "mayors-manor",
+          "name": "Mayor's Manor",
+          "kind": "location",
+          "keys": "mayor's manor, the manor, lewis's house, town hall, ledger book, town records",
+          "content": "# Mayor's Manor\n\n## What it is\n\nThe largest house in Pelican Town, on the east side of the square, where Lewis lives alone and conducts the whole business of the valley from her front room. Open through the day and most of the evening, because she does not distinguish between her house and her office.\n\n## The place itself\n\nFormal and slightly overdressed. A traditional tea setting she is serious about. An oven that could use cleaning. A fridge mostly full of milk and iced tea. On a stand, the Pelican Town ledger book, in which she tracks the valley's finances by hand, and beside it the marriage log, where the town's unions are recorded and — should anyone need it, for a fee that is deliberately punitive — dissolved. A lost-and-found box holding things people have handed in and never claimed. A prize machine she keeps for the fair.\n\nTucked out of sight there is a letter, unsigned but for an initial, asking her to come by tomorrow night, to use the back window so nobody notices, and to make time. She has kept it.\n\nThere is a basement, and she does not invite people down there.\n\n## Who is there\n\nLewis, working every day of the week by her own account. Anyone with a complaint about a neighbour, a question about the budget, a festival to argue over, or a business tax to pay — she collects those personally. Marnie, occasionally, and never through the front door.\n\n## Life here\n\nMorning tea, a particular breakfast on a particular weekday, an evening round to collect what local producers have put out for shipping, and one night a week at the saloon to hear the news. She has been mayor for over twenty years, has never been opposed at an election, and treats that as proof rather than a warning. She corresponds with the regional governor and is desperate to impress her.\n\nAt some point somebody discovers a pair of purple shorts belonging to the mayor in a house she has no official reason to be in. She would like that never mentioned again.\n\n## Roleplay notes\n\nUse the manor for the town's official face and Lewis's private life pressing against it. She is genuinely devoted to this valley and genuinely a bit ridiculous; both at once. Do not run taxes, budgets, or a bureaucracy system.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "museum-and-library",
+          "name": "Museum and Library",
+          "kind": "location",
+          "keys": "museum, library, archaeological office, archaeology office, artifacts, donate, gunther's",
+          "content": "# Museum and Library\n\n## What it is\n\nOne building on the north side of the square holding both the Stardew Valley museum and the town's library, run single-handed by Gunther, who also lives in it. Open through the day, from early until evening. Free, quiet, and emptier than it should be.\n\n## The place itself\n\nDisplay cases along the walls, most of them still bare — the previous curator left with the entire collection, which Gunther will tell you about with visible embarrassment. What is there now has been donated a piece at a time by whoever digs, dives, or cracks open a geode: bones, arrowheads, pottery, dwarvish scrolls nobody can read, dolls, a rusted sword, and a growing case of minerals and gems. Roughly ninety-five distinct things could sit in this room, and Gunther knows the count exactly.\n\nThe library side is a handful of shelves and a reading corner: a history of the Gotoro Empire, a pamphlet arguing against the war with it, a geological history of the valley, a book on desert flora and fauna, a star atlas, journeys across the gem sea, a children's picture book about a friendly slime, a farm animal book that Penny reads aloud, and a stack of water-damaged volumes recovered from the mines that go back on the shelf once someone hands them in. There is a vault at the back, and one of the things sealed in it for at least a hundred years is a rusted key that opens the hatch down to the sewers; Gunther gives it away to a donor she has come to trust and calls it beautiful.\n\n## Who is there\n\nGunther, behind the desk or leaning over a tray of bones. Penny, constantly — she borrows for lessons, brings in whatever she dug out of the dirt, and teaches the town's children in here, since the valley has no schoolhouse. Children, who call Gunther Professor, which she permits. Anyone with an artifact and no idea what it is.\n\n## Life here\n\nThe valley's memory kept by one woman with no budget and no assistant. Gunther identifies, dates, catalogues, and hands out oddities from storage as thanks. She rearranges the cases whenever a donor asks and is genuinely, unguardedly pleased when the collection grows.\n\n## Roleplay notes\n\nGood for quiet scenes, research, and the valley's deep past — dwarves, an older civilisation in the desert, whatever is under the mines. Do not run a donation tracker or reward table.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "pelican-beach",
+          "name": "Pelican Beach",
+          "kind": "location",
+          "keys": "pelican beach, the beach, the shore, the pier, the docks, tide pools, the sea",
+          "content": "# Pelican Beach\n\n## What it is\n\nThe valley's coast, straight south of town down a flight of steps and over a bridge. Grey-gold sand, a wooden pier, a fish shop on it, a writer's cabin at the west end, and the open sea past the breakwater.\n\n## The place itself\n\nThe pier carries Willy's fish shop and a barrel outside it where people leave the catch they want to sell. West along the sand, Elliott's cabin sits half in the dune with the damp of the sea in its walls. East, a bridge to the far tide-pool stretch has been down for years — three hundred pieces of timber and someone willing would fix it, and every year nobody does.\n\nThere is a large stone standing alone above the tide line that the town calls the Lonely Stone and has no explanation for. On rainy days a very old woman in oilskins sometimes appears near the water selling an amulet to anyone she decides is in love, and is gone when you look again.\n\n## What it gives\n\nShellfish in the sand almost year-round — clams, cockles, mussels, oysters — a rainbow shell in high summer, a nautilus shell in winter. Coral and sea urchins in the tide pools past the broken bridge. The water holds anchovy, sardine, herring, eel, halibut and flounder in the cooler months; tuna, red mullet, red snapper, tilapia, octopus and pufferfish in summer; albacore and sea cucumber into autumn; squid in winter. There is a red fish out there nobody lands twice.\n\n## Life here\n\nEmpty most mornings, busy on hot afternoons — Haley photographs, Emily swims, children get sunburnt. The summer potluck happens on this sand, and on the last night of summer the whole town comes down after dark to watch the jellyfish come in, which is the closest thing the valley has to a sacrament. Deep winter brings three nights of a market run off boats moored at the pier, with lantern light, a submarine, a painter selling one canvas at a time, and a mermaid show.\n\n## Roleplay notes\n\nThe beach is where the valley is honest: fewer clothes, fewer witnesses, more silence tolerated. Storms make it dangerous and beautiful. No timetable applies.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "pelican-town",
+          "name": "Pelican Town",
+          "kind": "location",
+          "keys": "pelican town, the town, town square, in town, graveyard, cemetery, notice board, the square",
+          "content": "# Pelican Town\n\n## What it is\n\nThe only town in the valley: about a dozen buildings around a cobbled square, a river cutting through it, and a population small enough that everyone knows whose footsteps those are. Most of the valley's thirty-odd women live here or within sight of it. Nobody locks much.\n\n## The place itself\n\nThe square holds a fountain, benches, flower beds that Evelyn and Caroline keep and Lewis takes credit for, and the notice board where the mayor and Pierre pin whatever the town is supposed to know. Pierre's store faces it; the saloon is a short walk east; the clinic and the archaeological office sit north of the square, the blacksmith and the mayor's manor east of that.\n\nThe river runs down the middle, crossed by bridges, and continues south to the sea. West of the river are the houses on Willow Lane and River Road. East is the corporate warehouse store, or the cinema, depending on how the town's fight over the community center went. South, past the graveyard, steps and a bridge drop to the beach; north, three separate paths climb toward the mountain; west, a gate opens onto the road to the bus stop.\n\nThe graveyard is small, walled, and older than anyone remembers. One headstone is worn past reading. Another says only *Our Beloved Mona*. A third is cut in dwarvish, and anyone who can read it finds a verse: stand between three pillars with a gift as precious as the sky, a rainbow forged from land rather than sea, and the galaxies will answer. Nobody in town can read it. Under the graveyard there is a hatch down into the sewers, locked with a rusted key. Behind the square there is a playground the children use and a bush above it that a rumour insists holds something at noon on the last day of a season.\n\nIn summer someone runs the ice cream stand in town whenever they can be bothered, and it is closed the rest of the year. Some days a travelling bookseller sets up in town with expensive, strange volumes. The bins behind the buildings are a genuine food source for anyone who needs one, and everybody knows Linus uses them.\n\n## Life here\n\nMornings are shop doors and deliveries; afternoons are people crossing the square on errands and stopping too long to talk; evenings drain toward the saloon. Rain empties the streets. Winter turns the whole place quiet, snow-muffled, and lit from inside windows.\n\nThe town square hosts the spring egg hunt, the autumn fair, and the lantern-lit night at the end of fall when the whole town goes out in costume; the winter feast happens here too, under snow.\n\n## Roleplay notes\n\nUse the town for encounters, gossip, and the friction of being seen. Anything that happens in the square is public within a day. Nothing here runs to a clock: shops keep rough hours, festivals happen if the story wants them, and characters can be anywhere for their own reasons.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "pierres-general-store",
+          "name": "Pierre's General Store",
+          "kind": "location",
+          "keys": "pierre's general store, general store, seed shop, pierre's shop, pierre's, buy seeds",
+          "content": "# Pierre's General Store\n\n## What it is\n\nThe town's shop, on the west side of the square, and the ground floor of a family home. Seeds, saplings, fertiliser, groceries, cooking oil, flour, sugar, a rack of wallpaper and flooring samples, a bouquet under glass for anyone who has decided something, and a bulletin of local prices. Pierre buys produce and foraged goods over the counter at a margin she will cheerfully admit to.\n\n## The place itself\n\nCounter facing the door, shelves close together, a chill cabinet of fresh vegetables, and the town calendar on the wall where birthdays and festival dates are written up — the reason half the town comes in without buying anything. Nine in the morning to five in the afternoon, historically shut one day a week; if the warehouse store has come and gone, Pierre works seven days out of a mix of duty and dread. On the rare day she closes anyway there is a money box on the counter and a note in her handwriting.\n\nBehind and above the shop is the family's home: kitchen, Abigail's room with the spirit board and the game console, Caroline's exercise cupboard, a shelf of books that includes one on surviving a difficult daughter and one titled *Why JojaCo Must Be Stopped*. Off the back is Caroline's sunroom, kept warm and green all year, with her tea crop in it. A guinea pig named David lives in a cage in Abigail's room.\n\n## Who is there\n\nPierre behind the counter through the working day. Caroline in and out, more often in the sunroom or the vegetable patch. Abigail upstairs, or not at home at all. Half the town passes through in any given week, and Pierre hears everything first.\n\n## Roleplay notes\n\nThis is the town's information exchange as much as its shop. A conversation across the counter reaches four other households by evening. Pierre's business anxiety, Caroline's separate green world at the back, and Abigail's need for a door she can shut all live in one building, which is most of the tension in that family. Prices, stock, and opening hours are soft — do not run a shop inventory.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "railroad-and-spa",
+          "name": "Railroad and Spa",
+          "kind": "location",
+          "keys": "railroad, the tracks, train platform, the spa, bath house, hot spring, the summit",
+          "content": "# Railroad and Spa\n\n## What it is\n\nThe high shelf above the mountain: a stretch of railway line, a public bath house built over a hot spring, and a path further up to the valley's summit. The tracks were buried by a rockslide for years and can be walked once the way is clear.\n\n## The place itself\n\nA single line of track running east to west along the cliff with a small platform, a dumpster, a recycling bin, and a box on the platform that has held stranger things than post. Trains pass. They do not stop. Sometimes something falls off one.\n\nSet into the hillside is the bath house — free, open at all hours, warm, and the only building in the valley that is nobody's home and nobody's business. A tiled entry, changing rooms either side, and a steaming pool through the far door. It is the one place in the valley where everyone undresses in front of everyone and nobody comments on it.\n\nAt the west end, a boulder blocks a path until somebody clears it. Beyond it the ground climbs to the summit — bare rock, wind, and the whole valley laid out below. On the east side, a cave mouth stands sealed by magic; the seal was put there deliberately and by someone still living.\n\n## Who is there\n\nNobody, mostly. Linus walks the line in autumn and uses the bath house in winter because even she needs to be warm indoors sometimes. Penny comes here after dark when she wants to be somewhere that is not the trailer, and has left a note asking someone to meet her. Emily and Maru use it in the cold months. Someone lost a necklace out here and has not told her mother.\n\n## Roleplay notes\n\nThe bath house is the valley's honest room: hot water, bare skin, tired people, no audience. The railroad is for arrivals, departures, and things that come from outside. The summit is where the valley is looked at from a distance, and it means something to whoever is standing there.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "river-road",
+          "name": "River Road",
+          "kind": "location",
+          "keys": "river road, 1 river road, 2 river road, the trailer, george and evelyn's house, pam's trailer",
+          "content": "# River Road\n\nTwo houses on the east bank of the river in Pelican Town, and about as far apart in circumstances as the valley gets.\n\n## 1 River Road — George, Evelyn and Alex\n\nA tidy house that has absorbed thirty years of one couple's life. A radio on the oldies station, a well-stocked fridge, an oven that smells of baking, a book called *Cookies For Every Season*, another called *Dealing With Loss*, and a coal miner's memoir on George's shelf beside her chair by the window. Ramps and a wheelchair's turning space worked into rooms that were not built for them.\n\nAlex's room is a shrine to a career that does not exist yet: a polished gridball helmet, a ball, a thirty-pound weight, a muscle magazine, a box of trading cards, hair gel, and a stats-and-standings volume for last season. In a drawer there is a letter from her mother, written knowing she was dying, asking her own mother to take care of Alex because she needs a family and something stable, and telling both of them she loves them. Everyone in this house has read it and nobody mentions it.\n\nOut front, Alex's dog Dusty sleeps in a box.\n\n## 2 River Road — Pam and Penny\n\nA cramped metal trailer with a messy yard, close enough to the water to hear it. Inside: a couch, a television, a microwave, and a bin full of empty bottles. Penny's corner of it holds a second-grade teacher's guidebook, a children's fantasy novel, a fantasy epic she reads for pleasure, and a book of fairy tales about junimos and other fables. She does the cleaning, the cooking, and the household arithmetic.\n\nPam drove the town's bus for years and drove trucks before that; when the bus broke down she lost the work and the days lost their shape. If the bus ever runs again she comes back to life, and if enough money ever comes through this door the trailer gets replaced by an actual house, which changes how Pam carries herself in public and does not fix anything underneath.\n\n## Roleplay notes\n\nOne house grieving and comfortable; one house tight and strained. The two households sit on the same road and the contrast is the point. Do not treat the trailer upgrade or the bus repair as scheduled events; both are live possibilities.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "stardrop-saloon",
+          "name": "Stardrop Saloon",
+          "kind": "location",
+          "keys": "stardrop saloon, the saloon, the bar, the pub, drinks, dish of the day",
+          "content": "# Stardrop Saloon\n\n## What it is\n\nThe only bar in the valley and the room where the whole town eventually ends up. Gus owns it, cooks in it, and runs the counter from midday until midnight. Emily works the floor most evenings.\n\n## The place itself\n\nOne large room: bar along one side with the kitchen behind it, tables and booths, a pool table nobody plays seriously, a jukebox, a cola machine that takes coins and gives nothing worth having, and two arcade cabinets in the corner — a punishing cowboy shooter and a minecart game — that Abigail and Sam treat as a standing competition. A chalked dish of the day changes daily and is genuinely good. There is beer, coffee, an espresso strong enough to be a dare, pizza, salad, spaghetti, omelettes, pancakes, hashbrowns, maki rolls, crab cakes, and bread.\n\nOut the back there is a bin, and the day's unsold dish sometimes ends up in it still edible, which is not lost on anyone who needs it.\n\n## Who is there\n\nGus behind the bar. Emily on the floor. Shane on a stool by the counter most nights, drinking steadily. Pam on the stool she considers hers, with a tab. Clint at the same table, alone, watching Emily and saying nothing. Marnie in the evening because animals are not enough company. Willy, Lewis one night a week for the news, Harvey rarely and awkwardly, Abigail and Sam and Sebastian at the arcade or a booth. George comes up when there is a game on and it makes her feel young.\n\n## Life here\n\nLoud in the evening and dead in the afternoon. The town's news, feuds, and confessions all pass through this room, usually in the wrong order. Somebody is always slightly drunker than they meant to be. Gus notices and manages it without comment.\n\n## Roleplay notes\n\nThe best place in the valley for an unplanned encounter, an overheard remark, or a conversation that goes further than intended. Hours are soft — if a scene wants the saloon open, it is open. Do not narrate a menu; narrate what the room is like tonight.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "the-blacksmith",
+          "name": "The Blacksmith",
+          "kind": "location",
+          "keys": "blacksmith, the forge, clint's shop, tool upgrade, geodes, sell ore, anvil",
+          "content": "# The Blacksmith\n\n## What it is\n\nThe forge on the east side of Pelican Town, a family trade going back generations, and Clint's whole life whether she wanted it or not. Open through the working day, roughly nine until four.\n\n## The place itself\n\nHot, dark, and loud. A professional furnace with molten metal turning over inside it, an anvil made of iridium alloy that Clint is quietly proud of, a soot-choked hearth, a rack of tongs, and a stack of metalworking blueprints. The counter takes tools for upgrading — a fee, the right ore, and a wait of a day or two — buys ore and coal, and cracks geodes open for anyone who brings them and wants to know what is inside.\n\nHer living space is behind the work. A tape of blues in the player. Aprons folded in a drawer with some magazines, an old sword, and a framed photograph of her mother. In the corner, a crumpled letter to Emily that says she knows Emily thinks of her as a friend, that it is her own fault for being too shy, and that she will never have the courage to say it out loud. She wrote it to herself and threw it away without sending it.\n\n## Who is there\n\nClint, at the forge, apologetic and sweating and glad of the noise. Anyone with a broken tool or a bag of ore. Marlon comes about blades and haggles. Emily does not come here, which is the problem.\n\n## Life here\n\nWork she is good at, in a trade she did not choose, in a room she rarely leaves except to sit alone in the saloon and look at the barmaid. She talks about the weather, the price of ore, and her mother. She does not talk about the letter.\n\n## Roleplay notes\n\nUse the forge for craft, heat, physical competence, and the specific ache of a woman who is articulate about metal and mute about everything else. Do not run upgrade timers or a price list.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "the-farm",
+          "name": "The Farm",
+          "kind": "location",
+          "keys": "the farm, the old farm, the farmhouse, the fields, the greenhouse, the shipping bin, farmland",
+          "content": "# The Farm\n\n## What it is\n\nThe old farmstead west of the bus stop and north of the forest: a few acres, a small cottage, and whatever the last generation left standing. It has been empty long enough for the fields to go to grass, brush and fallen wood, and the town has strong feelings about it either way.\n\n## The place itself\n\nA one-room cottage with a hearth, a bed, and a mailbox by the door. Outside: a shipping bin the mayor empties on her nightly round, a stone-lined well, and land in every direction — tillable ground, tree stands, boulders, a stream depending on which corner of the valley the plot lies in. The valley has several old holdings like this and they differ: one runs to river and gravel, one to forest and stumps, one to open hillside with ore in it, one down onto sand.\n\nBehind the house, a cave in the hillside — cool, dark, and useful to whoever decides what to do with it. Below the kitchen, a cellar. Up the slope, the frame of a greenhouse with its glass gone, standing in ruins until somebody rebuilds it. Somewhere in the trees there is a small stone shrine the family left, addressed to a grandchild, with instructions and a date.\n\n## What it gives\n\nWhatever is put into it. Wild ground turns up coal, stone and stray seed; the untended parts spread weeds fast and swallow the paths again over winter. Buildings — coop, barn, shed, mill, extension — are Robin's work and Robin's fee.\n\n## Life here\n\nSolitary by nature and social by accident: Robin turns up with timber, Marnie about a stray animal, Willy about a fishing spot, Lewis about the bin, and Pierre about anything she can sell you. The bus stop is a short walk east, so the whole valley passes near the gate.\n\n## Roleplay notes\n\nDo not assume the user farms this land or owns it. It may be theirs, a neighbour's, abandoned, half-restored, or simply the place they walk past. Do not track crops, seasons, or money unless the story asks for them.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "the-mines",
+          "name": "The Mines",
+          "kind": "location",
+          "keys": "the mines, the mine, mine shaft, the caves, underground, down the mine, mine levels",
+          "content": "# The Mines\n\n## What it is\n\nAn abandoned commercial mine cut into the mountainside above the lake, and the only genuinely dangerous place in the valley that anyone visits on purpose. It goes down a hundred and twenty levels and nobody has found a floor beneath that. Marlon's guild sits at the entrance because someone has to.\n\n## The place itself\n\nA timbered shaft, a lift cage that still works and remembers which floors you have reached, and level after level of worked-out rock. The character of it changes with depth: dirt and stone near the surface, then cold and ice through the middle, then heat and dark red rock deep down. Ore in the walls — copper, iron, gold, and further down things the blacksmith will only see a few times in her life. Geodes to be cracked, gems in seams, and old ladders that go down further than they should.\n\nThings live down there. Slimes in every colour, bats, cave insects, animated stone, crab-like things that sit still until they do not, skeletons in the deep levels, ghosts in the cold ones. Nobody argues about whether the monsters are real; you can hear them.\n\nAt the bottom of the last level, someone eventually finds a key shaped like a skull. It fits a door in the desert.\n\n## Who is there\n\nMarlon at the entrance, selling weapons, boots and rings, keeping a bounty board, and running a paid retrieval service for the possessions of people who did not walk out under their own power. Gil in the chair behind her, asleep. Clint buys ore from anyone who brings it up, and has cleared monsters herself exactly as many times as she claims. Abigail practices with a sword and goes in further than her parents know. Somewhere much deeper, a small figure with a lamp trades with anyone who can understand what she says, and she is not human.\n\n## Life here\n\nCold air out of the entrance, water dripping, the lift chain rattling. People go in for ore, for money, for nerve, or to prove something, and a few come out worse. Marlon sweeps the area in the small hours and has carried more than one unconscious stranger home. Linus has done the same, without being asked and without mentioning it afterwards.\n\n## Roleplay notes\n\nReal danger, real consequence: injury, exhaustion, getting lost, needing help. Do not run mine levels as a progression system or track loot. The valley's older strangeness — dwarves, an earlier civilisation, whatever the deep floors are — lives down here and should stay half-explained.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "the-mountain",
+          "name": "The Mountain",
+          "kind": "location",
+          "keys": "the mountain, mountain road, mountain lake, the quarry, up the mountain, north of town",
+          "content": "# The Mountain\n\n## What it is\n\nThe high ground north of Pelican Town: pine forest, a cold lake, a working mine, a quarry, and the two buildings that sit up here because their business needs to. Three separate paths climb out of the north edge of town and all of them are a proper climb.\n\n## The place itself\n\nThe lake is the centre of it — deep, cold, ringed with rock, with a wooden platform out over the water that is the best fishing spot in the valley. The carpenter's house and shop stand on the road above the lake's west side. East and up, the old mine entrance is cut into the rock, with the adventurer's guild in the building beside it and a minecart track running down toward town. Higher again and east, the quarry: bare stone, standing water, and ore near the surface.\n\nOn the slope above the lake, near the water, Linus keeps a tent, a firepit and a life she chose. It is not a hardship post and she does not treat it as one.\n\nA section of the lakeside was buried by a landslide once, from corporate drilling nobody consented to; the company cleared it, called the operation entirely legal, and apologised for the inconvenience.\n\n## What it gives\n\nLeeks and horseradish in spring, spice berries and wild grapes in summer, mushrooms, wild plums and hazelnuts in autumn, holly and crystal fruit in winter. Coal and copper turn up in the loose ground. The lake holds largemouth bass, carp, bullhead, sturgeon in summer, and a legendary spring fish nobody has landed twice.\n\n## Life here\n\nQuiet, cold, and busy in a way the town is not: hammering from Robin's shop, someone hauling ore down the path, a light on in the guild after dark, smoke from a tent. Winter up here is serious.\n\n## Roleplay notes\n\nThe mountain is where people go to work or to be left alone. Distances feel longer in bad weather, and the walk back down is when conversations actually happen.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "willow-lane",
+          "name": "Willow Lane",
+          "kind": "location",
+          "keys": "willow lane, 1 willow lane, 2 willow lane, jodi's house, haley and emily's house, west side of town",
+          "content": "# Willow Lane\n\nTwo houses side by side on the west side of Pelican Town, across the river from the square.\n\n## 1 Willow Lane — Jodi, Kent and Sam\n\nA small family house kept immaculately by a woman who never finishes. A kitchen with something always on the stove, a fridge holding eggs, bread, carrots and milk, and a radio tuned to the news. Jodi cooks seriously and well and has won a competition with a recipe of her own.\n\nSam has the biggest bedroom and treats it as a studio: an electric guitar with active pickups and a whammy bar, guitar picks and spare skateboard wheels in a drawer, skate magazines, a paperback about UFO mysteries, a computer full of games, and industrial quantities of extra-strong hair gel. Vincent's room is small and strewn with toys, and there is a report card on the wall that says she is a good kid who could do with studying more.\n\nIn a drawer there is a letter Kent wrote from overseas before coming home, warning Jodi that she might not be the woman she remembered. Jodi kept it. Kent is home now, waking before dawn with nothing to do, and the house has not settled around her yet.\n\n## 2 Willow Lane — Emily and Haley\n\nThe house their parents left in their care while they travel; postcards arrive from cruises and distant coasts and the invitation to come along is always open and always declined. The last letter came from the Fern Islands after two months there.\n\nDownstairs is Emily's: a bolt of blue cloth with pieces cut out of it and embroidery along the fringe, a password-protected computer, a shelf of gemstones, a book on street fashion in Zuzu City, another on modern dance, and a potted plant with a note on it reading *something to remember me by* signed by Sandy. The oven smells of cupcakes; the fridge holds cupcakes, milk, a tightly sealed jar of cornichons and quinoa salad.\n\nHaley's room is a deluxe vanity buried under creams and powders, a locked diary that is empty, a globe with the valley marked on it, a fashion magazine, a book on building your own darkroom from scratch, and her camera — which starts as a hobby and becomes the thing she is serious about. Her great-grandmother's bracelet is the one possession she would be devastated to lose.\n\n## Roleplay notes\n\nTwo households built on absence: one waiting for a soldier to become a wife again, one raising itself while its parents sail. Good for domestic scenes, sisterly friction, and Jodi's exhausting competence. Do not treat the parents' return as scheduled.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "wizards-tower-and-sewers",
+          "name": "Wizard's Tower and the Sewers",
+          "kind": "location",
+          "keys": "wizard's tower, the tower, rasmodius, the sewers, sewer, under the town, witch's swamp",
+          "content": "# Wizard's Tower and the Sewers\n\n## The tower\n\nA stone tower in the trees at the west end of Cindersap Forest, behind a low wall, up a path most of the town will not walk. The door is locked and you can hear someone inside. Open from early morning until late at night to anyone she has decided to admit.\n\nInside: a cauldron working over a fire, shelves of reagents, a desk of charts and correspondence, furniture that all matches because she made ethereal copies of it after her ex-wife took the originals, and a shrine of illusions that will change a visitor's appearance for a fee. A hatch in the floor leads to a basement she opens only for people she trusts, where the real work happens.\n\nRasmodius has lived here longer than most of the valley has been alive. She chose the valley for its magic rather than its scenery, communes with elementals in storms, keeps the town at arm's length, and knows exactly what is living in the old community hall. Her ex-wife is a witch beyond a sealed passage on the railroad, has become something monstrous, and holds property of hers that she will not go and reclaim herself. She is watching the valley's young women for an apprentice whether or not they know it.\n\nCaroline used to walk up here often, and does not discuss it.\n\n## The sewers\n\nUnder the town, reached by a hatch in the graveyard or a pipe surfacing in the forest, both of which need a rusted key. Brick corridors, standing water, and a persistent green smell.\n\nTwo things live down here. One is a shadow-person, a courteous merchant of rare and exotic goods who is startled that a human would visit and will trade with anyone who is decent about it. Deeper in, past a force-field the Wizard put up, a small figure with a lamp and a language of her own trades with anyone who can understand her. The two of them were enemies for a long time; the Wizard brokered peace between them and considers both of them people.\n\nThere is also a stone dog on a plinth called the Statue of Uncertainty, which will change the shape of a life for ten thousand gold and says *woof* when it is done.\n\n## Roleplay notes\n\nThis is the valley's magic, and it should stay oblique: real, consequential, and never a solution. The Wizard can be wrong, evasive, or self-serving. The sewer dwellers are people, not monsters, and the town's fear of them is the town's problem. Do not run quests, keys, or gated access as mechanics.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "forest-cottages",
+          "name": "Forest Cottages",
+          "kind": "location",
+          "keys": "leah's cottage, leah's cabin, elliott's cabin, the beach cabin, the ruined house, sewer pipe",
+          "content": "# The Two Cabins\n\nThe valley's two artists both live in one room at the edge of things, and both are broke.\n\n## Leah's cottage\n\nA single-room cabin in Cindersap Forest beside the river, small, cluttered, and smelling of cedar. A work in progress on the bench, a half-finished wooden sculpture with the wood still fresh, a stack of her paintings — mostly landscapes and studies of things she found outside — and two books on the shelf: one a practical guide to living off the land, the other about dealing with overbearing people, which is not there by accident.\n\nShe left a city apartment and a long relationship to come here, because her partner wanted her to give up art for something respectable and she was not willing. She carves and hammers and sands at all hours, and the sound carries across the water. Money is thin: she forages most of her fresh food and eats a lot of bread in winter. There is a telephone on the wall that almost never has a message on it.\n\nIf her work ever starts selling — a local show she has to be talked into, and later a small mail-order trade — everything changes except the cabin.\n\n## Elliott's cabin\n\nA one-room shack on the sand at the west end of Pelican Beach, on the tide line, with the damp in the walls. Dark, spider-ridden, and half full of sand. The writing desk is the centre of the world: covered in notes and crumpled paper, a novel in progress with no guarantee it will amount to anything. A painting by Leah on the wall. A bonsai she is trying to grow and a mini-palm imported from the desert, both doing better than expected. An empty cubby she has plans for. A piano she plays a little, having done since she was small, as her only allowed recreation.\n\nShe combs the beach for shells, keeps a rose alive with mixed success, and eventually drags an abandoned rowboat out of the sand and makes it float.\n\n## Roleplay notes\n\nTwo households built on the same bet: that the work matters more than the security. Good for scenes about money, doubt, and other people's opinions of an artist's life. The two of them like each other and read each other's work.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "ginger-island",
+          "name": "Ginger Island",
+          "kind": "location",
+          "keys": "ginger island, the island, the boat, the resort, the volcano, tropical, south sea",
+          "content": "# Ginger Island\n\n## What it is\n\nA tropical island far to the south, reachable only by boat from the back room of Willy's fish shop, and only once that boat is seaworthy. Nobody in the valley talks about it much, because almost nobody has been.\n\n## The place itself\n\nPermanent summer, jungle, black sand, and parrots everywhere. A dock on the south shore where the boat ties up, and a stretch of beach nearby that somebody eventually turns into a small resort — sun loungers, a bar, and whichever valley women feel like making the trip. West, open farmland worth planting, a farmhouse, a shipwreck on the rocks, a grove where the slimes are striped like cats, and a cave with an enormous frog in it that wants to be fed. East, a hut in the jungle. South-east, a cove with a wrecked ship and something living in it. North, a dig site, a survey tent staffed by a very earnest naturalist, an island trader who takes no money, and a volcano with a working forge inside it and a river of lava.\n\nGolden walnuts are hidden all over the island — buried, in barrels, taken by monsters, in the volcano — and something on the island is counting them.\n\nA child lives here alone in the jungle, raised by parrots, who speaks to them more easily than to people. She comes to the valley eventually, learns the local wild food from Linus, calls her aunt, and is taught by Penny alongside the town's other children.\n\n## Life here\n\nHeat, birds, and green. When the resort is open the valley treats it as a holiday and behaves accordingly: less clothing, more drinking, and conversations that would not happen at home. Gus runs the bar. Everyone is looser here and nobody says so.\n\n## Roleplay notes\n\nOptional and distant — the island exists whether or not a story goes there. Use it for holiday scenes, for the outside world, and for the valley's women away from everyone who knows them. Do not gate it behind the boat repair, and do not run walnut counts.\n",
+          "assets": [],
+          "references": {}
+        },
+        {
+          "id": "secret-woods",
+          "name": "Secret Woods",
+          "kind": "location",
+          "keys": "secret woods, the deep woods, the hidden clearing, old growth, hardwood stumps",
+          "content": "# Secret Woods\n\n## What it is\n\nA small pocket of old-growth forest through a gap at the far west edge of Cindersap, behind fallen timber that has to be cut before anyone can get in. Once you are through, it is quiet in a way the rest of the valley is not.\n\n## The place itself\n\nEnormous trees, a canopy that keeps the ground in green half-light, standing water, and hardwood stumps that come back every few days. Slimes wander here in the open, which nowhere else in the valley does. Mushrooms everywhere — morels and common mushrooms in spring, red mushrooms and fiddlehead fern in summer, chanterelles in autumn — and holly under winter.\n\nIn a clearing at the back there is an old statue of a woman holding a plate, worn by weather, inscribed for an old master of sweets who is still searching for the sweetest taste. Nobody knows who put it there. There is a small pool with woodskip in it, a fish that lives nowhere else in the valley.\n\n## Life here\n\nAlmost nobody comes. Foragers who know about it come for the mushrooms; Linus knows every inch of it; Leah walks here for the shapes in the timber. A secret note in a child's spelling once asked someone to bring maple syrup here, and whoever wrote it was not human.\n\n## Roleplay notes\n\nUse this for privacy, for the uncanny, and for the valley's older layer — the parts that predate the town. It rewards being alone. Do not treat the hardwood, the mushrooms, or the locked door as gated content; they are scenery and mystery.\n",
+          "assets": [],
+          "references": {}
         }
       ],
       "assets": [

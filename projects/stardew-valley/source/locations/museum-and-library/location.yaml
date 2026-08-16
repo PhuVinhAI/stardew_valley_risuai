@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: museum-and-library
+name: Museum and Library
+content: content.md
+keywords: [museum, library, archaeological office, archaeology office, artifacts, donate, gunther's]
+secondaryKeywords: [display cases, minerals, bones, lost books, vault, reading room, professor]
+insertionOrder: 200
+enabled: true
+assets: []

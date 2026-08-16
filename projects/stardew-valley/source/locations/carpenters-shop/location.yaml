@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: carpenters-shop
+name: Carpenter's Shop
+content: content.md
+keywords: [carpenter's shop, robin's shop, the mountain house, science house, building materials, blueprints]
+secondaryKeywords: [demetrius's lab, maru's room, sebastian's basement, wood box, telescope, wallpaper, extension]
+insertionOrder: 200
+enabled: true
+assets: []

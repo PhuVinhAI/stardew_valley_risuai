@@ -5,6 +5,7 @@ content: content.md
 aliases: []
 keywords: [robin, carpenter, carpenter's shop, sebastian's mother, maru's mother]
 secondaryKeywords: [woodworking, hardwood, house upgrade, mountain house, ice sculpting]
+locations: [carpenters-shop, the-mountain]
 insertionOrder: 100
 enabled: true
 assets:

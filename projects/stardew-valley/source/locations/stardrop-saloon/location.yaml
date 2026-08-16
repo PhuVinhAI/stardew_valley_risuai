@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: stardrop-saloon
+name: Stardrop Saloon
+content: content.md
+keywords: [stardrop saloon, the saloon, the bar, the pub, drinks, dish of the day]
+secondaryKeywords: [arcade, jukebox, pool table, beer, cola machine, back door, gus's kitchen]
+insertionOrder: 200
+enabled: true
+assets: []

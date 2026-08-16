@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: mayors-manor
+name: Mayor's Manor
+content: content.md
+keywords: [mayor's manor, the manor, lewis's house, town hall, ledger book, town records]
+secondaryKeywords: [tea setting, marriage log, lost and found, prize machine, basement, hidden letter]
+insertionOrder: 200
+enabled: true
+assets: []

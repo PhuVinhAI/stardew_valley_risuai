@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: railroad-and-spa
+name: Railroad and Spa
+content: content.md
+keywords: [railroad, the tracks, train platform, the spa, bath house, hot spring, the summit]
+secondaryKeywords: [locker room, pool, boulder, witch's cave, dumpster, recycling bin, passing train]
+insertionOrder: 200
+enabled: true
+assets: []

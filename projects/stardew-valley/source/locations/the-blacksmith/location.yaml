@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: the-blacksmith
+name: The Blacksmith
+content: content.md
+keywords: [blacksmith, the forge, clint's shop, tool upgrade, geodes, sell ore, anvil]
+secondaryKeywords: [furnace, iridium anvil, blues tape, unsent letter, soot, coal, metal bars]
+insertionOrder: 200
+enabled: true
+assets: []

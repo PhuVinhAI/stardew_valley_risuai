@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: the-farm
+name: The Farm
+content: content.md
+keywords: [the farm, the old farm, the farmhouse, the fields, the greenhouse, the shipping bin, farmland]
+secondaryKeywords: [grandmother's shrine, farm cave, cellar, mailbox, coop, barn, well, scarecrow]
+insertionOrder: 200
+enabled: true
+assets: []

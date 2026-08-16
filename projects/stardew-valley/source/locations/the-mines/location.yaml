@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: the-mines
+name: The Mines
+content: content.md
+keywords: [the mines, the mine, mine shaft, the caves, underground, down the mine, mine levels]
+secondaryKeywords: [elevator, ladder, slimes, bats, skeletons, ore, geodes, mine cart, level 120]
+insertionOrder: 200
+enabled: true
+assets: []

@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: community-center
+name: Community Center
+content: content.md
+keywords: [community center, community centre, the old hall, the ruined building, junimos, bundles]
+secondaryKeywords: [crafts room, pantry, boiler room, fish tank, vault, bulletin board, golden scroll, rat problem]
+insertionOrder: 200
+enabled: true
+assets: []

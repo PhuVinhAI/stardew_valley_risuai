@@ -1,0 +1,9 @@
+schema: risuai-location/v1
+id: fish-shop-and-pier
+name: Fish Shop and Pier
+content: content.md
+keywords: [fish shop, the pier, willy's shop, bait, tackle, rods, crab pots, sell fish]
+secondaryKeywords: [back room, the old boat, worm bin, shrimp tank, sleeping cubby, barrel outside, chum]
+insertionOrder: 200
+enabled: true
+assets: []

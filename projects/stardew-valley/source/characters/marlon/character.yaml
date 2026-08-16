@@ -5,6 +5,7 @@ content: content.md
 aliases: []
 keywords: [marlon, adventurer's guild, guild leader, monster slayer, mine entrance]
 secondaryKeywords: [weapons, item recovery, slime eggs, eyepatch, gil]
+locations: [adventurers-guild, the-mines]
 insertionOrder: 100
 enabled: true
 assets:
