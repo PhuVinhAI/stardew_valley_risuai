@@ -21,15 +21,27 @@ outfits:
   beach:
     context: beach
     frames: *alex-frames
-    duplicates: []
+    duplicates:
+      - frame: expression-06
+        duplicateOf: default/expression-06
+      - frame: expression-08
+        duplicateOf: default/expression-08
   winter:
     context: winter
     frames: *alex-frames
-    duplicates: []
+    duplicates:
+      - frame: expression-06
+        duplicateOf: default/expression-06
+      - frame: expression-08
+        duplicateOf: default/expression-08
   swimsuit-ex:
     context: swimsuit-ex
     frames: *alex-frames
-    duplicates: []
+    duplicates:
+      - frame: expression-06
+        duplicateOf: default/expression-06
+      - frame: expression-08
+        duplicateOf: default/expression-08
   nude:
     context: nude
     frames:
@@ -42,8 +54,34 @@ outfits:
       expression-07: bare-aside
       expression-09: bare-flat
       expression-10: bare-straining
-    duplicates: []
+    duplicates:
+      - frame: expression-00
+        duplicateOf: default/expression-06
+      - frame: expression-02
+        duplicateOf: default/expression-08
   swimsuit:
     context: swimsuit
     frames: *alex-frames
-    duplicates: []
+    duplicates:
+      - frame: expression-00
+        duplicateOf: beach/expression-00
+      - frame: expression-01
+        duplicateOf: beach/expression-01
+      - frame: expression-02
+        duplicateOf: beach/expression-02
+      - frame: expression-03
+        duplicateOf: beach/expression-03
+      - frame: expression-04
+        duplicateOf: beach/expression-04
+      - frame: expression-05
+        duplicateOf: beach/expression-05
+      - frame: expression-06
+        duplicateOf: default/expression-06
+      - frame: expression-07
+        duplicateOf: beach/expression-07
+      - frame: expression-08
+        duplicateOf: default/expression-08
+      - frame: expression-09
+        duplicateOf: beach/expression-09
+      - frame: expression-10
+        duplicateOf: beach/expression-10

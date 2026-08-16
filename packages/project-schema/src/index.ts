@@ -15,6 +15,12 @@ export const ProjectConfigSchema = z.object({
 });
 
 const StableIdSchema = z.string().regex(/^[a-z0-9][a-z0-9-]*$/, "Use a stable kebab-case id");
+const FrameRefSchema = z
+  .string()
+  .regex(
+    /^[a-z0-9][a-z0-9-]*(\/[a-z0-9][a-z0-9-]*)?$/,
+    "Use 'frame' for the same outfit or 'outfit/frame' to point at another outfit",
+  );
 const SourcePathSchema = z
   .string()
   .min(1)
@@ -189,7 +195,15 @@ export const PortraitCurationSchema = z.object({
       defaultEnabled: z.boolean().default(true),
       variant: StableIdSchema.optional(),
       frames: z.record(StableIdSchema, StableIdSchema).default({}),
-      duplicates: z.array(z.object({ frame: StableIdSchema, duplicateOf: StableIdSchema })).default([]),
+      duplicates: z
+        .array(
+          z
+            .object({ frame: StableIdSchema, duplicateOf: FrameRefSchema })
+            .refine((entry) => entry.duplicateOf !== entry.frame, {
+              message: "duplicateOf must name another frame, not itself; use 'outfit/frame' across outfits",
+            }),
+        )
+        .default([]),
     }),
   ),
 });

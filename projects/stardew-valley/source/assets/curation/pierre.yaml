@@ -26,12 +26,12 @@ outfits:
     frames: *pierre-frames
     duplicates:
       - frame: expression-00
-        duplicateOf: expression-00
+        duplicateOf: beach/expression-00
       - frame: expression-01
-        duplicateOf: expression-01
+        duplicateOf: beach/expression-01
       - frame: expression-02
-        duplicateOf: expression-02
+        duplicateOf: beach/expression-02
       - frame: expression-03
-        duplicateOf: expression-03
+        duplicateOf: beach/expression-03
       - frame: expression-04
-        duplicateOf: expression-04
+        duplicateOf: beach/expression-04

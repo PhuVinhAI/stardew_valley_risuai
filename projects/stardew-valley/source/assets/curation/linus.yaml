@@ -25,20 +25,32 @@ outfits:
   beach:
     context: beach
     frames: *linus-frames
-    duplicates: &linus-dups
+    duplicates:
       - frame: expression-00
-        duplicateOf: expression-00
+        duplicateOf: default/expression-00
       - frame: expression-01
-        duplicateOf: expression-01
+        duplicateOf: default/expression-01
       - frame: expression-02
-        duplicateOf: expression-02
+        duplicateOf: default/expression-02
       - frame: expression-03
-        duplicateOf: expression-03
+        duplicateOf: default/expression-03
       - frame: expression-04
-        duplicateOf: expression-04
+        duplicateOf: default/expression-04
       - frame: expression-05
-        duplicateOf: expression-05
+        duplicateOf: default/expression-05
   swimsuit:
     context: swimsuit
     frames: *linus-frames
-    duplicates: *linus-dups
+    duplicates:
+      - frame: expression-00
+        duplicateOf: default/expression-00
+      - frame: expression-01
+        duplicateOf: default/expression-01
+      - frame: expression-02
+        duplicateOf: default/expression-02
+      - frame: expression-03
+        duplicateOf: default/expression-03
+      - frame: expression-04
+        duplicateOf: default/expression-04
+      - frame: expression-05
+        duplicateOf: default/expression-05

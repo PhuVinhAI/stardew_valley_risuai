@@ -15,36 +15,24 @@ outfits:
       expression-06: composed-alt
       expression-07: startled
       expression-09: soft
-    duplicates:
-      - frame: expression-08
-        duplicateOf: expression-06
+    duplicates: []
   winter:
     context: cold-weather
     frames: *abigail-frames
-    duplicates:
-      - frame: expression-08
-        duplicateOf: expression-06
+    duplicates: []
   beach:
     context: beach
     frames: *abigail-frames
-    duplicates:
-      - frame: expression-08
-        duplicateOf: expression-06
+    duplicates: []
   swimsuit:
     context: swimwear
     frames: *abigail-frames
-    duplicates:
-      - frame: expression-08
-        duplicateOf: expression-06
+    duplicates: []
   swimsuit-ex:
     context: swimwear-private
     frames: *abigail-frames
-    duplicates:
-      - frame: expression-08
-        duplicateOf: expression-06
+    duplicates: []
   nude:
     context: nude
     frames: *abigail-frames
-    duplicates:
-      - frame: expression-08
-        duplicateOf: expression-06
+    duplicates: []

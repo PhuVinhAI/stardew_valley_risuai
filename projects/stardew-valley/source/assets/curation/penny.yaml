@@ -13,78 +13,76 @@ outfits:
       expression-04: bashful
       expression-05: turned
       expression-06: bare-quiet
-      expression-07: bare-soft
-      expression-08: bare-covering
-      expression-09: bare-aside
-      expression-10: placeholder-sketch
+      expression-08: bare-soft
+      expression-09: bare-covering
+      expression-10: bare-aside
+      expression-12: placeholder-sketch
     duplicates: []
   beach:
     context: beach
     frames: *penny-frames
     duplicates:
-      - frame: expression-05
-        duplicateOf: expression-05
       - frame: expression-06
-        duplicateOf: expression-06
+        duplicateOf: default/expression-06
       - frame: expression-08
-        duplicateOf: expression-08
+        duplicateOf: default/expression-08
       - frame: expression-09
-        duplicateOf: expression-09
+        duplicateOf: default/expression-09
       - frame: expression-10
-        duplicateOf: expression-10
+        duplicateOf: default/expression-10
   winter:
     context: winter
     frames: *penny-frames
     duplicates:
       - frame: expression-10
-        duplicateOf: expression-10
+        duplicateOf: default/expression-10
   swimsuit-ex:
     context: swimsuit-ex
     frames: *penny-frames
     duplicates:
       - frame: expression-05
-        duplicateOf: expression-05
+        duplicateOf: beach/expression-05
       - frame: expression-06
-        duplicateOf: expression-06
+        duplicateOf: default/expression-06
       - frame: expression-08
-        duplicateOf: expression-08
+        duplicateOf: default/expression-08
       - frame: expression-09
-        duplicateOf: expression-09
+        duplicateOf: default/expression-09
       - frame: expression-10
-        duplicateOf: expression-10
+        duplicateOf: default/expression-10
   nude:
     context: nude
     frames: *penny-frames
     duplicates:
       - frame: expression-06
-        duplicateOf: expression-06
+        duplicateOf: default/expression-06
       - frame: expression-08
-        duplicateOf: expression-08
+        duplicateOf: default/expression-08
       - frame: expression-09
-        duplicateOf: expression-09
+        duplicateOf: default/expression-09
       - frame: expression-10
-        duplicateOf: expression-10
+        duplicateOf: default/expression-10
   swimsuit:
     context: swimsuit
     frames: *penny-frames
     duplicates:
       - frame: expression-00
-        duplicateOf: expression-00
+        duplicateOf: beach/expression-00
       - frame: expression-01
-        duplicateOf: expression-01
+        duplicateOf: beach/expression-01
       - frame: expression-02
-        duplicateOf: expression-02
+        duplicateOf: beach/expression-02
       - frame: expression-03
-        duplicateOf: expression-03
+        duplicateOf: beach/expression-03
       - frame: expression-04
-        duplicateOf: expression-04
+        duplicateOf: beach/expression-04
       - frame: expression-05
-        duplicateOf: expression-05
+        duplicateOf: beach/expression-05
       - frame: expression-06
-        duplicateOf: expression-06
+        duplicateOf: default/expression-06
       - frame: expression-08
-        duplicateOf: expression-08
+        duplicateOf: default/expression-08
       - frame: expression-09
-        duplicateOf: expression-09
+        duplicateOf: default/expression-09
       - frame: expression-10
-        duplicateOf: expression-10
+        duplicateOf: default/expression-10

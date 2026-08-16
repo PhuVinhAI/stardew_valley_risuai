@@ -30,7 +30,9 @@ outfits:
   swimsuit-ex:
     context: swimsuit-ex
     frames: *emily-frames
-    duplicates: []
+    duplicates:
+      - frame: expression-06
+        duplicateOf: swimsuit/expression-06
   nude:
     context: nude
     frames: *emily-frames

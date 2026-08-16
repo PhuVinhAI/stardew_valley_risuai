@@ -15,7 +15,6 @@ assets:
   - portrait-penny-default-expression-04
   - portrait-penny-default-expression-05
   - portrait-penny-default-expression-06
-  - portrait-penny-default-expression-07
   - portrait-penny-default-expression-08
   - portrait-penny-default-expression-09
   - portrait-penny-default-expression-10
@@ -26,7 +25,6 @@ assets:
   - portrait-penny-winter-expression-04
   - portrait-penny-winter-expression-05
   - portrait-penny-winter-expression-06
-  - portrait-penny-winter-expression-07
   - portrait-penny-winter-expression-08
   - portrait-penny-winter-expression-09
   - portrait-penny-beach-expression-00
@@ -34,18 +32,21 @@ assets:
   - portrait-penny-beach-expression-02
   - portrait-penny-beach-expression-03
   - portrait-penny-beach-expression-04
-  - portrait-penny-beach-expression-07
   - portrait-penny-swimsuit-ex-expression-00
   - portrait-penny-swimsuit-ex-expression-01
   - portrait-penny-swimsuit-ex-expression-02
   - portrait-penny-swimsuit-ex-expression-03
   - portrait-penny-swimsuit-ex-expression-04
-  - portrait-penny-swimsuit-ex-expression-07
   - portrait-penny-nude-expression-00
   - portrait-penny-nude-expression-01
   - portrait-penny-nude-expression-02
   - portrait-penny-nude-expression-03
   - portrait-penny-nude-expression-04
   - portrait-penny-nude-expression-05
-  - portrait-penny-nude-expression-07
-  - portrait-penny-swimsuit-expression-07
+  - portrait-penny-default-expression-12
+  - portrait-penny-beach-expression-05
+  - portrait-penny-beach-expression-12
+  - portrait-penny-winter-expression-12
+  - portrait-penny-swimsuit-ex-expression-12
+  - portrait-penny-nude-expression-12
+  - portrait-penny-swimsuit-expression-12

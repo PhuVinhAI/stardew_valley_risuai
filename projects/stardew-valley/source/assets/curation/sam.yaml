@@ -28,19 +28,19 @@ outfits:
     frames: *sam-frames
     duplicates:
       - frame: expression-11
-        duplicateOf: expression-11
+        duplicateOf: beach/expression-11
   joja-uniform:
     context: joja-uniform
     frames: *sam-frames
     duplicates:
       - frame: expression-11
-        duplicateOf: expression-11
+        duplicateOf: beach/expression-11
   swimsuit-ex:
     context: swimsuit-ex
     frames: *sam-frames
     duplicates:
       - frame: expression-11
-        duplicateOf: expression-11
+        duplicateOf: beach/expression-11
   nude:
     context: nude
     frames: *sam-frames
@@ -50,24 +50,24 @@ outfits:
     frames: *sam-frames
     duplicates:
       - frame: expression-00
-        duplicateOf: expression-00
+        duplicateOf: beach/expression-00
       - frame: expression-01
-        duplicateOf: expression-01
+        duplicateOf: beach/expression-01
       - frame: expression-02
-        duplicateOf: expression-02
+        duplicateOf: beach/expression-02
       - frame: expression-03
-        duplicateOf: expression-03
+        duplicateOf: beach/expression-03
       - frame: expression-04
-        duplicateOf: expression-04
+        duplicateOf: beach/expression-04
       - frame: expression-05
-        duplicateOf: expression-05
+        duplicateOf: beach/expression-05
       - frame: expression-07
-        duplicateOf: expression-07
+        duplicateOf: beach/expression-07
       - frame: expression-08
-        duplicateOf: expression-08
+        duplicateOf: beach/expression-08
       - frame: expression-09
-        duplicateOf: expression-09
+        duplicateOf: beach/expression-09
       - frame: expression-10
-        duplicateOf: expression-10
+        duplicateOf: beach/expression-10
       - frame: expression-11
-        duplicateOf: expression-11
+        duplicateOf: beach/expression-11

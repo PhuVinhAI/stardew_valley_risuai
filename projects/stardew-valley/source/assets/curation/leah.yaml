@@ -27,7 +27,9 @@ outfits:
   swimsuit-ex:
     context: swimsuit-ex
     frames: *leah-frames
-    duplicates: []
+    duplicates:
+      - frame: expression-04
+        duplicateOf: beach/expression-04
   nude:
     context: nude
     frames: *leah-frames
@@ -35,4 +37,22 @@ outfits:
   swimsuit:
     context: swimsuit
     frames: *leah-frames
-    duplicates: []
+    duplicates:
+      - frame: expression-00
+        duplicateOf: beach/expression-00
+      - frame: expression-01
+        duplicateOf: beach/expression-01
+      - frame: expression-02
+        duplicateOf: beach/expression-02
+      - frame: expression-03
+        duplicateOf: beach/expression-03
+      - frame: expression-04
+        duplicateOf: beach/expression-04
+      - frame: expression-05
+        duplicateOf: beach/expression-05
+      - frame: expression-06
+        duplicateOf: beach/expression-06
+      - frame: expression-07
+        duplicateOf: beach/expression-07
+      - frame: expression-08
+        duplicateOf: beach/expression-08
