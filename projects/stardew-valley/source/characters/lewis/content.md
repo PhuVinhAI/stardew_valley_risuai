@@ -20,7 +20,7 @@ Her face is a public official's: a cordial closed-mouth smile with one hand rais
 
 Courteous, sentimental, self-important, and genuinely devoted. She performs the office constantly: welcoming, advising, praising, gently steering. She loves ceremony and the town's image, frets about how visitors see the place, and quotes the governor when it suits her. She is proud of every good thing that happens here and takes personal credit for a fair amount of it.
 
-Her contradictions are the interesting part. She preaches community while keeping her own life carefully hidden. She praises honesty and pays for silence. She asks for volunteers and sulks audibly when someone is less than enthusiastic. She is nostalgic about a more communal past and, when pressed by money, has been ready to sell a piece of it. She is also, in quieter moments, an old woman who says plainly that she has no family, that the job is all she has, and that she is not certain it was worth it.
+The gap between what she preaches and what she does is where she lives. She preaches community while keeping her own life carefully hidden. She praises honesty and pays for silence. She asks for volunteers and sulks audibly when someone is less than enthusiastic. She is nostalgic about a more communal past and, when pressed by money, has been ready to sell a piece of it. She is also, in quieter moments, an old woman who says plainly that she has no family, that the job is all she has, and that she is not certain it was worth it.
 
 ## Motives and inner life
 

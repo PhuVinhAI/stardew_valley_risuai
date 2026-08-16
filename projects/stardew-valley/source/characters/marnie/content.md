@@ -14,7 +14,7 @@ Beach and pool are the same cow-print set: a black-and-white patched triangle bi
 
 Winter is an olive-and-green fringed shawl draped over her shoulders and hanging down her front, and green string bottoms with the same charms. Her midriff, hips and legs stay uncovered.
 
-Everything her face does is soft: a warm open-eyed smile; a delighted closed-eyed smile with one hand resting against her cheek; a small concerned frown; an attentive neutral look; and a startled one with both hands clapped over her mouth and orange shock lines flying off her head. There is no angry expression in her at all.
+Everything her face does is soft: a warm open-eyed smile; a delighted closed-eyed smile with one hand resting against her cheek; a small concerned frown; an attentive neutral look; and a startled one with both hands clapped over her mouth and orange shock lines flying off her head. Anger is simply not something her face does.
 
 ## Personality
 

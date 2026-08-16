@@ -295,16 +295,11 @@ marnie, morris, pam, pierre, robin, sandy, willy, wizard
 **Phase D — rewrite the eight from `dd593f4`**
 abigail, alex, elliott, emily, haley, harvey, leah, maru
 
-Treat these as if they had never been written. Run the full Part 5 image pass again — every
-montage, then one full-size frame per outfit — rather than editing the existing prose from
-memory. That prose was written against the banned vocabulary and a fixed template, and its
-measurements and garment details have not been re-checked against the frames since.
-
-Re-verify the YAML expression labels against the faces on this pass and correct every
-mismatch. Commit `dd593f4` renamed labels in bulk without reopening the frames, so wrong
-labels are expected here, not exceptional. Two failure modes to look for: a label naming an
-emotion the face does not show, and a label inherited through a YAML anchor that fits the
-outfit it was written for but not the one reusing it.
+Text-only pass: do **not** re-open the images. The observations in these files — garments,
+coverage, body, measurements, expression labels — were made from the frames and are correct.
+What is wrong is the writing: banned production vocabulary, the shared anatomy sentence, the
+fixed template, and any male-gendered family language. Keep every observed fact and change
+only how it is said.
 
 ---
 

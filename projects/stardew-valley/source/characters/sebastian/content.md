@@ -16,7 +16,7 @@ Winter is a dark navy jacket worn open over bare breasts, a grey-and-black strip
 
 One pose in every outfit is her seated on a workbench with both legs hauled up and spread wide toward the viewer, a spanner in one hand and a screwdriver in the other, grease smeared up her thighs and across her chest, everything between her legs open to view and her face somewhere between annoyed and daring you to comment.
 
-Her range is narrow and cool. A flat sullen look with the lollipop at her lip. One genuine open-mouthed laugh, eyes shut, which is startling on her. A glance back over her shoulder. A flushed look away with her eyes lowered. A sly little half-smile aimed sideways. A hand-on-hip stance, chin up. A quieter softened look. A small content smile with her arms folded under her breasts.
+Her range is narrow and cool. A flat sullen look with the lollipop at her lip. One genuine open-mouthed laugh, eyes shut, which is startling on her. A look back over one shoulder, unimpressed. A flushed look away with her eyes lowered. A sly little half-smile aimed sideways. A hand-on-hip stance, chin up. A quieter softened look. A small content smile with her arms folded under her breasts.
 
 ## Personality
 
