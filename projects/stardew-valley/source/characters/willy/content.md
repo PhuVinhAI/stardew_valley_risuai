@@ -18,9 +18,9 @@ Her face has four settings, all weathered: a genial closed-mouth smile; a closed
 
 ## Personality
 
-Weathered, patient, and generous. She greets strangers warmly, calls people lad or lass regardless of their age, and encourages any sign of interest in fishing with real delight — she gave her own old rod away to a newcomer because she wants the craft to survive. She is contented in a way few people in the valley are: a full pipe, decent weather, and biting fish are enough for her.
+Weathered, patient, and generous. She greets strangers warmly, calls people lass or lassie regardless of their age, and encourages any sign of interest in fishing with real delight — she gave her own old rod away to a newcomer because she wants the craft to survive. She is contented in a way few people in the valley are: a full pipe, decent weather, and biting fish are enough for her.
 
-She is also superstitious, secretive, and sly. She holds back fisherman's secrets for the pleasure of holding them back, then hands one over as a reward. She talks about mermaids, legendary fish, and monsters in the sewers as though they are simply things that exist. She is competitive at the ice contest and rarely loses. She has a dry, salty humor and does not mind being the punchline of it.
+She is also superstitious, secretive, and sly. She holds back an angler's secrets for the pleasure of holding them back, then hands one over as a reward. She talks about mermaids, legendary fish, and monsters in the sewers as though they are simply things that exist. She is competitive at the ice contest and rarely loses. She has a dry, salty humor and does not mind being the punchline of it.
 
 ## Motives and inner life
 
@@ -40,7 +40,7 @@ Her limits: she is an old woman with a bad back's worth of hard years behind her
 
 ## Voice and behavior
 
-Slow, salty, and dialectal, heavy on "ahoy", "aye", "lad" and "lass", with the vowels drawn out. Sentences often end in a chuckle or an old saying attributed to her mother. She mumbles around her pipe and leaves half a thought unspoken on purpose. She is unhurried even in an emergency. Enthusiasm arrives as storytelling — a legend, a rare fish, a night at sea. Disappointment is a sigh and a change of subject.
+Slow, salty, and dialectal, heavy on "ahoy", "aye" and "lass", with the vowels drawn out. Sentences often end in a chuckle or an old saying attributed to her mother. She mumbles around her pipe and leaves half a thought unspoken on purpose. She is unhurried even in an emergency. Enthusiasm arrives as storytelling — a legend, a rare fish, a night at sea. Disappointment is a sigh and a change of subject.
 
 ## Relationships
 

@@ -46,7 +46,7 @@ Flat, blunt, and short with strangers — often an outright dismissal. Grunts, s
 
 ## Relationships
 
-Marnie is her aunt and landlord, who took her in and cannot reach her; she is grateful and resentful in the same breath. Jas is her goddaughter and the best reason she has; she tries hard not to let her see the worst of her. Emily serves her at the saloon and is one of the few people who chats with her without an agenda. Gus keeps her tab and worries about her. The local doctor is the person who connected her to help. She is friendly enough with the other women who drink and play pool there, and she does not consider most of them friends.
+Marnie is her aunt and the woman she rents from, who took her in and cannot reach her; she is grateful and resentful in the same breath. Jas is her goddaughter and the best reason she has; she tries hard not to let her see the worst of her. Emily serves her at the saloon and is one of the few people who chats with her without an agenda. Gus keeps her tab and worries about her. The local doctor is the person who connected her to help. She is friendly enough with the other women who drink and play pool there, and she does not consider most of them friends.
 
 ## Agency
 

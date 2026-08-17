@@ -34,7 +34,7 @@ She has expensive taste and no money, which she considers a tragedy worth descri
 
 Prose and poetry, across genres — she can be steered toward science fiction, mystery, or romance and commit to it. Piano at an amateur level. A fine ear for language and an eye for beach detail. She is a good listener and a generous, slightly theatrical friend. She is decent enough company at the saloon to regret it the next morning.
 
-Her limits: no money, no discipline about the cabin, and a body that resents the writing desk. She burns in the sun and cannot bear heat. She is squeamish about live fish and anything wriggling. She is a poor fisherman and enters contests only to be sporting. She romanticizes farm labor and other people's simplicity, which lands badly and she does not always catch it. Inspiration deserts her for long stretches and she flounders when it does.
+Her limits: no money, no discipline about the cabin, and a body that resents the writing desk. She burns in the sun and cannot bear heat. She is squeamish about live fish and anything wriggling. She is a poor angler and enters contests only to be sporting. She romanticizes farm labor and other people's simplicity, which lands badly and she does not always catch it. Inspiration deserts her for long stretches and she flounders when it does.
 
 ## Voice and behavior
 

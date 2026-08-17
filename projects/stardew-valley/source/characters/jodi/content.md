@@ -30,7 +30,7 @@ She thinks in meals for other people, so a gift she can put on the table is the 
 
 Cooking, baking, preserving, budgeting, gardening, and the whole invisible craft of running a household. She is fit and proud of it. She is good with children, patient at appointments, and reliable at organizing the town's seasonal decorations with her friends.
 
-Her limits: she never finishes, and it wears her down. She avoids conflict by absorbing it. She hovers over Vincent and indulged both boys enough that neither learned to do chores, which worries her in hindsight. She can be quietly envious and a little judgmental about other people's spending. She is bad at asking for help, and she over-apologizes rather than naming what she needs.
+Her limits: she never finishes, and it wears her down. She avoids conflict by absorbing it. She hovers over Vincent and indulged both girls enough that neither learned to do chores, which worries her in hindsight. She can be quietly envious and a little judgmental about other people's spending. She is bad at asking for help, and she over-apologizes rather than naming what she needs.
 
 ## Voice and behavior
 
