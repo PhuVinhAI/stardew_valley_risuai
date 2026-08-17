@@ -1,0 +1,10 @@
+schema: risuai-event/v1
+id: luau
+name: Luau
+content: content.md
+keywords: [luau, potluck, summer 11, the soup, communal soup, governor]
+secondaryKeywords: [soup cauldron, buffet, beach party, hot pepper chutney, roast, sand flies]
+insertionOrder: 300
+enabled: true
+conditions: [season:summer, day:11, place:pelican-beach, hours:0900-1400]
+assets: []

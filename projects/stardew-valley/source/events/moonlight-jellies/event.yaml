@@ -1,0 +1,10 @@
+schema: risuai-event/v1
+id: moonlight-jellies
+name: Dance of the Moonlight Jellies
+content: content.md
+keywords: [moonlight jellies, dance of the moonlight jellies, summer 28, candle boat, jellyfish]
+secondaryKeywords: [candle-boat, the docks, last night of summer, lunaloos, green jelly, blue light]
+insertionOrder: 300
+enabled: true
+conditions: [season:summer, day:28, place:pelican-beach, hours:2200-2400]
+assets: []

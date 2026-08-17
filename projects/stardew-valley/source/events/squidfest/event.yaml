@@ -1,0 +1,10 @@
+schema: risuai-event/v1
+id: squidfest
+name: SquidFest
+content: content.md
+keywords: [squidfest, squid fest, winter 12, winter 13, squid fishing]
+secondaryKeywords: [special bait, catch target, booth, winter ocean, visiting anglers, squid chef]
+insertionOrder: 310
+enabled: true
+conditions: [season:winter, day:12-13, place:pelican-beach, hours:from-0610]
+assets: []

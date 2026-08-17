@@ -1,0 +1,10 @@
+schema: risuai-event/v1
+id: desert-festival
+name: Desert Festival
+content: content.md
+keywords: [desert festival, calico eggs, calico egg, spring 15, spring 16, spring 17, the races]
+secondaryKeywords: [food stalls, chef, scholar, race announcer, cactus, makeover, skull cavern challenge, bus]
+insertionOrder: 300
+enabled: true
+conditions: [season:spring, day:15-17, place:calico-desert, hours:from-1000, requires:working-bus]
+assets: []

@@ -1,0 +1,10 @@
+schema: risuai-event/v1
+id: spirits-eve
+name: Spirit's Eve
+content: content.md
+keywords: [spirit's eve, spirits eve, fall 27, haunted maze, halloween, jack-o-lantern]
+secondaryKeywords: [pumpkin ale, caged monsters, golden pumpkin, cauldron, costume, skeletons, dark specter]
+insertionOrder: 300
+enabled: true
+conditions: [season:fall, day:27, place:pelican-town, hours:2200-2350]
+assets: []

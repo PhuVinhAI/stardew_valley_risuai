@@ -1,0 +1,10 @@
+schema: risuai-event/v1
+id: flower-dance
+name: Flower Dance
+content: content.md
+keywords: [flower dance, spring 24, flower queen, dance partner, the clearing]
+secondaryKeywords: [floral arrangements, red jelly, dandelion salad, sweet wine, partners, forest clearing]
+insertionOrder: 300
+enabled: true
+conditions: [season:spring, day:24, place:cindersap-forest, hours:0900-1400]
+assets: []

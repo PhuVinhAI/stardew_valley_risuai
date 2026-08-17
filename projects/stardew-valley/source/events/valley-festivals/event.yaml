@@ -1,0 +1,10 @@
+schema: risuai-event/v1
+id: valley-festivals
+name: Valley Festivals
+content: content.md
+keywords: [festival, festivals, the calendar, town event, holiday, celebration, seasonal event]
+secondaryKeywords: [notice board, mayor's notice, letter from the mayor, shops closed, whole town, gathering]
+insertionOrder: 290
+enabled: true
+conditions: [scope:overview, season:all]
+assets: []

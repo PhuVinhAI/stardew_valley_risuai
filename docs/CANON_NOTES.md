@@ -45,9 +45,33 @@ Judgments made while writing them:
 - **Off-cast NPCs stay peripheral.** Jas, Vincent, Gil, Leo, the sewer shadow-merchant, the dwarf, the witch, the junimos, and the Old Mariner appear as scenery in place entries because the game puts them there, and none has a character profile. They are described without pronouns where the game's gender would otherwise leak through.
 - **`locations:` references were added to all 32 character sources** — home plus one or two habitual places each. These are soft context for the compiler's reference graph, not schedules.
 
+## Festivals: what the 13 event entries are grounded in
+
+The `source/events/*` entries were written from the same unpacked 1.6 data as the locations, not from the wiki:
+
+- `Data/Festivals/FestivalDates.json` for the eight calendar festivals and their exact days; `Data/Festivals/<season><day>.json` for each one's venue and posted hours (the `conditions` field, e.g. `Town/900 1400`), its script structure, and every villager's festival line in both the year-one and year-two variants.
+- `Data/PassiveFestivals.json` for the four multi-day events the calendar does not show as festivals — Night Market, Desert Festival, Trout Derby, SquidFest — including season, start and end day, and start time.
+- `Data/mail.json` for the mayor's advance notices, which are the in-world source for dates, hours, venues, and what people are told to bring.
+- `Strings/1_6_Strings.json` for everything at the Desert Festival (stall dialogue, the racers, the scholar's quiz, the chef's dish names, the fixer, the guild challenge booth) and the two fishing derbies' booth text and signs.
+- `Strings/StringsFromCSFiles.json` for the fair (grange judging results, star tokens, the strength-game rating scale, the fortune teller's readings) and the flower dance's partner prompts.
+- `Strings/SimpleNonVillagerDialogues.json` for the twenty-two visiting anglers at the two derbies.
+- `Strings/schedules/*.json` (`winter_15`–`winter_17`) for what the cast says during the Night Market, which is the only place that dialogue lives.
+- `Strings/Locations.json` for the Night Market's submarine, painter, coffee merchant, and warper; `Data/Shops.json` for what each festival stall actually stocks; `Data/SecretNotes.json` for the mermaid show's five-number note.
+
+Judgments made while writing them:
+
+- **Every festival attendee was converted to a woman**, including the four non-cast figures the data places at them: the governor at the Luau, the fair's hired clown, Welwick the fortune teller, and the Night Market's painter, submarine captain, and shrouded warper. The governor's `Gender: "Undefined"` and the game's male pronouns for the clown, the captain and the anglers are research input, not the state of the world. The Luau line about the governor's "missus" became a wife.
+- **Mechanics stayed out.** No star-token prices, catch targets, egg counts, grange scoring, calico-egg exchange rates, or item lists. The entries say what a stall sells or a contest asks for in prose only.
+- **Outcomes are written as unfixed.** The Luau soup has six recorded reactions in the data and the entry presents the range rather than picking one; contest winners, the flower queen, the grange result, and the secret-gift pairings are all explicitly not settled.
+- **Off-cast NPCs stay scenery**, as in the locations: Jas, Vincent, Leo, Gil, the dwarf, the shadow-dweller, and the visiting anglers appear because the data puts them there, and none gains a profile.
+- **`Gunther` and `Morris` are absent from all eight festival files** and are therefore absent from the entries. That is the game's own omission, not an oversight.
+- **Sandy's festival line is a single repeated string** in seven of the eight files, so she is written as present only where the data actually places her (the fair's year-two setup) and at the Desert Festival, where she has real lines.
+- **`conditions:` on each event** records season, day, venue and hours as flat tags for the reference graph. They are metadata, not rails — the entries say in prose that no festival has to happen on cue.
+
 ## Open items, deferred
 
 1. **`canon.ts` misses text reached by indirection.** Extraction filters `Strings/*` entries by character name, so lines referenced from elsewhere are dropped — `Data/Shops.json` points at keys like `ShopMenu.cs.11517`, which contain no name. That cost five Marlon lines and two Sandy lines until the keys were resolved by hand. A future pass should resolve `[LocalizedText …]` references and shop-owner dialogue into the per-character corpus.
 2. **Typed 1.6 data is not part of the automated corpus.** The `xnb` reader cannot parse 49 structured files. They were unpacked once with StardewXnbHack (requires SMAPI installed in the game folder; it ignores `--asset-path` and `--out-path` and writes to `<game>\Content (unpacked)`). The eight files that mattered were copied to `projects/stardew-valley/.research/unpacked/`, which is gitignored. Extraction should read them directly instead of depending on a manual unpack.
 3. **`<game>\Content (unpacked)` is still on disk**, about 177 MB in the user's game folder. It is tool output and harmless, but it can be deleted once nothing else is needed from it.
 4. **Thin-canon characters remain thin.** Gunther has no dialogue file, no shop, no gift tastes, no calendar birthday, and no friendship track; Marlon and Morris have no dialogue file; Kent and Sandy have small ones, and Sandy's festival line is a single repeated string. Their sources say so explicitly rather than filling the gaps.
+5. **Festival research helpers live in `.research/tools/`** and are gitignored along with the rest of that directory: `festival_scan.py` (substring sweep over unpacked `Strings/` and `Data/`), `festival_roster.py` (per-festival speaker and script inventory), `festival_shops.py` (resolves festival shop stock to item names), `festival_absentees.py` (which cast members each festival omits). They read `<game>\Content (unpacked)` directly and will stop working if it is deleted.

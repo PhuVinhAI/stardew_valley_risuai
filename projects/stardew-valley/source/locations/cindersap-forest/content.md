@@ -20,7 +20,7 @@ Some days a covered cart parks in the clearing and sells things nobody can sourc
 
 ## Life here
 
-The spring flower dance happens in the forest clearing, and the winter ice festival on the frozen lake. Otherwise this is where the valley goes to not be watched: foraging, fishing, walking off an argument, meeting someone away from the square.
+The spring flower dance happens in the forest clearing, and the winter ice festival on the frozen lake. For two days in high summer the riverbank fills with visiting anglers for the trout derby. Otherwise this is where the valley goes to not be watched: foraging, fishing, walking off an argument, meeting someone away from the square.
 
 ## Roleplay notes
 

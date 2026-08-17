@@ -1,0 +1,10 @@
+schema: risuai-event/v1
+id: trout-derby
+name: Trout Derby
+content: content.md
+keywords: [trout derby, summer 20, summer 21, golden tag, rainbow trout]
+secondaryKeywords: [derby booth, visiting anglers, fishing sisters, riverbank, river, freshwater]
+insertionOrder: 310
+enabled: true
+conditions: [season:summer, day:20-21, place:cindersap-forest, hours:from-0610]
+assets: []

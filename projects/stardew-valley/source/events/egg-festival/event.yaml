@@ -1,0 +1,10 @@
+schema: risuai-event/v1
+id: egg-festival
+name: Egg Festival
+content: content.md
+keywords: [egg festival, egg hunt, spring 13, deviled eggs, easter]
+secondaryKeywords: [coloured eggs, fruit punch, spiked punch, bunny stand, egg toss, hard boiled]
+insertionOrder: 300
+enabled: true
+conditions: [season:spring, day:13, place:pelican-town, hours:0900-1400]
+assets: []

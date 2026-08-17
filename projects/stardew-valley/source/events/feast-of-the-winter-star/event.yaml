@@ -1,0 +1,10 @@
+schema: risuai-event/v1
+id: feast-of-the-winter-star
+name: Feast of the Winter Star
+content: content.md
+keywords: [feast of the winter star, winter star, winter 25, secret gift, spirit tree, christmas]
+secondaryKeywords: [secret gift exchange, candy canes, cinnamon nog, thankful, legend of the winter star, gift giver]
+insertionOrder: 300
+enabled: true
+conditions: [season:winter, day:25, place:pelican-town, hours:0900-1400]
+assets: []

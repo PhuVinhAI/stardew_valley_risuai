@@ -16,7 +16,7 @@ Shellfish in the sand almost year-round — clams, cockles, mussels, oysters —
 
 ## Life here
 
-Empty most mornings, busy on hot afternoons — Haley photographs, Emily swims, children get sunburnt. The summer potluck happens on this sand, and on the last night of summer the whole town comes down after dark to watch the jellyfish come in, which is the closest thing the valley has to a sacrament. Deep winter brings three nights of a market run off boats moored at the pier, with lantern light, a submarine, a painter selling one canvas at a time, and a mermaid show.
+Empty most mornings, busy on hot afternoons — Haley photographs, Emily swims, children get sunburnt. The summer potluck happens on this sand, and on the last night of summer the whole town comes down after dark to watch the jellyfish come in, which is the closest thing the valley has to a sacrament. Two cold days in midwinter bring a booth on the sand and visiting anglers after squid. Deep winter brings three nights of a market run off boats moored at the pier, with lantern light, a submarine, a painter selling one canvas at a time, and a mermaid show.
 
 ## Roleplay notes
 

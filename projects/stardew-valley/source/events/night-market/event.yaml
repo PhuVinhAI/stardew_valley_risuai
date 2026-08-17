@@ -1,0 +1,10 @@
+schema: risuai-event/v1
+id: night-market
+name: Night Market
+content: content.md
+keywords: [night market, winter 15, winter 16, winter 17, merchant fleet, submarine]
+secondaryKeywords: [mermaid show, lupini, painter, magic boat, free coffee, decoration boat, lanterns, three nights]
+insertionOrder: 300
+enabled: true
+conditions: [season:winter, day:15-17, place:pelican-beach, hours:from-1700]
+assets: []
