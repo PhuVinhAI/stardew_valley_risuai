@@ -10,6 +10,7 @@ locations: [mayors-manor, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-lewis
   - portrait-lewis-default-expression-00
   - portrait-lewis-default-expression-01
   - portrait-lewis-default-expression-02

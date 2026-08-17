@@ -96,7 +96,7 @@ export const AuthoringManifestSchema = z.object({
     .object({
       lowLevelAccess: z.boolean().default(false),
       defaultVariables: z.string().default(""),
-      prebuiltAssetCommand: z.string().default(""),
+      prebuiltAssetCommand: z.boolean().default(false),
       prebuiltAssetExclude: z.array(z.string()).default([]),
       prebuiltAssetStyle: z.string().default(""),
       toggles: z.record(z.string(), z.unknown()).default({}),
@@ -104,7 +104,7 @@ export const AuthoringManifestSchema = z.object({
     .default({
       lowLevelAccess: false,
       defaultVariables: "",
-      prebuiltAssetCommand: "",
+      prebuiltAssetCommand: false,
       prebuiltAssetExclude: [],
       prebuiltAssetStyle: "",
       toggles: {},
@@ -187,6 +187,7 @@ export const PortraitCurationSchema = z.object({
   character: StableIdSchema,
   sourcePack: z.string().min(1),
   sourceRoot: SourcePathSchema,
+  icon: FrameRefSchema.optional(),
   variant: StableIdSchema.optional(),
   outfits: z.record(
     StableIdSchema,

@@ -9,6 +9,7 @@ locations: [river-road, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-alex
   - portrait-alex-default-expression-00
   - portrait-alex-default-expression-01
   - portrait-alex-default-expression-02

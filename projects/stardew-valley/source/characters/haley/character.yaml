@@ -10,6 +10,7 @@ locations: [willow-lane, pelican-beach]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-haley
   - portrait-haley-default-expression-00
   - portrait-haley-default-expression-01
   - portrait-haley-default-expression-02

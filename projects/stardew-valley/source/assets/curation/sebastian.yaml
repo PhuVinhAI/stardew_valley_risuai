@@ -2,6 +2,7 @@ schema: risuai-portrait-curation/v1
 character: sebastian
 sourcePack: Mud's Skimpy Portraits
 sourceRoot: assets/imported/mud-portraits/sebastian
+icon: default/expression-00
 outfits:
   default:
     context: default

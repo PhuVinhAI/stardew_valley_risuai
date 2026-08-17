@@ -9,6 +9,7 @@ locations: [carpenters-shop, harveys-clinic]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-maru
   - portrait-maru-default-expression-00
   - portrait-maru-default-expression-01
   - portrait-maru-default-expression-02

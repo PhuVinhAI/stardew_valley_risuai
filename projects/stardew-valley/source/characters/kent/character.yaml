@@ -9,6 +9,7 @@ locations: [willow-lane, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-kent
   - portrait-kent-default-expression-00
   - portrait-kent-default-expression-01
   - portrait-kent-default-expression-02

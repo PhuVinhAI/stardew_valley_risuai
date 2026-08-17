@@ -9,4 +9,5 @@ locations: [adventurers-guild, the-mines]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-marlon
   - portrait-marlon-default-expression-00

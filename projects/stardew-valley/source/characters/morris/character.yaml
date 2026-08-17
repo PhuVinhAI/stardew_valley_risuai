@@ -9,6 +9,7 @@ locations: [jojamart-and-cinema, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-morris
   - portrait-morris-default-expression-00
   - portrait-morris-default-expression-01
   - portrait-morris-default-expression-03

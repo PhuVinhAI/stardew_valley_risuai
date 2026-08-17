@@ -21,6 +21,8 @@ All ids use kebab-case and remain stable across refactors. References use those 
 
 Portrait curation is per character and per outfit. A curation file must list only the frames that actually exist for that outfit and may assign different semantic labels to different characters. There is no shared emotion index or required frame count across the cast. Exact duplicate frames are listed under that outfit's `duplicates` and are not emitted as separate assets. Use `unclassified-01` (or another stable `unclassified-*` id) when visual labeling is uncertain.
 
+Set `icon` to a curated frame reference such as `default/expression-00` to emit a character icon. Curated image names use dot-separated RisuAI names such as `example-character.default.pleasant.webp`; archive paths remain generated transport metadata.
+
 ## Character example
 
 ```yaml

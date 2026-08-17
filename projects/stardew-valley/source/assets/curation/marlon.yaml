@@ -2,6 +2,7 @@ schema: risuai-portrait-curation/v1
 character: marlon
 sourcePack: OO's Anime Style Skimpy Portraits
 sourceRoot: assets/imported/oo-anime-portraits/marlon
+icon: default/expression-00
 variant: upscaled-2x
 outfits:
   default:

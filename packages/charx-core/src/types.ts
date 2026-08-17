@@ -73,7 +73,7 @@ export interface WorldIR {
   risuai: {
     lowLevelAccess: boolean;
     defaultVariables: string;
-    prebuiltAssetCommand: string;
+    prebuiltAssetCommand: boolean;
     prebuiltAssetExclude: string[];
     prebuiltAssetStyle: string;
     toggles: Record<string, unknown>;

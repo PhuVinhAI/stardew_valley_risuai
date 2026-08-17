@@ -9,6 +9,7 @@ locations: [fish-shop-and-pier, pelican-beach]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-willy
   - portrait-willy-default-expression-00
   - portrait-willy-default-expression-01
   - portrait-willy-default-expression-02

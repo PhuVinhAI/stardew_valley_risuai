@@ -9,6 +9,7 @@ locations: [forest-cottages, cindersap-forest]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-leah
   - portrait-leah-default-expression-00
   - portrait-leah-default-expression-01
   - portrait-leah-default-expression-02

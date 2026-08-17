@@ -10,6 +10,7 @@ locations: [marnies-ranch, stardrop-saloon]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-shane
   - portrait-shane-default-expression-00
   - portrait-shane-default-expression-01
   - portrait-shane-default-expression-02

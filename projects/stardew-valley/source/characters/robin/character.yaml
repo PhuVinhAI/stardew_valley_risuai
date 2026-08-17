@@ -10,6 +10,7 @@ locations: [carpenters-shop, the-mountain]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-robin
   - portrait-robin-default-expression-00
   - portrait-robin-default-expression-01
   - portrait-robin-default-expression-02

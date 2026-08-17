@@ -9,4 +9,5 @@ locations: [museum-and-library, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-gunther
   - portrait-gunther-default-expression-00

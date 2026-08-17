@@ -9,6 +9,7 @@ locations: [the-mountain, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-linus
   - portrait-linus-default-expression-04
   - portrait-linus-default-expression-05
   - portrait-linus-default-expression-00

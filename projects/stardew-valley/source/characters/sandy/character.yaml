@@ -9,6 +9,7 @@ locations: [calico-desert]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-sandy
   - portrait-sandy-default-expression-00
   - portrait-sandy-default-expression-03
   - portrait-sandy-default-expression-01

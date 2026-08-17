@@ -9,6 +9,7 @@ locations: [the-blacksmith, stardrop-saloon]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-clint
   - portrait-clint-default-expression-00
   - portrait-clint-default-expression-01
   - portrait-clint-default-expression-02

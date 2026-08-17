@@ -29,7 +29,9 @@ lorebook:
 module:
   name: Stardew Valley - Pelican Town
   description: RisuAI module for Stardew Valley
-risuai: {}
+risuai:
+  prebuiltAssetCommand: true
+  prebuiltAssetStyle: dynamic
 tokenCheck:
   encoding: o200k_base
   warnAt: 100000

@@ -9,6 +9,7 @@ locations: [river-road, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-evelyn
   - portrait-evelyn-default-expression-00
   - portrait-evelyn-default-expression-01
   - portrait-evelyn-default-expression-02

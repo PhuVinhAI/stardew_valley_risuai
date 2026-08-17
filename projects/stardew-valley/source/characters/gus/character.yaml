@@ -9,6 +9,7 @@ locations: [stardrop-saloon, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-gus
   - portrait-gus-default-expression-00
   - portrait-gus-default-expression-01
   - portrait-gus-default-expression-02

@@ -339,7 +339,7 @@ export function scaffoldProject(context: ProjectContext, name: string, risuaiRoo
         risuai: {
           lowLevelAccess: false,
           defaultVariables: "",
-          prebuiltAssetCommand: "",
+          prebuiltAssetCommand: false,
           prebuiltAssetExclude: [],
           prebuiltAssetStyle: "",
           toggles: {},

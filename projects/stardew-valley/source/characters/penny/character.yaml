@@ -10,6 +10,7 @@ locations: [river-road, museum-and-library]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-penny
   - portrait-penny-default-expression-00
   - portrait-penny-default-expression-01
   - portrait-penny-default-expression-02

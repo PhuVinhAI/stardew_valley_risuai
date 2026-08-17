@@ -9,6 +9,7 @@ locations: [harveys-clinic, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-harvey
   - portrait-harvey-default-expression-00
   - portrait-harvey-default-expression-01
   - portrait-harvey-default-expression-02

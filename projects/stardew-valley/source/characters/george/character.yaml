@@ -9,6 +9,7 @@ locations: [river-road, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-george
   - portrait-george-default-expression-00
   - portrait-george-default-expression-01
   - portrait-george-default-expression-02

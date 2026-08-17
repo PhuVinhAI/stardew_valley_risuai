@@ -10,6 +10,7 @@ locations: [willow-lane, stardrop-saloon]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-emily
   - portrait-emily-default-expression-00
   - portrait-emily-default-expression-01
   - portrait-emily-default-expression-02

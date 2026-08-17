@@ -9,6 +9,7 @@ locations: [forest-cottages, pelican-beach]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-elliott
   - portrait-elliott-default-expression-00
   - portrait-elliott-default-expression-01
   - portrait-elliott-default-expression-02

@@ -9,6 +9,7 @@ locations: [willow-lane, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-sam
   - portrait-sam-default-expression-00
   - portrait-sam-default-expression-01
   - portrait-sam-default-expression-02

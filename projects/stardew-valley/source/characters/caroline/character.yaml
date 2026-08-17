@@ -10,6 +10,7 @@ locations: [pierres-general-store, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-caroline
   - portrait-caroline-default-expression-00
   - portrait-caroline-default-expression-01
   - portrait-caroline-default-expression-02

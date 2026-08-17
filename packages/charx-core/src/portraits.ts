@@ -219,7 +219,7 @@ async function processOutfit(
     manifestAssets.push({
       id: assetId,
       file: path.relative(context.sourceDir, output).replaceAll("\\", "/"),
-      name: `${character.name} / ${outfit} / ${expression}`,
+      name: `${character.id}.${outfit}.${expression}.webp`,
       type: "x-risu-asset",
     });
   }
@@ -331,7 +331,7 @@ async function processOoOutfit(
     manifestAssets.push({
       id: assetId,
       file: path.relative(context.sourceDir, upscaled).replaceAll("\\", "/"),
-      name: `${character.name} / ${outfit} / ${expression} / upscaled 2x`,
+      name: `${character.id}.${outfit}.${expression}.webp`,
       type: "x-risu-asset",
     });
   }

@@ -9,6 +9,7 @@ locations: [willow-lane, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-jodi
   - portrait-jodi-default-expression-00
   - portrait-jodi-default-expression-01
   - portrait-jodi-default-expression-02

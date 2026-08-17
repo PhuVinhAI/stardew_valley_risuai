@@ -10,6 +10,7 @@ locations: [marnies-ranch, cindersap-forest]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-marnie
   - portrait-marnie-default-expression-00
   - portrait-marnie-default-expression-01
   - portrait-marnie-default-expression-02

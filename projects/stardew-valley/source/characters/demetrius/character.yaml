@@ -10,6 +10,7 @@ locations: [carpenters-shop, the-mountain]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-demetrius
   - portrait-demetrius-default-expression-00
   - portrait-demetrius-default-expression-01
   - portrait-demetrius-default-expression-02

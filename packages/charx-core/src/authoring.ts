@@ -123,8 +123,29 @@ function loadAssets(sourceDir: string): { assets: WorldIrAsset[]; declaredIds: S
   const manifestAssets = manifestFiles.flatMap(
     (manifestFile) => AssetManifestSchema.parse(readYaml(manifestFile)).assets,
   );
-  const curatedAssets = curationFiles.flatMap((curationFile) => {
-    const curation = PortraitCurationSchema.parse(readYaml(curationFile));
+  const curations = curationFiles.map((curationFile) => PortraitCurationSchema.parse(readYaml(curationFile)));
+  const curatedIconAssets = curations.flatMap((curation) => {
+    if (!curation.icon) return [];
+    const separator = curation.icon.indexOf("/");
+    const outfit = separator === -1 ? "default" : curation.icon.slice(0, separator);
+    const frame = separator === -1 ? curation.icon : curation.icon.slice(separator + 1);
+    const spec = curation.outfits[outfit];
+    if (!spec) throw new Error(`${curation.character} icon references unknown outfit '${outfit}'`);
+    if (!spec.frames[frame])
+      throw new Error(`${curation.character} icon references unknown frame '${curation.icon}'`);
+    const variant = spec.variant ?? curation.variant;
+    const directory = [curation.sourceRoot, outfit, variant].filter(Boolean).join("/");
+    return [
+      {
+        id: `icon-${curation.character}`,
+        file: `${directory}/${frame}.webp`,
+        name: `${curation.character}.icon.webp`,
+        type: "icon",
+        optional: true,
+      },
+    ];
+  });
+  const curatedPortraitAssets = curations.flatMap((curation) => {
     return Object.entries(curation.outfits).flatMap(([outfit, spec]) => {
       const duplicateFrames = new Set(spec.duplicates.map((item) => item.frame));
       const variant = spec.variant ?? curation.variant;
@@ -134,16 +155,17 @@ function loadAssets(sourceDir: string): { assets: WorldIrAsset[]; declaredIds: S
         .map(([frame, label]) => ({
           id: `portrait-${curation.character}-${outfit}-${frame}`,
           file: `${directory}/${frame}.webp`,
-          name: `${curation.character} / ${outfit} / ${label}`,
+          name: `${curation.character}.${outfit}.${label}.webp`,
           type: "x-risu-asset",
           optional: true,
         }));
     });
   });
-  const curatedFiles = new Set(curatedAssets.map((asset) => normalizeArchivePath(asset.file)));
+  const curatedFiles = new Set(curatedPortraitAssets.map((asset) => normalizeArchivePath(asset.file)));
   const assets = [
     ...manifestAssets.filter((asset) => !curatedFiles.has(normalizeArchivePath(asset.file))),
-    ...curatedAssets,
+    ...curatedIconAssets,
+    ...curatedPortraitAssets,
   ];
   const seen = new Map<string, string>();
   const declaredIds = new Set<string>();
@@ -164,13 +186,17 @@ function loadAssets(sourceDir: string): { assets: WorldIrAsset[]; declaredIds: S
     }
     const extension = path.extname(sourceFile).slice(1).toLowerCase();
     if (!extension) throw new Error(`Asset '${asset.id}' must have a file extension`);
+    const archivePath =
+      asset.type === "icon"
+        ? `assets/icon/image/${asset.id}.${extension}`
+        : `assets/other/${extension}/${asset.id}.${extension}`;
     loaded.push({
       id: asset.id,
       name: asset.name ?? path.basename(sourceFile),
       type: asset.type,
       extension,
       sourceFile,
-      archivePath: normalizeArchivePath(`assets/other/${extension}/${asset.id}.${extension}`),
+      archivePath: normalizeArchivePath(archivePath),
     });
   }
   return { assets: loaded, declaredIds };

@@ -2,6 +2,7 @@ schema: risuai-portrait-curation/v1
 character: haley
 sourcePack: Mud's Skimpy Portraits
 sourceRoot: assets/imported/mud-portraits/haley
+icon: default/expression-00
 outfits:
   default:
     context: default

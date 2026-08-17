@@ -32,6 +32,39 @@ describe("agent authoring source", () => {
     expect(report.status).toBe("ok");
   });
 
+  test("resolves every authored greeting image and enables the RisuAI asset prompt", () => {
+    const greetingDirectories = [
+      path.join(primary.sourceDir, "presentation", "greetings", "alternate"),
+      path.join(primary.sourceDir, "presentation", "greetings", "group-only"),
+    ];
+    const greetingFiles = [
+      path.join(primary.sourceDir, "world", "first-message.md"),
+      ...greetingDirectories.flatMap((directory) =>
+        fs
+          .readdirSync(directory)
+          .filter((file) => file.endsWith(".md"))
+          .map((file) => path.join(directory, file)),
+      ),
+    ];
+    const exampleMessages = path.join(primary.sourceDir, "world", "example-messages.md");
+    const imagePattern = /\{\{image::([^}]+)\}\}/g;
+    const references = [...greetingFiles, exampleMessages].flatMap((file) =>
+      [...fs.readFileSync(file, "utf8").matchAll(imagePattern)]
+        .map((match) => match[1])
+        .filter((reference): reference is string => Boolean(reference)),
+    );
+    for (const file of greetingFiles) {
+      expect([...fs.readFileSync(file, "utf8").matchAll(imagePattern)].length).toBeGreaterThan(0);
+    }
+
+    const built = compileAuthoringSources(primary, false);
+    const assetNames = new Set(built.ir.assets.map((asset) => asset.name));
+    expect(references.length).toBeGreaterThan(greetingFiles.length);
+    expect(references.filter((reference) => !assetNames.has(reference))).toEqual([]);
+    expect(built.card.data.extensions.risuai.prebuiltAssetCommand).toBe(true);
+    expect(built.card.data.extensions.risuai.prebuiltAssetStyle).toBe("dynamic");
+  });
+
   test("keeps per-outfit frame counts independent and permits missing local-only assets", () => {
     const temporaryRoot = fs.mkdtempSync(path.join(os.tmpdir(), "charx-curation-"));
     try {
@@ -50,6 +83,7 @@ describe("agent authoring source", () => {
           "character: test-person",
           "sourcePack: Test",
           "sourceRoot: assets/imported/test-person",
+          "icon: default/frame-a",
           "outfits:",
           "  default:",
           "    context: everyday",
@@ -74,6 +108,7 @@ describe("agent authoring source", () => {
           "keywords: [example-person]",
           "alwaysActive: true",
           "assets:",
+          "  - icon-test-person",
           "  - portrait-test-person-default-frame-a",
           "  - portrait-test-person-beach-frame-a",
           "  - portrait-test-person-beach-frame-b",
@@ -88,10 +123,20 @@ describe("agent authoring source", () => {
         generatedDir: path.join(temporaryRoot, "generated"),
       });
       expect(ir.assets.map((asset) => asset.id)).toEqual([
+        "icon-test-person",
         "portrait-test-person-default-frame-a",
         "portrait-test-person-beach-frame-a",
         "portrait-test-person-beach-frame-b",
       ]);
+      expect(ir.assets[0]).toMatchObject({
+        name: "test-person.icon.webp",
+        type: "icon",
+        archivePath: "assets/icon/image/icon-test-person.webp",
+      });
+      expect(ir.assets[1]).toMatchObject({
+        name: "test-person.default.neutral.webp",
+        type: "x-risu-asset",
+      });
     } finally {
       fs.rmSync(temporaryRoot, { recursive: true, force: true });
     }

@@ -9,6 +9,7 @@ locations: [pierres-general-store, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-pierre
   - portrait-pierre-default-expression-00
   - portrait-pierre-default-expression-01
   - portrait-pierre-default-expression-02

@@ -10,6 +10,7 @@ locations: [carpenters-shop, the-mountain]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-sebastian
   - portrait-sebastian-default-expression-00
   - portrait-sebastian-default-expression-01
   - portrait-sebastian-default-expression-02

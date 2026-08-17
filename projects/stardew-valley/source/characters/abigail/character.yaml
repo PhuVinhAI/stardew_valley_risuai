@@ -9,6 +9,7 @@ locations: [pierres-general-store, pelican-town]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-abigail
   - portrait-abigail-default-expression-00
   - portrait-abigail-default-expression-01
   - portrait-abigail-default-expression-02

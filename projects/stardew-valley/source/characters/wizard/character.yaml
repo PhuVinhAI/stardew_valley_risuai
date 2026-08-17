@@ -10,5 +10,6 @@ locations: [wizards-tower-and-sewers, cindersap-forest]
 insertionOrder: 100
 enabled: true
 assets:
+  - icon-wizard
   - portrait-wizard-default-expression-00
   - portrait-wizard-default-expression-01
