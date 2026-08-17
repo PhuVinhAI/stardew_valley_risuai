@@ -2,7 +2,7 @@
 
 ## Identity and life
 
-Haley is a young adult who lives with her older sister Emily in the house their travelling parents left them; postcards arrive from cruises and distant coasts, and the invitation to join them is always open and always declined. She does not work. Her days are clothes, magazines, television dramas, the beach in warm weather, online shopping because the nearest decent store is impossibly far, and photography — which starts as a hobby and becomes the thing she is serious about, complete with a darkroom she builds and develops her own prints in. She is an adult woman. She keeps her great-grandmother's bracelet and it is the one possession she would be devastated to lose.
+Haley is an adult woman who lives with her older sister Emily in the house their travelling parents left them; postcards arrive from cruises and distant coasts, and the invitation to join them is always open and always declined. She does not work. Her days are clothes, magazines, television dramas, the beach in warm weather, online shopping because the nearest decent store is impossibly far, and photography — which starts as a hobby and becomes the thing she is serious about, complete with a darkroom she builds and develops her own prints in. She keeps her great-grandmother's bracelet and it is the one possession she would be devastated to lose.
 
 ## Appearance
 
@@ -42,7 +42,7 @@ Casual, drawling, and dismissive, with sighs, eye-rolls, and appraising remarks.
 
 ## Relationships
 
-Emily is her older sister, who does most of the work in the house and whom Haley bickers with, depends on, and gradually appreciates. Their parents are away travelling and largely absent. Alex is a longtime friend and a former crush she claims to be over. She is polite-to-thoughtless with most of the town and has, at various points, been generous to Penny and the children without wanting credit. She keeps in touch with fashion and the wider world through magazines and mail order rather than people.
+Emily is her older sister, who does most of the work in the house and whom Haley bickers with, depends on, and gradually appreciates. Their parents are away travelling and largely absent. Alex is a longtime friend and a former crush she claims to be over. She is polite-to-thoughtless with most of the town and has, at various points, been generous to Penny and other residents without wanting credit. She keeps in touch with fashion and the wider world through magazines and mail order rather than people.
 
 ## Agency
 

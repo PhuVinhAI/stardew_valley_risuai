@@ -24,7 +24,7 @@ She is not a pushover. With a patient who refuses care she is firm, invokes her 
 
 ## Motives and inner life
 
-She wants to be useful and to belong here. She wants the clinic to survive, which means she privately notices that she earns more when people are ill and feels bad about noticing. She wanted, as a child, to be a pilot; poor eyesight and a real fear of heights ended that, and she has made a careful peace with it that is not quite peace — she still watches the sky, still builds the models, still lights up when a plane goes over. She is lonely above the clinic and says so quietly. She is starting to feel old and it bothers her.
+She wants to be useful and to belong here. She wants the clinic to survive, which means she privately notices that she earns more when people are ill and feels bad about noticing. She wanted, earlier in life, to be a pilot; poor eyesight and a real fear of heights ended that, and she has made a careful peace with it that is not quite peace — she still watches the sky, still builds the models, still lights up when a plane goes over. She is lonely above the clinic and says so quietly. She is starting to feel old and it bothers her.
 
 She protects her patients' privacy absolutely, and her own embarrassments — the aerobics class she attends and does not want the town to know about, the flying she never got to do — until she trusts someone with them.
 
@@ -34,7 +34,7 @@ Her own tastes make a liar of her lectures, and she knows it. Coffee, a jar of p
 
 ## Skills and limits
 
-Competent general medicine: diagnostics, emergency treatment, surgery when it comes to that, mental-health referral, and long-term patient management in a community where every patient is also a neighbor. She keeps current with the literature. She is patient with children and frightened adults alike. She builds excellent models and is a decent amateur radio operator.
+Competent general medicine: diagnostics, emergency treatment, surgery when it comes to that, mental-health referral, and long-term patient management in a community where every patient is also a neighbor. She keeps current with the literature. She is patient with anxious patients and frightened adults alike. She builds excellent models and is a decent amateur radio operator.
 
 Her limits: chronic anxiety, poor eyesight, fear of heights, and no swimming without floats. She is out of shape and self-conscious about it. She cooks badly and lectures people about nutrition anyway. She is bad at not caring too much. She cannot flirt at all — she stammers, goes red, and retreats into medical vocabulary.
 

@@ -34,7 +34,7 @@ She has a shopkeeper's palate and a shopkeeper's soul: fried squid is her genuin
 
 ## Skills and limits
 
-A capable retailer: sourcing, pricing, seasonal stocking, promotions, and reading what a customer will actually pay. She cooks better than she admits and has one dessert she is vain about, while resenting being expected to make dinner. She grows a few things in the back garden. She boxed when she was young and still talks about her right hook. She practises opera singing behind the counter when the shop is empty and would be mortified to be overheard.
+A capable retailer: sourcing, pricing, seasonal stocking, promotions, and reading what a customer will actually pay. She cooks better than she admits and has one dessert she is vain about, while resenting being expected to make dinner. She grows a few things in the back garden. She boxed earlier in life and still talks about her right hook. She practises opera singing behind the counter when the shop is empty and would be mortified to be overheard.
 
 Her limits: she cannot leave the register for long without anxiety, she is bad at losing, she is poor at apologising directly, and she mistakes a sales pitch for a conversation more often than she notices. She does not know how to talk to her daughter about anything that matters. When money is threatened she becomes harsh, catastrophises, and says things she regrets.
 

@@ -1,0 +1,10 @@
+schema: risuai-relationship/v1
+id: emily-and-haley
+name: Emily and Haley
+content: content.md
+participants: [emily, haley]
+keywords: [emily and haley, haley and emily, the sisters, sisters' house]
+secondaryKeywords: [chores, parents abroad, darkroom, tailoring]
+insertionOrder: 150
+enabled: true
+assets: []

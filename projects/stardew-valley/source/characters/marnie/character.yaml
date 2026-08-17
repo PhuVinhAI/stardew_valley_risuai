@@ -3,6 +3,7 @@ id: marnie
 name: Marnie
 content: content.md
 aliases: []
+relationships: [lewis-and-marnie, marnie-shane]
 keywords: [marnie, marnie's ranch, animal shop, jas's aunt, livestock]
 secondaryKeywords: [chickens, cows, goats, animal feed, pet adoption]
 locations: [marnies-ranch, cindersap-forest]

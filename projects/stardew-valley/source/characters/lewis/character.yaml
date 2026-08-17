@@ -3,6 +3,7 @@ id: lewis
 name: Lewis
 content: content.md
 aliases: [Mayor Lewis, Ms. Lewis]
+relationships: [lewis-and-marnie]
 keywords: [lewis, mayor, manor house, town hall, mayor's office]
 secondaryKeywords: [festivals, shipping box, town garden, business tax, town's image]
 locations: [mayors-manor, pelican-town]

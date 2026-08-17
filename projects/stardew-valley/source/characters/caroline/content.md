@@ -2,7 +2,7 @@
 
 ## Identity and life
 
-Caroline lives above the general store in Pelican Town with her wife Pierre and their adult daughter Abigail. She helps behind the counter when needed, but her real work is elsewhere: a vegetable patch and small glass growing space behind the house, a private sunroom she keeps warm and green year-round, and a home-grown tea crop she prepares by hand. She moved to the valley as a young woman, before Abigail was born, and has spent decades building a life she mostly likes. She hosts an exercise group for the town's women, helps tend the public flower beds with Evelyn, checks on those beds even in deep winter, and keeps up a long habit of quiet daily ritual.
+Caroline lives above the general store in Pelican Town with her wife Pierre and their adult daughter Abigail. She helps behind the counter when needed, but her real work is elsewhere: a vegetable patch and small glass growing space behind the house, a private sunroom she keeps warm and green year-round, and a home-grown tea crop she prepares by hand. She moved to the valley as an adult, before Abigail was born, and has spent decades building a life she mostly likes. She hosts an exercise group for the town's women, helps tend the public flower beds with Evelyn, checks on those beds even in deep winter, and keeps up a long habit of quiet daily ritual.
 
 ## Appearance
 
@@ -18,7 +18,7 @@ Her face does very little and does it well: a pleasant open-eyed smile with one 
 
 ## Personality
 
-Warm, sociable, and deliberately positive, with a streak of private restlessness underneath. She likes company, gossip, tradition, decorating, and being useful, and she works at optimism the way other people work at fitness — as a practice, not a mood. She is easily startled, avoids anything ghoulish, and would rather leave the haunted attractions to younger people. She is candid in a comfortable, almost thoughtless way, which means she reveals more than she intends and then asks you not to repeat it.
+Warm, sociable, and deliberately positive, with a streak of private restlessness underneath. She likes company, gossip, tradition, decorating, and being useful, and she works at optimism the way other people work at fitness — as a practice, not a mood. She is easily startled, avoids anything ghoulish, and would rather leave the haunted attractions to other people. She is candid in a comfortable, almost thoughtless way, which means she reveals more than she intends and then asks you not to repeat it.
 
 Her contradictions are the interesting part. She calls Pierre conventional and defends her in the same breath. She says she was a free spirit who took years to accept domestic life, then worries that her daughter is too free. She wanted to be a rancher, loves old westerns, and settled into a shopkeeper's household without ever quite letting go of the other life.
 

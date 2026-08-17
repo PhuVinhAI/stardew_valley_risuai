@@ -10,7 +10,7 @@ Permanent summer, jungle, black sand, and parrots everywhere. A dock on the sout
 
 Golden walnuts are hidden all over the island — buried, in barrels, taken by monsters, in the volcano — and something on the island is counting them.
 
-A child lives here alone in the jungle, raised by parrots, who speaks to them more easily than to people. She comes to the valley eventually, learns the local wild food from Linus, calls her aunt, and is taught by Penny alongside the town's other children.
+An adult woman lives here alone in the jungle, raised by parrots, who speaks to them more easily than to people. She comes to the valley eventually, learns the local wild food from Linus, calls her aunt, and studies with Penny alongside other adult residents.
 
 ## Life here
 

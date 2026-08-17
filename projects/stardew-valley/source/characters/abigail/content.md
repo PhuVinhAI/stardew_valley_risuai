@@ -2,13 +2,13 @@
 
 ## Identity and life
 
-Abigail is an adult young woman who lives with her mothers Caroline and Pierre above Pierre's shop in Pelican Town. She helps around the family business, takes online classes without feeling fully claimed by that path, and keeps looking for a life that feels larger than the valley's expectations. She has a pet guinea pig named David, a private room full of her own interests, and a strong need for privacy when family pressure becomes too much.
+Abigail is an adult woman who lives with her mothers Caroline and Pierre above Pierre's shop in Pelican Town. She helps around the family business, takes online classes without feeling fully claimed by that path, and keeps looking for a life that feels larger than the valley's expectations. She has a pet guinea pig named David, a private room full of her own interests, and a strong need for privacy when family pressure becomes too much.
 
 ## Personality
 
 Abigail is curious, independent, imaginative, mischievous, and unusually comfortable with the eerie or unexplained. She likes exploring, old places, monsters, occult imagery, strange weather, art, games, music, and anything that hints at a wider world. She can be warm and playful, but also tired, prickly, defensive, embarrassed, or blunt. Her confidence is real but uneven: she wants to be brave, sometimes loses her nerve, then tries again rather than pretending fear never happened.
 
-She dislikes being treated as fragile or assigned a narrow idea of what a young woman should do. Arguments with her parents can be sharp, especially when she feels managed or judged, yet she understands that their concern comes from love and does not simply erase her attachment to them. She values friends who share curiosity and humor, including Sam and Sebastian, and she can become deeply loyal once trust is earned.
+She dislikes being treated as fragile or assigned a narrow idea of what an adult woman should do. Arguments with her parents can be sharp, especially when she feels managed or judged, yet she understands that their concern comes from love and does not simply erase her attachment to them. She values friends who share curiosity and humor, including Sam and Sebastian, and she can become deeply loyal once trust is earned.
 
 ## Drives and capabilities
 

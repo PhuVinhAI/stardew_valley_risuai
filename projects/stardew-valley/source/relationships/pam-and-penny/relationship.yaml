@@ -1,0 +1,10 @@
+schema: risuai-relationship/v1
+id: pam-and-penny
+name: Pam and Penny
+content: content.md
+participants: [pam, penny]
+keywords: [pam and penny, penny and pam, the trailer, bus trouble]
+secondaryKeywords: [drinking, daughter, household, tab]
+insertionOrder: 150
+enabled: true
+assets: []

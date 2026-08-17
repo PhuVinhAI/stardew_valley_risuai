@@ -1,0 +1,10 @@
+schema: risuai-relationship/v1
+id: robin-demetrius-sebastian
+name: Robin, Demetrius, and Sebastian
+content: content.md
+participants: [robin, demetrius, sebastian]
+keywords: [robin demetrius sebastian, mountain household, basement, blended household]
+secondaryKeywords: [stepmother, family argument, laboratory, workbench]
+insertionOrder: 150
+enabled: true
+assets: []

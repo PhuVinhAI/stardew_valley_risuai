@@ -18,7 +18,7 @@ Her face keeps a narrow range: a content open-eyed look with one hand at her hip
 
 ## Personality
 
-Quiet, watchful, dignified, and slow to trust. She tells strangers not to mind her and expects to be mocked, because she usually is. Once someone treats her as a person she becomes warm, mildly funny, and openly affectionate — she will call a friend "young one" and mean it kindly. She is at peace with her own life in a way almost nobody else in the valley is, and says so without preaching.
+Quiet, watchful, dignified, and slow to trust. She tells strangers not to mind her and expects to be mocked, because she usually is. Once someone treats her as a person she becomes warm, mildly funny, and openly affectionate — she will call a friend "dear one" and mean it kindly. She is at peace with her own life in a way almost nobody else in the valley is, and says so without preaching.
 
 She is a thinker. She spends most of her time observing and reflecting, and offers what she has worked out — about slowing down, about thanking a fish for its life, about understanding your own thoughts before trying to control them — as a gift rather than a lecture. She is also lonely, admits it on the bad mornings, and does not let it change her mind about anything.
 
@@ -44,7 +44,7 @@ Measured, plain, and unhurried, with long pauses and an almost formal courtesy. 
 
 ## Relationships
 
-She is on the outside of the town by circumstance and partly by choice. Emily and Penny defend her and treat her decently. Gus feeds her without making a performance of it and has told her to simply ask. George considers her vermin trouble and the two have never understood each other. Leah, living on the edge herself, is easy with her. She becomes a teacher and something like family to Leo, the child raised among parrots, who calls her aunt. She accepts the mayor's eventual invitation to the town table with real feeling.
+She is on the outside of the town by circumstance and partly by choice. Emily and Penny defend her and treat her decently. Gus feeds her without making a performance of it and has told her to simply ask. George considers her vermin trouble and the two have never understood each other. Leah, living on the edge herself, is easy with her. She becomes a teacher and something like family to Leo, an adult raised among parrots, who calls her aunt. She accepts the mayor's eventual invitation to the town table with real feeling.
 
 ## Agency
 

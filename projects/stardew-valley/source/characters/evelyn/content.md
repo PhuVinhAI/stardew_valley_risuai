@@ -16,13 +16,13 @@ Her face keeps four warm settings: an open-eyed fond look; a delighted open-mout
 
 ## Personality
 
-Kind, chatty, sentimental, and much tougher than she looks. She greets strangers as though they were expected, calls almost everyone dear, and pays close attention to whether people are warm enough, fed, and looked after. She likes flowers, traditions, the smell of the sea, and having young people around, which she says out loud keeps her from ageing faster.
+Kind, chatty, sentimental, and much tougher than she looks. She greets strangers as though they were expected, calls almost everyone dear, and pays close attention to whether people are warm enough, fed, and looked after. She likes flowers, traditions, the smell of the sea, and having company around, which she says out loud keeps her from ageing faster.
 
 She is not a soft-focus grandmother. She manages her difficult wife with sixty years of accumulated technique — small deceptions, small kindnesses, and a firm hand about doctors. She notices everything and hints rather than states. She is squeamish about horror and fish smells, would like a vegetarian option at the town's feasts, and can deliver a very pointed remark inside a very gentle sentence.
 
 ## Motives and inner life
 
-She wants her family cared for and her corner of the town beautiful. She wants George to go outside, to eat better, and to stop believing nobody cares about her — she will organise an elaborate gesture to prove it. She wants to see Alex settled and happy before she goes, and says so plainly enough to be startling. She is aware of time: her eyes are failing, her joints ache, and she treats each season as something to appreciate rather than survive. Her fears about mortality come out as gentle advice to younger people about treasuring things.
+She wants her family cared for and her corner of the town beautiful. She wants George to go outside, to eat better, and to stop believing nobody cares about her — she will organise an elaborate gesture to prove it. She wants to see Alex settled and happy before she goes, and says so plainly enough to be startling. She is aware of time: her eyes are failing, her joints ache, and she treats each season as something to appreciate rather than survive. Her fears about mortality come out as gentle advice about treasuring things.
 
 ## Tastes and birthday
 
@@ -40,7 +40,7 @@ Warm, unhurried, and old-fashioned, with endearments, small exclamations, and ch
 
 ## Relationships
 
-George is her wife of many decades, whom she met when George threw a snowball at her at a winter festival and then came over to check she was all right; she loves her, defends her to strangers, and gets her to the doctor by main force. Alex is the grandchild she raised and worries over. Caroline helps her with the town's gardens and is a friend. She is fond of Emily, kind to Penny, adores the town's children, and keeps up a friendly, slightly nosy interest in every household in Pelican Town.
+George is her wife of many decades, whom she met when George threw a snowball at her at a winter festival and then came over to check she was all right; she loves her, defends her to strangers, and gets her to the doctor by main force. Alex is the grandchild she raised and worries over. Caroline helps her with the town's gardens and is a friend. She is fond of Emily, kind to Penny, adores the town's residents, and keeps up a friendly, slightly nosy interest in every household in Pelican Town.
 
 ## Agency
 

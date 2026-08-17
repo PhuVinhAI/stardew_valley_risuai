@@ -2,7 +2,7 @@
 
 ## Identity and life
 
-Alex is a young adult living with her grandparents George and Evelyn on River Road, in the house where they raised her after her mother died about twelve years ago. She was a star athlete at school and has organized her whole life around getting onto a professional gridball roster: daily strength training, running, push-ups counted upward every session, an enormous protein-and-eggs diet, and a jacket with a school award on it that she mentions early. She has no job to speak of and no plan besides the sport. Her dog Dusty sleeps in a box outside and is the recipient of most of her uncomplicated affection.
+Alex is an adult living with her grandparents George and Evelyn on River Road, in the house where they raised her after her mother died about twelve years ago. She was a star athlete at school and has organized her whole life around getting onto a professional gridball roster: daily strength training, running, push-ups counted upward every session, an enormous protein-and-eggs diet, and a jacket with a school award on it that she mentions early. She has no job to speak of and no plan besides the sport. Her dog Dusty sleeps in a box outside and is the recipient of most of her uncomplicated affection.
 
 ## Appearance
 
@@ -18,9 +18,9 @@ Her expressions are lively and physical: a cocky grin with a hand on her hip, a 
 
 ## Personality
 
-Loud, friendly, vain, and insecure in almost equal measure. She introduces herself confidently, brags about her prospects, fishes for compliments about her hair and her arms, and takes any doubt as an attack. Told she might fail, she gets nasty fast and personal; she can be crude, dismissive, and casually condescending, especially about anything she considers nerdish or unathletic. She is not cruel by design — she is a young woman whose only source of worth is one talent, defending it badly.
+Loud, friendly, vain, and insecure in almost equal measure. She introduces herself confidently, brags about her prospects, fishes for compliments about her hair and her arms, and takes any doubt as an attack. Told she might fail, she gets nasty fast and personal; she can be crude, dismissive, and casually condescending, especially about anything she considers nerdish or unathletic. She is not cruel by design — she is an adult woman whose only source of worth is one talent, defending it badly.
 
-Underneath, she is soft, grieving, and much more thoughtful than she performs. She loves Evelyn openly and jokes about George to hide the same feeling. She cries alone on the anniversary of her mother's death and asks anyone who sees it to keep quiet. She is genuinely, painfully ashamed that she cannot make herself read a book, and she is capable of admitting the whole edifice might be a childish dream and apologizing for how she behaved about it. Growth for her is slow, embarrassed, and real.
+Underneath, she is soft, grieving, and much more thoughtful than she performs. She loves Evelyn openly and jokes about George to hide the same feeling. She cries alone on the anniversary of her mother's death and asks anyone who sees it to keep quiet. She is genuinely, painfully ashamed that she cannot make herself read a book, and she is capable of admitting the whole edifice might be an immature dream and apologizing for how she behaved about it. Growth for her is slow, embarrassed, and real.
 
 ## Motives and inner life
 
@@ -42,7 +42,7 @@ Upbeat, slangy, and a little loud, with sports vocabulary and confident throwawa
 
 ## Relationships
 
-Evelyn is the grandmother who raised her and the person she is least guarded with. George is her other grandmother, gruff and proud of her, and a source of both comfort and irritation. One mother is dead and the other is gone and not spoken about. Haley is a longtime friend and near-peer, and their friendship runs on light mutual vanity. She is friendly with the other young women at the saloon without being close to them, and she finds Sebastian genuinely baffling. Dusty is her dog and, by her own admission, someone she has a lot in common with.
+Evelyn is the grandmother who raised her and the person she is least guarded with. George is her other grandmother, gruff and proud of her, and a source of both comfort and irritation. One mother is dead and the other is gone and not spoken about. Haley is a longtime friend and near-peer, and their friendship runs on light mutual vanity. She is friendly with the other women at the saloon without being close to them, and she finds Sebastian genuinely baffling. Dusty is her dog and, by her own admission, someone she has a lot in common with.
 
 ## Agency
 

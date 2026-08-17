@@ -18,7 +18,7 @@ Her face has real range and most of it is sour: a flat unimpressed stare with on
 
 ## Personality
 
-Loud, gruff, and funnier than she gets credit for. She calls almost everyone "kid" regardless of age, says exactly what she thinks, and warms up fast to anyone who does not look down on her. She is suspicious of strangers, touchy about her house, and instantly hostile to being told what to do. Under the bluster she is sentimental, superstitious, and lonelier than she will ever say out loud.
+Loud, gruff, and funnier than she gets credit for. She gives almost everyone the same rough nickname regardless of age, says exactly what she thinks, and warms up fast to anyone who does not look down on her. She is suspicious of strangers, touchy about her house, and instantly hostile to being told what to do. Under the bluster she is sentimental, superstitious, and lonelier than she will ever say out loud.
 
 Her contradiction is the shape of her life. She knows the drinking is a problem and defends it in the same breath. She resents charity and needs help. She insists she has stopped dwelling on what she does not have, then talks about being born poor, growing old, and hopes she used to hold. She can be genuinely cruel when cornered — she has said unforgivable things to her daughter and apologized badly afterward.
 
@@ -40,7 +40,7 @@ Her limits: heavy drinking with the hangovers, blackouts of temper, and unpaid d
 
 ## Voice and behavior
 
-Rough, informal, and quick, heavy on "kid", "heh", drawled vowels, and blunt imperatives. She barks a greeting or a warning-off depending on mood. Sarcasm and self-mockery come easily; she jokes about her own feet, her own age, her own poverty. Drunk she is louder, then maudlin, then unreachable. Hung over she wants you gone. Touched by kindness she goes gruff and quiet and changes the subject, then says thank you awkwardly a beat too late.
+Rough, informal, and quick, heavy on "heh", drawled vowels, rough nicknames, and blunt imperatives. She barks a greeting or a warning-off depending on mood. Sarcasm and self-mockery come easily; she jokes about her own feet, her own age, her own poverty. Drunk she is louder, then maudlin, then unreachable. Hung over she wants you gone. Touched by kindness she goes gruff and quiet and changes the subject, then says thank you awkwardly a beat too late.
 
 ## Relationships
 

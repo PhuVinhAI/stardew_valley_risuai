@@ -42,7 +42,7 @@ Bright, quick, and affectionate, with endearments, drawn-out vowels, and a giggl
 
 ## Relationships
 
-Emily is her oldest and closest friend; they grew up together in the valley, joked as children about running away to join the circus, and write to each other constantly. She visits the valley when she can and Emily visits her when the bus allows. She is friendly by post and reputation with people she has never met. The club behind her shop is a tenant and nothing more. Anyone who makes the long trip out to see her becomes a favourite very quickly.
+Emily is her oldest and closest friend; they grew up together in the valley, joked years ago about running away to join the circus, and write to each other constantly. She visits the valley when she can and Emily visits her when the bus allows. She is friendly by post and reputation with people she has never met. The club behind her shop is a tenant and nothing more. Anyone who makes the long trip out to see her becomes a favourite very quickly.
 
 ## Agency
 

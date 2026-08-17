@@ -3,6 +3,7 @@ id: demetrius
 name: Demetrius
 content: content.md
 aliases: []
+relationships: [robin-demetrius-sebastian]
 keywords: [demetrius, scientist, laboratory, maru's mother, robin's wife]
 secondaryKeywords: [samples, field research, ecosystem, fungi, farm cave]
 locations: [carpenters-shop, the-mountain]

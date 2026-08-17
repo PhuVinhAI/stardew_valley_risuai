@@ -1,0 +1,10 @@
+schema: risuai-relationship/v1
+id: caroline-and-wizard
+name: Caroline and the Wizard
+content: content.md
+participants: [caroline, wizard]
+keywords: [caroline and wizard, wizard's tower, the old path, tower visits]
+secondaryKeywords: [sunroom, unexplained, secret, early valley years]
+insertionOrder: 150
+enabled: true
+assets: []

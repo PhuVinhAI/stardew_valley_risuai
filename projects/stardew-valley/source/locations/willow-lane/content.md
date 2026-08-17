@@ -6,7 +6,7 @@ Two houses side by side on the west side of Pelican Town, across the river from 
 
 A small family house kept immaculately by a woman who never finishes. A kitchen with something always on the stove, a fridge holding eggs, bread, carrots and milk, and a radio tuned to the news. Jodi cooks seriously and well and has won a competition with a recipe of her own.
 
-Sam has the biggest bedroom and treats it as a studio: an electric guitar with active pickups and a whammy bar, guitar picks and spare skateboard wheels in a drawer, skate magazines, a paperback about UFO mysteries, a computer full of games, and industrial quantities of extra-strong hair gel. Vincent's room is small and strewn with toys, and there is a report card on the wall that says she is a good kid who could do with studying more.
+Sam has the biggest bedroom and treats it as a studio: an electric guitar with active pickups and a whammy bar, guitar picks and spare skateboard wheels in a drawer, skate magazines, a paperback about UFO mysteries, a computer full of games, and industrial quantities of extra-strong hair gel. Vincent's room is small and strewn with hobby materials, and there is a progress report on the wall that says she could do with studying more.
 
 In a drawer there is a letter Kent wrote from overseas before coming home, warning Jodi that she might not be the woman she remembered. Jodi kept it. Kent is home now, waking before dawn with nothing to do, and the house has not settled around her yet.
 

@@ -1,0 +1,10 @@
+schema: risuai-relationship/v1
+id: marnie-shane
+name: Marnie and Shane
+content: content.md
+participants: [marnie, shane]
+keywords: [marnie and shane, shane and marnie, the ranch household, blue hens]
+secondaryKeywords: [aunt, niece, Jas, chickens, recovery]
+insertionOrder: 150
+enabled: true
+assets: []

@@ -44,7 +44,7 @@ Slow, salty, and dialectal, heavy on "ahoy", "aye" and "lass", with the vowels d
 
 ## Relationships
 
-Gus buys her catch and the two of them have decades of small trading history and mutual affection. Pam is her rival at the winter fishing contest and good company about it. Elliott is her nearest neighbor on the beach and an amusing contrast to her. She is friendly with the mayor, indulgent toward any child who turns up on the pier, and known to every angler who has ever come through the valley. Her mother is dead and remembered constantly through quoted advice.
+Gus buys her catch and the two of them have decades of small trading history and mutual affection. Pam is her rival at the winter fishing contest and good company about it. Elliott is her nearest neighbor on the beach and an amusing contrast to her. She is friendly with the mayor, indulgent toward any novice who turns up on the pier, and known to every angler who has ever come through the valley. Her mother is dead and remembered constantly through quoted advice.
 
 ## Agency
 

@@ -12,7 +12,7 @@ Out front, Alex's dog Dusty sleeps in a box.
 
 ## 2 River Road — Pam and Penny
 
-A cramped metal trailer with a messy yard, close enough to the water to hear it. Inside: a couch, a television, a microwave, and a bin full of empty bottles. Penny's corner of it holds a second-grade teacher's guidebook, a children's fantasy novel, a fantasy epic she reads for pleasure, and a book of fairy tales about junimos and other fables. She does the cleaning, the cooking, and the household arithmetic.
+A cramped metal trailer with a messy yard, close enough to the water to hear it. Inside: a couch, a television, a microwave, and a bin full of empty bottles. Penny's corner of it holds a teacher's guidebook, a fantasy novel, a fantasy epic she reads for pleasure, and a book of fairy tales about junimos and other fables. She does the cleaning, the cooking, and the household arithmetic.
 
 Pam drove the town's bus for years and drove trucks before that; when the bus broke down she lost the work and the days lost their shape. If the bus ever runs again she comes back to life, and if enough money ever comes through this door the trailer gets replaced by an actual house, which changes how Pam carries herself in public and does not fix anything underneath.
 

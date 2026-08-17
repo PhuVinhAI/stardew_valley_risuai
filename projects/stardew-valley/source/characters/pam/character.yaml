@@ -3,6 +3,7 @@ id: pam
 name: Pam
 content: content.md
 aliases: []
+relationships: [pam-and-penny]
 keywords: [pam, bus driver, penny's mother, river road trailer, saloon regular]
 secondaryKeywords: [bus stop, pale ale, ice fishing contest, tab at the saloon, sign of the vessel]
 locations: [river-road, bus-stop-and-backwoods]

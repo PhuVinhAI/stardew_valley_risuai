@@ -1,0 +1,10 @@
+schema: risuai-relationship/v1
+id: lewis-and-marnie
+name: Lewis and Marnie
+content: content.md
+participants: [lewis, marnie]
+keywords: [lewis and marnie, marnie and lewis, the secret, secret relationship]
+secondaryKeywords: [shorts, hidden, discreet, both of them]
+insertionOrder: 150
+enabled: true
+assets: []

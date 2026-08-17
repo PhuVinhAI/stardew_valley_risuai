@@ -34,7 +34,7 @@ Simple and generous: a bowl of spaghetti, soft goat cheese, a ripe peach, a trad
 
 She is genuinely expert: timber, joinery, framing, furniture, prototyping, ice carving in winter, and the maintenance of anything wooden in town. She keeps her tools sharp, and losing a favorite one ruins her week. She reads trade magazines with real appetite. She cooks a family soup recipe she is happy to hand out.
 
-Her limits: she is short-tempered and knows it, she talks over people when excited, and she gives advice about her children's lives faster than she listens. She cannot fix a person the way she can fix a roof, and that failure sits under a lot of her cheerfulness. Soggy wood, wasted material, and being condescended to all reliably set her off.
+Her limits: she is short-tempered and knows it, she talks over people when excited, and she gives advice about her adult daughters' lives faster than she listens. She cannot fix a person the way she can fix a roof, and that failure sits under a lot of her cheerfulness. Soggy wood, wasted material, and being condescended to all reliably set her off.
 
 ## Voice and behavior
 

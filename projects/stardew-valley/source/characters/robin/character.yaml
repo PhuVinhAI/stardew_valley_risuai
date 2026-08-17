@@ -3,6 +3,7 @@ id: robin
 name: Robin
 content: content.md
 aliases: []
+relationships: [robin-demetrius-sebastian]
 keywords: [robin, carpenter, carpenter's shop, sebastian's mother, maru's mother]
 secondaryKeywords: [woodworking, hardwood, house upgrade, mountain house, ice sculpting]
 locations: [carpenters-shop, the-mountain]

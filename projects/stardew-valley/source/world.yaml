@@ -1,10 +1,15 @@
 schema: risuai-world/v1
 id: stardew-valley
 name: Stardew Valley
-version: 0.1.0
+version: 0.5.0
 creator: ""
 language: en
-tags: [stardew-valley, open-ended-roleplay, pelican-town, all-female-cast, futanari, no-men]
+tags: [stardew-valley, open-ended-roleplay, pelican-town, all-female-cast, futanari, no-men, explicit, festivals]
+nickname: Pelican Town
+source:
+  - Stardew Valley 1.6.15.24356 (unpacked game data; see docs/CANON_NOTES.md)
+  - Mud's Skimpy Portraits (Volumes 1 and 2)
+  - OO's Anime Style Skimpy Portraits
 prompts:
   description: world/description.md
   personality: world/personality.md
@@ -22,6 +27,7 @@ lorebook:
   tokenBudget: 4096
   recursiveScanning: true
 module:
+  name: Stardew Valley - Pelican Town
   description: RisuAI module for Stardew Valley
 risuai: {}
 tokenCheck:

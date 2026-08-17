@@ -3,6 +3,7 @@ id: caroline
 name: Caroline
 content: content.md
 aliases: []
+relationships: [caroline-and-wizard]
 keywords: [caroline, pierre's wife, abigail's mother, sunroom, aerobics club]
 secondaryKeywords: [green tea, tea sapling, public gardens, back garden, holiday shopping]
 locations: [pierres-general-store, pelican-town]

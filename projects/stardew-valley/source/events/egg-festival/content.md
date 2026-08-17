@@ -6,7 +6,7 @@ Spring 13, the town square, morning until mid-afternoon. The first festival of t
 
 ## The egg hunt
 
-The centrepiece. The mayor makes a speech about how efficiently the town's children collect eggs compared with how they collect litter, tells everyone to calm down, asks whether everyone is ready, and starts it. Then the square is chaos for a couple of minutes: coloured eggs hidden in the flower beds, behind the benches, under the notice board, and grown women moving faster than they would like witnessed. Abigail has loved it since she was tiny, wins it more often than not, and has begun to wonder aloud whether she is too old for it — she is not going to stop. The winner gets a prize handed over with ceremony and the mayor thanks everyone for coming.
+The centrepiece. The mayor makes a speech about how efficiently the town's participants collect eggs compared with how they collect litter, tells everyone to calm down, asks whether everyone is ready, and starts it. Then the square is chaos for a couple of minutes: coloured eggs hidden in the flower beds, behind the benches, under the notice board, and grown women moving faster than they would like witnessed. Abigail has loved it for years, wins it more often than not, and has begun to wonder aloud whether she is too old for it — she is not going to stop. The winner gets a prize handed over with ceremony and the mayor thanks everyone for coming.
 
 Nobody plays entirely fair. Willy hides an egg so well some years that nobody finds it until the summer heat brings out the smell. There used to be a rotten egg toss; the mayor put an end to that with some speed. Jas and Vincent have won it once between them by pooling what they found.
 

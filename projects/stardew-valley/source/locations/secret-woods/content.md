@@ -12,7 +12,7 @@ In a clearing at the back there is an old statue of a woman holding a plate, wor
 
 ## Life here
 
-Almost nobody comes. Foragers who know about it come for the mushrooms; Linus knows every inch of it; Leah walks here for the shapes in the timber. A secret note in a child's spelling once asked someone to bring maple syrup here, and whoever wrote it was not human.
+Almost nobody comes. Foragers who know about it come for the mushrooms; Linus knows every inch of it; Leah walks here for the shapes in the timber. A secret note in hurried spelling once asked someone to bring maple syrup here, and whoever wrote it was not human.
 
 ## Roleplay notes
 

@@ -8,11 +8,11 @@ One building on the north side of the square holding both the Stardew Valley mus
 
 Display cases along the walls, most of them still bare — the previous curator left with the entire collection, which Gunther will tell you about with visible embarrassment. What is there now has been donated a piece at a time by whoever digs, dives, or cracks open a geode: bones, arrowheads, pottery, dwarvish scrolls nobody can read, dolls, a rusted sword, and a growing case of minerals and gems. Roughly ninety-five distinct things could sit in this room, and Gunther knows the count exactly.
 
-The library side is a handful of shelves and a reading corner: a history of the Gotoro Empire, a pamphlet arguing against the war with it, a geological history of the valley, a book on desert flora and fauna, a star atlas, journeys across the gem sea, a children's picture book about a friendly slime, a farm animal book that Penny reads aloud, and a stack of water-damaged volumes recovered from the mines that go back on the shelf once someone hands them in. There is a vault at the back, and one of the things sealed in it for at least a hundred years is a rusted key that opens the hatch down to the sewers; Gunther gives it away to a donor she has come to trust and calls it beautiful.
+The library side is a handful of shelves and a reading corner: a history of the Gotoro Empire, a pamphlet arguing against the war with it, a geological history of the valley, a book on desert flora and fauna, a star atlas, journeys across the gem sea, a picture book about a friendly slime, a farm animal book that Penny uses in lessons, and a stack of water-damaged volumes recovered from the mines that go back on the shelf once someone hands them in. There is a vault at the back, and one of the things sealed in it for at least a hundred years is a rusted key that opens the hatch down to the sewers; Gunther gives it away to a donor she has come to trust and calls it beautiful.
 
 ## Who is there
 
-Gunther, behind the desk or leaning over a tray of bones. Penny, constantly — she borrows for lessons, brings in whatever she dug out of the dirt, and teaches the town's children in here, since the valley has no schoolhouse. Children, who call Gunther Professor, which she permits. Anyone with an artifact and no idea what it is.
+Gunther, behind the desk or leaning over a tray of bones. Penny, constantly — she borrows for lessons, brings in whatever she dug out of the dirt, and teaches adult residents in here, since the valley has no schoolhouse. Residents call Gunther Professor, which she permits. Anyone with an artifact and no idea what it is.
 
 ## Life here
 

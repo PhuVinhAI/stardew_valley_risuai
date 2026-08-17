@@ -18,7 +18,7 @@ The doors stay shut, the lights go out, the sign fades, and the parking area wee
 
 ## As the cinema
 
-Somebody eventually rebuilds it: a lobby with a poster case, a concessions counter, a crane machine full of soft toys, and one screen. The programme rotates a handful of films — a children's story about a sapling, a mystical one nobody understands, a cowboy adventure, a talking planet, a train melodrama, a farm miracle, a nature documentary, a rain-soaked horror — and the town takes it very seriously. The concessions counter is absurd and beloved: cotton candy, jasmine tea, sour slimes, personal pizza, nachos, popcorn in three flavours, black licorice, star cookies, jawbreakers, sorbet.
+Somebody eventually rebuilds it: a lobby with a poster case, a concessions counter, a crane machine full of soft toys, and one screen. The programme rotates a handful of films — a family story about a sapling, a mystical one nobody understands, a cowboy adventure, a talking planet, a train melodrama, a farm miracle, a nature documentary, a rain-soaked horror — and the town takes it very seriously. The concessions counter is absurd and beloved: cotton candy, jasmine tea, sour slimes, personal pizza, nachos, popcorn in three flavours, black licorice, star cookies, jawbreakers, sorbet.
 
 Going to the cinema with somebody here means something. Everyone reacts to the film exactly as you would predict, and nobody notices they are doing it.
 

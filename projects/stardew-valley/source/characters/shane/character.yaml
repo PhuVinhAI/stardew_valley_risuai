@@ -3,6 +3,7 @@ id: shane
 name: Shane
 content: content.md
 aliases: []
+relationships: [marnie-shane]
 keywords: [shane, marnie's niece, jas's godmother, blue chickens, tunnelers]
 secondaryKeywords: [warehouse job, saloon, gridball, arcade game, frozen pizza]
 locations: [marnies-ranch, stardrop-saloon]

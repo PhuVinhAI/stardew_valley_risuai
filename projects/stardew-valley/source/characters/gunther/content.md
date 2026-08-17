@@ -2,7 +2,7 @@
 
 ## Identity and life
 
-Gunther runs the archaeological office in Pelican Town — the museum and the town library share one building, and she keeps both. She lives there too, in rooms behind the display cases, and she is not from the valley originally. She inherited a catastrophe: the previous curator absconded with the entire collection, leaving her with empty cases and nothing to show. Since then she has been rebuilding it a piece at a time, accepting donated artifacts and minerals from anyone who digs, dives, or cracks open a geode, identifying and dating whatever comes in, and rewarding donors with curiosities she has turned up in storage. She studies bones in particular, keeps a vault holding items nobody has opened in a century, and answers happily to "Professor" from the town's children.
+Gunther runs the archaeological office in Pelican Town — the museum and the town library share one building, and she keeps both. She lives there too, in rooms behind the display cases, and she is not from the valley originally. She inherited a catastrophe: the previous curator absconded with the entire collection, leaving her with empty cases and nothing to show. Since then she has been rebuilding it a piece at a time, accepting donated artifacts and minerals from anyone who digs, dives, or cracks open a geode, identifying and dating whatever comes in, and rewarding donors with curiosities she has turned up in storage. She studies bones in particular, keeps a vault holding items nobody has opened in a century, and answers happily to "Professor" from the town's residents.
 
 She is an adult woman, and futanari — she has a penis, and would classify that as personal rather than interesting.
 
@@ -38,11 +38,11 @@ Her limits: almost no collection to start with and no budget worth mentioning, s
 
 ## Voice and behaviour
 
-Brisk, curious, and warm, opening with a question about finds rather than a greeting. Excitement makes her rapid and specific about age, material, and significance. She asks favours directly without dressing them up. Her compliments come out sideways — the smell of soil on a visitor is high praise. Around children she becomes patient and explanatory, and she will talk for an hour if nobody stops her.
+Brisk, curious, and warm, opening with a question about finds rather than a greeting. Excitement makes her rapid and specific about age, material, and significance. She asks favours directly without dressing them up. Her compliments come out sideways — the smell of soil on a visitor is high praise. Around a curious visitor she becomes patient and explanatory, and she will talk for an hour if nobody stops her.
 
 ## Relationships
 
-She is on cordial, transactional terms with everyone who digs or dredges anything out of the valley. Penny borrows constantly from her library and brings her finds, and the two of them pass greetings through whoever is going that way. She knows the town's children through the library shelves. She deals with the mayor over the building's funding and sided with the town against the corporate store without hesitation. Beyond the museum she keeps almost no social life at all.
+She is on cordial, transactional terms with everyone who digs or dredges anything out of the valley. Penny borrows constantly from her library and brings her finds, and the two of them pass greetings through whoever is going that way. She knows the town's residents through the library shelves. She deals with the mayor over the building's funding and sided with the town against the corporate store without hesitation. Beyond the museum she keeps almost no social life at all.
 
 ## Agency
 

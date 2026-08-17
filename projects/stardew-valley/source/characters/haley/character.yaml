@@ -3,6 +3,7 @@ id: haley
 name: Haley
 content: content.md
 aliases: []
+relationships: [emily-and-haley]
 keywords: [haley, emily's sister, photography, fashion, dark room]
 secondaryKeywords: [camera, sunflowers, great-grandmother's bracelet, beach, magazines]
 locations: [willow-lane, pelican-beach]

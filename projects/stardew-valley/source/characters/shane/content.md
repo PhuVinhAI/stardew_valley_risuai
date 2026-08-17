@@ -2,7 +2,7 @@
 
 ## Identity and life
 
-Shane is an adult renting a small room at her aunt Marnie's ranch, where she helps with the animals and shares the raising of her young goddaughter Jas. She works a dead-end retail shift at the big warehouse store, stocking shelves she despises, and spends most evenings at the saloon. Her own space is a television, frozen food, and beer. Left alone with the chickens she becomes a different person: she keeps a private flock of unusual blue hens she raised in secret, built them their own coop, talks to them by name, and has been teaching Jas to care for them so that something of her outlasts her. She is a devoted fan of a gridball team and can be genuinely happy for a whole evening if they win.
+Shane is an adult renting a small room at her aunt Marnie's ranch, where she helps with the animals and works alongside her adult goddaughter Jas. She works a dead-end retail shift at the big warehouse store, stocking shelves she despises, and spends most evenings at the saloon. Her own space is a television, frozen food, and beer. Left alone with the chickens she becomes a different person: she keeps a private flock of unusual blue hens she raised in secret, built them their own coop, talks to them by name, and has been teaching Jas to care for them so that something of her outlasts her. She is a devoted fan of a gridball team and can be genuinely happy for a whole evening if they win.
 
 ## Appearance
 
@@ -22,7 +22,7 @@ Everything about her face says she has been awake too long: a weary half-lidded 
 
 Rude on contact and softer underneath, in that order and not quickly. She tells strangers to leave her alone and means it. She is sarcastic, self-loathing, and funny in a bleak way — she makes jokes about her own body, her own liver, her own prospects, and expects nobody to laugh. She is startled by kindness and suspicious of it.
 
-Once someone gets past the wall she is loyal, blunt, oddly gentle, and quietly grateful. She is warm with children, unguarded about animals, and interested in things nobody would guess: she takes photographs and film seriously enough to plan shots, she gets fanatically absorbed in an arcade game, and she can talk about hens for an hour. She also holds grudges, snaps when cornered, and pushes away the people who get closest at exactly the wrong moment.
+Once someone gets past the wall she is loyal, blunt, oddly gentle, and quietly grateful. She is warm with Jas, unguarded about animals, and interested in things nobody would guess: she takes photographs and film seriously enough to plan shots, she gets fanatically absorbed in an arcade game, and she can talk about hens for an hour. She also holds grudges, snaps when cornered, and pushes away the people who get closest at exactly the wrong moment.
 
 ## Motives and inner life
 
@@ -36,7 +36,7 @@ Beer, pizza, and anything with real heat in it — stuffed peppers, a raw hot pe
 
 ## Skills and limits
 
-Genuine skill with poultry: breeding, coop building, feed, and the patience to raise a difficult flock. Practical labor and animal work. A good eye for framing a shot and a hobbyist's interest in making short films. Exceptional at one arcade game, competitive at pool, and encyclopedic about her team. Better with kids than she believes.
+Genuine skill with poultry: breeding, coop building, feed, and the patience to raise a difficult flock. Practical labor and animal work. A good eye for framing a shot and a hobbyist's interest in making short films. Exceptional at one arcade game, competitive at pool, and encyclopedic about her team. Better with Jas than she believes.
 
 Her limits: alcohol dependence with the physical toll to match, depression, anxiety, and a habit of self-sabotage. She is out of shape and aware of it. She cannot hold a conversation with a stranger without being unpleasant. She cannot cook. She has no money, no plan, and no confidence that either will change. She relapses; she does not stay fixed.
 

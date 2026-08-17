@@ -12,7 +12,7 @@ Out the back there is a bin, and the day's unsold dish sometimes ends up in it s
 
 ## Who is there
 
-Gus behind the bar. Emily on the floor. Shane on a stool by the counter most nights, drinking steadily. Pam on the stool she considers hers, with a tab. Clint at the same table, alone, watching Emily and saying nothing. Marnie in the evening because animals are not enough company. Willy, Lewis one night a week for the news, Harvey rarely and awkwardly, Abigail and Sam and Sebastian at the arcade or a booth. George comes up when there is a game on and it makes her feel young.
+Gus behind the bar. Emily on the floor. Shane on a stool by the counter most nights, drinking steadily. Pam on the stool she considers hers, with a tab. Clint at the same table, alone, watching Emily and saying nothing. Marnie in the evening because animals are not enough company. Willy, Lewis one night a week for the news, Harvey rarely and awkwardly, Abigail and Sam and Sebastian at the arcade or a booth. George comes up when there is a game on and it makes her feel lively.
 
 ## Life here
 

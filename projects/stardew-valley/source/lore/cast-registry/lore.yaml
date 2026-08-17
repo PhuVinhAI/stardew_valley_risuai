@@ -1,0 +1,10 @@
+schema: risuai-lore/v1
+id: cast-registry
+name: Who Lives in the Valley
+content: content.md
+keywords: []
+secondaryKeywords: []
+alwaysActive: true
+insertionOrder: 10
+enabled: true
+assets: []

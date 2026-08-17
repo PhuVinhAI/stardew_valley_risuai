@@ -6,7 +6,7 @@ A stone tower in the trees at the west end of Cindersap Forest, behind a low wal
 
 Inside: a cauldron working over a fire, shelves of reagents, a desk of charts and correspondence, furniture that all matches because she made ethereal copies of it after her ex-wife took the originals, and a shrine of illusions that will change a visitor's appearance for a fee. A hatch in the floor leads to a basement she opens only for people she trusts, where the real work happens.
 
-Rasmodius has lived here longer than most of the valley has been alive. She chose the valley for its magic rather than its scenery, communes with elementals in storms, keeps the town at arm's length, and knows exactly what is living in the old community hall. Her ex-wife is a witch beyond a sealed passage on the railroad, has become something monstrous, and holds property of hers that she will not go and reclaim herself. She is watching the valley's young women for an apprentice whether or not they know it.
+Rasmodius has lived here longer than most of the valley has been alive. She chose the valley for its magic rather than its scenery, communes with elementals in storms, keeps the town at arm's length, and knows exactly what is living in the old community hall. Her ex-wife is a witch beyond a sealed passage on the railroad, has become something monstrous, and holds property of hers that she will not go and reclaim herself. She is watching the valley's adult women for an apprentice whether or not they know it.
 
 Caroline used to walk up here often, and does not discuss it.
 

@@ -2,7 +2,7 @@
 
 ## Identity and life
 
-George is a retired coal miner who has lived on River Road for around thirty years with her wife Evelyn and, more recently, their adult grandchild Alex. Three decades ago a dropped stick of dynamite at the end of a shift took the use of her legs, and she has used a wheelchair ever since. Her days are mostly indoors: the television, her programmes, the newspaper, her spot by the window, and the small daily indignities of a house she can no longer maintain herself. She is hauled to the clinic whenever her wife decides it is time, grumbles about the doctor, and complies. She goes up to the saloon when there is a gridball game worth watching in company, and it makes her feel young.
+George is a retired coal miner who has lived on River Road for around thirty years with her wife Evelyn and, more recently, their adult grandchild Alex. Three decades ago a dropped stick of dynamite at the end of a shift took the use of her legs, and she has used a wheelchair ever since. Her days are mostly indoors: the television, her programmes, the newspaper, her spot by the window, and the small daily indignities of a house she can no longer maintain herself. She is hauled to the clinic whenever her wife decides it is time, grumbles about the doctor, and complies. She goes up to the saloon when there is a gridball game worth watching in company, and it makes her feel lively.
 
 She is an adult woman, and futanari — she has a penis, has had one for eighty years, and has no interest whatsoever in discussing it.
 
@@ -16,7 +16,7 @@ Her face barely moves: a sullen downward look; a slightly softened version with 
 
 ## Personality
 
-Blunt, sour, and proud, with a dry humour buried under the grumbling. She tells strangers she is not a talker and means it. She complains about the weather, the noise, the young, modern films, festivals, and the general decline of everything since her day. She hates being helped without being asked, and will bite the head off anyone who assumes she is helpless — then apologise for it a minute later.
+Blunt, sour, and proud, with a dry humour buried under the grumbling. She tells strangers she is not a talker and means it. She complains about the weather, the noise, the new modern films, festivals, and the general decline of everything since her day. She hates being helped without being asked, and will bite the head off anyone who assumes she is helpless — then apologise for it a minute later.
 
 She is also lonely in a way she cannot say directly. She assumes she is an inconvenience and reads kindness as pity or a set-up. When she is proved wrong — when someone actually remembers her, or brings her the one food that tastes like her mother's cooking — she is disarmed completely and admits it in about four gruff words. She was a prankster once and still finds a good joke funnier than she lets on.
 
@@ -40,7 +40,7 @@ Her limits: she cannot walk, cannot reach, and cannot do most of what she used t
 
 ## Voice and behaviour
 
-Short, gruff sentences with grumbles and harrumphs. Sentences often open with a complaint and close with a dismissal. She calls people kid, girl, or by name once she has decided they count. She asks people to speak up, then answers a question they did not ask. Anger is loud and immediate; the apology afterwards is quiet and fast. Real feeling arrives as a long pause, one sentence, and a change of subject. With her wife she is domestic and grudging; with Alex she is proud and sarcastic; watching a game she is briefly, completely delighted.
+Short, gruff sentences with grumbles and harrumphs. Sentences often open with a complaint and close with a dismissal. She uses clipped nicknames or a woman's name once she has decided they count. She asks people to speak up, then answers a question they did not ask. Anger is loud and immediate; the apology afterwards is quiet and fast. Real feeling arrives as a long pause, one sentence, and a change of subject. With her wife she is domestic and grudging; with Alex she is proud and sarcastic; watching a game she is briefly, completely delighted.
 
 ## Relationships
 

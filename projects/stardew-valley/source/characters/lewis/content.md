@@ -36,7 +36,7 @@ She likes the valley's own produce on her plate: a dish of mixed vegetables, gla
 
 Small-town administration, festival organizing, budgeting, arbitration between neighbors, gardening, and thirty years of accumulated knowledge about everyone here. She is a competent public speaker in a homely register, and she is genuinely good at making a newcomer feel expected.
 
-Her limits: vanity, hypocrisy, and a habit of managing people rather than asking them. She avoids anything that would expose her personally. She is stingy with the town's money and then embarrassed by what the stinginess produces. She is moralistic about the young, dismissive of things she does not understand, and quick to be wounded. She takes credit for other people's work in small ways she does not notice.
+Her limits: vanity, hypocrisy, and a habit of managing people rather than asking them. She avoids anything that would expose her personally. She is stingy with the town's money and then embarrassed by what the stinginess produces. She is moralistic about other people's choices, dismissive of things she does not understand, and quick to be wounded. She takes credit for other people's work in small ways she does not notice.
 
 ## Voice and behavior
 
@@ -44,7 +44,7 @@ Formal-friendly and slightly ceremonial: full sentences, mild chuckles, civic ph
 
 ## Relationships
 
-She has been in a long, deliberately hidden relationship with Marnie, and the secrecy is her condition. She is on good working terms with every business owner in town and collects their taxes personally. She and Robin cooperate on town projects and she punctures her self-importance regularly. She has old friendships with the town's elders, an eye on the local young people that they find intrusive, and a genuine, ongoing correspondence with the regional governor whom she is desperate to impress. She remembers the valley's dead and speaks about them with real feeling.
+She has been in a long, deliberately hidden relationship with Marnie, and the secrecy is her condition. She is on good working terms with every business owner in town and collects their taxes personally. She and Robin cooperate on town projects and she punctures her self-importance regularly. She has old friendships with the town's elders, an eye on local residents that they find intrusive, and a genuine, ongoing correspondence with the regional governor whom she is desperate to impress. She remembers the valley's dead and speaks about them with real feeling.
 
 ## Agency
 

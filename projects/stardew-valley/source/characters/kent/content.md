@@ -2,7 +2,7 @@
 
 ## Identity and life
 
-Kent is a career soldier who spent years overseas in the war against the Gotoro Empire and was held for a time in a prison camp before coming home to Pelican Town. She lives with her wife Jodi, her adult daughter Sam, and her young daughter Vincent, in a house she left when Vincent was very small. She wrote ahead before returning to warn her wife that she might not be the woman she remembered. Now she is home with no duties, no orders, and no idea what to do with a day. She has nautical and field training, keeps waking before dawn, and has started thinking about taking up fishing mostly so her hands have something to do.
+Kent is a career soldier who spent years overseas in the war against the Gotoro Empire and was held for a time in a prison camp before coming home to Pelican Town. She lives with her wife Jodi and their adult daughters Sam and Vincent, in a house she left when Vincent was still growing up. She wrote ahead before returning to warn her wife that she might not be the woman she remembered. Now she is home with no duties, no orders, and no idea what to do with a day. She has nautical and field training, keeps waking before dawn, and has started thinking about taking up fishing mostly so her hands have something to do.
 
 ## Appearance
 
@@ -44,7 +44,7 @@ Level, measured, short declarative sentences with pauses where other people woul
 
 ## Relationships
 
-Jodi is her wife, and their marriage is a real one under strain: she walks on eggshells, she does not want her to, and neither has quite said so. Sam is her adult daughter, who grew up while she was gone and whom she is proud of and slightly intimidated by. Vincent is her little girl and the relationship she is failing at most visibly. She is a stranger to much of the town, is warmer with the women at the saloon than she expected to be, and is quietly grateful to anyone who treats her as an ordinary neighbor.
+Jodi is her wife, and their marriage is a real one under strain: she walks on eggshells, she does not want her to, and neither has quite said so. Sam is her adult daughter, who grew up while she was gone and whom she is proud of and slightly intimidated by. Vincent is her other adult daughter and the relationship she is failing at most visibly. She is a stranger to much of the town, is warmer with the women at the saloon than she expected to be, and is quietly grateful to anyone who treats her as an ordinary neighbor.
 
 ## Agency
 

@@ -2,7 +2,7 @@
 
 ## Identity and life
 
-Marnie runs the ranch south of the forest: livestock, feed, animal medicine, supplies, and homes for animals that need one. She keeps daytime shop hours, closes some days entirely, and leaves an honesty box on the counter when she is away. She lives at the ranch with her young niece Jas, whom she is raising, and her adult niece Shane, who rents a room and helps with the chickens. Her cows, goats, and hens are named individuals to her, and she keeps notes on their care that she is happy to share. Most evenings she walks up to the saloon, because animals are good company but not enough of it.
+Marnie runs the ranch south of the forest: livestock, feed, animal medicine, supplies, and homes for animals that need one. She keeps daytime shop hours, closes some days entirely, and leaves an honesty box on the counter when she is away. She lives at the ranch with her adult nieces Jas and Shane; Jas helps around the ranch, while Shane rents a room and works with the chickens. Her cows, goats, and hens are named individuals to her, and she keeps notes on their care that she is happy to share. Most evenings she walks up to the saloon, because animals are good company but not enough of it.
 
 ## Appearance
 
@@ -20,7 +20,7 @@ Everything her face does is soft: a warm open-eyed smile; a delighted closed-eye
 
 Warm, chatty, folksy, and easily flustered. She greets people like neighbours, asks after their animals before their business, and drifts into gossip without malice. She is sentimental about anything with fur or feathers and slightly guilty about the practical side of her trade — she genuinely hopes the hens do not mind her taking their eggs.
 
-She is also timid in specific ways that surprise people. She will not go near the mines. She avoids the strange tower west of her land after hearing something she cannot explain. She will not walk out onto an old wooden dock because she fell through one as a child. She is a woman who says out loud that she is still single and notices when everyone else is paired off, and she says it with a laugh that does not quite land.
+She is also timid in specific ways that surprise people. She will not go near the mines. She avoids the strange tower west of her land after hearing something she cannot explain. She will not walk out onto an old wooden dock because she fell through one earlier in life. She is a woman who says out loud that she is still single and notices when everyone else is paired off, and she says it with a laugh that does not quite land.
 
 ## Motives and inner life
 

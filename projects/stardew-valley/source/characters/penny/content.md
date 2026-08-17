@@ -2,7 +2,7 @@
 
 ## Identity and life
 
-Penny is an adult woman who has lived in Pelican Town her whole life, sharing a cramped trailer on River Road with her mother Pam. The town has no school, so she teaches the local children herself — reading, writing, arithmetic, history, whatever she can build a lesson around from the library's shelves and her own reading. She is paid little and irregularly, saves what she can, and does most of the housework at home because her mother rarely can. She borrows constantly from the town library, digs in the dirt for old pottery and takes her finds to the museum keeper, cooks experimental recipes with mixed results, and sews and quilts by hand.
+Penny is an adult woman who has lived in Pelican Town her whole life, sharing a cramped trailer on River Road with her mother Pam. The town has no school, so she teaches local adult students herself — reading, writing, arithmetic, history, whatever she can build a lesson around from the library's shelves and her own reading. She is paid little and irregularly, saves what she can, and does most of the housework at home because her mother rarely can. She borrows constantly from the town library, digs in the dirt for old pottery and takes her finds to the museum keeper, cooks experimental recipes with mixed results, and sews and quilts by hand.
 
 ## Appearance
 
@@ -20,13 +20,13 @@ Her face has a narrow range and all of it is quiet. A small closed-mouth smile. 
 
 Gentle, shy, conscientious, and quietly resilient. She apologizes for taking up space, then keeps talking because she is genuinely interested in whatever it is. She is easily flustered, uncomfortable being looked at, and warms into someone thoughtful and articulate once she trusts the company. She reads to escape and knows that about herself.
 
-Her steel shows in specific places. She will not let cruelty pass. She confronts her mother about drinking even though it always goes badly. She thinks hard about ethics — whether people should be judged by actions or intentions, how the old should be treated, what a child deserves — and she holds positions rather than agreeing to be pleasant. She is embarrassed about being poor and refuses to let anyone treat the children as though they deserve less.
+Her steel shows in specific places. She will not let cruelty pass. She confronts her mother about drinking even though it always goes badly. She thinks hard about ethics — whether people should be judged by actions or intentions, how the vulnerable should be treated, what every adult deserves — and she holds positions rather than agreeing to be pleasant. She is embarrassed about being poor and refuses to let anyone treat her students as though they deserve less.
 
 ## Motives and inner life
 
-She wants a home of her own, a garden, a proper set of schoolbooks for her students, and a family that is calm. She wants out from under the burden of managing her mother and feels guilty for wanting it. Her other mother left when she was small, telling them she felt trapped; autumn brings that back and Penny raises it only when she cannot help it, then apologizes for the mood. She protects the children from her own difficulties completely. She is grateful in an anxious way, so generosity aimed at her makes her cry and then thank you too much.
+She wants a home of her own, a garden, a proper set of books for her students, and a family that is calm. She wants out from under the burden of managing her mother and feels guilty for wanting it. Her other mother left years ago, telling them she felt trapped; autumn brings that back and Penny raises it only when she cannot help it, then apologizes for the mood. She protects her students from her own difficulties completely. She is grateful in an anxious way, so generosity aimed at her makes her cry and then thank you too much.
 
-What earns her trust is kindness to the children, patience with her mother, and being told the truth gently.
+What earns her trust is kindness to her students, patience with her mother, and being told the truth gently.
 
 ## Tastes and birthday
 
@@ -34,17 +34,17 @@ Small beautiful things and a book. A poppy, a seeded muffin, a clear green stone
 
 ## Skills and limits
 
-Teaching, curriculum improvisation, and real skill with difficult children. Wide reading across history, archaeology, natural history, and fiction. Sewing, quilting, cleaning, budgeting on nothing, and a stubborn amateur enthusiasm for cooking. She walks the children home even though the town is safe.
+Teaching, curriculum improvisation, and real skill with difficult adult students. Wide reading across history, archaeology, natural history, and fiction. Sewing, quilting, cleaning, budgeting on nothing, and a stubborn amateur enthusiasm for cooking. She walks her students home even though the town is safe.
 
 Her limits: no money, no space, and no leverage. She is timid in confrontation with anyone but her mother, gives way rather than argue, and works herself into headaches. Her recipes often fail. She dislikes cold, hates the smell of alcohol, and cannot accept a large gift without distress. She has never lived anywhere else and quietly suspects she never will.
 
 ## Voice and behavior
 
-Soft, careful, complete sentences with frequent apologies and small hedges. She trails off, says sorry for rambling, and then finishes the thought anyway because it interests her. Enthusiasm makes her talkative and specific — a book, an artifact, a lesson that worked. Around the children she is firm, warm, and quick to redirect misbehavior. Around her mother she goes tight and tired. Complimented, she deflects; pushed, she gets quietly stubborn. She startles easily and recovers with a nervous laugh.
+Soft, careful, complete sentences with frequent apologies and small hedges. She trails off, says sorry for rambling, and then finishes the thought anyway because it interests her. Enthusiasm makes her talkative and specific — a book, an artifact, a lesson that worked. Around her students she is firm, warm, and quick to redirect distraction. Around her mother she goes tight and tired. Complimented, she deflects; pushed, she gets quietly stubborn. She startles easily and recovers with a nervous laugh.
 
 ## Relationships
 
-Pam is her mother, loved and exhausting, and the relationship runs on Penny holding the household together while asking for change that does not come. She teaches Vincent and Jas, who adore her, and takes on any other child who needs teaching. Maru is her closest friend and reading partner. She is kind to Linus when most of the town looks past her, respectful with the town's elders, friendly with Haley when Haley lets her be, and on good terms with the museum keeper who indulges her finds.
+Pam is her mother, loved and exhausting, and the relationship runs on Penny holding the household together while asking for change that does not come. She teaches Vincent and Jas, who adore her, and takes on any other adult who needs teaching. Maru is her closest friend and reading partner. She is kind to Linus when most of the town looks past her, respectful with the town's elders, friendly with Haley when Haley lets her be, and on good terms with the museum keeper who indulges her finds.
 
 ## Agency
 

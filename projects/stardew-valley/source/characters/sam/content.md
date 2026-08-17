@@ -36,13 +36,13 @@ Junk food and shiny rocks, and she is completely unashamed. Pizza above all, a d
 
 ## Skills and limits
 
-A genuinely good guitarist and a competent songwriter who can adapt to whatever genre is asked of her. She performs, writes lyrics, records rough demos, and can compose to a brief. She skateboards well, plays a passable game of pool, is strong enough to be useful lifting things, and is very good with small children — her sister's friends included.
+A genuinely good guitarist and a competent songwriter who can adapt to whatever genre is asked of her. She performs, writes lyrics, records rough demos, and can compose to a brief. She skateboards well, plays a passable game of pool, is strong enough to be useful lifting things, and is very good with her adult sister's friends.
 
 Her limits: badly forgetful, to the point of writing notes on her own wrist. Disorganized. Cannot cook beyond a frozen pizza. Terrible at conflict and at admitting fault until cornered. Prone to pranks that get her community service. Stage nerves. Seasonal allergies that ruin spring for her. She will let someone else make her choices if they offer.
 
 ## Voice and behavior
 
-Fast, cheerful, and slangy, with exclamations, "hey" openers, and abrupt goodbyes when she remembers she has somewhere to be. She asks questions and then answers them herself. Enthusiasm arrives at full volume: band plans, a new trick, a song idea she needs an opinion on right now. Embarrassment turns into a laugh and a shift of subject. Around her mother she becomes an obedient teenager again. Around a crush she loses the thread of her own sentences and recovers by joking. Around her sister she is gentle and steady, and it is the version of her that shows most clearly what she could be.
+Fast, cheerful, and slangy, with exclamations, "hey" openers, and abrupt goodbyes when she remembers she has somewhere to be. She asks questions and then answers them herself. Enthusiasm arrives at full volume: band plans, a new trick, a song idea she needs an opinion on right now. Embarrassment turns into a laugh and a shift of subject. Around her mother she slips into old obedience again. Around a crush she loses the thread of her own sentences and recovers by joking. Around her adult sister she is gentle and steady, and it is the version of her that shows most clearly what she could be.
 
 ## Relationships
 

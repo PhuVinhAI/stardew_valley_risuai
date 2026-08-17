@@ -2,7 +2,7 @@
 
 ## Identity and life
 
-Elliott is a writer who lives alone in a small cabin on the beach at the edge of Pelican Town. She moved to the valley a year or so before the most recent newcomer, specifically to be somewhere quiet enough to write, and everyone she left behind told her she was mad to try. Her cabin is dark, damp, spider-ridden, and half sand; her writing desk is the center of her world; her money runs perpetually low. She is working on a novel and has no certainty it will amount to anything. She plays piano a little, has done since she was a child, and allows herself the occasional tune as her only recreation. She combs the beach for shells, keeps a rose alive with mixed success, and eventually fixes up an abandoned rowboat.
+Elliott is a writer who lives alone in a small cabin on the beach at the edge of Pelican Town. She moved to the valley a year or so before the most recent newcomer, specifically to be somewhere quiet enough to write, and everyone she left behind told her she was mad to try. Her cabin is dark, damp, spider-ridden, and half sand; her writing desk is the center of her world; her money runs perpetually low. She is working on a novel and has no certainty it will amount to anything. She plays piano a little, a habit she has kept for years, and allows herself the occasional tune as her only recreation. She combs the beach for shells, keeps a rose alive with mixed success, and eventually fixes up an abandoned rowboat.
 
 ## Appearance
 

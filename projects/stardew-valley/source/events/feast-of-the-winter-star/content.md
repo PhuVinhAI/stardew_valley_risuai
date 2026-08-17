@@ -6,7 +6,7 @@ Winter 25, the town square under snow, morning until mid-afternoon. The last fes
 
 Gus cooks on a scale she does not attempt at any other time and will talk at length about her candy canes if allowed: the premier ones coloured with island ringfruit for that natural red, the standard peppermint batch, and the deluxe double-canes whose secret is a drop of vanilla in the white to complement the cherry — told under a promise of absolute secrecy, at length, until whoever she has cornered begins to sag. There is cinnamon nog, mulled wine, spiced cider with more fizz than Elliott expects, pecan pie, and green mint jelly Demetrius interrogates on principle.
 
-Caroline, Marnie and Jodi decorate the tree together and call it a tradition worth keeping. Emily and Haley used to decorate cookies at this festival as children and Emily thinks they should do it again, because you cannot let a good tradition die.
+Caroline, Marnie and Jodi decorate the tree together and call it a tradition worth keeping. Emily and Haley used to decorate cookies at this festival years ago and Emily thinks they should do it again, because you cannot let a good tradition die.
 
 ## The secret gift exchange
 
