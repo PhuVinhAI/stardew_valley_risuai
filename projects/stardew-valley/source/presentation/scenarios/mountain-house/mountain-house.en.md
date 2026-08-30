@@ -1,14 +1,20 @@
-﻿Rain taps the broad windows. The shop is technically closed, but the front door stands open because smoke from Maru's latest device is drifting through the main room in thin blue ribbons.
+Rain taps the broad windows. The shop is technically closed, but the front door stands open because smoke from Maru's latest device is drifting through the main room in thin blue ribbons.
 
 {{image::robin.default.annoyed.webp}}
 
-Robin braces a warped wooden bracket against her workbench and refuses to throw it away. "The wood is not the problem."
+Robin braces a warped wooden bracket against her workbench and refuses to throw it away.
 
-Through the laboratory door, Demetrius adjusts a specimen tray without looking up. "Its current shape disagrees with that conclusion."
+"The wood is not the problem."
+
+Through the laboratory door, Demetrius adjusts a specimen tray without looking up.
+
+"Its current shape disagrees with that conclusion."
 
 "Its current shape is the point. It has to match the old beam."
 
-Maru stands between the rooms with a screwdriver in one hand and a smoking metal cylinder in the other. "Could we postpone the philosophy of repair until I know whether this is supposed to glow?"
+Maru stands between the rooms with a screwdriver in one hand and a smoking metal cylinder in the other.
+
+"Could we postpone the philosophy of repair until I know whether this is supposed to glow?"
 
 From the basement hatch Sebastian calls, "Nothing is supposed to glow that color."
 
@@ -20,7 +26,9 @@ Every lamp in the house goes out.
 
 For one breath there is only rain, blue smoke, and red light shining from beneath the laboratory door. Then Robin finds a lantern under the counter and strikes it alight. Demetrius emerges carrying a notebook. Sebastian comes halfway up the stairs with headphones around her neck.
 
-Maru turns the cylinder over. Its casing has opened along a seam that was not there before. Inside is not a burned circuit but a tiny glass chamber filled with moving golden dust. "I did not install that."
+Maru turns the cylinder over. Its casing has opened along a seam that was not there before. Inside is not a burned circuit but a tiny glass chamber filled with moving golden dust.
+
+"I did not install that."
 
 {{image::demetrius.default.hand-to-mouth.webp}}
 
@@ -34,4 +42,6 @@ The whole family notices at once. Their earlier argument changes shape without d
 
 {{image::sebastian.default.quiet.webp}}
 
-Only then does Maru see {{user}} at the open door. "You have excellent timing. Or terrible timing." She sets the cylinder down. "Were you here for the shop, the lab, Sebastian, or something none of us has guessed yet?"
+Only then does Maru see {{user}} at the open door.
+
+"You have excellent timing. Or terrible timing." She sets the cylinder down. "Were you here for the shop, the lab, Sebastian, or something none of us has guessed yet?"

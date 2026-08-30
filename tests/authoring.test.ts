@@ -74,9 +74,11 @@ describe("agent authoring source", () => {
 
     const regex = built.moduleWrapper.module.regex;
     const triggers = built.moduleWrapper.module.trigger;
-    expect(regex).toHaveLength(1);
+    expect(regex).toHaveLength(2);
     expect(regex[0]?.type).toBe("editdisplay");
     expect(new RegExp(String(regex[0]?.in)).test(firstMessage)).toBe(true);
+    expect(regex[1]?.comment).toBe("Scene header");
+    expect(new RegExp(String(regex[1]?.in)).test(firstMessage)).toBe(true);
     expect(triggers).toHaveLength(1);
     expect(triggers[0]?.type).toBe("start");
 
@@ -109,11 +111,53 @@ describe("agent authoring source", () => {
     expect(built.card.data.extensions.risuai.backgroundHTML).toContain(".sv-start-panel__cards.is-visible");
 
     const firstMessage = String(built.card.data.first_mes);
-    for (const line of firstMessage.split("\n").filter((entry) => entry.includes("sv-scene-tags")))
-      expect(line.trimEnd().endsWith("</div>")).toBe(true);
+    const sceneRegex = built.moduleWrapper.module.regex[1];
+    expect(String(sceneRegex?.out).includes("\n")).toBe(false);
     for (const scenario of built.ir.startPanel.scenarios)
-      for (const language of built.ir.startPanel.panel.languages)
-        expect((scenario.tags?.[language.id] ?? []).length).toBeGreaterThan(0);
+      for (const language of built.ir.startPanel.panel.languages) {
+        const tags = scenario.tags?.[language.id] ?? [];
+        expect(tags.length).toBeGreaterThan(0);
+        const header = `[Scene: ${tags.join(" | ")}]`;
+        expect(firstMessage).toContain(header);
+        expect(new RegExp(String(sceneRegex?.in)).test(header)).toBe(true);
+      }
+  });
+
+  test("groups the lorebook into RisuAI folders and keeps a deep, well-funded scan", () => {
+    const built = compileAuthoringSources(primary, false);
+    const lore = built.internalLorebook;
+    const folders = lore.filter((entry) => entry.mode === "folder");
+    expect(folders.length).toBe(built.ir.lorebook.folders.length);
+    expect(built.ir.lorebook.scanDepth).toBeGreaterThanOrEqual(50);
+    expect(built.ir.lorebook.tokenBudget).toBeGreaterThanOrEqual(60_000);
+    expect(built.card.data.character_book.scan_depth).toBe(built.ir.lorebook.scanDepth);
+    expect(built.card.data.character_book.token_budget).toBe(built.ir.lorebook.tokenBudget);
+
+    const keys = new Set(folders.map((folder) => String(folder.key)));
+    expect(keys.size).toBe(folders.length);
+    for (const key of keys) expect(key.startsWith("\uF000folder:")).toBe(true);
+    for (const folder of folders) expect(String(folder.content)).toBe("");
+
+    // Every non-folder entry belongs to a declared folder, and each folder's
+    // children follow it directly so RisuAI renders one contiguous group.
+    for (const entry of lore) if (entry.mode !== "folder") expect(keys.has(String(entry.folder))).toBe(true);
+    let current = "";
+    const seen = new Set<string>();
+    for (const entry of lore) {
+      if (entry.mode === "folder") {
+        current = String(entry.key);
+        expect(seen.has(current)).toBe(false);
+        seen.add(current);
+      } else expect(String(entry.folder)).toBe(current);
+    }
+
+    const residents = built.ir.lorebook.folders.find((folder) => folder.kinds.includes("character"));
+    expect(residents).toBeDefined();
+    const residentKey = String(folders.find((folder) => folder.comment === residents?.name)?.key ?? "");
+    const residentEntries = lore.filter((entry) => entry.folder === residentKey);
+    expect(residentEntries).toHaveLength(
+      built.ir.entities.filter((entity) => entity.kind === "character").length,
+    );
   });
 
   test("keeps per-outfit frame counts independent and permits missing local-only assets", () => {

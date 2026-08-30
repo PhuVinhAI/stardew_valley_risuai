@@ -1,7 +1,7 @@
 schema: risuai-world/v1
 id: stardew-valley
-name: Stardew Valley
-version: 0.5.0
+name: Stardew Valley - Beta 0.1
+version: 0.1.0-beta
 creator: ""
 language: en
 tags: [stardew-valley, open-ended-roleplay, pelican-town, all-female-cast, futanari, no-men, explicit, festivals]
@@ -22,12 +22,36 @@ startPanel:
   manifest: presentation/start-panel.yaml
   scenarioDir: presentation/scenarios
 lorebook:
-  scanDepth: 8
-  tokenBudget: 4096
+  # Matches the depth and budget the reference cards use: a shallow scan keeps
+  # missing a resident who was named several turns ago, and a small budget drops
+  # the rest of the group once one long character entry is inserted.
+  scanDepth: 50
+  tokenBudget: 60000
   recursiveScanning: true
+  folders:
+    - id: residents
+      name: Residents
+      kinds: [character]
+      insertionOrder: 100
+    - id: places
+      name: Places
+      kinds: [location]
+      insertionOrder: 200
+    - id: bonds
+      name: Bonds and Households
+      kinds: [relationship]
+      insertionOrder: 300
+    - id: festivals
+      name: Festivals and Seasons
+      kinds: [event]
+      insertionOrder: 400
+    - id: world-rules
+      name: World Rules
+      kinds: [lore, system, schedule]
+      insertionOrder: 500
 module:
   name: Stardew Valley - Pelican Town
-  description: RisuAI module for Stardew Valley
+  description: RisuAI module for Stardew Valley - Beta 0.1
 risuai:
   prebuiltAssetCommand: true
   prebuiltAssetStyle: dynamic

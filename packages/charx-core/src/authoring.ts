@@ -325,10 +325,27 @@ export function loadWorldIR(context: ProjectContext): WorldIR {
   };
 }
 
+/**
+ * RisuAI groups a lorebook by giving a `folder` entry the sentinel key
+ * `\uF000folder:<uuid>` and repeating that exact string in every child's
+ * `folder` field. The uuid is derived from the world and folder id so a rebuild
+ * keeps the same grouping instead of reshuffling the book.
+ */
+function folderKey(worldId: string, folderId: string): string {
+  return `\uF000folder:${deterministicUuid(`risuai-lore-folder:${worldId}:${folderId}`)}`;
+}
+
 function internalLore(ir: WorldIR): Record<string, unknown>[] {
-  return ir.entities
-    .filter((entity) => entity.enabled)
-    .map((entity) => ({
+  const folders = ir.lorebook.folders;
+  const folderOf = new Map<WorldEntityKind, string>();
+  for (const folder of folders) for (const kind of folder.kinds) folderOf.set(kind, folder.id);
+  const grouped = new Map<string, Record<string, unknown>[]>(folders.map((folder) => [folder.id, []]));
+  const ungrouped: Record<string, unknown>[] = [];
+
+  for (const entity of ir.entities) {
+    if (!entity.enabled) continue;
+    const folderId = folderOf.get(entity.kind);
+    const entry: Record<string, unknown> = {
       key: entity.keywords.join(", "),
       comment: entity.name,
       content: entity.content,
@@ -345,7 +362,32 @@ function internalLore(ir: WorldIR): Record<string, unknown>[] {
         risu_authoring_assets: entity.assets,
         risu_authoring_references: entity.references,
       },
-    }));
+    };
+    if (folderId) {
+      entry.folder = folderKey(ir.id, folderId);
+      grouped.get(folderId)?.push(entry);
+    } else ungrouped.push(entry);
+  }
+
+  const ordered: Record<string, unknown>[] = [];
+  for (const folder of folders) {
+    const children = grouped.get(folder.id) ?? [];
+    if (!children.length) continue;
+    ordered.push({
+      key: folderKey(ir.id, folder.id),
+      comment: folder.name,
+      content: "",
+      mode: "folder",
+      insertorder: folder.insertionOrder,
+      alwaysActive: false,
+      secondkey: "",
+      selective: false,
+      bookVersion: 2,
+      extentions: { risu_authoring_folder: folder.id },
+    });
+    ordered.push(...children);
+  }
+  return [...ordered, ...ungrouped];
 }
 
 export function compileAuthoringSources(
@@ -508,14 +550,7 @@ export function scaffoldAuthoringProject(context: ProjectContext, name: string):
     "post-history-instructions.md",
   ])
     writeText(path.join(context.sourceDir, "world", file), "");
-  for (const directory of [
-    "characters",
-    "locations",
-    "lore",
-    "presentation/greetings/alternate",
-    "presentation/greetings/group-only",
-    "assets/files",
-  ])
+  for (const directory of ["characters", "locations", "lore", "presentation/scenarios", "assets/files"])
     writeText(path.join(context.sourceDir, directory, ".gitkeep"), "");
   writeText(
     path.join(context.sourceDir, "world.yaml"),
@@ -528,7 +563,7 @@ export function scaffoldAuthoringProject(context: ProjectContext, name: string):
       language: "en",
       tags: [],
       prompts: {},
-      greetings: {},
+      startPanel: {},
       lorebook: {},
       module: { description: `RisuAI module for ${name}` },
       risuai: {},

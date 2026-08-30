@@ -38,6 +38,36 @@ export const OpenAiTokenBudgetSchema = z
     message: "errorAt must be greater than warnAt",
   });
 
+export const WorldEntityKindSchema = z.enum([
+  "character",
+  "location",
+  "lore",
+  "relationship",
+  "schedule",
+  "system",
+  "event",
+]);
+
+/**
+ * One RisuAI lorebook folder. Folders carry no text of their own; they exist so
+ * the compiled book opens as labelled groups instead of one flat list, and so
+ * `kinds` can route whole entity directories into a group without touching each
+ * entity file.
+ */
+export const LorebookFolderSchema = z.object({
+  id: StableIdSchema,
+  name: z.string().min(1),
+  kinds: z.array(WorldEntityKindSchema).default([]),
+  insertionOrder: z.number().int().default(100),
+});
+
+export const LorebookSettingsSchema = z.object({
+  scanDepth: z.number().int().positive().default(8),
+  tokenBudget: z.number().int().positive().default(4096),
+  recursiveScanning: z.boolean().default(true),
+  folders: z.array(LorebookFolderSchema).default([]),
+});
+
 export const AuthoringManifestSchema = z.object({
   schema: z.literal("risuai-world/v1"),
   id: StableIdSchema,
@@ -76,13 +106,12 @@ export const AuthoringManifestSchema = z.object({
       manifest: "presentation/start-panel.yaml",
       scenarioDir: "presentation/scenarios",
     }),
-  lorebook: z
-    .object({
-      scanDepth: z.number().int().positive().default(8),
-      tokenBudget: z.number().int().positive().default(4096),
-      recursiveScanning: z.boolean().default(true),
-    })
-    .default({ scanDepth: 8, tokenBudget: 4096, recursiveScanning: true }),
+  lorebook: LorebookSettingsSchema.default({
+    scanDepth: 8,
+    tokenBudget: 4096,
+    recursiveScanning: true,
+    folders: [],
+  }),
   module: z
     .object({
       name: z.string().min(1).optional(),
@@ -284,6 +313,8 @@ export type AssetManifest = z.infer<typeof AssetManifestSchema>;
 export type PortraitCuration = z.infer<typeof PortraitCurationSchema>;
 export type StartPanel = z.infer<typeof StartPanelSchema>;
 export type ScenarioSource = z.infer<typeof ScenarioSourceSchema>;
+export type LorebookFolder = z.infer<typeof LorebookFolderSchema>;
+export type LorebookSettings = z.infer<typeof LorebookSettingsSchema>;
 
 export function parseProjectConfig(value: unknown): ProjectConfig {
   return ProjectConfigSchema.parse(value);

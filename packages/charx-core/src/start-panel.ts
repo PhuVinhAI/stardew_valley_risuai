@@ -147,20 +147,49 @@ function panelHtml(ir: StartPanelIR): string {
   ].join("");
 }
 
-/** Scene tag strip shown above the opening prose, kept on one line for Markdown. */
-function sceneTags(tags: string[]): string {
+/**
+ * Scene header written as plain text rather than markup, so the model sees the
+ * same `[Scene: ...]` line in the opening message and in the example messages
+ * and can keep writing it. A display regex turns it into chips.
+ */
+const SCENE_LINE_SLOTS = 6;
+
+function sceneLine(tags: string[]): string {
   if (!tags.length) return "";
-  const chips = tags
-    .map((tag, index) => `<span class="sv-scene-tags__tag${index === 0 ? " is-lead" : ""}">${tag}</span>`)
-    .join("");
-  return `<div class="sv-scene-tags">${chips}</div>`;
+  return `[Scene: ${tags.join(" | ")}]`;
+}
+
+/**
+ * One replacement has to serve every scene line, so the pattern offers a fixed
+ * number of optional slots and the stylesheet hides the chips whose group never
+ * matched. Slots are lazy with the surrounding spaces outside the capture, so a
+ * chip holds `Spring` rather than ` Spring `. The final slot accepts separators
+ * so an unusually long line degrades into a wider last chip instead of failing
+ * to match at all.
+ */
+function sceneLineRegex(): Record<string, unknown> {
+  const slot = (charClass: string): string => `\\s*([${charClass}]+?)\\s*`;
+  const middle = `(?:\\|${slot("^|\\]\\n")})?`.repeat(SCENE_LINE_SLOTS - 2);
+  const pattern = `\\[Scene:${slot("^|\\]\\n")}${middle}(?:\\|${slot("^\\]\\n")})?\\]`;
+  const chips = Array.from(
+    { length: SCENE_LINE_SLOTS },
+    (_, index) => `<span class="sv-scene-tags__tag${index === 0 ? " is-lead" : ""}">$${index + 1}</span>`,
+  ).join("");
+  return {
+    comment: "Scene header",
+    in: pattern,
+    out: `<div class="sv-scene-tags">${chips}</div>`,
+    type: "editdisplay",
+    ableFlag: false,
+    flag: "g",
+  };
 }
 
 function firstMessage(ir: StartPanelIR): string {
   const languages = ir.panel.languages.map((language) => language.id);
   const variables = ir.panel.variables;
   const localizedBody = (scenario: StartPanelScenario, language: string): string =>
-    [sceneTags(scenario.tags?.[language] ?? []), scenario.bodyText[language] ?? ""]
+    [sceneLine(scenario.tags?.[language] ?? []), scenario.bodyText[language] ?? ""]
       .filter(Boolean)
       .join("\n\n");
   const blocks = ir.scenarios.map((scenario) => {
@@ -323,10 +352,16 @@ function backgroundCss(): string {
   opacity: 0.7;
 }
 
+/*
+ * Columns are capped at 260px instead of 1fr: a group holding a single scene
+ * would otherwise stretch that one card across the whole panel and blow its
+ * 4/3 preview up to several hundred pixels tall on a desktop window.
+ */
 .${PANEL_CLASS}__cards {
   display: none;
   gap: 12px;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(210px, 100%), 260px));
+  justify-content: start;
 }
 
 .${PANEL_CLASS}__cards.is-visible { display: grid; }
@@ -350,6 +385,7 @@ function backgroundCss(): string {
 .${PANEL_CLASS}__card-image {
   display: block;
   width: 100%;
+  max-height: 190px;
   aspect-ratio: 4 / 3;
   border: 1px solid rgb(120 84 44 / 35%);
   border-radius: 6px;
@@ -390,6 +426,7 @@ function backgroundCss(): string {
 }
 
 .sv-scene-tags__tag {
+  max-width: 100%;
   padding: 2px 10px;
   border: 1px solid rgb(120 84 44 / 35%);
   border-radius: 999px;
@@ -399,7 +436,6 @@ function backgroundCss(): string {
   font-weight: 600;
   letter-spacing: 0.04em;
   line-height: 1.6;
-  white-space: nowrap;
 }
 
 .sv-scene-tags__tag.is-lead {
@@ -408,6 +444,8 @@ function backgroundCss(): string {
   color: #3f5c1e;
   text-transform: uppercase;
 }
+
+.sv-scene-tags__tag:empty { display: none; }
 </style>`;
 }
 
@@ -427,6 +465,16 @@ export function compileStartPanel(ir: StartPanelIR): StartPanelArtifacts {
     requireLocalized(`scenario '${scenario.id}' titles`, languages, scenario.titles);
     requireLocalized(`scenario '${scenario.id}' summaries`, languages, scenario.summaries);
     requireLocalized(`scenario '${scenario.id}' bodies`, languages, scenario.bodyText);
+    for (const language of languages) {
+      const tags = scenario.tags?.[language] ?? [];
+      if (tags.length > SCENE_LINE_SLOTS)
+        throw new Error(
+          `Scenario '${scenario.id}' has ${tags.length} '${language}' tags; the scene header renders at most ${SCENE_LINE_SLOTS}`,
+        );
+      for (const tag of tags)
+        if (/[|\]\n]/.test(tag))
+          throw new Error(`Scenario '${scenario.id}' tag '${tag}' cannot contain '|', ']', or a newline`);
+    }
   }
   if (!seen.has(ir.panel.defaultScenario))
     throw new Error(`start panel defaultScenario '${ir.panel.defaultScenario}' is not a declared scenario`);
@@ -445,6 +493,7 @@ export function compileStartPanel(ir: StartPanelIR): StartPanelArtifacts {
         type: "editdisplay",
         ableFlag: false,
       },
+      sceneLineRegex(),
     ],
     triggers: [
       {

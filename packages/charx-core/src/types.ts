@@ -1,4 +1,4 @@
-import type { ProjectConfig } from "@charx/project-schema";
+import type { LorebookSettings, ProjectConfig } from "@charx/project-schema";
 import type { StartPanelIR } from "./start-panel.ts";
 
 export interface ProjectContext {
@@ -70,7 +70,7 @@ export interface WorldIR {
   alternateGreetings: string[];
   groupOnlyGreetings: string[];
   startPanel: StartPanelIR;
-  lorebook: { scanDepth: number; tokenBudget: number; recursiveScanning: boolean };
+  lorebook: LorebookSettings;
   module: { name: string; description: string; id: string };
   risuai: {
     lowLevelAccess: boolean;

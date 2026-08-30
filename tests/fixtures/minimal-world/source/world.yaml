@@ -9,5 +9,5 @@ module:
   description: Minimal compiler fixture
 tokenCheck:
   encoding: o200k_base
-  warnAt: 1000
-  errorAt: 2000
+  warnAt: 4000
+  errorAt: 6000
