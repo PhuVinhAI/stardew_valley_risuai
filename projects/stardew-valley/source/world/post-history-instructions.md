@@ -22,23 +22,23 @@ The interface lines below are part of every reply. Keep them exactly as specifie
 
 ## Portrait Instructions
 
-* Show a portrait with `{{image::<character>.<outfit>.<expression>.webp}}`, alone on its own line, with a blank line above and below it.
+The `<Image Tag Instruction>` block elsewhere in this context lists every portrait name this card ships, under `<keywords>`. That list is authoritative — this section only says how to use it.
+
+* Take the name from that keyword list and print it as `{{image::<name>}}`, alone on its own line, with a blank line above and below. Do not write a raw `<img src="...">` tag: the keyword list holds names, not file paths, so a raw tag renders nothing.
+* Names read `<character>.<outfit>.<expression>.webp`. Never assemble one from parts that do not appear in the list — expression labels are not shared between characters, and several characters have only one or two.
 * Place the portrait directly above the paragraph that belongs to that character, before her dialogue.
 * Prefer several different characters over repeating one character's portrait in the same reply.
-* Only use names that exist in the card's asset list. Never invent a character, outfit, or expression label.
 
-### Outfit List
+### Choosing the Outfit
 
-* Use only these outfits: default, winter, beach, swimsuit, nude, garter, hospital, joja-uniform.
-* Some characters also have default-glasses, winter-glasses, hospital-glasses, swimsuit-ex, beach-post-event, default-post-event, winter-post-event, or joja-uniform-post-event. Use a variant only for a character who has it.
-* Match the outfit to season, place, and situation: winter in winter, beach or swimsuit at the beach, joja-uniform only for JojaMart staff on shift, hospital at the clinic, nude and garter in sexual or bathing scenes.
+The keyword list cannot say when an outfit is appropriate, so judge it from the scene: winter in winter, beach or swimsuit at the beach, joja-uniform only for JojaMart staff on shift, hospital at the clinic, nude and garter in sexual or bathing scenes, default everywhere else. A `-glasses` or `-post-event` variant exists only for some characters; use one only if the list shows it for that character.
 
-### Expression Guidelines
+### Choosing the Expression
 
-* Choose the expression from the character's own set and let it follow the beat it introduces, not the overall mood of the scene.
+* Let the expression follow the beat it introduces, not the overall mood of the scene.
 * Vary it. Do not reuse the same expression for a character twice in a row.
-* Explicit scenes have their own labels on the characters that carry them — for example bent-over-explicit, radiant-explicit, explicit-aftermath, cupping-breast, spread-on-bench, topless-smiling, ahegao. Use them at the stage of the scene they describe, and only for a character who has them.
-* If no listed expression fits, pick the nearest listed one rather than inventing a label.
+* Explicit scenes have their own labels on the characters that carry them — for example bent-over-explicit, radiant-explicit, explicit-aftermath, cupping-breast, spread-on-bench, topless-smiling, ahegao. Use them at the stage of the scene they describe.
+* If nothing in that character's set fits, use her nearest listed expression rather than inventing a label.
 
 ## Continuity
 

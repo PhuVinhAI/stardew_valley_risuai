@@ -148,6 +148,9 @@ describe("agent authoring source", () => {
     const indexText = alwaysActive.map((entry: { content: string }) => entry.content).join("\n");
     for (const name of ["Stardrop Saloon", "Cindersap Forest", "Spirit's Eve", "Marnie"])
       expect(indexText).toContain(name);
+    // Recursion must stay off precisely because those entries name everything:
+    // rescanning their own content activates most of the book on turn one.
+    expect(built.ir.lorebook.recursiveScanning).toBe(false);
 
     const keys = new Set(folders.map((folder) => String(folder.key)));
     expect(keys.size).toBe(folders.length);

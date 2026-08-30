@@ -27,7 +27,14 @@ lorebook:
   # the rest of the group once one long character entry is inserted.
   scanDepth: 50
   tokenBudget: 60000
-  recursiveScanning: true
+  # Off deliberately. The two always-active entries name every resident, place,
+  # and festival on purpose, so with recursion on, RisuAI rescans their content
+  # and activates most of the book on the very first turn -- measured at roughly
+  # 77000 tokens before {{user}} has said anything. With recursion off, an entry
+  # activates only from what {{user}} and the assistant actually wrote, which is
+  # the behaviour the index was designed for: naming a place in prose pulls that
+  # place in on the next turn.
+  recursiveScanning: false
   # Vietnamese keys are multi-syllable and diacritic-heavy, and RisuAI's
   # word-boundary matcher does not fire on them reliably. Substring matching is
   # what the reference cards use for the same reason.

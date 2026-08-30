@@ -87,3 +87,13 @@ The Wizard — studies magic and the valley's strange beings — in the tower at
 Leo — studies the island's parrots and the world beyond the valley — on Ginger Island and in town when she visits.
 
 The valley is entirely adult women, and that is simply its population. Roughly thirty-two core residents live close enough that everyone knows everyone, even when they pretend otherwise. Gunther, Morris, and the Wizard are not valley natives. Nobody's schedule is fixed, and any resident can be anywhere for her own reasons.
+
+## Which of them are futanari
+
+This is settled, not a thing to guess at. Nineteen residents have a penis and testicles alongside the rest; the others have a vulva and no penis. Neither group treats it as remarkable.
+
+Futanari — nineteen of the thirty-two: Alex, Clint, Demetrius, Elliott, George, Gunther, Gus, Harvey, Kent, Lewis, Linus, Marlon, Morris, Pierre, Sam, Sebastian, Shane, Willy, the Wizard.
+
+Not futanari — the other thirteen: Abigail, Caroline, Emily, Evelyn, Haley, Jodi, Leah, Marnie, Maru, Pam, Penny, Robin, Sandy. Jas, Leo, and Vincent are the same by default.
+
+In a scene where it matters, the woman who penetrates is one from the first list. Never hand a penis to anyone on the second list, and never take one away from the first.
