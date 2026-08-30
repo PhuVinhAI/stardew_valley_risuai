@@ -1,0 +1,148 @@
+# Marnie — 15 portraits, 3 outfits, 5 expressions
+#
+# Reference file for the format. Every tag here comes from
+# source/characters/marnie/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+#
+# so this file covers 15 portraits with 1 identity block, 3 outfit blocks, and
+# 5 expression blocks. Keep that order, and keep the blocks roughly the same
+# length across expressions: anime checkpoints react to prompt length, and stable
+# length is what makes a locked seed hold a face between renders.
+
+character: marnie
+futanari: false
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "Long chestnut-auburn hair in one thick braid pulled forward over her
+# shoulder and tied off with a green band, a soft fringe, loose strands at her
+# temples. Warm amber eyes with heart-shaped catchlights and a flush that never
+# leaves her cheeks. 163 cm, 114-64-108, J-cup, soft through the middle with
+# broad heavy hips. A small brown horseshoe brand inked low on one hip."
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - chestnut hair
+  - auburn hair
+  - long hair
+  - single braid
+  - braid over shoulder
+  - green hair ribbon
+  - bangs
+  - amber eyes
+  # The profile gives her heart-shaped catchlights in every portrait. Danbooru's
+  # nearest tag reads as "in love", which fights the concerned expression, so
+  # drop this one if the eyes come out wrong.
+  - heart-shaped pupils
+  - permanent blush
+  - huge breasts
+  - wide hips
+  - plump
+  - thick thighs
+  - horseshoe tattoo
+  - hip tattoo
+
+outfits:
+  # "A long green pinafore with a narrow white lace edge at the neckline, hanging
+  # from two thin halter straps. The neckline sits so low that most of both
+  # breasts are out above the lace. Shoulders, arms and upper back completely
+  # bare. The skirt is long and plain, and the whole side of her body shows."
+  default:
+    - green pinafore dress
+    - white lace trim
+    - halterneck
+    - bare shoulders
+    - bare arms
+    - backless dress
+    - huge cleavage
+    - breasts out of clothes
+    - long skirt
+    - side slit
+
+  # "A black-and-white patched triangle bikini top with white cord ties hanging
+  # loose down her stomach, white side-tied bottoms with tiny horseshoe charms, a
+  # headband with black cow ears and small white horns, a yellow livestock ear
+  # tag stamped 069, a gold cowbell on a black collar. The top covers the nipple
+  # and not much else."
+  beach:
+    - cow print bikini
+    - triangle bikini
+    - front-tie bikini top
+    - side-tie bikini bottom
+    - fake animal ears
+    - cow ears
+    - fake horns
+    - ear tag
+    - cowbell
+    - black collar
+    - underboob
+    - bare midriff
+    - navel
+
+  # "An olive-and-green fringed shawl draped over her shoulders and hanging down
+  # her front, and green string bottoms with the same charms. Her midriff, hips
+  # and legs stay uncovered."
+  winter:
+    - green shawl
+    - fringed shawl
+    - shawl over shoulders
+    - side-tie bottom
+    - bare shoulders
+    - bare midriff
+    - navel
+    - bare legs
+
+# One block per expression, applied to every outfit. Only what changes between
+# portraits belongs here: eyes, mouth, hands, gaze, blush intensity, and any
+# effect the portrait draws.
+#
+# Source: "a warm open-eyed smile; a delighted closed-eyed smile with one hand
+# resting against her cheek; a small concerned frown; an attentive neutral look;
+# and a startled one with both hands clapped over her mouth and orange shock
+# lines flying off her head. Anger is simply not something her face does."
+expressions:
+  warm:
+    - upper body
+    - smile
+    - gentle smile
+    - closed mouth
+    - looking at viewer
+    - half-closed eyes
+
+  delighted:
+    - upper body
+    - happy
+    - wide smile
+    - closed eyes
+    - hand on own cheek
+    - head tilt
+
+  concerned:
+    - upper body
+    - frown
+    - worried
+    - closed mouth
+    - looking at viewer
+    - furrowed brow
+
+  attentive:
+    - upper body
+    - expressionless
+    - closed mouth
+    - looking at viewer
+    - neutral face
+
+  startled:
+    - upper body
+    - surprised
+    - open mouth
+    - both hands covering mouth
+    - wide-eyed
+    - emphasis lines
+    - motion lines
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here, so the model can be swapped without
+# editing 32 files.

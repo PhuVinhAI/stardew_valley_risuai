@@ -38,7 +38,8 @@
     "@charx/risum-codec": "workspace:*",
     "@types/bun": "1.3.14",
     "fflate": "0.8.3",
-    "typescript": "7.0.2"
+    "typescript": "7.0.2",
+    "yaml": "2.9.0"
   },
   "engines": {
     "bun": ">=1.2.19"
