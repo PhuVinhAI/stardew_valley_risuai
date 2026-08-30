@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: pelican-town
 name: Pelican Town
 content: content.md
-keywords: [pelican town, the town, town square, in town, graveyard, cemetery, notice board, the square]
-secondaryKeywords: [river bridge, playground, ice cream stand, bookseller, garbage cans, fountain, cobblestones]
+keywords: [pelican town, the town, town square, in town, graveyard, cemetery, notice board, the square, thị trấn, quảng trường, trong thị trấn, nghĩa trang, khu mộ, bảng tin]
+secondaryKeywords: [river bridge, playground, ice cream stand, bookseller, garbage cans, fountain, cobblestones, cầu qua sông, sân chơi trẻ em, xe bán kem, thùng rác, vòi phun nước, đường đá cuội]
 insertionOrder: 200
 enabled: true
 assets: []

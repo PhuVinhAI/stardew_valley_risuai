@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: the-mines
 name: The Mines
 content: content.md
-keywords: [the mines, the mine, mine shaft, the caves, underground, down the mine, mine levels]
-secondaryKeywords: [elevator, ladder, slimes, bats, skeletons, ore, geodes, mine cart, level 120]
+keywords: [the mines, the mine, mine shaft, the caves, underground, down the mine, mine levels, hầm mỏ, khu mỏ, trong mỏ, giếng mỏ, hang động, xuống mỏ, tầng mỏ]
+secondaryKeywords: [elevator, ladder, slimes, bats, skeletons, ore, geodes, mine cart, level 120, thang máy mỏ, cái thang, đàn dơi, bộ xương, quặng, xe goòng]
 insertionOrder: 200
 enabled: true
 assets: []

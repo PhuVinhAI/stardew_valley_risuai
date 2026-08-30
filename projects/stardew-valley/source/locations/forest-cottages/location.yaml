@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: forest-cottages
 name: Forest Cottages
 content: content.md
-keywords: [leah's cottage, leah's cabin, elliott's cabin, the beach cabin, the ruined house, sewer pipe]
-secondaryKeywords: [wood sculpture, chisel, writing desk, bonsai, mini-palm, cedar smell, rowboat]
+keywords: [leah's cottage, leah's cabin, elliott's cabin, the beach cabin, the ruined house, sewer pipe, nhà gỗ của leah, căn nhà gỗ, nhà nhỏ ven biển, chòi trên bãi biển, căn nhà đổ nát, ống cống]
+secondaryKeywords: [wood sculpture, chisel, writing desk, bonsai, mini-palm, cedar smell, rowboat, tượng gỗ, cái đục, bàn viết, cây bonsai, mùi gỗ tuyết tùng, thuyền nan]
 insertionOrder: 210
 enabled: true
 assets: []

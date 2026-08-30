@@ -65,6 +65,7 @@ export const LorebookSettingsSchema = z.object({
   scanDepth: z.number().int().positive().default(8),
   tokenBudget: z.number().int().positive().default(4096),
   recursiveScanning: z.boolean().default(true),
+  fullWordMatching: z.boolean().default(false),
   folders: z.array(LorebookFolderSchema).default([]),
 });
 
@@ -110,6 +111,7 @@ export const AuthoringManifestSchema = z.object({
     scanDepth: 8,
     tokenBudget: 4096,
     recursiveScanning: true,
+    fullWordMatching: false,
     folders: [],
   }),
   module: z
@@ -264,7 +266,12 @@ export const ScenarioSourceSchema = z.object({
   titles: LocalizedTextSchema,
   summaries: LocalizedTextSchema,
   tags: z.record(StableIdSchema, z.array(z.string().min(1))).default({}),
-  bodies: z.record(StableIdSchema, SourcePathSchema),
+  /**
+   * A scenario may ship no prose at all. An open scenario is better served by an
+   * empty opening — the scene header alone, with nothing written yet — than by a
+   * page of instructions the model would try to imitate as narration.
+   */
+  bodies: z.record(StableIdSchema, SourcePathSchema).default({}),
 });
 
 export const WorkspaceConfigSchema = z.object({

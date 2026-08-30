@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: railroad-and-spa
 name: Railroad and Spa
 content: content.md
-keywords: [railroad, the tracks, train platform, the spa, bath house, hot spring, the summit]
-secondaryKeywords: [locker room, pool, boulder, witch's cave, dumpster, recycling bin, passing train]
+keywords: [railroad, the tracks, train platform, the spa, bath house, hot spring, the summit, đường sắt, đường ray, sân ga, nhà tắm, suối nước nóng, khu tắm nước nóng, đỉnh núi]
+secondaryKeywords: [locker room, pool, boulder, witch's cave, dumpster, recycling bin, passing train, phòng thay đồ, bể tắm, tảng đá lớn, hang phù thủy, thùng rác lớn, đoàn tàu chạy qua]
 insertionOrder: 200
 enabled: true
 assets: []

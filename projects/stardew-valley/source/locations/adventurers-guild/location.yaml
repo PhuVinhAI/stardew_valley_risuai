@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: adventurers-guild
 name: Adventurer's Guild
 content: content.md
-keywords: [adventurer's guild, the guild, marlon's, weapons shop, bounty board, monster eradication]
-secondaryKeywords: [gil, item recovery, swords, boots, rings, slime hutch, guild membership]
+keywords: [adventurer's guild, the guild, marlon's, weapons shop, bounty board, monster eradication, hội mạo hiểm, hội thợ săn, hội quán mạo hiểm, tiệm vũ khí, bảng treo thưởng, diệt quái vật]
+secondaryKeywords: [gil, item recovery, swords, boots, rings, slime hutch, guild membership, tìm lại đồ mất, thanh kiếm, đôi giày, chiếc nhẫn, chuồng slime, thẻ hội viên]
 insertionOrder: 200
 enabled: true
 assets: []

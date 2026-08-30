@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: stardrop-saloon
 name: Stardrop Saloon
 content: content.md
-keywords: [stardrop saloon, the saloon, the bar, the pub, drinks, dish of the day]
-secondaryKeywords: [arcade, jukebox, pool table, beer, cola machine, back door, gus's kitchen]
+keywords: [stardrop saloon, the saloon, the bar, the pub, drinks, dish of the day, quán rượu, quán bar, quán stardrop, đi uống, đồ uống, món đặc biệt hôm nay]
+secondaryKeywords: [arcade, jukebox, pool table, beer, cola machine, back door, gus's kitchen, máy chơi game, máy hát tự động, bàn bi-a, bia, cửa sau, nhà bếp của quán]
 insertionOrder: 200
 enabled: true
 assets: []

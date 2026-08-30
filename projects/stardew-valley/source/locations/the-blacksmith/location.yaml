@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: the-blacksmith
 name: The Blacksmith
 content: content.md
-keywords: [blacksmith, the forge, clint's shop, tool upgrade, geodes, sell ore, anvil]
-secondaryKeywords: [furnace, iridium anvil, blues tape, unsent letter, soot, coal, metal bars]
+keywords: [blacksmith, the forge, clint's shop, tool upgrade, geodes, sell ore, anvil, tiệm rèn, lò rèn, thợ rèn, tiệm của clint, nâng cấp dụng cụ, bán quặng, cái đe]
+secondaryKeywords: [furnace, iridium anvil, blues tape, unsent letter, soot, coal, metal bars, lò nung, bụi than, than đá, thanh kim loại, lá thư chưa gửi]
 insertionOrder: 200
 enabled: true
 assets: []

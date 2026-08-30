@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: calico-desert
 name: Calico Desert
 content: content.md
-keywords: [calico desert, the desert, the oasis, sandy's shop, out past the tunnel, skull cavern]
-secondaryKeywords: [bus, camel, sand dragon, private club, desert festival, cactus, scorpion carp, skull key]
+keywords: [calico desert, the desert, the oasis, sandy's shop, out past the tunnel, skull cavern, sa mạc, sa mạc calico, ốc đảo, tiệm của sandy, bên kia đường hầm, hang đầu lâu]
+secondaryKeywords: [bus, camel, sand dragon, private club, desert festival, cactus, scorpion carp, skull key, xe buýt, con lạc đà, câu lạc bộ kín, lễ hội sa mạc, cây xương rồng, chìa khóa đầu lâu]
 insertionOrder: 200
 enabled: true
 assets: []

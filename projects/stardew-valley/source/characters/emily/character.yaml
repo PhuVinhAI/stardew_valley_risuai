@@ -4,8 +4,8 @@ name: Emily
 content: content.md
 aliases: []
 relationships: [emily-and-haley]
-keywords: [emily, saloon barmaid, tailoring, haley's sister, crystals]
-secondaryKeywords: [sewing, gemstones, spirits and dreams, parrot, clothing therapy]
+keywords: [emily, saloon barmaid, tailoring, haley's sister, crystals, phục vụ quán rượu, nhân viên quán rượu, may vá, chị của haley, em gái haley, tinh thể, đá tinh thể]
+secondaryKeywords: [sewing, gemstones, spirits and dreams, parrot, clothing therapy, khâu vá, đá quý, linh hồn và giấc mơ, chim két, trị liệu bằng quần áo]
 locations: [willow-lane, stardrop-saloon]
 insertionOrder: 100
 enabled: true

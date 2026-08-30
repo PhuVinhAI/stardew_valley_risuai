@@ -1,39 +1,47 @@
-Quảng trường vẫn còn sáng bóng nước. Nước nhỏ tong tong xuống từ vành đá của vòi phun, mấy luống hoa toả mùi đất ẩm, và tấm bảng thông báo nở ra vừa đủ để mọi cái đinh ghim đều lệch đi.
+Mưa đã tạt qua từ trước bữa sáng và để lại cả quảng trường như vừa được rửa. Nước vẫn trượt khỏi vành đá của vòi phun thành một dòng mảnh chẳng chút vội vã, mặt đá phiến giữ lấy cả khoảng trời trong những vũng nước sáng phẳng, và cả thị trấn thơm mùi đá ướt, mùi đất mới trở, mùi thứ màu xanh đầu tiên của năm. Sau cửa hàng tổng hợp, một con sáo cứ đi lại bốn nốt nhạc y như nhau, tự đắc với chính mình.
 
-{{image::evelyn.default.fond.webp}}
+Bà Evelyn đã quỳ trong luống hoa cạnh vòi phun từ lúc trời hé sáng. Xuân là mùa hành hạ khớp xương của một bà già, và bà vẫn cứ làm — cái bay, ngón tay, một nắm mùn ẩm ấn chặt quanh mỗi gốc tulip mới, cái lạnh của mặt đất sũng nước dâng lên qua lớp váy. Hai bàn tay bà đen tới cổ tay. Mắt bà không còn được như trước nữa, nên bà làm bằng cảm giác nhiều hơn bằng cái nhìn, và còn ba bụi nữa phải trồng cho xong trước khi nắng lên đủ cao để đáng kể.
 
-Evelyn quỳ giữa đám tulip, giỏ đặt bên cạnh, không thèm nhìn lên.
+Bà nghe tiếng bước chân trước khi kịp đoán ra nó là của ai, và chính điều đó khiến bà ngẩng đầu lên. Ba mươi năm dạy cho một cái tai biết phân biệt, mà ở Pelican Town chẳng ai bước như thế. Có gì đó nhấc lên dưới lồng ngực bà, nhỏ, chẳng đường hoàng gì cả, và hoàn toàn dễ chịu — đúng cái tia tò mò thuần túy bà vẫn có từ hồi chín tuổi, khi một chiếc xe ngựa lăn xuống con đường thung lũng.
 
-"Đừng nhổ cây đó."
+{{image::evelyn.default.delighted.webp}}
 
-{{image::caroline.default.downcast.webp}}
+Bà ngồi tựa lại trên gót chân và ngắm {{user}} từ mũi giày lên tới chân tóc, một tay đưa lên má, để lại một vệt mùn dọc theo cằm mà chẳng hay biết gì.
 
-Caroline dừng tay khi ngón còn cách mầm xanh chừng một đốt, tay kia đỡ khay cây giống.
+"Ôi — ôi, xem cô cậu này. Một khuôn mặt tôi chưa từng biết, mà hoa thì còn chưa xuống đất."
 
-"Con không định nhổ mà."
+"Lại gần đây thêm chút nữa đi, ánh sáng này mắt tôi kém lắm. Không. Không, cô cậu là người lạ. Người lạ thì tôi đã nhớ rồi."
 
-"Con đang nghĩ tới chuyện đó rất to."
+Bên kia mặt đá phiến, trước cửa hàng tổng hợp, một cái bình tưới ngừng lại giữa lúc đang rót. Caroline có một dãy chậu trên bậc thềm và một khay cây giống mới phía sau, và cô đã nghe cả quảng trường theo đúng cái cách cô nghe mọi thứ, mà không tỏ ra là mình đang nghe.
 
-Một cơn gió giật bốc tất cả những tờ giấy rời trên bảng thông báo lên cùng lúc. Tờ giảm giá thực phẩm, mấy lời nhờ giúp việc, một tờ nhắc lễ hội vẽ tay, một tờ quảng cáo của Pierre — tất cả đập phần phật vào mặt gỗ. Một mảnh giấy tím nhỏ hơn bung ra, trượt qua mặt đá ướt và dừng lại chỗ {{user}}.
+{{image::caroline.default.pleasant.webp}}
 
-Caroline ghì khay cây vào hông.
+Cô đặt bình xuống, chà hai lòng bàn tay vào vạt tạp dề cho khô, rồi bước ra chỗ ướt để nhìn {{user}} cho tử tế — không hề gấp, vì gấp thì trông như thể cô đang để tâm, mà cô để tâm ghê lắm.
 
-"Lúc tôi mở cửa hàng thì chưa có tờ đó."
+"Chào buổi sáng. Tha lỗi cho tôi nhìn nhé — bảy giờ tôi đã mở cửa, mà cô cậu đã là chuyện thú vị nhất băng qua quảng trường này suốt cả tuần rồi."
 
-Không có chữ ký. Mực đã nhòe ở mép, nhưng phần giữa vẫn đọc được: *Nửa đêm. Mang theo thứ gì màu tím. Đến một mình.* Bên dưới là hình vẽ thô ba tảng đá đứng và một vầng trăng khuyết.
+Mắt cô đưa lên mấy khung cửa sổ trên cửa hàng rồi hạ xuống lại, đúng cái kiểu một người đàn bà đang tính xem một tin mới sẽ còn là của riêng mình được bao lâu.
 
-Evelyn chậm rãi đứng lên, phủi đất khỏi đầu gối. Vẻ ấm áp không rời khỏi mặt hay giọng bà, nhưng bà nhìn cái ký hiệu đó lâu hơn Caroline nhiều.
+"Caroline đang chọn xem kể cho ai trước đấy," bà Evelyn nói, giọng thoải mái.
 
-"Hồi trước gần con đường cũ cũng có mấy dấu như vậy. Trước khi bụi rậm mọc trùm lên."
+Bà ấn đất cho chặt quanh gốc tulip và không thèm ngẩng lên.
 
-"Hoặc là Abigail tìm được giấy tím và quyết định thị trấn này cần thêm chút kịch tính," Caroline nói. Giọng nhẹ tênh — rồi mắt cô đưa lên mấy cửa sổ tầng hai của cửa hàng.
+"Sẽ là Jodi. Bao giờ cũng là Jodi."
 
-Bên kia quảng trường, Pierre mở cửa trước, gọi vọng ra rằng mưa đang tạt vào chỗ bày bột. Caroline không nhúc nhích.
+{{image::caroline.default.amused.webp}}
 
-Evelyn chìa ra một tấm khăn làm vườn còn sạch về phía {{user}}, ý để bọc tờ giấy ướt.
+"Sẽ là Jodi," Caroline đồng ý, chẳng chút bối rối.
 
-"Cô cậu tìm thấy nó. Điều đó không có nghĩa nó là việc của cô cậu."
+"Và đến bữa tối thì Gus sẽ có một phiên bản trong đó cô cậu bước xuống xe buýt với bốn cái vali và một con chó. Thôi thì kể cho tôi bản thật ngay giờ đi, để tôi còn có cái mà bảo vệ."
 
-Bà ngừng một nhịp.
+Vòi phun vẫn tí tách vào chính nó. Pierre lấy hông chặn cho cửa hàng mở ra và nói gì đó về chuyện mưa tạt vào chỗ bày bột, còn Caroline đáp lời vợ mà không quay lại, cũng không nhích một bước.
 
-"Nhưng trước khi cả quảng trường bắt đầu đoán — cô cậu có thấy nó bay từ đâu tới không?"
+Bà Evelyn rút một cành ra khỏi bụi vừa vun xong — một nhánh thủy tiên trắng ngắn, loại bà trồng mỗi mùa xuân vì mẹ bà từng trồng — rồi giơ lên, lạnh và ướt và thơm cả một mùa cùng lúc.
+
+{{image::evelyn.default.gentle.webp}}
+
+"Cầm lấy đi trước khi tôi đổi ý mà trồng lại. Rồi kể cho tôi nghe cô cậu đã ăn gì chưa, vì tôi không ưa nổi cái cảnh có người đứng giữa quảng trường ướt mà trong bụng chẳng có gì nóng."
+
+Cái băng ghế dọc bờ tường đang khô dần từng vạt. Cạnh đầu gối bà Evelyn, trong giỏ là cuộn dây, cái bay, và chừng bốn mươi củ giống mà bà chẳng nói một câu nào về việc mình đã trồng xong. Caroline nhìn thấy cái giỏ, và khóe miệng cô hơi giật.
+
+"Bà ấy sẽ lôi được cô cậu xuống luống hoa đó trong vòng năm phút mà cô cậu chẳng kịp nhận ra là chuyện đó đang xảy ra đâu. Vậy — chúng tôi gọi cô cậu là gì, và cô cậu ở đây bao lâu?"

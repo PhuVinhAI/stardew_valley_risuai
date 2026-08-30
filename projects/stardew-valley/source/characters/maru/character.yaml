@@ -3,8 +3,8 @@ id: maru
 name: Maru
 content: content.md
 aliases: []
-keywords: [maru, inventor, gadgets, clinic assistant, marilda]
-secondaryKeywords: [telescope, stargazing, robin's daughter, workshop, sebastian's half-sister]
+keywords: [maru, inventor, gadgets, clinic assistant, marilda, nhà phát minh, thiết bị tự chế, trợ lý phòng khám, phòng khám, kỹ sư]
+secondaryKeywords: [telescope, stargazing, robin's daughter, workshop, sebastian's half-sister, kính viễn vọng, ngắm sao, con gái của robin, con gái robin, xưởng chế tạo, chị cùng mẹ của sebastian]
 locations: [carpenters-shop, harveys-clinic]
 insertionOrder: 100
 enabled: true

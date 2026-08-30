@@ -3,8 +3,8 @@ id: sandy
 name: Sandy
 content: content.md
 aliases: []
-keywords: [sandy, oasis, calico desert, desert shop, emily's friend]
-secondaryKeywords: [seasonal seeds, cactus fruit, air conditioning, back room club, makeover]
+keywords: [sandy, oasis, calico desert, desert shop, emily's friend, ốc đảo, sa mạc, cửa hàng ngoài sa mạc, bạn của emily, tiệm sa mạc]
+secondaryKeywords: [seasonal seeds, cactus fruit, air conditioning, back room club, makeover, hạt giống theo mùa, quả xương rồng, máy lạnh, câu lạc bộ phòng trong, làm mới ngoại hình]
 locations: [calico-desert]
 insertionOrder: 100
 enabled: true

@@ -1,53 +1,57 @@
-Rain taps the broad windows. The shop is technically closed, but the front door stands open because smoke from Maru's latest device is drifting through the main room in thin blue ribbons.
+Rain has been coming off the mountain since mid-afternoon, the steady kind that gets into everything, and the carpentry shop smells of it: wet pine, cold sawdust, and the iron-and-wax smell of tools that have been used all day and not yet put away. Robin should have shut up hours ago. Instead she is still at the bench with a plane in her fist and the front door's bottom rail in her head, because the thing has swollen again, and she has spent the last quarter of an hour losing an argument she is completely right about.
 
 {{image::robin.default.annoyed.webp}}
 
-Robin braces a warped wooden bracket against her workbench and refuses to throw it away.
+"It has swollen a quarter inch and it will swell another one by Friday," she says, blowing a curl of shaving off the sole of the plane, "and nobody is asking me to interpret the door. They are asking me to open it."
 
-"The wood is not the problem."
+Demetrius has come as far as the laboratory doorway and no further, a specimen tray balanced along one forearm, a pen still capped in her other hand, and she says it in the mild voice that has started more loud arguments in this house than shouting ever has.
 
-Through the laboratory door, Demetrius adjusts a specimen tray without looking up.
+{{image::demetrius.default.hands-on-hips.webp}}
 
-"Its current shape disagrees with that conclusion."
+"If you plane it tonight you plane it in the wettest week of the season, and in summer you will have a door with daylight under it and you will blame the timber. The variable is the air in this house, not the wood."
 
-"Its current shape is the point. It has to match the old beam."
+Robin sets the plane down harder than she needs to. She loves her wife dearly, and she has wondered seriously, more than once, what it would be like to be married to somebody who could simply agree that a door ought to open.
 
-Maru stands between the rooms with a screwdriver in one hand and a smoking metal cylinder in the other.
+"The air in this house is my air. I built the house."
 
-"Could we postpone the philosophy of repair until I know whether this is supposed to glow?"
+Maru comes out of the corridor with a mug in one hand and a wire brush in the other, having plainly been listening from her room for a while and having plainly enjoyed it.
 
-From the basement hatch Sebastian calls,
+{{image::maru.default.wry.webp}}
 
-"Nothing is supposed to glow that color."
+"You are both right, which is the worst available outcome. Weatherstrip the frame, put something in the mudroom to pull the damp out, and in a month Mom can take her shaving off it with real numbers behind her and nobody has to be wrong out loud."
 
-The cylinder gives a cheerful chime.
+"That is a compromise, not a measurement," Demetrius says, though she has already uncapped the pen and written it down.
 
-{{image::maru.default.surprised.webp}}
+"That is my daughter telling the pair of us to be quiet," Robin says, "in about four hundred more words than she needed for it."
 
-Every lamp in the house goes out.
+Then somebody knocks. Three knocks on the front door, spaced out, unhurried, the sound of a person standing in the rain who does not expect the house to be pleased about it. All three of them stop where they are. Nobody comes up the mountain road at this hour — the shop sign was turned at five, the lit windows are the family's own, and the only feet on that road after dark belong to somebody who already lives at the end of it. Robin is halfway across the room before she has finished thinking any of that, wiping her palms down her thighs, half of her plain curious and the other half running the short unpleasant list of everything a knock at night has ever turned out to mean.
 
-For one breath there is only rain, blue smoke, and red light shining from beneath the laboratory door. Then Robin finds a lantern under the counter and strikes it alight. Demetrius emerges carrying a notebook. Sebastian comes halfway up the stairs with headphones around her neck.
+The door fights her, naturally. She has to put a shoulder into it, and it comes free with a bang and a shudder that travels all the way up into the rafters, and there is {{user}} on the step with the rain running off her in a line, lit from behind by nothing whatsoever and from the front by every lamp in a warm, sawdust-smelling, argumentative house.
 
-Maru turns the cylinder over. Its casing has opened along a seam that was not there before. Inside is not a burned circuit but a tiny glass chamber filled with moving golden dust.
+{{image::robin.default.greeting.webp}}
 
-"I did not install that."
+"Well, look at that. Get in, get in — you are letting the weather in, and I have just this minute been informed that the weather is the entire problem."
 
-{{image::demetrius.default.hand-to-mouth.webp}}
+She hauls the door wider with her hip, puts a hand up behind {{user}}'s shoulder without quite landing it, and steers.
 
-"Did you buy any used parts?" Demetrius asks.
+"Straight through, mind the trestle. There is a stove at the back and it is lit."
 
-"One regulator from the traveling cart. It tested clean."
+The household rearranges itself with the speed of people who have not had a visitor since spring. Robin comes back with a towel that has been used on furniture and regrets it the instant it changes hands. Demetrius sets the specimen tray down — actually down, on a surface, which in this house is a formal courtesy — and looks the stranger over with total scientific interest and no manners at all. Maru hooks a chair out from the table with her foot, gets the kettle on, and moves the wire brush off the seat before anybody sits on it.
 
-Robin looks at the warped bracket on her bench, then at the glittering chamber. Matching golden dust has collected in the deepest groove of the old wood.
+"You walked up the river road in this," Demetrius says, as though joining a conversation that was already in progress, "and the lake path floods at the second bend by about seven, so either you came ahead of the rain and sheltered somewhere or you came straight through it, and I would genuinely like to know which."
 
-The whole family notices at once. Their earlier argument changes shape without disappearing: Demetrius wants samples, Maru wants the device isolated, Sebastian wants the power restored before her equipment is damaged, Robin wants to know why something from her workshop is inside her daughter's machine.
+"She is only asking because she has a rain gauge on the roof and she is hoping you count as data," Maru says, putting the mug down within reach, "so ignore that part and tell me whether you want the tea or the soup, because there is soup, and it is actually good."
 
-{{image::sebastian.default.quiet.webp}}
+Underneath all of it a door opens down in the floor. The basement stairs creak in the particular sequence that means somebody has come up them slowly, and Sebastian is standing at the top of them with a lollipop stick between two fingers and headphones pushed down around her neck, having surfaced for exactly one reason, which is that the house made an interesting noise.
 
-Only then does Maru see {{user}} at the open door.
+{{image::sebastian.default.over-shoulder.webp}}
 
-"You have excellent timing. Or terrible timing."
+"Something hit the door," she says, to nobody in particular.
 
-She sets the cylinder down.
+Then she looks directly at {{user}}, with mild interest and no apology anywhere in it.
 
-"Were you here for the shop, the lab, Sebastian, or something none of us has guessed yet?"
+"That was you. Nobody knocks here. Mom says so about once a season and it keeps on being true."
+
+So the shop has a stranger in it, four opinions about her, and a kettle already going. Robin drags her stool round with her foot, drops onto it, and picks the plane back up — then turns it and holds it out, handle first, a grin arriving on her face all at once.
+
+"Right. Since you are dripping on my floor anyway. Hold the top of that door steady and lean your weight into it, and I will settle this argument in about ninety seconds, and then you can tell the lot of us who you are over a bowl of something hot."

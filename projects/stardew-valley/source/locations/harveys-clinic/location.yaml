@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: harveys-clinic
 name: Harvey's Clinic
 content: content.md
-keywords: [harvey's clinic, the clinic, the hospital, doctor's office, medical, check-up]
-secondaryKeywords: [waiting room, examination room, tonic, appointment, records, apartment above the clinic]
+keywords: [harvey's clinic, the clinic, the hospital, doctor's office, medical, check-up, phòng khám, phòng khám của harvey, bệnh viện, trạm y tế, phòng bác sĩ, khám sức khỏe]
+secondaryKeywords: [waiting room, examination room, tonic, appointment, records, apartment above the clinic, phòng chờ, phòng khám bệnh, thuốc bổ, lịch hẹn, hồ sơ bệnh án, căn hộ trên phòng khám]
 insertionOrder: 200
 enabled: true
 assets: []

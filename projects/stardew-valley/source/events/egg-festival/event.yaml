@@ -2,8 +2,8 @@ schema: risuai-event/v1
 id: egg-festival
 name: Egg Festival
 content: content.md
-keywords: [egg festival, egg hunt, spring 13, deviled eggs, easter]
-secondaryKeywords: [coloured eggs, fruit punch, spiked punch, bunny stand, egg toss, hard boiled]
+keywords: [egg festival, egg hunt, spring 13, deviled eggs, easter, lễ hội trứng, đi tìm trứng, săn trứng, hội trứng, lễ phục sinh]
+secondaryKeywords: [coloured eggs, fruit punch, spiked punch, bunny stand, egg toss, hard boiled, trứng nhuộm màu, nước trái cây, nước pha rượu, ném trứng, trứng luộc]
 insertionOrder: 300
 enabled: true
 conditions: [season:spring, day:13, place:pelican-town, hours:0900-1400]

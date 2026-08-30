@@ -4,8 +4,8 @@ name: Sebastian
 content: content.md
 aliases: [Sebby]
 relationships: [robin-demetrius-sebastian]
-keywords: [sebastian, sebby, programmer, basement room, motorcycle]
-secondaryKeywords: [frogs, solarion chronicles, synthesizer, robin's daughter, mountain lake]
+keywords: [sebastian, sebby, programmer, basement room, motorcycle, lập trình viên, phòng dưới tầng hầm, tầng hầm, mô tô, xe máy]
+secondaryKeywords: [frogs, solarion chronicles, synthesizer, robin's daughter, mountain lake, ếch, đàn synth, con gái của robin, con gái robin, hồ trên núi, ngọn núi]
 locations: [carpenters-shop, the-mountain]
 insertionOrder: 100
 enabled: true

@@ -3,8 +3,8 @@ id: george
 name: George
 content: content.md
 aliases: [Ms. Mullner]
-keywords: [george, evelyn's wife, alex's grandmother, retired miner, wheelchair]
-secondaryKeywords: [television, leeks, coal mine accident, river road, gridball game]
+keywords: [george, evelyn's wife, alex's grandmother, retired miner, wheelchair, vợ của evelyn, vợ evelyn, bà của alex, bà cụ, thợ mỏ về hưu, xe lăn]
+secondaryKeywords: [television, leeks, coal mine accident, river road, gridball game, tivi, tỏi tây, tai nạn mỏ than, đường ven sông, trận bóng gridball]
 locations: [river-road, pelican-town]
 insertionOrder: 100
 enabled: true

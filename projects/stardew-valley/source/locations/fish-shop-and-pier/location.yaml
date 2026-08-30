@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: fish-shop-and-pier
 name: Fish Shop and Pier
 content: content.md
-keywords: [fish shop, the pier, willy's shop, bait, tackle, rods, crab pots, sell fish]
-secondaryKeywords: [back room, the old boat, worm bin, shrimp tank, sleeping cubby, barrel outside, chum]
+keywords: [fish shop, the pier, willy's shop, bait, tackle, rods, crab pots, sell fish, tiệm cá, cửa hàng cá, cầu tàu, tiệm của willy, mồi câu, cần câu, lồng bắt cua, bán cá]
+secondaryKeywords: [back room, the old boat, worm bin, shrimp tank, sleeping cubby, barrel outside, chum, phòng trong, con thuyền cũ, thùng giun, bể tôm, thùng gỗ ngoài cửa]
 insertionOrder: 200
 enabled: true
 assets: []

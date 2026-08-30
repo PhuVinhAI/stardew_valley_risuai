@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: marnies-ranch
 name: Marnie's Ranch
 content: content.md
-keywords: [marnie's ranch, the ranch, animal shop, livestock, chickens, cows, hay, pet adoption]
-secondaryKeywords: [honesty box, coop, jas's room, shane's room, blue chickens, feed, animal medicine]
+keywords: [marnie's ranch, the ranch, animal shop, livestock, chickens, cows, hay, pet adoption, trại chăn nuôi, trại của marnie, tiệm bán vật nuôi, gia súc, đàn gà, đàn bò, cỏ khô, nhận nuôi thú]
+secondaryKeywords: [honesty box, coop, jas's room, shane's room, blue chickens, feed, animal medicine, hộp tiền tự giác, chuồng gà, chuồng bò, gà xanh, thức ăn gia súc, thuốc thú y]
 insertionOrder: 200
 enabled: true
 assets: []

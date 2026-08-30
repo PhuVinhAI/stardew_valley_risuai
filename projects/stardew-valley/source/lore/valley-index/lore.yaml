@@ -1,0 +1,16 @@
+schema: risuai-lore/v1
+id: valley-index
+name: Places, Festivals, and Households
+content: content.md
+keywords: []
+secondaryKeywords: []
+# Always active on purpose. The lorebook only activates an entry when one of its
+# keys already appears in the recent chat, so nothing can tell the model that a
+# place or festival has a detailed entry waiting. This index is that vocabulary:
+# naming a place here is what makes the model name it in prose, which is what
+# activates the full entry on the next turn. It is a list of names, not lore --
+# the detail lives in the entry each name unlocks.
+alwaysActive: true
+insertionOrder: 20
+enabled: true
+assets: []

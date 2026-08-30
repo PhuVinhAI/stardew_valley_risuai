@@ -3,8 +3,8 @@ id: gunther
 name: Gunther
 content: content.md
 aliases: [Professor Gunther]
-keywords: [gunther, museum, curator, library, artifacts]
-secondaryKeywords: [archaeology, minerals, donations, bones, display cases]
+keywords: [gunther, museum, curator, library, artifacts, bảo tàng, thủ thư, quản thủ bảo tàng, thư viện, cổ vật, hiện vật]
+secondaryKeywords: [archaeology, minerals, donations, bones, display cases, khảo cổ, khoáng vật, quyên tặng, xương hóa thạch, tủ trưng bày]
 locations: [museum-and-library, pelican-town]
 insertionOrder: 100
 enabled: true

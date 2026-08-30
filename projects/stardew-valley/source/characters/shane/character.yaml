@@ -4,8 +4,8 @@ name: Shane
 content: content.md
 aliases: []
 relationships: [marnie-shane]
-keywords: [shane, marnie's niece, jas's godmother, blue chickens, tunnelers]
-secondaryKeywords: [warehouse job, saloon, gridball, arcade game, frozen pizza]
+keywords: [shane, marnie's niece, jas's godmother, blue chickens, tunnelers, cháu gái của marnie, cháu gái marnie, mẹ đỡ đầu của jas, gà xanh, gà, chuồng gà]
+secondaryKeywords: [warehouse job, saloon, gridball, arcade game, frozen pizza, việc ở kho hàng, quán rượu, bóng gridball, máy chơi game thùng, pizza đông lạnh]
 locations: [marnies-ranch, stardrop-saloon]
 insertionOrder: 100
 enabled: true

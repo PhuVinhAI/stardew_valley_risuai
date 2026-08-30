@@ -68,8 +68,12 @@ describe("agent authoring source", () => {
     expect(firstMessage.startsWith(panel.panel.sentinel)).toBe(true);
     for (const scenario of panel.scenarios) {
       expect(firstMessage).toContain(`{{#when::{{getvar::sv_scene}}::is::${scenario.id}}}`);
-      for (const language of panel.panel.languages)
-        expect(scenario.bodyText[language.id]?.length).toBeGreaterThan(0);
+      // An open scenario may ship no prose; it then opens on its scene header alone.
+      const hasBody = Object.keys(scenario.bodyText).length > 0;
+      for (const language of panel.panel.languages) {
+        if (hasBody) expect(scenario.bodyText[language.id]?.length).toBeGreaterThan(0);
+        else expect(scenario.tags?.[language.id]?.length ?? 0).toBeGreaterThan(0);
+      }
     }
 
     const regex = built.moduleWrapper.module.regex;
@@ -132,6 +136,18 @@ describe("agent authoring source", () => {
     expect(built.ir.lorebook.tokenBudget).toBeGreaterThanOrEqual(60_000);
     expect(built.card.data.character_book.scan_depth).toBe(built.ir.lorebook.scanDepth);
     expect(built.card.data.character_book.token_budget).toBe(built.ir.lorebook.tokenBudget);
+    // Vietnamese keys only match as substrings, so full-word matching must stay off.
+    expect(built.card.data.character_book.extensions.risu_fullWordMatching).toBe(false);
+    // Nothing tells the model which keys exist, so the always-active entries are
+    // the only vocabulary it has for naming a resident, place, or festival — and
+    // naming one is what activates that entry's own lore on the next turn.
+    const alwaysActive = built.card.data.character_book.entries.filter(
+      (entry: { constant?: boolean }) => entry.constant,
+    );
+    expect(alwaysActive.length).toBeGreaterThanOrEqual(2);
+    const indexText = alwaysActive.map((entry: { content: string }) => entry.content).join("\n");
+    for (const name of ["Stardrop Saloon", "Cindersap Forest", "Spirit's Eve", "Marnie"])
+      expect(indexText).toContain(name);
 
     const keys = new Set(folders.map((folder) => String(folder.key)));
     expect(keys.size).toBe(folders.length);

@@ -2,8 +2,8 @@ schema: risuai-event/v1
 id: festival-of-ice
 name: Festival of Ice
 content: content.md
-keywords: [festival of ice, ice fishing, winter 8, snowman, ice sculpture, frozen lake]
-secondaryKeywords: [ice fishing competition, snow goon, igloo, travelling merchant, two minutes, whistle]
+keywords: [festival of ice, ice fishing, winter 8, snowman, ice sculpture, frozen lake, lễ hội băng, hội băng, câu cá trên băng, người tuyết, tượng băng, hồ đóng băng]
+secondaryKeywords: [ice fishing competition, snow goon, igloo, travelling merchant, two minutes, whistle, thi câu cá trên băng, lều băng, thương nhân lữ hành, hai phút, tiếng còi]
 insertionOrder: 300
 enabled: true
 conditions: [season:winter, day:8, place:cindersap-forest, hours:0900-1400]

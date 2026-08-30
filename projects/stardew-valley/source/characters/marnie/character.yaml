@@ -4,8 +4,8 @@ name: Marnie
 content: content.md
 aliases: []
 relationships: [lewis-and-marnie, marnie-shane]
-keywords: [marnie, marnie's ranch, animal shop, jas's aunt, livestock]
-secondaryKeywords: [chickens, cows, goats, animal feed, pet adoption]
+keywords: [marnie, marnie's ranch, animal shop, jas's aunt, livestock, trại chăn nuôi, chủ trại, cửa hàng thú nuôi, dì của jas, gia súc, vật nuôi]
+secondaryKeywords: [chickens, cows, goats, animal feed, pet adoption, gà, chuồng gà, bò, dê, thức ăn cho vật nuôi, nhận nuôi thú]
 locations: [marnies-ranch, cindersap-forest]
 insertionOrder: 100
 enabled: true

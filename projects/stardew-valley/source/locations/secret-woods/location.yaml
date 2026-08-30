@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: secret-woods
 name: Secret Woods
 content: content.md
-keywords: [secret woods, the deep woods, the hidden clearing, old growth, hardwood stumps]
-secondaryKeywords: [mushrooms, morel, fiddlehead, woodskip, cannoli statue, slimes in the woods, mastery cave]
+keywords: [secret woods, the deep woods, the hidden clearing, old growth, hardwood stumps, rừng bí mật, rừng sâu, khoảng trống ẩn trong rừng, rừng nguyên sinh, gốc cây gỗ cứng]
+secondaryKeywords: [mushrooms, morel, fiddlehead, woodskip, cannoli statue, slimes in the woods, mastery cave, nấm rừng, dương xỉ non, pho tượng cannoli, slime trong rừng, hang tinh thông]
 insertionOrder: 210
 enabled: true
 assets: []

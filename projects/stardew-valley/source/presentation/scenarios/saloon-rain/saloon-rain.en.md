@@ -1,41 +1,45 @@
-Rain runs in silver lines down the windows. The jukebox hums between songs. Water drips from {{user}}'s coat onto the worn floorboards.
+The rain has been coming down since before dark, hard and straight, and it makes the Stardrop feel like the last lit room in the world. Water runs the windows in wide silver sheets. The stove in the corner has been going all evening and the whole place smells of it — woodsmoke, hot fat, cider gone warm in the glass, wet wool drying on the backs of chairs. Somebody has fed the jukebox enough coins to keep it honest until closing.
 
-{{image::gus.default.attentive.webp}}
+Six women are in here and every one of them is louder than she would be sober. There is a pool game with a disputed rule at its heart. There is a card table where nobody is playing cards any more. Gus has a pan going behind the bar and has not sat down since noon.
 
-Gus dries a glass behind the bar and nods toward the coat.
+The door opens and the night comes in with it: cold air across the floorboards, the noise of the rain suddenly at full volume, the flames in the stove ducking sideways all at once.
 
-"Leave it by the stove if you want. The hook leaks less than the roof."
+The room turns to look. Of course it does. Everything in the valley turns to look at a door in weather like this.
 
-Before {{user}} can answer, the back door slams hard enough to rattle every bottle on the shelf.
+And it is a stranger, standing on the mat, soaked to the bone — hair flat, coat black with water, a puddle already spreading out from both shoes.
 
-Emily looks up from the coins she is counting.
+The pool game stops. The card table stops. For about three seconds the loudest thing in the Stardrop Saloon is the rain.
 
-"That wasn't the wind."
+{{image::gus.default.concerned.webp}}
+
+Gus is round the end of the bar before she has decided to be, dishcloth still over her shoulder, because someone has walked in wet and cold and hungry and that is not a situation Gus is capable of leaving alone. She takes in the shoulders, the shoes, the shivering that has not started yet but will.
+
+"All right. All right, come in properly, don't stand in the draught. Coat on the hook by the stove, boots off if you like, nobody here will look at your feet."
+
+She is already turning back for the pan, already deciding: the pepper soup, because it is on the stove and it is hot; then the bread; then something to drink that will get the cold out from the inside.
+
+"Sit there. Yes, there, that's the warm end. I'm bringing you something and we can argue about paying for it afterward."
+
+Emily has come away from the tables with a tray held flat against her hip and stopped a few feet short, looking at {{user}} with open, unhurried delight, the way somebody looks at a bird that has landed close.
+
+{{image::emily.default.delighted.webp}}
+
+"You came in on the second bar of the song. Exactly on it. That means something, I don't know what yet."
+
+"It means it's raining," Shane says from the far end of the bar.
+
+She has not turned around. She has one elbow on the counter, a glass she has been nursing for half an hour, and the flat expression of a woman who has watched a great many people walk through that door and has yet to be improved by any of them.
 
 {{image::shane.default.glance-aside.webp}}
 
-Shane turns on her stool, one hand still around a drink she hasn't touched, and studies the room rather than the door. An overturned chair lies near the pool table. One cue is missing. Muddy footprints begin beside the table, cross the floor, and end at the locked kitchen entrance — with no prints from the front door to match them.
+Then she does turn, just her head, one eye visible under the fringe, and gives {{user}} the whole assessment in about a second and a half.
 
-"Someone left in a hurry."
+"You walked from the bus stop. In that. Nobody made you do that, which is the part I want explained."
 
-Gus sets the glass down.
+Emily sets her tray down on the bar with a small clap of finality and pulls a chair out from the nearest table with her foot, and she is smiling in a way that says she has already decided several things about this evening.
 
-"Nobody left through my kitchen."
+"Ignore her, she says that to weather. Sit down before Gus carries you over. Here — give me the coat, I'll put it near the stove and turn it twice so it dries evenly."
 
-The jukebox clicks and starts a song none of them selected. It plays four seconds, slows into a low warped note, and stops. From the other side of the locked door comes the sound of something being placed carefully on the floor.
+Gus arrives with a bowl in one hand, and she sets it down in front of the pulled-out chair with the particular firmness of a woman closing a door on any further discussion. Steam goes up between them. Half the room is still watching, and nobody has gone back to the pool game yet.
 
-{{image::emily.default.alarmed.webp}}
-
-Emily rises, coins forgotten, and moves around the table rather than straight at the noise. Her face stays calm.
-
-"There's a person back there. Or something that wants us to think like one."
-
-Shane slides off the stool.
-
-"Great. Those are my two favorite options."
-
-Gus reaches under the bar and brings out a heavy wooden rolling pin. She looks to {{user}} — measuring neither courage nor loyalty, only whether another pair of hands is in the room.
-
-"You can stay by the front door, come with us, or walk out before we unlock anything. No shame in any of them. But decide now."
-
-The kitchen key hangs from her finger. Beneath the door, a thin line of rainwater begins to spread across the floor from the dry room beyond.
+"Now. Eat that while it's hot, and then you can tell the whole room who you are, because they'll only get it wrong among themselves otherwise."

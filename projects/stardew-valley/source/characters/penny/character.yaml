@@ -4,8 +4,8 @@ name: Penny
 content: content.md
 aliases: []
 relationships: [pam-and-penny]
-keywords: [penny, tutor, pam's daughter, river road, miss penny]
-secondaryKeywords: [library, jas and vincent, quilting, archaeology, field trip]
+keywords: [penny, tutor, pam's daughter, river road, miss penny, gia sư, cô giáo, con gái của pam, con gái pam, đường ven sông, cô penny]
+secondaryKeywords: [library, jas and vincent, quilting, archaeology, field trip, thư viện, may chần bông, khảo cổ, buổi đi thực tế, dạy học]
 locations: [river-road, museum-and-library]
 insertionOrder: 100
 enabled: true

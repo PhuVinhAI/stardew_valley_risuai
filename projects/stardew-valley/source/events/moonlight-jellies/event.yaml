@@ -2,8 +2,8 @@ schema: risuai-event/v1
 id: moonlight-jellies
 name: Dance of the Moonlight Jellies
 content: content.md
-keywords: [moonlight jellies, dance of the moonlight jellies, summer 28, candle boat, jellyfish]
-secondaryKeywords: [candle-boat, the docks, last night of summer, lunaloos, green jelly, blue light]
+keywords: [moonlight jellies, dance of the moonlight jellies, summer 28, candle boat, jellyfish, sứa phát sáng, đêm sứa, sứa dưới ánh trăng, điệu nhảy của sứa phát sáng, thuyền nến, con sứa]
+secondaryKeywords: [candle-boat, the docks, last night of summer, lunaloos, green jelly, blue light, thả thuyền nến, bến tàu, đêm cuối mùa hè, sứa xanh, ánh sáng xanh]
 insertionOrder: 300
 enabled: true
 conditions: [season:summer, day:28, place:pelican-beach, hours:2200-2400]

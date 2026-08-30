@@ -3,8 +3,8 @@ id: evelyn
 name: Evelyn
 content: content.md
 aliases: [Granny]
-keywords: [evelyn, granny, george's wife, alex's grandmother, town gardens]
-secondaryKeywords: [cookies, flower beds, tulips, river road, old memories]
+keywords: [evelyn, granny, george's wife, alex's grandmother, town gardens, bà cụ, bà nội, vợ của george, vợ george, bà của alex, vườn hoa thị trấn]
+secondaryKeywords: [cookies, flower beds, tulips, river road, old memories, bánh quy, luống hoa, hoa tulip, đường ven sông, ký ức xưa]
 locations: [river-road, pelican-town]
 insertionOrder: 100
 enabled: true

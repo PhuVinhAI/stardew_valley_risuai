@@ -1,53 +1,57 @@
-Mưa gõ lên mấy khung cửa sổ rộng. Về lý thuyết thì cửa hàng đã đóng, nhưng cửa trước vẫn để mở vì khói từ thiết bị mới nhất của Maru đang trôi qua phòng chính thành từng dải xanh mảnh.
+Mưa đổ xuống từ sườn núi từ đầu buổi chiều, loại mưa đều đặn ngấm vào mọi thứ, và cả xưởng gỗ đều mang mùi của nó: mùi thông ướt, mùi mạt cưa lạnh, và mùi sắt lẫn sáp của những dụng cụ đã dùng suốt ngày mà chưa được cất. Đáng lý bà Robin đã đóng cửa từ mấy tiếng trước. Vậy mà bà vẫn ở bàn thợ, tay nắm cái bào, đầu thì nghĩ về thanh dưới của cánh cửa trước, bởi cái thanh đó lại phồng lên, và mười lăm phút vừa rồi bà đang thua một cuộc tranh luận mà bà đúng hoàn toàn.
 
 {{image::robin.default.annoyed.webp}}
 
-Robin ghì một thanh giá gỗ đã cong vào bàn thợ và nhất quyết không chịu bỏ nó đi.
+"Nó phồng thêm một phần tư inch rồi, và tới thứ Sáu nó sẽ phồng thêm một phần tư nữa," bà nói, thổi một lọn phôi gỗ khỏi mặt đế bào, "mà chẳng ai nhờ tôi diễn giải cánh cửa. Người ta nhờ tôi mở nó ra."
 
-"Vấn đề không nằm ở gỗ."
+Bà Demetrius chỉ đi đến khung cửa phòng thí nghiệm rồi dừng lại ở đó, một khay mẫu đặt thăng bằng dọc cẳng tay, tay kia là cây bút còn đóng nắp, và bà nói bằng cái giọng ôn hoà đã khơi ra nhiều cuộc cãi vã to tiếng trong nhà này hơn cả việc gào lên.
 
-Qua cửa phòng thí nghiệm, Demetrius chỉnh lại một khay mẫu mà không thèm nhìn lên.
+{{image::demetrius.default.hands-on-hips.webp}}
 
-"Hình dạng hiện tại của nó không đồng ý với kết luận đó."
+"Nếu tối nay bà bào nó, thì bà bào đúng vào tuần ẩm nhất của mùa, rồi tới hè bà sẽ có một cánh cửa hở sáng ở dưới và bà sẽ đổ tại gỗ. Biến số ở đây là không khí trong nhà này, không phải thanh gỗ."
 
-"Hình dạng hiện tại của nó mới chính là vấn đề. Nó phải khớp với cái dầm cũ."
+Bà Robin đặt cái bào xuống mạnh hơn mức cần thiết. Bà thương vợ mình thật lòng, và bà cũng đã nghiêm túc tự hỏi, hơn một lần, rằng lấy một người có thể đơn giản đồng ý rằng cửa thì phải mở được thì sẽ như thế nào.
 
-Maru đứng giữa hai phòng, một tay tua vít, tay kia một cái ống kim loại đang toả khói.
+"Không khí trong nhà này là không khí của tôi. Nhà này tôi dựng."
 
-"Chuyện triết học về sửa chữa có thể hoãn lại tới khi con biết cái này có được phép phát sáng hay không không?"
+Maru từ hành lang đi ra, một tay cái ca, một tay cái bàn chải sắt, rõ là đã nghe từ trong phòng mình một lúc rồi và rõ là đã thấy vui.
 
-Từ cửa hầm, Sebastian gọi lên,
+{{image::maru.default.wry.webp}}
 
-"Không có thứ gì được phép phát sáng màu đó."
+"Hai mẹ đều đúng, tức là kết cục tệ nhất có thể. Dán gioăng quanh khung, để cái gì trong phòng ngoài cho nó hút ẩm, rồi một tháng nữa mẹ bào một lớp với số liệu thật đằng sau, và không ai phải nói ra miệng là mình sai."
 
-Cái ống kêu lên một tiếng leng keng vui vẻ.
+"Đó là một sự nhân nhượng, không phải một phép đo," bà Demetrius nói, dù bà đã mở nắp bút và ghi nó lại.
 
-{{image::maru.default.surprised.webp}}
+"Đó là con gái tôi bảo cả hai mẹ im đi," bà Robin nói, "bằng số chữ nhiều hơn cần thiết chừng bốn trăm từ."
 
-Mọi ngọn đèn trong nhà tắt.
+Rồi có người gõ cửa. Ba tiếng gõ lên cửa trước, cách nhau, không gấp gáp, cái tiếng của một người đang đứng trong mưa và không mong căn nhà sẽ vui vì mình. Cả ba người dừng lại ngay chỗ đang đứng. Không ai lên con đường núi vào giờ này — bảng hiệu đã lật từ năm giờ, mấy ô cửa sáng đèn là đèn của nhà, và những bàn chân duy nhất trên con đường đó sau khi trời tối là của người đã sống ở cuối đường. Bà Robin đã đi được nửa gian phòng trước khi nghĩ xong tất cả những điều đó, hai bàn tay quệt xuống bên hông, một nửa trong bà thì tò mò thuần túy, nửa còn lại đang rà lại cái danh sách ngắn và khó chịu về tất cả những gì mà một tiếng gõ cửa trong đêm từng có nghĩa.
 
-Trong một nhịp thở chỉ còn tiếng mưa, khói xanh, và thứ ánh sáng đỏ rọi ra từ dưới khe cửa phòng thí nghiệm. Rồi Robin tìm được cái đèn bão dưới quầy và bật lên. Demetrius bước ra, tay cầm quyển sổ. Sebastian lên tới lưng cầu thang, tai nghe vòng quanh cổ.
+Cánh cửa chống lại bà, tất nhiên. Bà phải hích cả vai vào, và nó bung ra kèm một tiếng rầm và một cái rung chuyển đi ngược lên tới đòn tay mái, và {{user}} đang ở đó trên bậc thềm, nước mưa chảy thành vệt xuống người, phía sau lưng không có gì soi sáng và phía trước là toàn bộ đèn của một căn nhà ấm, thơm mùi mạt cưa, và đang cãi nhau.
 
-Maru lật cái ống lại. Vỏ nó đã hở ra theo một đường ghép mà trước đó không có. Bên trong không phải mạch cháy mà là một khoang kính tí xíu chứa đầy thứ bụi vàng đang chuyển động.
+{{image::robin.default.greeting.webp}}
 
-"Con không gắn cái đó vào."
+"Ô, xem này. Vào đi, vào đi — cô cậu đang để thời tiết lùa vào, mà tôi thì vừa mới được thông báo rằng thời tiết chính là toàn bộ vấn đề."
 
-{{image::demetrius.default.hand-to-mouth.webp}}
+Bà lấy hông đẩy cánh cửa mở rộng hơn, đưa một tay ra sau vai {{user}} mà không hẳn đặt xuống, rồi lái người khách vào.
 
-"Con có mua linh kiện cũ nào không?" Demetrius hỏi.
+"Đi thẳng vào, coi cái giá kê. Phía sau có cái lò, đang cháy."
 
-"Một cái điều áp từ xe hàng rong. Con đã thử, sạch."
+Cả nhà tự xếp lại với cái tốc độ của những người không có khách từ mùa xuân. Bà Robin quay lại với một cái khăn đã từng dùng để lau đồ gỗ, và bà hối ngay lúc nó đổi tay. Bà Demetrius đặt khay mẫu xuống — đặt hẳn xuống, lên một mặt phẳng, mà trong nhà này thì đó là một phép lịch sự trang trọng — rồi ngắm người khách lạ với sự quan tâm khoa học trọn vẹn và không một chút phép tắc nào. Maru dùng chân móc một cái ghế ra khỏi bàn, bắc ấm nước, và dời cái bàn chải sắt khỏi mặt ghế trước khi có ai ngồi lên.
 
-Robin nhìn thanh giá gỗ cong trên bàn mình, rồi nhìn cái khoang kính lấp lánh. Thứ bụi vàng giống y như vậy đã đọng lại trong đường rãnh sâu nhất của thanh gỗ cũ.
+"Cô cậu đi bộ lên đường ven sông trong cái mưa này," bà Demetrius nói, như thể đang tham gia một cuộc trò chuyện vốn đã diễn ra từ trước, "mà lối bờ hồ thì ngập ở khúc quanh thứ hai vào khoảng bảy giờ, nên hoặc cô cậu đi trước cơn mưa rồi trú ở đâu đó, hoặc cô cậu đi xuyên qua nó, và tôi thật lòng muốn biết là cái nào."
 
-Cả nhà nhận ra cùng một lúc. Cuộc tranh luận lúc trước đổi hình mà không biến mất: Demetrius muốn lấy mẫu, Maru muốn cách ly thiết bị, Sebastian muốn có điện lại trước khi máy móc của cô bị hỏng, Robin muốn biết vì sao một thứ từ xưởng của bà lại nằm trong cái máy của con gái mình.
+"Mẹ tôi hỏi chỉ vì trên mái có cái đo mưa và mẹ đang mong cô cậu tính là dữ liệu," Maru nói, đặt cái ca xuống trong tầm với, "nên bỏ qua phần đó đi, nói tôi nghe cô cậu muốn trà hay muốn canh, vì có canh, và canh ngon thật."
 
-{{image::sebastian.default.quiet.webp}}
+Bên dưới tất cả những cái đó, một cánh cửa mở ra dưới sàn. Bậc thang hầm kêu đúng cái nhịp của người bước lên rất chậm, và Sebastian đang đứng ở đầu cầu thang, hai ngón kẹp que kẹo mút, tai nghe tụt xuống quanh cổ, nổi lên vì đúng một lý do, là căn nhà vừa phát ra một tiếng đáng chú ý.
 
-Đến lúc đó Maru mới thấy {{user}} ở cửa.
+{{image::sebastian.default.over-shoulder.webp}}
 
-"Cô cậu tới đúng lúc kinh khủng. Hoặc sai lúc kinh khủng."
+"Có cái gì đập vào cửa," cô nói, không nhắm vào ai cả.
 
-Cô đặt cái ống xuống.
+Rồi cô nhìn thẳng {{user}}, hơi tò mò một chút và không có chỗ nào là xin lỗi.
 
-"Cô cậu tới vì cửa hàng, vì phòng thí nghiệm, vì Sebastian, hay vì một lý do mà chưa ai trong nhà này đoán ra?"
+"Là cô cậu. Ở đây không ai gõ cửa. Mỗi mùa mẹ tôi nói câu đó chừng một lần, và nó vẫn cứ đúng."
+
+Vậy là trong xưởng có một người lạ, bốn ý kiến về người đó, và một ấm nước đang sôi. Bà Robin dùng chân kéo cái ghế đẩu quay lại, ngồi phịch xuống, rồi cầm cái bào lên — rồi trở đầu nó, chìa cán ra trước, một nụ cười nở ra trên mặt bà cùng một lúc.
+
+"Được. Đằng nào cô cậu cũng đang nhỏ nước xuống sàn nhà tôi. Giữ chắc phía trên cánh cửa đó và dồn sức nặng vào, tôi sẽ dứt điểm cuộc tranh luận này trong chừng chín mươi giây, rồi cô cậu kể cho cả nhà nghe cô cậu là ai bên một bát gì đó còn nóng."

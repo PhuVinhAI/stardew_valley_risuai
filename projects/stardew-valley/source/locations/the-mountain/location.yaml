@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: the-mountain
 name: The Mountain
 content: content.md
-keywords: [the mountain, mountain road, mountain lake, the quarry, up the mountain, north of town]
-secondaryKeywords: [landslide, minecart, mine entrance, linus's tent, lakeside, pine]
+keywords: [the mountain, mountain road, mountain lake, the quarry, up the mountain, north of town, ngọn núi, trên núi, đường lên núi, hồ trên núi, hồ nước, mỏ đá, phía bắc thị trấn]
+secondaryKeywords: [landslide, minecart, mine entrance, linus's tent, lakeside, pine, lở đất, xe goòng, cửa hầm mỏ, lều của linus, bờ hồ, rừng thông]
 insertionOrder: 200
 enabled: true
 assets: []

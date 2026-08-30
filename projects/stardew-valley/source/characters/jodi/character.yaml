@@ -3,8 +3,8 @@ id: jodi
 name: Jodi
 content: content.md
 aliases: []
-keywords: [jodi, kent's wife, sam's mother, vincent's mother, willow lane]
-secondaryKeywords: [housework, fish casserole, aerobics class, yoba's altar, family dinner]
+keywords: [jodi, kent's wife, sam's mother, vincent's mother, willow lane, vợ của kent, vợ kent, mẹ của sam, mẹ sam, mẹ của vincent, mẹ vincent]
+secondaryKeywords: [housework, fish casserole, aerobics class, yoba's altar, family dinner, việc nhà, món cá hầm, lớp thể dục nhịp điệu, bàn thờ yoba, bữa cơm gia đình]
 locations: [willow-lane, pelican-town]
 insertionOrder: 100
 enabled: true

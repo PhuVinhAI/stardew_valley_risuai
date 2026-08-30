@@ -422,7 +422,12 @@ export function compileAuthoringSources(
         scan_depth: ir.lorebook.scanDepth,
         token_budget: ir.lorebook.tokenBudget,
         recursive_scanning: ir.lorebook.recursiveScanning,
-        extensions: {},
+        // Word-boundary matching is what RisuAI applies to a keyword by default,
+        // and it does not fire on Vietnamese: `Robin` inside `của Robin,` matches,
+        // but a multi-syllable key like `quảng trường` or a diacritic-adjacent one
+        // frequently does not. The reference cards all disable it for the same
+        // reason, so keys fall back to plain substring search.
+        extensions: { risu_fullWordMatching: ir.lorebook.fullWordMatching },
         entries: lorebook.map(internalLoreToCcv3),
       },
       tags: ir.tags,

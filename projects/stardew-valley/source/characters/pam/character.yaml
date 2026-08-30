@@ -4,8 +4,8 @@ name: Pam
 content: content.md
 aliases: []
 relationships: [pam-and-penny]
-keywords: [pam, bus driver, penny's mother, river road trailer, saloon regular]
-secondaryKeywords: [bus stop, pale ale, ice fishing contest, tab at the saloon, sign of the vessel]
+keywords: [pam, bus driver, penny's mother, river road trailer, saloon regular, tài xế xe buýt, mẹ của penny, mẹ penny, nhà xe di động, khách quen quán rượu]
+secondaryKeywords: [bus stop, pale ale, ice fishing contest, tab at the saloon, sign of the vessel, trạm xe buýt, bia, cuộc thi câu cá trên băng, nợ tiền rượu, cung hoàng đạo]
 locations: [river-road, bus-stop-and-backwoods]
 insertionOrder: 100
 enabled: true

@@ -1,45 +1,45 @@
-Rain has stopped. The wagon ruts hold shallow mirrors, and every gust shakes bright drops out of the pines. Beyond the western field a gate knocks twice, pauses, knocks again.
+The rain stopped twenty minutes ago and the road has not forgiven it yet. Water stands in the wheel ruts in long bright strips, the pines along the verge shake down another handful of drops whenever the wind moves through them, and the whole valley smells of wet stone, cut grass, and the green rot at the bottom of the ditch. It is a beautiful afternoon, provided you are not standing in it up to your ankles.
 
-A wooden crate sits crooked on a handcart in the middle of the road. It was not built for whatever is inside it.
+Robin is standing in it up to her ankles. One boot is braced against the cart frame, both hands are under the axle, and she has held that position long enough that her forearms have begun to shake in a way she finds personally insulting. The cart is loaded with cedar for the new stretch of Marnie's fence, and the left wheel has found the deepest rut on the entire road and decided to live there.
 
-{{image::robin.default.friendly.webp}}
+{{image::robin.default.annoyed.webp}}
 
-Robin has one boot braced against the cart and both hands under the crate.
+She blows a wet strand of hair off her cheek. It comes straight back.
 
-"Left wheel's sinking. Don't say drainage."
+"Don't say it. Whatever word you're about to say, don't."
 
-{{image::lewis.default.cordial.webp}}
+Lewis stands four feet uphill on the dry gravel with her clipboard held against her chest and her shoes at a careful distance from anything that could ruin them. She has the particular calm of a woman who has waited a long time to be proved right and intends to take her time about enjoying it.
 
-Lewis stands uphill, clipboard against her chest, shoes well clear of the mud.
+"The drainage on this stretch was raised at the spring meeting," Lewis says. "By me."
 
-"I mentioned the drainage problem last spring."
+"You raised a committee," Robin says through her teeth. "Committees don't lift."
 
-"You mentioned a committee," Robin says through her teeth. "Committees don't lift."
+Marnie is down on the low side of the cart with a feed sack against her hip and a basket over her arm, contributing moral support and a running commentary on how much the sack weighs. She is the one who looks up.
 
-The crate cracks. One slat lets go, and the road fills with iron hinges wrapped in paper, a coil of new rope, two jars of nails — and a rain-spotted envelope that skims across the mud and stops near {{user}}. The name on it has bled to a violet blur. The red wax seal is intact.
+{{image::marnie.default.delighted.webp}}
 
-{{image::marnie.default.warm.webp}}
+Someone is coming up the road from the south — on foot, alone, dark at the shoulders where the last of the rain caught them, shoes past saving. Marnie can name every pair of feet in this valley by the sound they make on gravel, and this is not one of them. Her heart does a small foolish skip, and the feed sack sags forgotten against her hip.
 
-Marnie catches a falling jar against her skirt, basket still on her arm.
+"Oh. Oh — hello there."
 
-"Well. That's one way to meet somebody."
+The argument stops mid-word. Robin lets the axle down into the mud and straightens with a grunt, and the ache in her arms relocates itself somewhere much less important, because a stranger on the town road in the first week of spring is worth considerably more than a fence. Lewis moves first: the clipboard goes under one arm, a hand brushes at a skirt with nothing on it to brush, and she arrives at the head of the cart with the bearing of a woman about to open a bridge.
 
-Then, lower, to {{user}}:
+{{image::lewis.default.hearty.webp}}
 
-"Don't let the mayor make a speech before we know whether you're lost."
+"On behalf of Pelican Town — welcome. You find us at a moment of municipal difficulty, but I should like it on the record that this road is normally excellent."
 
-Lewis straightens.
+"Lewis," Marnie says, setting the sack down in the wet grass, "it has been raining since noon and you are making a speech at somebody who is standing there dripping."
 
-"Pelican Town is accustomed to visitors."
+Lewis's mouth closes. Somewhere underneath the office there is an old woman who has just been caught out, and she coughs into her fist and frowns at the ruts as though the ruts were the embarrassing part of all this.
 
-She says it in the tone of a woman making it true by declaring it.
+"The speech was going to be brief."
 
-"Though not usually under these circumstances."
+Robin laughs, one loud crack of it that sends something small out of the hedge, then wipes her palm down her thigh and looks {{user}} over with unhurried and entirely unhidden interest — the walk, the shoulders, whether there is anything useful in those arms.
 
-Robin lets the crate rest against her thigh and nods at the envelope.
+{{image::robin.default.appraising.webp}}
 
-"Get that before the whole road reads it. If it's yours, good. If it isn't, maybe you can make out whose it is."
+"All right. I'll trade you. Get your hands under that corner, lift when I say lift, and before we're over the bridge I'll tell you everything about this town that's worth knowing. Starting with which of us was right about the drainage."
 
-From town: the faint clang of the saloon's back door. From the forest: an animal's short, uneasy call. Marnie turns her head at once. Lewis pretends not to.
+Marnie has already shifted her basket to her other arm to free up a hand, and she is watching {{user}} with frank, delighted curiosity, three more questions stacked up behind the first one.
 
-The envelope lies between {{user}} and the three of them, wax seal marked with a symbol none of them has named.
+"You'll tell me your name first, though. And then whether you're stopping or only passing through — and pay me no mind, I'll be nosy either way."

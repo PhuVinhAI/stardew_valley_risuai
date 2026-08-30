@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: jojamart-and-cinema
 name: JojaMart and the Cinema
 content: content.md
-keywords: [jojamart, joja mart, the warehouse store, the corporate store, the cinema, movie theater, movie theatre]
-secondaryKeywords: [membership, coupons, joja cola, abandoned store, concessions, crane game, matinee]
+keywords: [jojamart, joja mart, the warehouse store, the corporate store, the cinema, movie theater, movie theatre, siêu thị joja, cửa hàng joja, rạp chiếu phim, rạp phim, đi xem phim]
+secondaryKeywords: [membership, coupons, joja cola, abandoned store, concessions, crane game, matinee, thẻ thành viên, phiếu giảm giá, cửa hàng bỏ hoang, quầy bán đồ ăn, máy gắp gấu bông]
 insertionOrder: 200
 enabled: true
 assets: []

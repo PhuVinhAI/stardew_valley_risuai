@@ -3,8 +3,8 @@ id: marlon
 name: Marlon
 content: content.md
 aliases: []
-keywords: [marlon, adventurer's guild, guild leader, monster slayer, mine entrance]
-secondaryKeywords: [weapons, item recovery, slime eggs, eyepatch, gil]
+keywords: [marlon, adventurer's guild, guild leader, monster slayer, mine entrance, hội mạo hiểm, hội nhà thám hiểm, thủ lĩnh hội, thợ diệt quái, cửa hầm mỏ, khu mỏ]
+secondaryKeywords: [weapons, item recovery, slime eggs, eyepatch, gil, vũ khí, tìm lại đồ thất lạc, trứng slime, băng bịt mắt]
 locations: [adventurers-guild, the-mines]
 insertionOrder: 100
 enabled: true

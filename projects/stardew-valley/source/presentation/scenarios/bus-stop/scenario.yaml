@@ -4,14 +4,14 @@ group: arrival
 order: 15
 preview: portrait-pam-default-expression-00
 titles:
-  en: Six-Ten
-  vi: Sáu Giờ Mười
+  en: The Bus That Isn't Going Anywhere
+  vi: Chiếc Xe Buýt Chẳng Đi Đâu Cả
 summaries:
-  en: A broken bus starts itself, and a dead timetable has one stop circled
-  vi: Chiếc xe buýt hỏng tự khởi động, và tờ lịch chạy đã chết có một chuyến bị khoanh tròn
+  en: Pam under the dashboard with a wrench, losing an argument with her own bus
+  vi: Pam nằm dưới táp-lô với cây mỏ lết, đang thua cuộc tranh cãi với chính chiếc xe của mình
 tags:
-  en: [Spring, 6:07 PM, Valley bus stop, Pam]
-  vi: [Xuân, 6:07 chiều, Trạm xe buýt thung lũng, Pam]
+  en: [Spring, Early evening, Valley bus stop, Pam]
+  vi: [Xuân, Đầu buổi tối, Trạm xe buýt thung lũng, Pam]
 bodies:
   en: bus-stop.en.md
   vi: bus-stop.vi.md

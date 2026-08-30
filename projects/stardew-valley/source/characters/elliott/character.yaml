@@ -3,8 +3,8 @@ id: elliott
 name: Elliott
 content: content.md
 aliases: []
-keywords: [elliott, writer, beach cabin, novel, writing desk]
-secondaryKeywords: [piano, poetry, seashells, reading tour, rowboat]
+keywords: [elliott, writer, beach cabin, novel, writing desk, nhà văn, nhà gỗ ven biển, bãi biển, tiểu thuyết, bàn viết]
+secondaryKeywords: [piano, poetry, seashells, reading tour, rowboat, đàn piano, thơ, vỏ sò, buổi đọc sách, thuyền nhỏ]
 locations: [forest-cottages, pelican-beach]
 insertionOrder: 100
 enabled: true

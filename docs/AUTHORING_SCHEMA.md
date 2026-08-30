@@ -54,6 +54,7 @@ lorebook:
   scanDepth: 50
   tokenBudget: 60000
   recursiveScanning: true
+  fullWordMatching: false
   folders:
     - id: residents
       name: Residents
@@ -63,6 +64,8 @@ lorebook:
 
 `scanDepth` is how many recent messages RisuAI searches for keywords, and `tokenBudget` is how much lore it may insert once they match. The imported reference cards run 6–50 depth against 44k–80k budgets, because a shallow scan drops a resident who was named a few turns ago and a small budget silently discards the rest of a group as soon as one long profile is inserted. Prefer a deep scan with a large budget over trimming keywords.
 
+`fullWordMatching` must stay off for a bilingual world. RisuAI's word-boundary matcher does not fire reliably on multi-syllable, diacritic-heavy Vietnamese keys such as `quảng trường` or `cửa hàng tổng hợp`; substring matching does. Every reference card disables it too. A bilingual entity therefore carries its English keys and their Vietnamese equivalents in the same `keywords` list — translate the descriptive part (`seed shop` → `cửa hàng hạt giống`) and leave proper names in Latin script.
+
 Each folder maps whole entity kinds into one RisuAI lorebook group. The compiler emits a `mode: folder` entry with the sentinel key `\uF000folder:<uuid>`, derived from the world id and folder id so rebuilds keep the same grouping, then emits that folder's children directly after it with a matching `folder` field. Entities whose kind no folder claims stay ungrouped at the end of the book. Folders carry no text; only entity `content.md` does.
 
 ## Start panel
@@ -70,6 +73,8 @@ Each folder maps whole entity kinds into one RisuAI lorebook group. The compiler
 `presentation/start-panel.yaml` declares languages, opening groups, UI strings, and the default language and scenario. Each `presentation/scenarios/<id>/scenario.yaml` declares its group, sort order, preview asset id, and per-language titles, summaries, `tags`, and body files.
 
 The compiler builds the single `first_mes` from the sentinel plus one `{{#when}}` block per scenario per language, and emits two display regex scripts: one that expands the sentinel into the picker panel, and one that turns a `[Scene: ...]` line into chips. Scene tags are written into the message as that plain text line rather than as markup, so the model sees the same shape in the opening message and the example messages and keeps reproducing it. At most six tags per language per scenario, and a tag may not contain `|`, `]`, or a newline.
+
+`bodies` is optional. A scenario that omits it opens on its scene header alone, which is what an open-ended "free start" wants — prose there would be an instruction sheet the model imitates as narration. Such a scenario must declare tags for every language, since the header is all it has.
 
 ## Token gate
 

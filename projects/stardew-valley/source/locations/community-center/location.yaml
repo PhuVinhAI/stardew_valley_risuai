@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: community-center
 name: Community Center
 content: content.md
-keywords: [community center, community centre, the old hall, the ruined building, junimos, bundles]
-secondaryKeywords: [crafts room, pantry, boiler room, fish tank, vault, bulletin board, golden scroll, rat problem]
+keywords: [community center, community centre, the old hall, the ruined building, junimos, bundles, nhà văn hóa, trung tâm cộng đồng, hội trường cũ, tòa nhà đổ nát, bó vật phẩm]
+secondaryKeywords: [crafts room, pantry, boiler room, fish tank, vault, bulletin board, golden scroll, rat problem, phòng thủ công, phòng kho, phòng lò hơi, bể cá, hầm chứa, cuộn giấy vàng]
 insertionOrder: 200
 enabled: true
 assets: []

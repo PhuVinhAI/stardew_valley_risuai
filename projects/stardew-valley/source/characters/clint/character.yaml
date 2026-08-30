@@ -3,8 +3,8 @@ id: clint
 name: Clint
 content: content.md
 aliases: []
-keywords: [clint, blacksmith, blacksmith's shop, tool upgrade, geode]
-secondaryKeywords: [furnace, forge, ore, mines, lonely]
+keywords: [clint, blacksmith, blacksmith's shop, tool upgrade, geode, thợ rèn, tiệm rèn, lò rèn, nâng cấp công cụ, đá geode, khoáng thạch]
+secondaryKeywords: [furnace, forge, ore, mines, lonely, lò nung, quặng, hầm mỏ, khu mỏ, cô đơn]
 locations: [the-blacksmith, stardrop-saloon]
 insertionOrder: 100
 enabled: true

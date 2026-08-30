@@ -2,8 +2,8 @@ schema: risuai-event/v1
 id: spirits-eve
 name: Spirit's Eve
 content: content.md
-keywords: [spirit's eve, spirits eve, fall 27, haunted maze, halloween, jack-o-lantern]
-secondaryKeywords: [pumpkin ale, caged monsters, golden pumpkin, cauldron, costume, skeletons, dark specter]
+keywords: [spirit's eve, spirits eve, fall 27, haunted maze, halloween, jack-o-lantern, đêm ma quái, đêm linh hồn, lễ hội ma, mê cung ma, đèn bí ngô]
+secondaryKeywords: [pumpkin ale, caged monsters, golden pumpkin, cauldron, costume, skeletons, dark specter, bia bí ngô, quái vật trong lồng, bí ngô vàng, hóa trang, bộ xương, bóng ma]
 insertionOrder: 300
 enabled: true
 conditions: [season:fall, day:27, place:pelican-town, hours:2200-2350]

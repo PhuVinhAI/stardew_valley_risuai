@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: mayors-manor
 name: Mayor's Manor
 content: content.md
-keywords: [mayor's manor, the manor, lewis's house, town hall, ledger book, town records]
-secondaryKeywords: [tea setting, marriage log, lost and found, prize machine, basement, hidden letter]
+keywords: [mayor's manor, the manor, lewis's house, town hall, ledger book, town records, dinh thị trưởng, nhà thị trưởng, tòa thị chính, sổ sách thị trấn, hồ sơ thị trấn]
+secondaryKeywords: [tea setting, marriage log, lost and found, prize machine, basement, hidden letter, bộ ấm trà, sổ hôn nhân, đồ thất lạc, máy đổi quà, tầng hầm, lá thư giấu kín]
 insertionOrder: 200
 enabled: true
 assets: []

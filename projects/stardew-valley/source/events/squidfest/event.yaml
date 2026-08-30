@@ -2,8 +2,8 @@ schema: risuai-event/v1
 id: squidfest
 name: SquidFest
 content: content.md
-keywords: [squidfest, squid fest, winter 12, winter 13, squid fishing]
-secondaryKeywords: [special bait, catch target, booth, winter ocean, visiting anglers, squid chef]
+keywords: [squidfest, squid fest, winter 12, winter 13, squid fishing, lễ hội mực, hội mực, câu mực, thi câu mực, bắt mực]
+secondaryKeywords: [special bait, catch target, booth, winter ocean, visiting anglers, squid chef, mồi đặc biệt, chỉ tiêu bắt cá, quầy hội, biển mùa đông, người câu cá tới thăm]
 insertionOrder: 310
 enabled: true
 conditions: [season:winter, day:12-13, place:pelican-beach, hours:from-0610]

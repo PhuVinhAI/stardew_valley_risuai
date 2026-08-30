@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: museum-and-library
 name: Museum and Library
 content: content.md
-keywords: [museum, library, archaeological office, archaeology office, artifacts, donate, gunther's]
-secondaryKeywords: [display cases, minerals, bones, lost books, vault, reading room, professor]
+keywords: [museum, library, archaeological office, archaeology office, artifacts, donate, gunther's, bảo tàng, thư viện, phòng khảo cổ, cổ vật, hiện vật, quyên tặng cổ vật]
+secondaryKeywords: [display cases, minerals, bones, lost books, vault, reading room, professor, tủ trưng bày, khoáng vật, xương cổ, sách thất lạc, phòng đọc sách]
 insertionOrder: 200
 enabled: true
 assets: []

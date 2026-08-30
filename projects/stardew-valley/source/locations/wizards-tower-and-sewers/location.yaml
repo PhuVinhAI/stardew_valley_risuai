@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: wizards-tower-and-sewers
 name: Wizard's Tower and the Sewers
 content: content.md
-keywords: [wizard's tower, the tower, rasmodius, the sewers, sewer, under the town, witch's swamp]
-secondaryKeywords: [cauldron, basement, shrine of illusions, magic ink, shadow merchant, dwarf, statue of uncertainty, rusty key]
+keywords: [wizard's tower, the tower, rasmodius, the sewers, sewer, under the town, witch's swamp, tòa tháp, tháp phù thủy, cống ngầm, đường cống, dưới thị trấn, đầm phù thủy]
+secondaryKeywords: [cauldron, basement, shrine of illusions, magic ink, shadow merchant, dwarf, statue of uncertainty, rusty key, cái vạc, tầng hầm, mực phép, thương nhân bóng tối, người lùn, chìa khóa gỉ]
 insertionOrder: 200
 enabled: true
 assets: []

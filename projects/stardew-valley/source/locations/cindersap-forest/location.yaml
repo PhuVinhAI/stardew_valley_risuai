@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: cindersap-forest
 name: Cindersap Forest
 content: content.md
-keywords: [cindersap forest, the forest, the woods south of town, forest river, forest lake]
-secondaryKeywords: [ruined house, sewer pipe, raccoon stump, travelling cart, flower dance, festival of ice]
+keywords: [cindersap forest, the forest, the woods south of town, forest river, forest lake, rừng cindersap, khu rừng, cánh rừng phía nam thị trấn, con sông trong rừng, hồ trong rừng, vào rừng]
+secondaryKeywords: [ruined house, sewer pipe, raccoon stump, travelling cart, flower dance, festival of ice, căn nhà đổ nát, ống cống, gốc cây gấu mèo, xe hàng rong, lễ hội hoa, lễ hội băng]
 insertionOrder: 200
 enabled: true
 assets: []

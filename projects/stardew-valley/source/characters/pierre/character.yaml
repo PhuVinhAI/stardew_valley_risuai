@@ -3,8 +3,8 @@ id: pierre
 name: Pierre
 content: content.md
 aliases: [Ms. Pierre]
-keywords: [pierre, general store, seed shop, pierre's shop, abigail's mother]
-secondaryKeywords: [caroline's wife, shopkeeper, jojamart rivalry, grange display, stocklist]
+keywords: [pierre, general store, seed shop, pierre's shop, abigail's mother, cửa hàng tổng hợp, cửa hàng hạt giống, tiệm hạt giống, tiệm của pierre, mẹ của abigail, mẹ abigail]
+secondaryKeywords: [caroline's wife, shopkeeper, jojamart rivalry, grange display, stocklist, vợ của caroline, vợ caroline, chủ tiệm, cạnh tranh với jojamart, gian hàng hội chợ, danh sách hàng]
 locations: [pierres-general-store, pelican-town]
 insertionOrder: 100
 enabled: true

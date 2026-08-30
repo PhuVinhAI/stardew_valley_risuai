@@ -1,45 +1,45 @@
-Mưa vừa tạnh. Những vệt lún bánh xe đọng lại thành mấy vũng nước phẳng như gương, và mỗi cơn gió lại rũ xuống một trận mưa giọt từ rừng thông. Phía bên kia cánh đồng phía tây, một cánh cổng đập hai tiếng, ngừng, rồi đập tiếp.
+Mưa tạnh được chừng hai mươi phút và con đường thì vẫn chưa tha thứ cho nó. Nước đọng trong những vệt lún bánh xe thành từng dải sáng dài, mấy cây thông ven đường lại rũ xuống một nắm giọt mỗi lần gió lùa qua, và cả thung lũng thơm mùi đá ướt, mùi cỏ vừa cắt, lẫn mùi mục xanh dưới đáy rãnh. Một buổi chiều đẹp, miễn là người ta không đang đứng ngập trong nó tới mắt cá.
 
-Giữa đường, một thùng gỗ nằm nghiêng trên chiếc xe kéo. Nó rõ ràng không được đóng để chịu thứ đang nằm bên trong.
+Robin thì đang đứng ngập trong nó tới mắt cá. Một chân chống vào khung xe, hai tay đỡ dưới trục bánh, và chị giữ cái thế đó đủ lâu để hai cẳng tay bắt đầu rung theo cái kiểu mà chị coi là một sự xúc phạm cá nhân. Trên xe là gỗ tuyết tùng cho đoạn hàng rào mới của Marnie, còn bánh bên trái thì đã tìm ra cái vệt lún sâu nhất trên toàn con đường này và quyết định định cư ở đó.
 
-{{image::robin.default.friendly.webp}}
+{{image::robin.default.annoyed.webp}}
 
-Robin một chân chống vào xe, hai tay đỡ dưới đáy thùng.
+Chị hà một hơi thổi lọn tóc ướt khỏi má. Nó lập tức rơi trở lại.
 
-"Bánh bên trái đang lún. Đừng nói tới chuyện thoát nước."
+"Đừng nói. Cái từ mà bà đang định nói ấy, đừng nói."
 
-{{image::lewis.default.cordial.webp}}
+Lewis đứng cách đó hơn một mét trên phần sỏi khô, cặp tài liệu ép vào ngực, đôi giày giữ khoảng cách rất cẩn thận với mọi thứ có thể làm hỏng nó. Bà có cái vẻ bình thản riêng của một người đã chờ rất lâu để được chứng minh là mình đúng, và có ý định hưởng thụ nó thật từ tốn.
 
-Lewis đứng trên chỗ cao, cặp tài liệu ép vào ngực, đôi giày cách xa vùng bùn.
+"Chuyện thoát nước ở đoạn này đã được nêu ra trong buổi họp mùa xuân," Lewis nói. "Do tôi nêu."
 
-"Tôi đã nhắc đến vấn đề thoát nước từ mùa xuân năm ngoái."
+"Bà nêu ra một cái hội đồng," Robin đáp qua kẽ răng. "Hội đồng không bê đồ."
 
-"Bà nhắc đến một cái hội đồng," Robin đáp qua kẽ răng. "Hội đồng không bê đồ."
+Marnie ở phía thấp của chiếc xe, một bao thức ăn gia súc tựa vào hông, giỏ treo trên tay, đóng góp phần cổ vũ tinh thần cùng những nhận xét liên tục về việc cái bao nặng cỡ nào. Bà là người ngẩng lên trước.
 
-Thùng gỗ nứt một tiếng khô khốc. Một thanh nẹp bung ra, và mặt đường đầy bản lề sắt bọc giấy, một cuộn dây mới, hai hũ đinh — và một phong bì lấm tấm nước mưa trượt trên bùn rồi dừng lại ngay cạnh {{user}}. Cái tên trên mặt phong bì đã nhòe thành một vệt tím. Dấu niêm sáp đỏ vẫn còn nguyên.
+{{image::marnie.default.delighted.webp}}
 
-{{image::marnie.default.warm.webp}}
+Có ai đó đang đi ngược lên từ phía nam — đi bộ, một mình, hai vai sạm màu nước ở chỗ cơn mưa cuối còn kịp bắt được, đôi giày thì hết đường cứu. Marnie có thể gọi tên từng đôi chân trong thung lũng này chỉ bằng tiếng nó bước trên sỏi, và đây không phải một đôi nào trong số đó. Tim bà nhảy một nhịp nhỏ ngớ ngẩn, và cái bao thức ăn xệ xuống bên hông, bị quên hẳn.
 
-Marnie hứng được một hũ đinh đang rơi bằng vạt váy, giỏ vẫn treo trên tay.
+"Ôi. Ôi — chào cô cậu."
 
-"Ừ thì. Cũng là một cách để làm quen."
+Cuộc tranh luận đứt ngang giữa một chữ. Robin hạ trục bánh xuống bùn rồi đứng thẳng lên kèm một tiếng gằn trong cổ, và cơn nhức trong hai cánh tay chị lập tức dời sang một chỗ ít quan trọng hơn nhiều, bởi một người lạ trên con đường vào thị trấn trong tuần đầu mùa xuân thì đáng giá hơn một cái hàng rào rất nhiều. Lewis là người bước ra trước: cặp tài liệu kẹp vào một bên tay, một bàn tay phẩy phẩy tà váy vốn chẳng có gì để phẩy, và bà tới trước đầu xe với dáng vẻ của một người sắp khánh thành một cây cầu.
 
-Rồi hạ giọng, nói với {{user}}:
+{{image::lewis.default.hearty.webp}}
 
-"Đừng để bà thị trưởng kịp phát biểu trước khi ta biết cô cậu có bị lạc hay không."
+"Thay mặt Pelican Town — xin chào mừng. Cô cậu gặp chúng tôi đúng lúc thị trấn đang có một khó khăn về hạ tầng, nhưng tôi muốn được ghi nhận rằng con đường này bình thường vẫn rất tốt."
 
-Lewis đứng thẳng người.
+"Lewis này," Marnie nói, đặt cái bao xuống bãi cỏ ướt, "mưa từ trưa tới giờ, mà bà thì đang phát biểu với một người đang đứng đó nhỏ nước ròng ròng."
 
-"Pelican Town vốn quen với khách lạ."
+Miệng Lewis khép lại. Ở đâu đó bên dưới cái chức vụ có một bà già vừa bị bắt quả tang, và bà ho vào nắm tay rồi nhíu mắt nhìn xuống mấy vệt lún như thể chính mấy vệt lún mới là phần đáng xấu hổ ở đây.
 
-Bà nói bằng giọng của một người khiến điều đó thành thật chỉ bằng cách tuyên bố nó.
+"Tôi định nói ngắn thôi."
 
-"Dù thường thì không phải trong hoàn cảnh này."
+Robin bật cười, một tiếng đanh gọn làm con gì đó nhỏ vụt ra khỏi bụi rào, rồi chị chà lòng bàn tay xuống đùi và nhìn {{user}} từ trên xuống với vẻ quan tâm chẳng gấp gáp và chẳng thèm che giấu — dáng đi, bờ vai, và liệu hai cánh tay kia có dùng được vào việc gì không.
 
-Robin để thùng gỗ tựa vào hông, hất đầu về phía phong bì.
+{{image::robin.default.appraising.webp}}
 
-"Lấy nó lên trước khi cả con đường này đọc được đi. Nếu là của cô cậu thì tốt. Nếu không, có khi cô cậu đọc ra được nó của ai."
+"Được. Tôi đổi với cô cậu thế này. Ghé tay xuống dưới cái góc kia, tôi hô nhấc thì nhấc, rồi trước khi qua khỏi cầu tôi sẽ kể cho cô cậu mọi thứ đáng biết về thị trấn này. Bắt đầu bằng chuyện ai trong hai chúng tôi đã đúng về cái vụ thoát nước."
 
-Từ phía thị trấn: tiếng cửa sau quán rượu khua lanh canh rất nhẹ. Từ phía rừng: một tiếng gọi ngắn, bất an, của con vật nào đó. Marnie quay đầu lại ngay. Lewis thì làm như không nghe thấy.
+Marnie thì đã chuyển cái giỏ sang tay bên kia cho rảnh một tay, và bà đang ngắm {{user}} với vẻ tò mò thẳng thắn và hân hoan, ba câu hỏi nữa đã xếp hàng sẵn phía sau câu đầu tiên.
 
-Phong bì nằm giữa {{user}} và ba người họ, dấu sáp in một ký hiệu mà chưa ai trong số họ gọi được tên.
+"Nhưng cô cậu nói tên cho tôi trước đã. Rồi tới chuyện cô cậu ở lại hay chỉ đi ngang qua — mà đừng để ý tới tôi, kiểu gì tôi cũng tọc mạch thôi."

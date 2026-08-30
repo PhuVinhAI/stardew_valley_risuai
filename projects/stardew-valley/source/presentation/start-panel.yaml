@@ -26,7 +26,7 @@ groups:
       vi: Nhiều người
   - id: open
     labels:
-      en: Open
+      en: Free
       vi: Tự do
 ui:
   eyebrow:
@@ -36,8 +36,8 @@ ui:
     en: Where does your story begin?
     vi: Câu chuyện của bạn bắt đầu ở đâu?
   subtitle:
-    en: Pick a language, then pick an opening scene.
-    vi: Chọn ngôn ngữ, rồi chọn cảnh mở đầu.
+    en: Every opening is the valley meeting you for the first time. Only the season, hour, place, and company change.
+    vi: Mỗi cảnh mở đầu đều là lần đầu thung lũng gặp bạn. Chỉ khác mùa, giờ, địa điểm và người có mặt.
   languageLabel:
     en: Language
     vi: Ngôn ngữ
@@ -54,5 +54,5 @@ ui:
     en: No scene chosen yet. Pick one of the cards above.
     vi: Chưa chọn cảnh nào. Hãy bấm một trong các thẻ phía trên.
   footer:
-    en: The chosen scene stays for this chat. Select again to change it.
-    vi: Cảnh đã chọn sẽ giữ nguyên trong cuộc trò chuyện này. Bấm lại để đổi.
+    en: The chosen scene stays for this chat. Select again to change it. Free Start writes nothing — say where you are and the valley answers.
+    vi: Cảnh đã chọn sẽ giữ nguyên trong cuộc trò chuyện này. Bấm lại để đổi. Bắt Đầu Tự Do không viết gì cả — bạn nói mình đang ở đâu, thung lũng sẽ đáp lời.

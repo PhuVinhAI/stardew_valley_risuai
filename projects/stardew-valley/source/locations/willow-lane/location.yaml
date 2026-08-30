@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: willow-lane
 name: Willow Lane
 content: content.md
-keywords: [willow lane, 1 willow lane, 2 willow lane, jodi's house, haley and emily's house, west side of town]
-secondaryKeywords: [sam's room, vincent's room, kent's letter, emily's sewing, haley's darkroom, postcards]
+keywords: [willow lane, 1 willow lane, 2 willow lane, jodi's house, haley and emily's house, west side of town, đường willow, nhà của jodi, nhà của haley và emily, phía tây thị trấn, hai căn nhà bên kia sông]
+secondaryKeywords: [sam's room, vincent's room, kent's letter, emily's sewing, haley's darkroom, postcards, phòng của sam, lá thư của kent, đồ may vá của emily, buồng tối của haley, bưu thiếp]
 insertionOrder: 200
 enabled: true
 assets: []

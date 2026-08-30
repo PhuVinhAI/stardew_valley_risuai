@@ -2,8 +2,8 @@ schema: risuai-event/v1
 id: stardew-valley-fair
 name: Stardew Valley Fair
 content: content.md
-keywords: [stardew valley fair, the fair, fall 16, grange display, star tokens, fortune teller]
-secondaryKeywords: [slingshot, wheel of chance, strength game, fishing tent, barbecue, blue ribbon, welwick, tourists]
+keywords: [stardew valley fair, the fair, fall 16, grange display, star tokens, fortune teller, hội chợ thung lũng, hội chợ, gian trưng bày, quầy trưng bày, xu ngôi sao, người xem tướng]
+secondaryKeywords: [slingshot, wheel of chance, strength game, fishing tent, barbecue, blue ribbon, welwick, tourists, súng cao su, vòng xoay may mắn, trò thử sức, lều câu cá, đồ nướng, ruy băng xanh, khách du lịch]
 insertionOrder: 300
 enabled: true
 conditions: [season:fall, day:16, place:pelican-town, hours:0900-1500]

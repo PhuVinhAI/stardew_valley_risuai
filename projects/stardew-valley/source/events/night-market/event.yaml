@@ -2,8 +2,8 @@ schema: risuai-event/v1
 id: night-market
 name: Night Market
 content: content.md
-keywords: [night market, winter 15, winter 16, winter 17, merchant fleet, submarine]
-secondaryKeywords: [mermaid show, lupini, painter, magic boat, free coffee, decoration boat, lanterns, three nights]
+keywords: [night market, winter 15, winter 16, winter 17, merchant fleet, submarine, chợ đêm, phiên chợ đêm, đội thuyền buôn, tàu ngầm, chợ trên bãi biển]
+secondaryKeywords: [mermaid show, lupini, painter, magic boat, free coffee, decoration boat, lanterns, three nights, màn diễn nàng tiên cá, họa sĩ, thuyền phép, cà phê miễn phí, đèn lồng, ba đêm]
 insertionOrder: 300
 enabled: true
 conditions: [season:winter, day:15-17, place:pelican-beach, hours:from-1700]

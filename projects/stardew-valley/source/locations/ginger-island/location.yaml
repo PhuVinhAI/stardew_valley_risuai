@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: ginger-island
 name: Ginger Island
 content: content.md
-keywords: [ginger island, the island, the boat, the resort, the volcano, tropical, south sea]
-secondaryKeywords: [parrots, golden walnuts, dig site, field office, pirate cove, jungle, shipwreck, leo]
+keywords: [ginger island, the island, the boat, the resort, the volcano, tropical, south sea, hòn đảo, đảo ginger, con thuyền, khu nghỉ dưỡng, núi lửa, nhiệt đới, biển nam]
+secondaryKeywords: [parrots, golden walnuts, dig site, field office, pirate cove, jungle, shipwreck, leo, chim vẹt, hạt óc chó vàng, khu khai quật, hang cướp biển, rừng nhiệt đới, tàu đắm]
 insertionOrder: 210
 enabled: true
 assets: []

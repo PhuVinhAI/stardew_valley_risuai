@@ -2,8 +2,8 @@ schema: risuai-event/v1
 id: flower-dance
 name: Flower Dance
 content: content.md
-keywords: [flower dance, spring 24, flower queen, dance partner, the clearing]
-secondaryKeywords: [floral arrangements, red jelly, dandelion salad, sweet wine, partners, forest clearing]
+keywords: [flower dance, spring 24, flower queen, dance partner, the clearing, lễ hội hoa, điệu nhảy hoa, vũ hội hoa, nữ hoàng hoa, bạn nhảy, khoảng rừng trống]
+secondaryKeywords: [floral arrangements, red jelly, dandelion salad, sweet wine, partners, forest clearing, cắm hoa, thạch đỏ, salad bồ công anh, rượu ngọt, bãi trống trong rừng]
 insertionOrder: 300
 enabled: true
 conditions: [season:spring, day:24, place:cindersap-forest, hours:0900-1400]

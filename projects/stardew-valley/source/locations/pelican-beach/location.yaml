@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: pelican-beach
 name: Pelican Beach
 content: content.md
-keywords: [pelican beach, the beach, the shore, the pier, the docks, tide pools, the sea]
-secondaryKeywords: [lonely stone, broken bridge, luau, moonlight jellies, night market, driftwood, seagulls]
+keywords: [pelican beach, the beach, the shore, the pier, the docks, tide pools, the sea, bãi biển, bờ biển, cầu tàu, bến tàu, ra biển, biển cả, vũng nước thủy triều]
+secondaryKeywords: [lonely stone, broken bridge, luau, moonlight jellies, night market, driftwood, seagulls, tảng đá cô độc, cây cầu vỡ, sứa ánh trăng, chợ đêm, gỗ trôi dạt, chim mòng biển]
 insertionOrder: 200
 enabled: true
 assets: []

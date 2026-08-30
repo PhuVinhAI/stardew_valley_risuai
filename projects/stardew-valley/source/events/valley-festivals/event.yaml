@@ -2,8 +2,8 @@ schema: risuai-event/v1
 id: valley-festivals
 name: Valley Festivals
 content: content.md
-keywords: [festival, festivals, the calendar, town event, holiday, celebration, seasonal event]
-secondaryKeywords: [notice board, mayor's notice, letter from the mayor, shops closed, whole town, gathering]
+keywords: [festival, festivals, the calendar, town event, holiday, celebration, seasonal event, lễ hội, các lễ hội, lịch, sự kiện trong thị trấn, ngày lễ, lễ kỷ niệm, sự kiện theo mùa]
+secondaryKeywords: [notice board, mayor's notice, letter from the mayor, shops closed, whole town, gathering, bảng thông báo, thông báo của thị trưởng, thư của thị trưởng, cửa hàng đóng cửa, cả thị trấn, tụ họp]
 insertionOrder: 290
 enabled: true
 conditions: [scope:overview, season:all]

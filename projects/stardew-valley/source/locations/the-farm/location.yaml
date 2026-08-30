@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: the-farm
 name: The Farm
 content: content.md
-keywords: [the farm, the old farm, the farmhouse, the fields, the greenhouse, the shipping bin, farmland]
-secondaryKeywords: [grandmother's shrine, farm cave, cellar, mailbox, coop, barn, well, scarecrow]
+keywords: [the farm, the old farm, the farmhouse, the fields, the greenhouse, the shipping bin, farmland, nông trại, nhà nông trại, nông trại cũ, cánh đồng, ruộng, nhà kính, thùng giao hàng, đất nông trại]
+secondaryKeywords: [grandmother's shrine, farm cave, cellar, mailbox, coop, barn, well, scarecrow, miếu thờ của bà, hang trong nông trại, tầng hầm, hòm thư, chuồng gà, chuồng bò, cái giếng, bù nhìn]
 insertionOrder: 200
 enabled: true
 assets: []

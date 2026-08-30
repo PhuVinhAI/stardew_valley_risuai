@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: river-road
 name: River Road
 content: content.md
-keywords: [river road, 1 river road, 2 river road, the trailer, george and evelyn's house, pam's trailer]
-secondaryKeywords: [alex's room, dusty, wheelchair ramp, clara's letter, beer bottles, penny's books, bus driver]
+keywords: [river road, 1 river road, 2 river road, the trailer, george and evelyn's house, pam's trailer, đường ven sông, con đường bờ sông, nhà di động, xe kéo của pam, căn nhà bên sông, nhà của evelyn]
+secondaryKeywords: [alex's room, dusty, wheelchair ramp, clara's letter, beer bottles, penny's books, bus driver, dốc xe lăn, lá thư của clara, vỏ chai bia, sách của penny, tài xế xe buýt]
 insertionOrder: 200
 enabled: true
 assets: []

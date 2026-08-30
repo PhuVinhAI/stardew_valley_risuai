@@ -28,6 +28,10 @@ lorebook:
   scanDepth: 50
   tokenBudget: 60000
   recursiveScanning: true
+  # Vietnamese keys are multi-syllable and diacritic-heavy, and RisuAI's
+  # word-boundary matcher does not fire on them reliably. Substring matching is
+  # what the reference cards use for the same reason.
+  fullWordMatching: false
   folders:
     - id: residents
       name: Residents
@@ -57,5 +61,10 @@ risuai:
   prebuiltAssetStyle: dynamic
 tokenCheck:
   encoding: o200k_base
-  warnAt: 100000
-  errorAt: 120000
+  # The compiled total counts every scenario body in both languages plus all 81
+  # lore entries, but a live session only carries the always-active entries and
+  # whatever the recent turns activated -- measured at roughly 10k-15k at the
+  # start of a chat. These thresholds guard against runaway growth, not against
+  # a context overflow that the lorebook's own 60000 budget already caps.
+  warnAt: 140000
+  errorAt: 170000

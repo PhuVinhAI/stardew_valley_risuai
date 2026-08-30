@@ -3,8 +3,8 @@ id: morris
 name: Morris
 content: content.md
 aliases: [Ms. Morris]
-keywords: [morris, jojamart, joja, store manager, membership]
-secondaryKeywords: [community development, coupons, corporate, warehouse, promotion]
+keywords: [morris, jojamart, joja, store manager, membership, quản lý cửa hàng, siêu thị joja, thẻ thành viên, đại diện công ty, cửa hàng joja]
+secondaryKeywords: [community development, coupons, corporate, warehouse, promotion, phát triển cộng đồng, phiếu giảm giá, tập đoàn, kho hàng, thăng chức]
 locations: [jojamart-and-cinema, pelican-town]
 insertionOrder: 100
 enabled: true

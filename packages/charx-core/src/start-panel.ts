@@ -286,9 +286,8 @@ function backgroundCss(): string {
   padding: 18px 20px 16px;
   border: 3px solid var(--sv-line);
   border-radius: 10px;
-  background: linear-gradient(180deg, #fffaf0, var(--sv-paper));
+  background: linear-gradient(180deg, #fffaf0, var(--sv-paper)) !important;
   box-shadow: 0 6px 0 rgb(120 84 44 / 22%), 0 14px 26px rgb(80 56 30 / 16%);
-  color: var(--sv-ink);
   font-size: 15px;
   line-height: 1.45;
   text-align: left;
@@ -298,14 +297,33 @@ function backgroundCss(): string {
 .${PANEL_CLASS} *::before,
 .${PANEL_CLASS} *::after { box-sizing: border-box; }
 
+/*
+ * The panel paints its own light paper background, so it cannot inherit text
+ * colour from the chat theme: a dark RisuAI theme styles \`h2\`, \`p\`, and
+ * \`button\` with its own selectors, those beat the container's \`color\`, and the
+ * heading and subtitle render white on cream. Every text node is repainted here
+ * with \`!important\` because the theme's rules are the more specific ones.
+ */
+.${PANEL_CLASS},
+.${PANEL_CLASS} h2,
+.${PANEL_CLASS} p,
+.${PANEL_CLASS} span,
+.${PANEL_CLASS} div,
+.${PANEL_CLASS} article,
+.${PANEL_CLASS} header,
+.${PANEL_CLASS} footer,
+.${PANEL_CLASS} button { color: var(--sv-ink) !important; }
+
 .${PANEL_CLASS}__header { display: flex; flex-direction: column; gap: 4px; }
 
 .${PANEL_CLASS}__eyebrow {
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.18em;
-  color: #9a6b34;
 }
+
+/* Doubled up so it outranks the \`.${PANEL_CLASS} span\` repaint above. */
+.${PANEL_CLASS} .${PANEL_CLASS}__eyebrow { color: #9a6b34 !important; }
 
 .${PANEL_CLASS}__title { margin: 0; font-size: 20px; font-weight: 700; }
 
@@ -324,13 +342,17 @@ function backgroundCss(): string {
 
 .${PANEL_CLASS}__controls { display: flex; flex-wrap: wrap; gap: 8px; }
 
+/*
+ * Buttons are the other element a chat theme reliably restyles, so the paper
+ * background is forced here too — a dark theme's button background would
+ * otherwise leave a dark pill with dark text on it.
+ */
 .${PANEL_CLASS}__control button,
 .${PANEL_CLASS}__card-action button {
   padding: 6px 14px;
   border: 2px solid var(--sv-line);
   border-radius: 999px;
-  background: #fffdf6;
-  color: var(--sv-ink);
+  background: #fffdf6 !important;
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
@@ -338,7 +360,7 @@ function backgroundCss(): string {
 
 .${PANEL_CLASS}__control.is-active button {
   border-color: #6f9c3d;
-  background: #dff0c2;
+  background: #dff0c2 !important;
   box-shadow: inset 0 0 0 1px #6f9c3d;
 }
 
@@ -373,12 +395,12 @@ function backgroundCss(): string {
   padding: 10px;
   border: 2px solid rgb(185 138 79 / 55%);
   border-radius: 8px;
-  background: #fffdf6;
+  background: #fffdf6 !important;
 }
 
 .${PANEL_CLASS}__card.is-active {
   border-color: #6f9c3d;
-  background: #f4fae8;
+  background: #f4fae8 !important;
   box-shadow: 0 0 0 2px rgb(111 156 61 / 35%);
 }
 
@@ -404,7 +426,7 @@ function backgroundCss(): string {
   padding: 1px 7px;
   border: 1px solid rgb(120 84 44 / 30%);
   border-radius: 999px;
-  background: #f6ecd8;
+  background: #f6ecd8 !important;
   font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.02em;
@@ -425,13 +447,18 @@ function backgroundCss(): string {
   margin: 0 0 10px;
 }
 
+/*
+ * Scene chips render inside the message body rather than inside the panel, so
+ * they get the same forced colours for the same reason — a dark chat theme
+ * would otherwise put its own light text on their cream background.
+ */
 .sv-scene-tags__tag {
   max-width: 100%;
   padding: 2px 10px;
   border: 1px solid rgb(120 84 44 / 35%);
   border-radius: 999px;
-  background: rgb(246 236 216 / 85%);
-  color: #6b4a24;
+  background: rgb(246 236 216 / 85%) !important;
+  color: #6b4a24 !important;
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 0.04em;
@@ -440,8 +467,8 @@ function backgroundCss(): string {
 
 .sv-scene-tags__tag.is-lead {
   border-color: #6f9c3d;
-  background: #e7f3d2;
-  color: #3f5c1e;
+  background: #e7f3d2 !important;
+  color: #3f5c1e !important;
   text-transform: uppercase;
 }
 
@@ -464,9 +491,16 @@ export function compileStartPanel(ir: StartPanelIR): StartPanelArtifacts {
       throw new Error(`Scenario '${scenario.id}' references unknown group '${scenario.group}'`);
     requireLocalized(`scenario '${scenario.id}' titles`, languages, scenario.titles);
     requireLocalized(`scenario '${scenario.id}' summaries`, languages, scenario.summaries);
-    requireLocalized(`scenario '${scenario.id}' bodies`, languages, scenario.bodyText);
+    // A scenario with no bodies at all opens on its scene header alone; one that
+    // ships prose for a single language would silently open blank in the other.
+    if (Object.keys(scenario.bodyText).length)
+      requireLocalized(`scenario '${scenario.id}' bodies`, languages, scenario.bodyText);
     for (const language of languages) {
       const tags = scenario.tags?.[language] ?? [];
+      if (!tags.length && !scenario.bodyText[language])
+        throw new Error(
+          `Scenario '${scenario.id}' has no '${language}' body, so it needs '${language}' tags`,
+        );
       if (tags.length > SCENE_LINE_SLOTS)
         throw new Error(
           `Scenario '${scenario.id}' has ${tags.length} '${language}' tags; the scene header renders at most ${SCENE_LINE_SLOTS}`,

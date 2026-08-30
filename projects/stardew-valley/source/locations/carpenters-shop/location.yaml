@@ -2,8 +2,8 @@ schema: risuai-location/v1
 id: carpenters-shop
 name: Carpenter's Shop
 content: content.md
-keywords: [carpenter's shop, robin's shop, the mountain house, science house, building materials, blueprints]
-secondaryKeywords: [demetrius's lab, maru's room, sebastian's basement, wood box, telescope, wallpaper, extension]
+keywords: [carpenter's shop, robin's shop, the mountain house, science house, building materials, blueprints, tiệm thợ mộc, xưởng gỗ, tiệm của robin, căn nhà trên núi, vật liệu xây dựng, bản thiết kế]
+secondaryKeywords: [demetrius's lab, maru's room, sebastian's basement, wood box, telescope, wallpaper, extension, phòng thí nghiệm, thùng gỗ, kính viễn vọng, giấy dán tường, nâng cấp nhà]
 insertionOrder: 200
 enabled: true
 assets: []

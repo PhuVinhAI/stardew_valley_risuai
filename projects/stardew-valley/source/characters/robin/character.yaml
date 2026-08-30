@@ -4,8 +4,8 @@ name: Robin
 content: content.md
 aliases: []
 relationships: [robin-demetrius-sebastian]
-keywords: [robin, carpenter, carpenter's shop, sebastian's mother, maru's mother]
-secondaryKeywords: [woodworking, hardwood, house upgrade, mountain house, ice sculpting]
+keywords: [robin, carpenter, carpenter's shop, sebastian's mother, maru's mother, thợ mộc, tiệm thợ mộc, xưởng gỗ, mẹ của sebastian, mẹ sebastian, mẹ của maru]
+secondaryKeywords: [woodworking, hardwood, house upgrade, mountain house, ice sculpting, làm đồ gỗ, gỗ cứng, nâng cấp nhà, nhà trên núi, điêu khắc băng]
 locations: [carpenters-shop, the-mountain]
 insertionOrder: 100
 enabled: true

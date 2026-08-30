@@ -4,8 +4,8 @@ name: Caroline
 content: content.md
 aliases: []
 relationships: [caroline-and-wizard]
-keywords: [caroline, pierre's wife, abigail's mother, sunroom, aerobics club]
-secondaryKeywords: [green tea, tea sapling, public gardens, back garden, holiday shopping]
+keywords: [caroline, pierre's wife, abigail's mother, sunroom, aerobics club, vợ của pierre, vợ pierre, mẹ của abigail, mẹ abigail, phòng kính, câu lạc bộ thể dục nhịp điệu, lớp thể dục]
+secondaryKeywords: [green tea, tea sapling, public gardens, back garden, holiday shopping, trà xanh, cây trà, vườn công cộng, vườn sau nhà, mua sắm ngày lễ]
 locations: [pierres-general-store, pelican-town]
 insertionOrder: 100
 enabled: true

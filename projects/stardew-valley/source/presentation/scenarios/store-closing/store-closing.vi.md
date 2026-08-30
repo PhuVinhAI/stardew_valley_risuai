@@ -1,55 +1,55 @@
-Người khách cuối đã đi, mưa làm quảng trường ngoài kia tối lại, và một nửa số đèn đã được hạ bớt.
+Người khách cuối cùng ra khỏi cửa hai mươi phút trước, và cửa hàng đã lặng đi theo cái kiểu chỉ có vào lúc cuối ngày: tủ mát rì rì một mình sát vách sau, mưa vẫn lách tách trên quảng trường ngoài kia, và trùm lên tất cả là cái mùi quen thuộc của nơi này khi cửa đã đóng một lúc — mùi cuống hoa cắt trong xô, mùi giấy gói nâu, mùi xà phòng lau sàn, mùi hạt giống khô lẫn bụi từ mấy bao cạnh cửa sổ, và một sọt dâu đầu vụ ở góc nhà đang ngọt dần lên theo hơi ấm. Bà Pierre đã lôi khay tiền ra để trên quầy, tiền thu cả ngày xếp thành bốn tháp nhỏ, và bà đang đếm lần thứ hai vì lần đầu thiếu bốn đồng so với con số phải có, mà bà thì không định đi ngủ với chuyện đó.
+
+Bà Caroline từ phía sau đi ra, xô hoa tì vào hông, đặt nó xuống đúng chỗ nó vẫn ở qua đêm, và trong một khoảnh khắc cửa hàng thoảng mùi xanh hơn một chút.
+
+"Bà đếm chỗ đó hai lần rồi."
 
 {{image::pierre.default.unimpressed.webp}}
 
-Pierre đóng quyển sổ sách đúng lúc Caroline đi vào từ cửa sau với ba chậu cây giống trà. Bà gõ lên bìa sổ.
+"Tôi đếm hai lần vì hai lần đều thiếu bốn đồng."
 
-"Mấy thứ đó không có trong đơn hàng."
+"Sáng nay bà cho bà Linus một túi cà rốt mà không bấm máy."
 
-Caroline đặt mấy chậu cây cạnh máy tính tiền.
+Bàn tay bà Pierre dừng lại, úp lên đỉnh cái tháp giữa. Trên tầng, sàn nhà kêu hai tiếng, cái kiểu chậm và có chủ ý nghĩa là Abigail đã nghe hết từng chữ và đang xuống để có mặt trong phần còn lại. Rồi cái chuông trên cửa trước kêu, và bà Pierre không nhìn lên. Câu nói đóng cửa đã nằm sẵn trong miệng bà trước cả khi bà kịp thấy hình người ở ngưỡng cửa, và nó tuôn ra như chạy trên đường ray, bằng cái giọng đều đều lên xuống của một người đã nói câu đó bốn nghìn lần.
 
-"Chúng có trong đơn của tôi."
+"Đóng cửa rồi, bảng đã lật, chín giờ sáng mai mở — trừ khi là trứng, thì đi ra cửa sau gõ, và đừng nói với ai là tôi đã nói thế."
 
-"Nhà này có một đơn hàng. Đơn của cửa hàng."
+"Pierre," bà Caroline gọi.
 
-"Vậy thì thỉnh thoảng nó nên có thứ gì tôi xin."
+{{image::pierre.default.affable.webp}}
 
-Trên tầng, Abigail kéo một cái ghế qua sàn rồi gọi xuống,
+Rồi bà Pierre nhìn lên, và đằng sau cặp kính có cái gì đó xếp lại hoàn toàn, bởi bà đứng quầy này hơn hai mươi năm và bà biết từng khuôn mặt bước qua cánh cửa đó. Bà biết ai mua gì, ai còn nợ gì, và ai sẽ đứng lật mấy gói hạt giống mười lăm phút rồi đi ra tay không. Người này không thuộc số đó. Mặt mới, áo khoác ướt, đi bộ từ đâu tới — nghĩa là chưa có trong sổ. Bà đẩy gọng kính lên bằng hai ngón tay, và cả người phía trước bà sáng lên như một ngọn đèn vừa bật.
 
-"Hai người tranh luận chỗ khác được không? David cuối cùng cũng ngủ rồi."
+"Ồ nào. Vào đi, vào hẳn trong đi — sàn mới lau, nhưng sàn thì vẫn là sàn. Cô cậu là người mới. Tôi phải biết chứ, vì tôi biết hết những ai bước qua cửa đó, mà cả đời tôi chưa bán cho cô cậu thứ gì."
 
-Pierre xoay chìa nửa vòng trong ổ khoá cửa trước. Caroline phủi đất khỏi tay. Tiếng bước chân của Abigail dừng lại trên đầu họ.
+"Hạt giống, dụng cụ, đồ câu, phân bón, bột, đường, nông sản tốt nhất thung lũng và không một sọt nào chở từ nơi khác về," bà nói tiếp, quét một tay qua cả gian hàng vốn đã tối một nửa, hào phóng như người đang giới thiệu một cơ sở lớn hơn thế nhiều, "mà tôi thì cho người trong vùng mở sổ, nghĩa là cuối tháng cô cậu thanh toán với tôi và cả hai vẫn vui vẻ. Mở luôn cho cô cậu một sổ nhé? Chỉ mất một phút."
 
-Cái chuông trên cửa trước kêu một tiếng nhỏ, do dự, khi {{user}} bước tới ngưỡng cửa.
+{{image::caroline.default.pleasant.webp}}
 
-"Đóng cửa rồi," Pierre nói theo phản xạ — rồi thấy cái bưu kiện nằm trên bậc thềm. "Trừ khi đó là hàng gửi."
+Bà Caroline đặt một tay lên quầy, không hẳn là chồng lên tay vợ mình, rồi nói vọng qua bà ấy với người khách lạ bằng cái giọng người ta dùng để xin lỗi hộ một con chó vừa nhảy lên người khách.
 
-Không ai mang nó vào. Quảng trường phía sau {{user}} trống trơn.
+"Bà ấy sẽ ký cho cô cậu một cái sổ tháng trước khi cô cậu kịp cởi áo khoác. Bỏ qua cái sổ đi. Người cô cậu khô chưa? Tối nay có chỗ nào cô cậu phải tới không, hay là vẫn đang tính phần đó?"
 
-Giấy nâu, dây buộc màu xanh. Trên mặt viết *Gửi gia đình ở tầng trên cửa hàng.* Không ghi tên người gửi. Một góc bị ẩm, và từ bên trong vang ra tiếng cào rất nhẹ.
+"Mở sổ không phải cái bẫy, đó là phép lịch sự," bà Pierre nói với lên trần nhà.
 
-{{image::abigail.default.startled.webp}}
+"Là cả hai, bà ạ."
 
-Abigail đã xuống tới tầng dưới trước khi kịp có bà mẹ nào ngăn được.
+Tiếng bước trên thang dứt. Abigail xuống ba bậc cuối rồi đứng lại đó, một tay khoác quanh trụ cầu thang, chẳng gấp gáp gì chuyện xuống hẳn. Cô đã ngán từ khoảng bốn giờ chiều, cô đã nghe bài mở sổ và bài bỏ qua cái sổ nhiều lần hơn cả hai bà mẹ có thể tin, và cô đang nhìn {{user}} với sự tò mò thẳng thắn của một người vừa tìm ra thứ mới duy nhất trong cả cửa hàng.
 
-"Không được để cái đó trong kho."
+{{image::abigail.default.teasing.webp}}
 
-"Mẹ không có định," Pierre nói, mắt đã nhìn về phía kho.
+"Không ai tới bằng chuyến xe cuối, vì chẳng có chuyến xe cuối nào. Vậy là cô cậu đi bộ, trong cái mưa đó, trong đêm. Cô cậu vào theo đường nào — xuống ngang chân núi, ngược lên đường rừng, hay qua khúc cạnh cái trung tâm cộng đồng cũ, chỗ đèn tắt ngóm mấy năm nay?"
 
-{{image::caroline.default.downcast.webp}}
+"Abigail," bà Caroline nói, bằng giọng của người đã biết chuyện này sẽ đi tới đâu và đã quyết cứ để cho nó đi.
 
-Caroline quỳ xuống mà không chạm vào giấy. Vẻ mặt bà thay đổi khi thấy một chiếc lá trà ép nhỏ nhét dưới nút dây.
+"Là câu hỏi bình thường mà. Đó là câu hỏi thú vị duy nhất có ai đặt ra trong cửa hàng này cả ngày hôm nay, mà con thì muốn biết dọc đường cô ấy đã thấy gì."
 
-"Tôi biết cây này. Nó không mọc ở đâu quanh thị trấn cả."
+{{image::caroline.default.bashful.webp}}
 
-Tiếng cào ngừng.
+Bà Caroline bật cười, một tay đưa lên che miệng, bỏ mặc cả hai người kia, rồi quay hẳn về phía người khách — và đúng lúc đó bà thấy nước từ áo khoác nhỏ xuống cái sàn vừa lau của mình, rồi quyết định, rõ ràng là quyết định, không nói một chữ nào về chuyện ấy.
 
-Pierre hạ giọng.
+"Cô cậu ở lại uống trà. Đây không phải chào hàng, không ai bán trà cho cô cậu, trà tôi tự trồng ngoài sau. Pierre, cất tiền đi."
 
-"Cô cậu mang cái này tới à?"
+Bà Pierre nhìn xuống bốn cái tháp nhỏ, rồi nhìn người lạ đang đứng trong cửa hàng mình sau giờ đóng cửa, và làm cái phép tính bà không thể không làm — một mặt mới là một cái sổ mới, một cái sổ là một hộ gia đình, một hộ gia đình là tiền hàng mỗi tuần trong nhiều năm. Bà dùng mé bàn tay gạt hết đồng xu vào khay, lấy hông đẩy khay đóng lại cho mặt quầy trống trải và mở ra giữa hai bên, và giờ bà đang cười để lộ hết cả hàm răng, theo một cách ít nhất là ba phần tư thật lòng.
 
-Abigail nhìn thẳng vào {{user}}, tò mò hơn là buộc tội.
-
-"Hay là nó tới cùng lúc với cô cậu? Hai câu đó khác nhau đấy."
-
-Sau lưng họ, một trong mấy cây giống mới của Caroline nghiêng về phía cái bưu kiện, dù bên đó của quầy không có nguồn sáng nào.
+"Trà thì trà. Nhưng trước khi vợ tôi kéo cô cậu lên tầng rồi bắt đầu hỏi mấy bà mẹ cô cậu làm nghề gì — thật ra cô cậu bước vào đây vì việc gì? Vì cái bảng ghi là đóng cửa mà cô cậu vẫn vào, và trong nhà này thì như thế nghĩa là có người đang cần gì đó."
