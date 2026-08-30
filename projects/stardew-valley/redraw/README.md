@@ -116,6 +116,10 @@ Three tools, all read-only except the first:
   tag-file comments and confirms it appears verbatim in that character's
   `content.md` (or in this README, for rules quoted from here). It must report `0`.
   This is what catches a tag block justified by a sentence nobody wrote.
+- `bun tools/redraw-review.ts` writes `REVIEW.md` (git-ignored): each character's
+  visual prose followed by her tag file, so both can be read in one pass. Use it
+  for judgement calls a checker cannot make — whether a tag is the right reading
+  of an ambiguous sentence.
 
 The futanari split is fixed and worth double-checking against
 `source/lore/cast-registry/content.md`: 19 of the 32 have a penis, 13 do not.

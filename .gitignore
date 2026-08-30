@@ -11,5 +11,6 @@ projects/**/.research/
 *.tmp
 *.log
 
-# Build product of tools/redraw-prompts.ts; the tag YAML is the source.
+# Build products of the redraw tooling; the tag YAML is the source.
 projects/**/redraw/prompts.jsonl
+projects/**/redraw/REVIEW.md

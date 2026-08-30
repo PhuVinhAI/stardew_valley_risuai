@@ -80,8 +80,9 @@ outfits:
     - navel
     - bare legs
 
-  # "The winter version is identical and no warmer." Same tags as `swimsuit` by
-  # the prose's own statement; roll a different seed for the variant.
+  # "The winter version is identical and no warmer." The prose states these two
+  # outfits are the same, so the blocks are identical on purpose; the two
+  # portraits differ only by seed.
   winter:
     - pasties
     - heart pasties
