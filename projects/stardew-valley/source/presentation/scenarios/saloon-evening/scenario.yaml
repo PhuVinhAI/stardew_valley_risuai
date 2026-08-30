@@ -1,0 +1,17 @@
+schema: risuai-scenario/v1
+id: saloon-evening
+group: ensemble
+order: 60
+preview: portrait-gus-default-expression-00
+titles:
+  en: The Circle on the Pool Table
+  vi: Vòng Tròn Trên Bàn Bi-a
+summaries:
+  en: Five women, one argument, and pool balls that arrange themselves
+  vi: Năm người phụ nữ, một cuộc tranh luận, và những viên bi-a tự xếp thành hình
+tags:
+  en: [Evening, Stardrop Saloon, Group scene, Gus · Emily · Pam · Shane · Clint]
+  vi: [Buổi tối, Stardrop Saloon, Cảnh nhiều người, Gus · Emily · Pam · Shane · Clint]
+bodies:
+  en: saloon-evening.en.md
+  vi: saloon-evening.vi.md

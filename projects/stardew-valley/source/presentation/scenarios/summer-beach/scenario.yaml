@@ -1,0 +1,17 @@
+schema: risuai-scenario/v1
+id: summer-beach
+group: seasons
+order: 30
+preview: portrait-haley-beach-expression-00
+titles:
+  en: What the Tide Brought
+  vi: Thứ Thủy Triều Mang Tới
+summaries:
+  en: A sealed case in the shallows, shell-marked and heavy with seawater
+  vi: Một hòm gỗ niêm kín dạt vào mép nước, khảm vỏ sò và nặng nước biển
+tags:
+  en: [Summer, Midday, Pelican Beach, Haley · Emily]
+  vi: [Hè, Giữa trưa, Bãi biển Pelican, Haley · Emily]
+bodies:
+  en: summer-beach.en.md
+  vi: summer-beach.vi.md

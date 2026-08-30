@@ -1,0 +1,17 @@
+schema: risuai-scenario/v1
+id: spring-square
+group: seasons
+order: 20
+preview: portrait-evelyn-default-expression-00
+titles:
+  en: A Note on the Square
+  vi: Mảnh Giấy Ở Quảng Trường
+summaries:
+  en: Violet paper, three standing stones, and an invitation nobody admits to writing
+  vi: Giấy màu tím, ba tảng đá đứng, và một lời hẹn không ai nhận là mình viết
+tags:
+  en: [Spring, After rain, Town square, Evelyn · Caroline]
+  vi: [Xuân, Sau mưa, Quảng trường thị trấn, Evelyn · Caroline]
+bodies:
+  en: spring-square.en.md
+  vi: spring-square.vi.md

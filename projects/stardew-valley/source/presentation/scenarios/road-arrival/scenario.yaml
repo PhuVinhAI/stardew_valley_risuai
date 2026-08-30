@@ -1,0 +1,17 @@
+schema: risuai-scenario/v1
+id: road-arrival
+group: arrival
+order: 10
+preview: portrait-robin-default-expression-00
+titles:
+  en: The Road Into Town
+  vi: Con Đường Vào Thị Trấn
+summaries:
+  en: A broken crate, three arguing women, and a sealed envelope in the mud
+  vi: Một thùng gỗ vỡ, ba người phụ nữ đang tranh luận, và một phong bì niêm phong trong bùn
+tags:
+  en: [Spring, Late afternoon, Road to Pelican Town, Robin · Lewis · Marnie]
+  vi: [Xuân, Chiều muộn, Đường vào Pelican Town, Robin · Lewis · Marnie]
+bodies:
+  en: road-arrival.en.md
+  vi: road-arrival.vi.md

@@ -1,4 +1,5 @@
 import type { ProjectConfig } from "@charx/project-schema";
+import type { StartPanelIR } from "./start-panel.ts";
 
 export interface ProjectContext {
   workspaceRoot: string;
@@ -68,6 +69,7 @@ export interface WorldIR {
   >;
   alternateGreetings: string[];
   groupOnlyGreetings: string[];
+  startPanel: StartPanelIR;
   lorebook: { scanDepth: number; tokenBudget: number; recursiveScanning: boolean };
   module: { name: string; description: string; id: string };
   risuai: {
@@ -77,6 +79,7 @@ export interface WorldIR {
     prebuiltAssetExclude: string[];
     prebuiltAssetStyle: string;
     toggles: Record<string, unknown>;
+    backgroundHTML: string;
   };
   tokenCheck: {
     encoding: "o200k_base" | "cl100k_base" | "p50k_base" | "r50k_base";

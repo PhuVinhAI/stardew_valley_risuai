@@ -1,0 +1,465 @@
+import type { ScenarioSource, StartPanel } from "@charx/project-schema";
+
+export interface StartPanelScenario extends ScenarioSource {
+  bodyText: Record<string, string>;
+  previewName: string;
+}
+
+export interface StartPanelIR {
+  panel: StartPanel;
+  scenarios: StartPanelScenario[];
+}
+
+export interface StartPanelArtifacts {
+  firstMessage: string;
+  regex: Record<string, unknown>[];
+  triggers: Record<string, unknown>[];
+  defaultVariables: string;
+  backgroundHtml: string;
+}
+
+const PANEL_CLASS = "sv-start-panel";
+
+function scenarioButtonPayload(scenarioId: string): string {
+  return `sv_scene_${scenarioId.replace(/-/g, "_")}`;
+}
+
+function languageButtonPayload(languageId: string): string {
+  return `sv_lang_${languageId.replace(/-/g, "_")}`;
+}
+
+function groupButtonPayload(groupId: string): string {
+  return `sv_group_${groupId.replace(/-/g, "_")}`;
+}
+
+/**
+ * Renders one localized string as nested CBS `#when` blocks so the runtime picks
+ * the active language without needing a separate message per language.
+ */
+function localized(variable: string, languages: string[], texts: Record<string, string>): string {
+  const fallback = texts[languages[languages.length - 1] ?? ""] ?? "";
+  return languages
+    .slice(0, -1)
+    .reduceRight(
+      (rest, id) =>
+        `{{#when::{{getvar::${variable}}}::is::${id}}}${texts[id] ?? fallback}{{:else}}${rest}{{/when}}`,
+      fallback,
+    );
+}
+
+function requireLocalized(
+  label: string,
+  languages: string[],
+  texts: Record<string, string>,
+): Record<string, string> {
+  for (const id of languages)
+    if (!texts[id]?.trim()) throw new Error(`${label} is missing text for language '${id}'`);
+  return texts;
+}
+
+function escapeRegex(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+/**
+ * Cards are emitted on a single line: a collapsed `{{#when}}` block would leave a
+ * blank line, that blank line ends the Markdown raw-HTML block, and the indented
+ * markup after it would render as an empty code block instead of a card grid.
+ */
+function scenarioCard(ir: StartPanelIR, scenario: StartPanelScenario, languages: string[]): string {
+  const variables = ir.panel.variables;
+  const title = localized(variables.language, languages, scenario.titles);
+  const summary = localized(variables.language, languages, scenario.summaries);
+  const choose = localized(variables.language, languages, ir.panel.ui.choosePrefix ?? {});
+  const image = scenario.previewName
+    ? `<span class="${PANEL_CLASS}__card-image" style="background-image:url('{{raw::${scenario.previewName}}}')"></span>`
+    : "";
+  const chips = languages
+    .map((language) => {
+      const tags = scenario.tags?.[language] ?? [];
+      if (!tags.length) return "";
+      const strip = tags.map((tag) => `<span class="${PANEL_CLASS}__chip">${tag}</span>`).join("");
+      return `{{#when::{{getvar::${variables.language}}}::is::${language}}}${strip}{{/when}}`;
+    })
+    .join("");
+  return [
+    `<article class="${PANEL_CLASS}__card{{#when::{{getvar::${variables.scene}}}::is::${scenario.id}}} is-active{{/when}}">`,
+    image,
+    `<span class="${PANEL_CLASS}__card-title">${title}</span>`,
+    chips ? `<span class="${PANEL_CLASS}__card-chips">${chips}</span>` : "",
+    `<span class="${PANEL_CLASS}__card-summary">${summary}</span>`,
+    `<span class="${PANEL_CLASS}__card-action">{{button::${choose}::${scenarioButtonPayload(scenario.id)}}}</span>`,
+    "</article>",
+  ].join("");
+}
+
+/**
+ * Group grids stay in the DOM and are toggled by an `is-visible` class instead of
+ * a block-level `{{#when}}`, so switching groups never rewrites the surrounding
+ * Markdown structure.
+ */
+function panelHtml(ir: StartPanelIR): string {
+  const languages = ir.panel.languages.map((language) => language.id);
+  const variables = ir.panel.variables;
+  const ui = ir.panel.ui;
+  for (const [key, texts] of Object.entries(ui)) requireLocalized(`start panel ui.${key}`, languages, texts);
+  const text = (key: string): string => localized(variables.language, languages, ui[key] ?? {});
+  const languageRow = ir.panel.languages
+    .map(
+      (language) =>
+        `<span class="${PANEL_CLASS}__control{{#when::{{getvar::${variables.language}}}::is::${language.id}}} is-active{{/when}}">{{button::${language.label}::${languageButtonPayload(language.id)}}}</span>`,
+    )
+    .join("");
+  const groupRow = ir.panel.groups
+    .map((group) => {
+      const label = localized(variables.language, languages, group.labels);
+      return `<span class="${PANEL_CLASS}__control{{#when::{{getvar::${variables.group}}}::is::${group.id}}} is-active{{/when}}">{{button::${label}::${groupButtonPayload(group.id)}}}</span>`;
+    })
+    .join("");
+  const groupSections = ir.panel.groups
+    .map((group) => {
+      const scenarios = ir.scenarios.filter((scenario) => scenario.group === group.id);
+      if (!scenarios.length) return "";
+      const cards = scenarios.map((scenario) => scenarioCard(ir, scenario, languages)).join("");
+      return `<div class="${PANEL_CLASS}__cards{{#when::{{getvar::${variables.group}}}::is::${group.id}}} is-visible{{/when}}">${cards}</div>`;
+    })
+    .filter(Boolean)
+    .join("");
+  return [
+    `<section class="${PANEL_CLASS}">`,
+    `<header class="${PANEL_CLASS}__header">`,
+    `<span class="${PANEL_CLASS}__eyebrow">${text("eyebrow")}</span>`,
+    `<h2 class="${PANEL_CLASS}__title">${text("title")}</h2>`,
+    `<p class="${PANEL_CLASS}__subtitle">${text("subtitle")}</p>`,
+    "</header>",
+    `<div class="${PANEL_CLASS}__row">`,
+    `<span class="${PANEL_CLASS}__row-label">${text("languageLabel")}</span>`,
+    `<div class="${PANEL_CLASS}__controls">${languageRow}</div>`,
+    "</div>",
+    `<div class="${PANEL_CLASS}__row">`,
+    `<span class="${PANEL_CLASS}__row-label">${text("groupStep")}</span>`,
+    `<div class="${PANEL_CLASS}__controls">${groupRow}</div>`,
+    "</div>",
+    `<div class="${PANEL_CLASS}__step">${text("sceneStep")}</div>`,
+    groupSections,
+    `<footer class="${PANEL_CLASS}__footer">${text("footer")}</footer>`,
+    "</section>",
+  ].join("");
+}
+
+/** Scene tag strip shown above the opening prose, kept on one line for Markdown. */
+function sceneTags(tags: string[]): string {
+  if (!tags.length) return "";
+  const chips = tags
+    .map((tag, index) => `<span class="sv-scene-tags__tag${index === 0 ? " is-lead" : ""}">${tag}</span>`)
+    .join("");
+  return `<div class="sv-scene-tags">${chips}</div>`;
+}
+
+function firstMessage(ir: StartPanelIR): string {
+  const languages = ir.panel.languages.map((language) => language.id);
+  const variables = ir.panel.variables;
+  const localizedBody = (scenario: StartPanelScenario, language: string): string =>
+    [sceneTags(scenario.tags?.[language] ?? []), scenario.bodyText[language] ?? ""]
+      .filter(Boolean)
+      .join("\n\n");
+  const blocks = ir.scenarios.map((scenario) => {
+    const body = languages
+      .slice(0, -1)
+      .reduceRight(
+        (rest, id) =>
+          `{{#when::{{getvar::${variables.language}}}::is::${id}}}\n${localizedBody(scenario, id)}\n{{:else}}\n${rest}\n{{/when}}`,
+        localizedBody(scenario, languages[languages.length - 1] ?? ""),
+      );
+    return `{{#when::{{getvar::${variables.scene}}}::is::${scenario.id}}}\n${body}\n{{/when}}`;
+  });
+  return [ir.panel.sentinel, "", ...blocks].join("\n");
+}
+
+function lua(ir: StartPanelIR): string {
+  const variables = ir.panel.variables;
+  const lines: string[] = [
+    "-- Generated by charx-core. Binds start-panel buttons to chat variables.",
+    "local function set_var(triggerId, key, value)",
+    "    setChatVar(triggerId, key, tostring(value))",
+    "end",
+    "",
+    "local function read_var(triggerId, key)",
+    "    local value = getChatVar(triggerId, key)",
+    '    if value == nil or value == "null" then return "" end',
+    "    return tostring(value)",
+    "end",
+    "",
+    "local function ensure_defaults(triggerId)",
+    `    if read_var(triggerId, "${variables.language}") == "" then`,
+    `        set_var(triggerId, "${variables.language}", "${ir.panel.defaultLanguage}")`,
+    "    end",
+    `    if read_var(triggerId, "${variables.group}") == "" then`,
+    `        set_var(triggerId, "${variables.group}", "${ir.scenarios.find((scenario) => scenario.id === ir.panel.defaultScenario)?.group ?? ir.panel.groups[0]?.id ?? ""}")`,
+    "    end",
+    `    if read_var(triggerId, "${variables.scene}") == "" then`,
+    `        set_var(triggerId, "${variables.scene}", "${ir.panel.defaultScenario}")`,
+    "    end",
+    "end",
+    "",
+    "function onStart(triggerId)",
+    "    ensure_defaults(triggerId)",
+    "    return true",
+    "end",
+    "",
+  ];
+  for (const language of ir.panel.languages) {
+    lines.push(
+      `function ${languageButtonPayload(language.id)}(triggerId)`,
+      "    ensure_defaults(triggerId)",
+      `    set_var(triggerId, "${variables.language}", "${language.id}")`,
+      "    reloadDisplay(triggerId)",
+      "end",
+      "",
+    );
+  }
+  for (const group of ir.panel.groups) {
+    lines.push(
+      `function ${groupButtonPayload(group.id)}(triggerId)`,
+      "    ensure_defaults(triggerId)",
+      `    set_var(triggerId, "${variables.group}", "${group.id}")`,
+      "    reloadDisplay(triggerId)",
+      "end",
+      "",
+    );
+  }
+  for (const scenario of ir.scenarios) {
+    lines.push(
+      `function ${scenarioButtonPayload(scenario.id)}(triggerId)`,
+      "    ensure_defaults(triggerId)",
+      `    set_var(triggerId, "${variables.group}", "${scenario.group}")`,
+      `    set_var(triggerId, "${variables.scene}", "${scenario.id}")`,
+      "    reloadDisplay(triggerId)",
+      "end",
+      "",
+    );
+  }
+  return lines.join("\n");
+}
+
+function backgroundCss(): string {
+  return `<style>
+.${PANEL_CLASS} {
+  --sv-ink: #3f2d1c;
+  --sv-line: #b98a4f;
+  --sv-paper: #fdf4e0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-sizing: border-box;
+  width: min(100%, 860px);
+  margin: 12px auto;
+  padding: 18px 20px 16px;
+  border: 3px solid var(--sv-line);
+  border-radius: 10px;
+  background: linear-gradient(180deg, #fffaf0, var(--sv-paper));
+  box-shadow: 0 6px 0 rgb(120 84 44 / 22%), 0 14px 26px rgb(80 56 30 / 16%);
+  color: var(--sv-ink);
+  font-size: 15px;
+  line-height: 1.45;
+  text-align: left;
+}
+
+.${PANEL_CLASS} *,
+.${PANEL_CLASS} *::before,
+.${PANEL_CLASS} *::after { box-sizing: border-box; }
+
+.${PANEL_CLASS}__header { display: flex; flex-direction: column; gap: 4px; }
+
+.${PANEL_CLASS}__eyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: #9a6b34;
+}
+
+.${PANEL_CLASS}__title { margin: 0; font-size: 20px; font-weight: 700; }
+
+.${PANEL_CLASS}__subtitle { margin: 0; font-size: 13px; opacity: 0.75; }
+
+.${PANEL_CLASS}__row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+
+.${PANEL_CLASS}__row-label {
+  min-width: 118px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.${PANEL_CLASS}__controls { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.${PANEL_CLASS}__control button,
+.${PANEL_CLASS}__card-action button {
+  padding: 6px 14px;
+  border: 2px solid var(--sv-line);
+  border-radius: 999px;
+  background: #fffdf6;
+  color: var(--sv-ink);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.${PANEL_CLASS}__control.is-active button {
+  border-color: #6f9c3d;
+  background: #dff0c2;
+  box-shadow: inset 0 0 0 1px #6f9c3d;
+}
+
+.${PANEL_CLASS}__step {
+  padding-top: 4px;
+  border-top: 1px dashed var(--sv-line);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.${PANEL_CLASS}__cards {
+  display: none;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+}
+
+.${PANEL_CLASS}__cards.is-visible { display: grid; }
+
+.${PANEL_CLASS}__card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  border: 2px solid rgb(185 138 79 / 55%);
+  border-radius: 8px;
+  background: #fffdf6;
+}
+
+.${PANEL_CLASS}__card.is-active {
+  border-color: #6f9c3d;
+  background: #f4fae8;
+  box-shadow: 0 0 0 2px rgb(111 156 61 / 35%);
+}
+
+.${PANEL_CLASS}__card-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 1px solid rgb(120 84 44 / 35%);
+  border-radius: 6px;
+  background-color: #efe2c8;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: pixelated;
+}
+
+.${PANEL_CLASS}__card-title { font-size: 14px; font-weight: 700; }
+
+.${PANEL_CLASS}__card-chips { display: flex; flex-wrap: wrap; gap: 4px; }
+
+.${PANEL_CLASS}__chip {
+  padding: 1px 7px;
+  border: 1px solid rgb(120 84 44 / 30%);
+  border-radius: 999px;
+  background: #f6ecd8;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.${PANEL_CLASS}__card-summary { font-size: 12px; line-height: 1.4; opacity: 0.78; }
+
+.${PANEL_CLASS}__card-action { margin-top: auto; }
+
+.${PANEL_CLASS}__footer { font-size: 11px; opacity: 0.6; }
+
+.sv-scene-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  margin: 0 0 10px;
+}
+
+.sv-scene-tags__tag {
+  padding: 2px 10px;
+  border: 1px solid rgb(120 84 44 / 35%);
+  border-radius: 999px;
+  background: rgb(246 236 216 / 85%);
+  color: #6b4a24;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+.sv-scene-tags__tag.is-lead {
+  border-color: #6f9c3d;
+  background: #e7f3d2;
+  color: #3f5c1e;
+  text-transform: uppercase;
+}
+</style>`;
+}
+
+export function compileStartPanel(ir: StartPanelIR): StartPanelArtifacts {
+  const languages = ir.panel.languages.map((language) => language.id);
+  if (!languages.includes(ir.panel.defaultLanguage))
+    throw new Error(`start panel defaultLanguage '${ir.panel.defaultLanguage}' is not a declared language`);
+  const groups = new Set(ir.panel.groups.map((group) => group.id));
+  for (const group of ir.panel.groups)
+    requireLocalized(`start panel group '${group.id}'`, languages, group.labels);
+  const seen = new Set<string>();
+  for (const scenario of ir.scenarios) {
+    if (seen.has(scenario.id)) throw new Error(`Duplicate scenario id: ${scenario.id}`);
+    seen.add(scenario.id);
+    if (!groups.has(scenario.group))
+      throw new Error(`Scenario '${scenario.id}' references unknown group '${scenario.group}'`);
+    requireLocalized(`scenario '${scenario.id}' titles`, languages, scenario.titles);
+    requireLocalized(`scenario '${scenario.id}' summaries`, languages, scenario.summaries);
+    requireLocalized(`scenario '${scenario.id}' bodies`, languages, scenario.bodyText);
+  }
+  if (!seen.has(ir.panel.defaultScenario))
+    throw new Error(`start panel defaultScenario '${ir.panel.defaultScenario}' is not a declared scenario`);
+  const variables = ir.panel.variables;
+  const defaultGroup =
+    ir.scenarios.find((scenario) => scenario.id === ir.panel.defaultScenario)?.group ??
+    ir.panel.groups[0]?.id ??
+    "";
+  return {
+    firstMessage: firstMessage(ir),
+    regex: [
+      {
+        comment: "Start panel",
+        in: escapeRegex(ir.panel.sentinel),
+        out: panelHtml(ir),
+        type: "editdisplay",
+        ableFlag: false,
+      },
+    ],
+    triggers: [
+      {
+        comment: "Start panel handlers",
+        type: "start",
+        conditions: [],
+        effect: [{ type: "triggerlua", code: lua(ir) }],
+        lowLevelAccess: false,
+      },
+    ],
+    defaultVariables: [
+      `${variables.language}=${ir.panel.defaultLanguage}`,
+      `${variables.group}=${defaultGroup}`,
+      `${variables.scene}=${ir.panel.defaultScenario}`,
+    ].join("\n"),
+    backgroundHtml: backgroundCss(),
+  };
+}

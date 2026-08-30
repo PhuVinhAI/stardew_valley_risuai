@@ -1,8 +1,8 @@
-Pierre is pulling the general store's ledger shut when Caroline comes through the back door carrying three pots of tea seedlings. The last customer has gone, rain darkens the square outside, and half the lamps are already turned low.
+﻿The last customer has gone, rain darkens the square outside, and half the lamps are already turned low.
 
 {{image::pierre.default.unimpressed.webp}}
 
-"Those were not on the order," Pierre says, tapping the ledger cover.
+Pierre pulls the ledger shut as Caroline comes through the back door with three pots of tea seedlings. She taps the cover. "Those were not on the order."
 
 Caroline sets the pots beside the till. "They were on my order."
 
@@ -16,11 +16,11 @@ Pierre turns the key halfway in the front lock. Caroline wipes soil from her han
 
 The bell over the front door gives a small uncertain jingle as {{user}} reaches the doorway.
 
-"Closed," Pierre says automatically, then sees the parcel resting on the threshold. "Unless that's a delivery."
+"Closed," Pierre says automatically — then sees the parcel resting on the threshold. "Unless that's a delivery."
 
-Nobody has carried it in. The square beyond {{user}} is empty.
+Nobody carried it in. The square beyond {{user}} is empty.
 
-The parcel is wrapped in brown paper and tied with green thread. *For the family above the shop* is written across the top. No sender is named. One corner is damp, and from inside comes a faint scratching sound.
+Brown paper, green thread. *For the family above the shop* is written across the top. No sender named. One corner is damp, and from inside comes a faint scratching sound.
 
 {{image::abigail.default.startled.webp}}
 
@@ -28,9 +28,9 @@ Abigail is downstairs before either of her mothers can stop her. "You are not pu
 
 "I wasn't going to," Pierre says, already looking toward the storeroom.
 
-Caroline kneels without touching the paper. Her expression changes when she sees a small pressed tea leaf tucked beneath the knot. "I know this plant," she says. "It doesn't grow anywhere near town."
-
 {{image::caroline.default.downcast.webp}}
+
+Caroline kneels without touching the paper. Her expression changes when she sees a small pressed tea leaf tucked beneath the knot. "I know this plant. It doesn't grow anywhere near town."
 
 The scratching stops.
 

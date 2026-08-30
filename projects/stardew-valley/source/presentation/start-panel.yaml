@@ -1,0 +1,58 @@
+schema: risuai-start-panel/v1
+sentinel: "[[sv-start-panel]]"
+defaultLanguage: en
+defaultScenario: road-arrival
+variables:
+  language: sv_lang
+  group: sv_group
+  scene: sv_scene
+languages:
+  - id: en
+    label: ENG
+  - id: vi
+    label: VIỆT
+groups:
+  - id: arrival
+    labels:
+      en: Arrival
+      vi: Mới đến
+  - id: seasons
+    labels:
+      en: Seasons
+      vi: Bốn mùa
+  - id: ensemble
+    labels:
+      en: Ensemble
+      vi: Nhiều người
+  - id: open
+    labels:
+      en: Open
+      vi: Tự do
+ui:
+  eyebrow:
+    en: STARDEW VALLEY
+    vi: STARDEW VALLEY
+  title:
+    en: Where does your story begin?
+    vi: Câu chuyện của bạn bắt đầu ở đâu?
+  subtitle:
+    en: Pick a language, then pick an opening scene.
+    vi: Chọn ngôn ngữ, rồi chọn cảnh mở đầu.
+  languageLabel:
+    en: Language
+    vi: Ngôn ngữ
+  groupStep:
+    en: Kind of opening
+    vi: Kiểu mở đầu
+  sceneStep:
+    en: Opening scene
+    vi: Cảnh mở đầu
+  choosePrefix:
+    en: Choose
+    vi: Chọn
+  emptyHint:
+    en: No scene chosen yet. Pick one of the cards above.
+    vi: Chưa chọn cảnh nào. Hãy bấm một trong các thẻ phía trên.
+  footer:
+    en: The chosen scene stays for this chat. Select again to change it.
+    vi: Cảnh đã chọn sẽ giữ nguyên trong cuộc trò chuyện này. Bấm lại để đổi.

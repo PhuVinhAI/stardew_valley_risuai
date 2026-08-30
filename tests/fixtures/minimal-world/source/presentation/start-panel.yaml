@@ -1,0 +1,28 @@
+schema: risuai-start-panel/v1
+sentinel: "[[fixture-start-panel]]"
+defaultLanguage: en
+defaultScenario: only-scene
+languages:
+  - id: en
+    label: ENG
+groups:
+  - id: main
+    labels:
+      en: Main
+ui:
+  eyebrow:
+    en: FIXTURE
+  title:
+    en: Pick an opening
+  subtitle:
+    en: One scene only.
+  languageLabel:
+    en: Language
+  groupStep:
+    en: Kind
+  sceneStep:
+    en: Scene
+  choosePrefix:
+    en: Choose
+  footer:
+    en: Fixture footer.

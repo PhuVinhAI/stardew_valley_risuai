@@ -9,13 +9,17 @@ import {
   LoreSourceSchema,
   PortraitCurationSchema,
   RelationshipSourceSchema,
+  ScenarioSourceSchema,
   ScheduleSourceSchema,
+  StartPanelSchema,
   SystemSourceSchema,
 } from "@charx/project-schema";
 import { encodeRisum } from "@charx/risum-codec";
 import { parse as parseYaml, stringify as stringifyYaml } from "yaml";
 import { createZip } from "./archive.ts";
 import { internalLoreToCcv3 } from "./lore.ts";
+import type { StartPanelIR, StartPanelScenario } from "./start-panel.ts";
+import { compileStartPanel } from "./start-panel.ts";
 import { countBuiltSourceTokens } from "./tokens.ts";
 import type {
   BuiltSources,
@@ -88,10 +92,6 @@ function deterministicUuid(value: string): string {
   bytes[8] = ((bytes[8] ?? 0) & 0x3f) | 0x80;
   const hex = bytes.toString("hex");
   return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20)}`;
-}
-
-function readMarkdownDirectory(sourceDir: string, relative: string): string[] {
-  return listFiles(path.resolve(sourceDir, relative), "*.md").map((file) => fs.readFileSync(file, "utf8"));
 }
 
 function entityReferences(kind: WorldEntityKind, value: Record<string, unknown>): Record<string, string[]> {
@@ -202,6 +202,36 @@ function loadAssets(sourceDir: string): { assets: WorldIrAsset[]; declaredIds: S
   return { assets: loaded, declaredIds };
 }
 
+function loadStartPanel(
+  context: ProjectContext,
+  manifest: { startPanel: { manifest: string; scenarioDir: string } },
+  assetsById: Map<string, WorldIrAsset>,
+): StartPanelIR {
+  const root = path.resolve(context.sourceDir);
+  const panelFile = path.resolve(root, manifest.startPanel.manifest);
+  if (!isInside(root, panelFile)) throw new Error(`Unsafe start panel path: ${manifest.startPanel.manifest}`);
+  const panel = StartPanelSchema.parse(readYaml(panelFile));
+  const scenarioFiles = listFiles(path.resolve(root, manifest.startPanel.scenarioDir), "*/scenario.yaml");
+  const scenarios: StartPanelScenario[] = scenarioFiles.map((scenarioFile) => {
+    const source = ScenarioSourceSchema.parse(readYaml(scenarioFile));
+    const directory = path.basename(path.dirname(scenarioFile));
+    if (directory !== source.id)
+      throw new Error(`Scenario '${source.id}' must live in a directory named '${source.id}'`);
+    const preview = source.preview ? assetsById.get(source.preview) : undefined;
+    if (source.preview && !preview)
+      throw new Error(`Scenario '${source.id}' references unknown preview asset '${source.preview}'`);
+    const bodyText = Object.fromEntries(
+      Object.entries(source.bodies).map(([language, file]) => [
+        language,
+        readEntityContent(scenarioFile, file).trim(),
+      ]),
+    );
+    return { ...source, bodyText, previewName: preview?.name ?? "" };
+  });
+  scenarios.sort((left, right) => left.order - right.order || left.id.localeCompare(right.id, "en"));
+  return { panel, scenarios };
+}
+
 export function loadWorldIR(context: ProjectContext): WorldIR {
   if (context.config.structure !== "authoring")
     throw new Error(`${context.projectId} is not an authoring project`);
@@ -252,6 +282,8 @@ export function loadWorldIR(context: ProjectContext): WorldIR {
     }
   }
   const prompts = manifest.prompts;
+  const startPanel = loadStartPanel(context, manifest, new Map(assets.map((asset) => [asset.id, asset])));
+  const startPanelArtifacts = compileStartPanel(startPanel);
   return {
     id: manifest.id,
     name: manifest.name,
@@ -265,21 +297,28 @@ export function loadWorldIR(context: ProjectContext): WorldIR {
       description: readSourceText(context.sourceDir, prompts.description),
       personality: readSourceText(context.sourceDir, prompts.personality),
       scenario: readSourceText(context.sourceDir, prompts.scenario),
-      firstMessage: readSourceText(context.sourceDir, prompts.firstMessage),
+      firstMessage: startPanelArtifacts.firstMessage,
       exampleMessages: readSourceText(context.sourceDir, prompts.exampleMessages),
       creatorNotes: readSourceText(context.sourceDir, prompts.creatorNotes),
       systemPrompt: readSourceText(context.sourceDir, prompts.systemPrompt),
       postHistoryInstructions: readSourceText(context.sourceDir, prompts.postHistoryInstructions),
     },
-    alternateGreetings: readMarkdownDirectory(context.sourceDir, manifest.greetings.alternateDir),
-    groupOnlyGreetings: readMarkdownDirectory(context.sourceDir, manifest.greetings.groupOnlyDir),
+    alternateGreetings: [],
+    groupOnlyGreetings: [],
+    startPanel,
     lorebook: manifest.lorebook,
     module: {
       name: manifest.module.name ?? `${manifest.name} Module`,
       description: manifest.module.description,
       id: manifest.module.id ?? deterministicUuid(`risuai-world:${manifest.id}`),
     },
-    risuai: manifest.risuai,
+    risuai: {
+      ...manifest.risuai,
+      defaultVariables: [manifest.risuai.defaultVariables.trim(), startPanelArtifacts.defaultVariables]
+        .filter(Boolean)
+        .join("\n"),
+      backgroundHTML: startPanelArtifacts.backgroundHtml,
+    },
     tokenCheck: manifest.tokenCheck,
     entities,
     assets,
@@ -314,6 +353,7 @@ export function compileAuthoringSources(
   writeGenerated = true,
 ): BuiltSources & { ir: WorldIR } {
   const ir = loadWorldIR(context);
+  const startPanelArtifacts = compileStartPanel(ir.startPanel);
   const lorebook = internalLore(ir);
   const cardAssets = ir.assets.map((asset) => ({
     type: asset.type,
@@ -361,8 +401,8 @@ export function compileAuthoringSources(
       name: ir.module.name,
       description: ir.module.description,
       id: ir.module.id,
-      trigger: [],
-      regex: [],
+      trigger: startPanelArtifacts.triggers,
+      regex: startPanelArtifacts.regex,
       lorebook,
       assets: [],
     },
@@ -408,8 +448,8 @@ export function checkAuthoringProject(context: ProjectContext): CheckReport {
         characters: ir.entities.filter((entity) => entity.kind === "character").length,
         loreEntries: ir.entities.filter((entity) => entity.enabled).length,
         assets: ir.assets.length,
-        regexScripts: 0,
-        triggers: 0,
+        regexScripts: built.moduleWrapper.module.regex.length,
+        triggers: built.moduleWrapper.module.trigger.length,
       },
     };
   } catch (error) {

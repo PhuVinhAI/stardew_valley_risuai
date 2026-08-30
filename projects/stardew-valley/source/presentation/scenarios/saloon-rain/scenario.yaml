@@ -1,0 +1,17 @@
+schema: risuai-scenario/v1
+id: saloon-rain
+group: arrival
+order: 25
+preview: portrait-gus-default-expression-02
+titles:
+  en: Behind the Locked Kitchen Door
+  vi: Sau Cánh Cửa Bếp Đã Khoá
+summaries:
+  en: Muddy prints with no way in, and something set down carefully on the other side
+  vi: Dấu chân lấm bùn không có đường vào, và thứ gì đó được đặt xuống rất cẩn thận ở phía bên kia
+tags:
+  en: [Night, Rain, Stardrop Saloon, Gus · Emily · Shane]
+  vi: [Đêm, Mưa, Stardrop Saloon, Gus · Emily · Shane]
+bodies:
+  en: saloon-rain.en.md
+  vi: saloon-rain.vi.md

@@ -4,6 +4,7 @@ export * from "./canon.ts";
 export * from "./lore.ts";
 export * from "./portraits.ts";
 export * from "./project.ts";
+export * from "./start-panel.ts";
 export * from "./tokens.ts";
 export * from "./types.ts";
 export * from "./utils.ts";

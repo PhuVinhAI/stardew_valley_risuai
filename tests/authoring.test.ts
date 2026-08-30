@@ -32,37 +32,88 @@ describe("agent authoring source", () => {
     expect(report.status).toBe("ok");
   });
 
-  test("resolves every authored greeting image and enables the RisuAI asset prompt", () => {
-    const greetingDirectories = [
-      path.join(primary.sourceDir, "presentation", "greetings", "alternate"),
-      path.join(primary.sourceDir, "presentation", "greetings", "group-only"),
-    ];
-    const greetingFiles = [
-      path.join(primary.sourceDir, "world", "first-message.md"),
-      ...greetingDirectories.flatMap((directory) =>
-        fs
-          .readdirSync(directory)
-          .filter((file) => file.endsWith(".md"))
-          .map((file) => path.join(directory, file)),
-      ),
-    ];
+  test("resolves every authored scenario image and enables the RisuAI asset prompt", () => {
+    const scenarioRoot = path.join(primary.sourceDir, "presentation", "scenarios");
+    const scenarioBodies = fs.readdirSync(scenarioRoot).flatMap((scenario) =>
+      fs
+        .readdirSync(path.join(scenarioRoot, scenario))
+        .filter((file) => file.endsWith(".md"))
+        .map((file) => path.join(scenarioRoot, scenario, file)),
+    );
     const exampleMessages = path.join(primary.sourceDir, "world", "example-messages.md");
     const imagePattern = /\{\{image::([^}]+)\}\}/g;
-    const references = [...greetingFiles, exampleMessages].flatMap((file) =>
+    const references = [...scenarioBodies, exampleMessages].flatMap((file) =>
       [...fs.readFileSync(file, "utf8").matchAll(imagePattern)]
         .map((match) => match[1])
         .filter((reference): reference is string => Boolean(reference)),
     );
-    for (const file of greetingFiles) {
+    for (const file of scenarioBodies) {
       expect([...fs.readFileSync(file, "utf8").matchAll(imagePattern)].length).toBeGreaterThan(0);
     }
 
     const built = compileAuthoringSources(primary, false);
     const assetNames = new Set(built.ir.assets.map((asset) => asset.name));
-    expect(references.length).toBeGreaterThan(greetingFiles.length);
+    expect(references.length).toBeGreaterThan(scenarioBodies.length);
     expect(references.filter((reference) => !assetNames.has(reference))).toEqual([]);
     expect(built.card.data.extensions.risuai.prebuiltAssetCommand).toBe(true);
     expect(built.card.data.extensions.risuai.prebuiltAssetStyle).toBe("dynamic");
+  });
+
+  test("emits one start-panel first message with per-language scenario blocks", () => {
+    const built = compileAuthoringSources(primary, false);
+    const panel = built.ir.startPanel;
+    const firstMessage = String(built.card.data.first_mes);
+    expect(built.card.data.alternate_greetings).toEqual([]);
+    expect(built.card.data.group_only_greetings).toEqual([]);
+    expect(firstMessage.startsWith(panel.panel.sentinel)).toBe(true);
+    for (const scenario of panel.scenarios) {
+      expect(firstMessage).toContain(`{{#when::{{getvar::sv_scene}}::is::${scenario.id}}}`);
+      for (const language of panel.panel.languages)
+        expect(scenario.bodyText[language.id]?.length).toBeGreaterThan(0);
+    }
+
+    const regex = built.moduleWrapper.module.regex;
+    const triggers = built.moduleWrapper.module.trigger;
+    expect(regex).toHaveLength(1);
+    expect(regex[0]?.type).toBe("editdisplay");
+    expect(new RegExp(String(regex[0]?.in)).test(firstMessage)).toBe(true);
+    expect(triggers).toHaveLength(1);
+    expect(triggers[0]?.type).toBe("start");
+
+    const effects = (triggers[0]?.effect ?? []) as { code?: string }[];
+    const lua = String(effects[0]?.code ?? "");
+    const payloads = [
+      ...new Set(
+        [...String(regex[0]?.out).matchAll(/::(sv_(?:lang|group|scene)_[a-z0-9_]+)\}\}/g)].map(
+          (match) => match[1] as string,
+        ),
+      ),
+    ];
+    expect(payloads.length).toBeGreaterThan(panel.scenarios.length);
+    for (const payload of payloads) expect(lua).toContain(`function ${payload}(triggerId)`);
+    expect(built.card.data.extensions.risuai.defaultVariables).toContain("sv_scene=");
+    expect(built.card.data.extensions.risuai.backgroundHTML).toContain(".sv-start-panel");
+  });
+
+  test("keeps the panel and scene tags on single lines so Markdown cannot break them", () => {
+    const built = compileAuthoringSources(primary, false);
+    const panelMarkup = String(built.moduleWrapper.module.regex[0]?.out);
+    expect(panelMarkup.includes("\n")).toBe(false);
+    for (const group of built.ir.startPanel.panel.groups) {
+      const scenarios = built.ir.startPanel.scenarios.filter((scenario) => scenario.group === group.id);
+      if (!scenarios.length) continue;
+      expect(panelMarkup).toContain(
+        `class="sv-start-panel__cards{{#when::{{getvar::sv_group}}::is::${group.id}}} is-visible{{/when}}"`,
+      );
+    }
+    expect(built.card.data.extensions.risuai.backgroundHTML).toContain(".sv-start-panel__cards.is-visible");
+
+    const firstMessage = String(built.card.data.first_mes);
+    for (const line of firstMessage.split("\n").filter((entry) => entry.includes("sv-scene-tags")))
+      expect(line.trimEnd().endsWith("</div>")).toBe(true);
+    for (const scenario of built.ir.startPanel.scenarios)
+      for (const language of built.ir.startPanel.panel.languages)
+        expect((scenario.tags?.[language.id] ?? []).length).toBeGreaterThan(0);
   });
 
   test("keeps per-outfit frame counts independent and permits missing local-only assets", () => {

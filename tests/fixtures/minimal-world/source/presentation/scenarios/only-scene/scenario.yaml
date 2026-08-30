@@ -1,0 +1,10 @@
+schema: risuai-scenario/v1
+id: only-scene
+group: main
+order: 10
+titles:
+  en: Only Scene
+summaries:
+  en: The single fixture opening
+bodies:
+  en: only-scene.en.md

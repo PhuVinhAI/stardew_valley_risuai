@@ -1,0 +1,17 @@
+schema: risuai-scenario/v1
+id: winter-mountain
+group: seasons
+order: 50
+preview: portrait-robin-winter-expression-06
+titles:
+  en: Something Came Back Through the Line
+  vi: Có Thứ Gì Đi Ngược Đường Ống
+summaries:
+  en: A scorched plate, a frozen intake, and a mine lamp that answers
+  vi: Một tấm kim loại cháy sém, một đường hút đóng băng, và ngọn đèn hầm mỏ biết đáp lời
+tags:
+  en: [Winter, Dusk, The Mountain, Robin · Maru]
+  vi: [Đông, Chiều tối, Ngọn núi, Robin · Maru]
+bodies:
+  en: winter-mountain.en.md
+  vi: winter-mountain.vi.md

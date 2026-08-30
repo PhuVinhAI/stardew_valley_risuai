@@ -1,0 +1,17 @@
+schema: risuai-scenario/v1
+id: mountain-house
+group: ensemble
+order: 70
+preview: portrait-robin-default-expression-06
+titles:
+  en: Golden Dust in the Old Wood
+  vi: Bụi Vàng Trong Thanh Gỗ Cũ
+summaries:
+  en: A family argument, a dead house, and dust that appears in two places at once
+  vi: Một cuộc tranh luận gia đình, cả nhà mất điện, và thứ bụi xuất hiện ở hai nơi cùng lúc
+tags:
+  en: [Evening, Rain, The Mountain, Group scene, Robin · Demetrius · Maru · Sebastian]
+  vi: [Buổi tối, Mưa, Ngọn núi, Cảnh nhiều người, Robin · Demetrius · Maru · Sebastian]
+bodies:
+  en: mountain-house.en.md
+  vi: mountain-house.vi.md

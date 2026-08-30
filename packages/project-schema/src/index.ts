@@ -53,7 +53,6 @@ export const AuthoringManifestSchema = z.object({
       description: SourcePathSchema.default("world/description.md"),
       personality: SourcePathSchema.default("world/personality.md"),
       scenario: SourcePathSchema.default("world/scenario.md"),
-      firstMessage: SourcePathSchema.default("world/first-message.md"),
       exampleMessages: SourcePathSchema.default("world/example-messages.md"),
       creatorNotes: SourcePathSchema.default("world/creator-notes.md"),
       systemPrompt: SourcePathSchema.default("world/system-prompt.md"),
@@ -63,20 +62,19 @@ export const AuthoringManifestSchema = z.object({
       description: "world/description.md",
       personality: "world/personality.md",
       scenario: "world/scenario.md",
-      firstMessage: "world/first-message.md",
       exampleMessages: "world/example-messages.md",
       creatorNotes: "world/creator-notes.md",
       systemPrompt: "world/system-prompt.md",
       postHistoryInstructions: "world/post-history-instructions.md",
     }),
-  greetings: z
+  startPanel: z
     .object({
-      alternateDir: SourcePathSchema.default("presentation/greetings/alternate"),
-      groupOnlyDir: SourcePathSchema.default("presentation/greetings/group-only"),
+      manifest: SourcePathSchema.default("presentation/start-panel.yaml"),
+      scenarioDir: SourcePathSchema.default("presentation/scenarios"),
     })
     .default({
-      alternateDir: "presentation/greetings/alternate",
-      groupOnlyDir: "presentation/greetings/group-only",
+      manifest: "presentation/start-panel.yaml",
+      scenarioDir: "presentation/scenarios",
     }),
   lorebook: z
     .object({
@@ -209,6 +207,37 @@ export const PortraitCurationSchema = z.object({
   ),
 });
 
+const LocalizedTextSchema = z.record(StableIdSchema, z.string().min(1));
+
+export const StartPanelSchema = z.object({
+  schema: z.literal("risuai-start-panel/v1"),
+  sentinel: z.string().min(3).default("[[sv-start-panel]]"),
+  defaultLanguage: StableIdSchema,
+  defaultScenario: StableIdSchema,
+  variables: z
+    .object({
+      language: z.string().min(1).default("sv_lang"),
+      group: z.string().min(1).default("sv_group"),
+      scene: z.string().min(1).default("sv_scene"),
+    })
+    .default({ language: "sv_lang", group: "sv_group", scene: "sv_scene" }),
+  languages: z.array(z.object({ id: StableIdSchema, label: z.string().min(1) })).min(1),
+  groups: z.array(z.object({ id: StableIdSchema, labels: LocalizedTextSchema })).min(1),
+  ui: z.record(z.string().min(1), LocalizedTextSchema),
+});
+
+export const ScenarioSourceSchema = z.object({
+  schema: z.literal("risuai-scenario/v1"),
+  id: StableIdSchema,
+  group: StableIdSchema,
+  order: z.number().int().default(100),
+  preview: StableIdSchema.optional(),
+  titles: LocalizedTextSchema,
+  summaries: LocalizedTextSchema,
+  tags: z.record(StableIdSchema, z.array(z.string().min(1))).default({}),
+  bodies: z.record(StableIdSchema, SourcePathSchema),
+});
+
 export const WorkspaceConfigSchema = z.object({
   format: z.literal("risuai-charx-workspace"),
   formatVersion: z.number().int().positive(),
@@ -253,6 +282,8 @@ export type ScheduleSource = z.infer<typeof ScheduleSourceSchema>;
 export type RelationshipSource = z.infer<typeof RelationshipSourceSchema>;
 export type AssetManifest = z.infer<typeof AssetManifestSchema>;
 export type PortraitCuration = z.infer<typeof PortraitCurationSchema>;
+export type StartPanel = z.infer<typeof StartPanelSchema>;
+export type ScenarioSource = z.infer<typeof ScenarioSourceSchema>;
 
 export function parseProjectConfig(value: unknown): ProjectConfig {
   return ProjectConfigSchema.parse(value);

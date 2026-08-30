@@ -1,0 +1,17 @@
+schema: risuai-scenario/v1
+id: free-start
+group: open
+order: 90
+preview: portrait-marnie-default-expression-00
+titles:
+  en: Free Start
+  vi: Bắt Đầu Tự Do
+summaries:
+  en: Name the season, hour, place, and company yourself — the valley fills in around you
+  vi: Tự chọn mùa, giờ, địa điểm và người có mặt — thung lũng sẽ tự dựng lên quanh bạn
+tags:
+  en: [Any season, Any hour, Anywhere, You set the scene]
+  vi: [Mùa nào cũng được, Giờ nào cũng được, Bất cứ đâu, Bạn dựng cảnh]
+bodies:
+  en: free-start.en.md
+  vi: free-start.vi.md

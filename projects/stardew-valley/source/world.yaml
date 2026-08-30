@@ -14,14 +14,13 @@ prompts:
   description: world/description.md
   personality: world/personality.md
   scenario: world/scenario.md
-  firstMessage: world/first-message.md
   exampleMessages: world/example-messages.md
   creatorNotes: world/creator-notes.md
   systemPrompt: world/system-prompt.md
   postHistoryInstructions: world/post-history-instructions.md
-greetings:
-  alternateDir: presentation/greetings/alternate
-  groupOnlyDir: presentation/greetings/group-only
+startPanel:
+  manifest: presentation/start-panel.yaml
+  scenarioDir: presentation/scenarios
 lorebook:
   scanDepth: 8
   tokenBudget: 4096
