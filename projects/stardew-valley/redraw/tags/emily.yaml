@@ -1,0 +1,231 @@
+# Emily — 47 portraits, 6 outfits, 8 expressions
+#
+# Every tag comes from source/characters/emily/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+#
+# `delighted` is missing from swimsuit-ex only, which is why 6 outfits and 8
+# expressions cover 47 portraits rather than 48.
+
+character: emily
+futanari: false
+
+# True in every image. No framing, no pose, no expression here. The choker and
+# the frilled cuffs survive being stripped but the prose ties them to the red
+# outfit, so they sit in the outfit blocks instead.
+# Source: "Short vivid blue hair framing her jaw in loose points, with a flicked
+# fringe and bright red eyes over a constant light flush. She is about 163 cm,
+# 98-58-94, an F-cup — short, soft and very curvy, with large heavy breasts, a
+# narrow waist, rounded hips and smooth thighs."
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - blue hair
+  - short hair
+  - bob cut
+  - swept bangs
+  - red eyes
+  - permanent blush
+  - large breasts
+  - narrow waist
+  - wide hips
+  - curvy
+  - thick thighs
+
+outfits:
+  # "A red halter dress cut away almost entirely. The bodice is two narrow red
+  # panels running down the outer curve of each breast, so the inner chest, the
+  # cleavage and most of both breasts are bare, with the nipples sitting just
+  # under the fabric edge. A red choker with a blue gem sits at her throat, pale
+  # blue frilled cuffs circle her wrists, and a short red skirt with a white
+  # frilled hem leaves her hips and legs uncovered."
+  default:
+    - red dress
+    - halterneck
+    - cutout dress
+    - underboob
+    - sideboob
+    - huge cleavage
+    - breasts out of clothes
+    - red choker
+    - blue gemstone
+    - frilled cuffs
+    - detached sleeves
+    - red skirt
+    - miniskirt
+    - white frills
+    - bare legs
+
+  # "At the beach the outfit reduces to red-and-blue strings, tiny frills and
+  # bare skin: one thin cord crosses an otherwise uncovered chest, with frilled
+  # anklets and almost nothing at the hips."
+  beach:
+    - red micro bikini
+    - string bikini
+    - single strap
+    - topless
+    - nipples
+    - red choker
+    - blue gemstone
+    - frilled cuffs
+    - frilled anklets
+    - blue frills
+    - thong
+    - bare midriff
+    - navel
+    - bare legs
+
+  # "The one she swims in keeps the same string-and-frill layout."
+  swimsuit:
+    - red micro bikini
+    - string bikini
+    - blue frills
+    - red choker
+    - blue gemstone
+    - frilled cuffs
+    - frilled anklets
+    - cleavage
+    - side-tie bikini bottom
+    - bare shoulders
+    - bare midriff
+    - navel
+    - bare legs
+
+  # "There is a version that removes nearly all of what is left, her breasts and
+  # groin almost entirely bare with the choker, cuffs and frills still on."
+  swimsuit-ex:
+    - nearly naked
+    - bikini strings
+    - topless
+    - nipples
+    - pussy
+    - partially visible vulva
+    - uncensored
+    - red choker
+    - blue gemstone
+    - frilled cuffs
+    - frilled anklets
+    - navel
+    - bare legs
+
+  # "Winter keeps the red outfit and the accessories with only small
+  # cold-weather accents, so her chest, midriff and legs are still mostly bare."
+  winter:
+    - red dress
+    - halterneck
+    - cutout dress
+    - fur trim
+    - underboob
+    - huge cleavage
+    - breasts out of clothes
+    - red choker
+    - blue gemstone
+    - frilled cuffs
+    - red skirt
+    - miniskirt
+    - bare midriff
+    - bare legs
+
+  # "Stripped, she keeps the choker and the cuffs: large bare breasts with
+  # visible nipples, a soft waist, rounded hips, and a visible vulva with no
+  # penis."
+  nude:
+    - nude
+    - completely nude
+    - nipples
+    - large breasts
+    - narrow waist
+    - navel
+    - pussy
+    - uncensored
+    - red choker
+    - frilled cuffs
+
+# One block per expression, applied to every outfit. Only what changes between
+# portraits belongs here: eyes, mouth, hands, gaze, blush intensity, and any
+# effect the portrait draws.
+#
+# Source: "a serene closed-mouth smile; a bright open-eyed look with something
+# small held up; a startled parted-lip stare; a reserved neutral face; a dreamy
+# look with both hands at her cheeks; an alarmed one with red flash marks; and a
+# delighted open-mouthed laugh with sparkles around her."
+expressions:
+  serene:
+    - upper body
+    - smile
+    - closed mouth
+    - gentle smile
+    - half-closed eyes
+    - looking at viewer
+
+  # "a bright open-eyed look with something small held up" — she keeps gemstones
+  # around her, so the held object is tagged as a gem.
+  bright:
+    - upper body
+    - open eyes
+    - smile
+    - holding gem
+    - hand up
+    - looking at viewer
+
+  startled:
+    - upper body
+    - surprised
+    - parted lips
+    - wide-eyed
+    - leaning back
+    - looking at viewer
+
+  reserved:
+    - upper body
+    - expressionless
+    - neutral face
+    - closed mouth
+    - looking at viewer
+    - calm
+
+  dreamy:
+    - upper body
+    - hands on own cheeks
+    - dreamy
+    - closed eyes
+    - smile
+    - head tilt
+
+  alarmed:
+    - upper body
+    - shocked
+    - open mouth
+    - wide-eyed
+    - emphasis lines
+    - motion lines
+
+  delighted:
+    - upper body
+    - laughing
+    - open mouth
+    - happy
+    - sparkles
+    - closed eyes
+
+  # "In one pose she kneels with her legs apart, glowing lines radiating around
+  # her and a heart-shaped light between her thighs." A full-body pose rather
+  # than a face, so this block runs longer than the rest.
+  radiant-explicit:
+    - full body
+    - kneeling
+    - spread legs
+    - knees apart
+    - presenting
+    - pussy
+    - uncensored
+    - glowing
+    - light rays
+    - heart-shaped light
+    - blush
+    - looking at viewer
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

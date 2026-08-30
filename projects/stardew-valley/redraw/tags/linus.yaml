@@ -1,0 +1,150 @@
+# Linus — 10 portraits, 2 outfits, 6 expressions
+#
+# Every tag comes from source/characters/linus/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+
+character: linus
+futanari: true
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "Short ash-brown hair in loose waves with a soft fringe that falls
+# into her eyes. Amber eyes with a steady flush under them, and a face that does
+# not hurry. She is about 168 cm, 116-68-106 cm, a J-cup, with a soft belly,
+# wide hips and heavy thighs." She is "futanari — a penis alongside the rest,
+# which she treats as one more true thing about a body that lives outdoors."
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - brown hair
+  - light brown hair
+  - short hair
+  - wavy hair
+  - hair over eyes
+  - bangs
+  - amber eyes
+  - blush
+  - huge breasts
+  - plump
+  - wide hips
+  - thick thighs
+  - futanari
+  - penis
+  - testicles
+
+outfits:
+  # "She wears no clothes. What she has instead is the forest: three large orange
+  # maple leaves, one over the outer edge of each breast and one low between her
+  # thighs, held on by nothing visible, plus a thin cord at her throat. Both
+  # nipples, the whole inner curve of both breasts, her stomach, hips and legs
+  # are bare, and the leaves shift position from one day to the next without ever
+  # covering more."
+  default:
+    - nude
+    - leaf
+    - maple leaf
+    - orange leaf
+    - leaf on breast
+    - leaf censor
+    - nipples
+    - huge cleavage
+    - underboob
+    - choker
+    - cord necklace
+    - plump belly
+    - navel
+    - bare legs
+
+  # "In winter she adds a fourth leaf tucked into her hair, and that is the
+  # entire concession to the season."
+  winter:
+    - nude
+    - leaf
+    - maple leaf
+    - orange leaf
+    - leaf on breast
+    - leaf in hair
+    - leaf censor
+    - nipples
+    - huge cleavage
+    - underboob
+    - choker
+    - cord necklace
+    - plump belly
+    - navel
+    - bare legs
+
+# One block per expression. Only what changes between portraits belongs here:
+# eyes, mouth, hands, gaze, blush intensity, and any effect the portrait draws.
+#
+# Source: "a content open-eyed look with one hand at her hip, a cheerful
+# closed-eyed smile with a small pointing gesture, a wary flat-mouthed stare at
+# anyone she does not know, and a thoughtful one with her hand near her mouth."
+expressions:
+  content:
+    - upper body
+    - light smile
+    - closed mouth
+    - looking at viewer
+    - hand on hip
+    - calm
+
+  cheerful:
+    - upper body
+    - happy
+    - smile
+    - closed eyes
+    - pointing
+    - index finger raised
+
+  wary:
+    - upper body
+    - expressionless
+    - closed mouth
+    - looking at viewer
+    - narrowed eyes
+    - suspicious
+
+  thoughtful:
+    - upper body
+    - thinking
+    - hand near own mouth
+    - closed mouth
+    - looking to the side
+    - half-closed eyes
+
+  # "Two poses are cropped close — head, shoulders, and both arms folded across
+  # her chest, holding her breasts against herself so nothing else shows. She
+  # looks comfortable in those two, eyes shut in one, half-lidded and watchful in
+  # the other."
+  #
+  # README lists `serene-portrait` and `quiet-portrait` as two of the five labels
+  # whose second drawing the prose does not describe, and says to reuse the base
+  # label's tags. There is no bare `serene` or `quiet` label in this card — only
+  # the two `-portrait` ones — so a base block would sit UNUSED. Instead both are
+  # tagged from the sentence above, which does split them: eyes shut here,
+  # half-lidded and watchful in `quiet-portrait`. Both crop tighter than every
+  # other portrait and the folded arms cover the chest, so the outfit block's
+  # exposure tags are contradicted in these two by design.
+  serene-portrait:
+    - portrait
+    - close-up
+    - crossed arms
+    - covering breasts
+    - closed eyes
+    - closed mouth
+    - relaxed
+
+  quiet-portrait:
+    - portrait
+    - close-up
+    - crossed arms
+    - covering breasts
+    - half-closed eyes
+    - closed mouth
+    - looking at viewer
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

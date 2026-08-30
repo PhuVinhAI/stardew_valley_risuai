@@ -1,0 +1,120 @@
+# George — 8 portraits, 2 outfits, 4 expressions
+#
+# Every tag comes from source/characters/george/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+
+character: george
+futanari: true
+
+# True in every image. No framing, no pose, no expression here — except the
+# wheelchair, which is permanent: "She is always seated in the chair."
+# Source: "Long silver-grey hair in soft waves past her shoulders with a heavy
+# fringe swept across one eyebrow. Cool blue eyes under lowered lids, a faint
+# flush over the nose ... She is about 160 cm, 112-64-102 cm, an I-cup, soft
+# through the waist and broad across the hips — a body that looks nothing like
+# her age." She "has had one for eighty years" (Identity and life), which makes
+# her the second-oldest woman in the cast.
+identity:
+  - 1girl
+  - solo
+  - old woman
+  - mature female
+  - grey hair
+  - silver hair
+  - long hair
+  - wavy hair
+  - swept bangs
+  - blue eyes
+  - blush
+  # "a body that looks nothing like her age, and strangers routinely misjudge
+  # her by twenty years" — so age reads in the face and hair, not in the body.
+  # Drop `old woman` before adding any skin-ageing tag.
+  - huge breasts
+  - wide hips
+  - plump
+  - wheelchair
+  - sitting
+  - futanari
+  - penis
+  - testicles
+
+outfits:
+  # "a pale blue sash bound diagonally across her chest from one shoulder, and a
+  # second wrap low around her hips. The sash crosses one nipple and misses the
+  # other entirely, so both breasts are bare along the inner and lower curves
+  # with one areola showing, her stomach is uncovered, and her legs are bare to
+  # the hip."
+  default:
+    - light blue sash
+    - sash across chest
+    - single strap
+    - breasts out of clothes
+    - one breast out
+    - nipples
+    - areola slip
+    - blue sarong
+    - bare shoulders
+    - bare midriff
+    - navel
+    - bare legs
+
+  # "Winter adds a white fringed scarf around her throat and shoulders over a
+  # plain white band across the bust, which covers marginally more."
+  winter:
+    - white scarf
+    - fringed scarf
+    - scarf over shoulders
+    - white bandeau
+    - tube top
+    - huge cleavage
+    - blue sarong
+    - bare shoulders
+    - bare midriff
+    - navel
+    - bare legs
+
+# One block per expression, applied to both outfits. Only what changes between
+# portraits belongs here: eyes, mouth, gaze, blush intensity, and any effect the
+# portrait draws. The prose does not assign the hand on the wheel or in the lap
+# to any particular expression, so hands are left out of these blocks.
+#
+# Source: "a sullen downward look; a slightly softened version with the ghost of
+# a smile; an openly displeased frown; and a narrow-eyed grumble aside. There is
+# no bright or cheerful expression in her at all."
+expressions:
+  sullen:
+    - upper body
+    - sullen
+    - frown
+    - closed mouth
+    - looking down
+    - half-closed eyes
+
+  softened:
+    - upper body
+    - light smile
+    - closed mouth
+    - looking at viewer
+    - half-closed eyes
+    - relaxed
+
+  displeased:
+    - upper body
+    - angry
+    - frown
+    - furrowed brow
+    - closed mouth
+    - looking at viewer
+
+  grumbling:
+    - upper body
+    - annoyed
+    - grimace
+    - open mouth
+    - looking to the side
+    - narrowed eyes
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

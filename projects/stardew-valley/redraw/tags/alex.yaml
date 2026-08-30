@@ -1,0 +1,305 @@
+# Alex — 45 portraits, 5 outfits, 18 expressions
+#
+# Every tag comes from source/characters/alex/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+#
+# The eleven clothed labels are used by beach, default, swimsuit-ex and winter;
+# the seven `bare-*` labels exist only in the `nude` outfit and are the same
+# moods drawn undressed.
+
+character: alex
+futanari: true
+
+# True in every image. No framing, no pose, no expression here — her boasting
+# stance (shoulders back, hand on hip, chin lifted) is expression material.
+# Source: "Long brown hair pulled into a high side ponytail with a green band,
+# thick and curling at the end, with a soft fringe around her face. Green eyes,
+# gold drop earrings ... She is about 170 cm, 96-62-94, an E-cup, muscular and
+# curvy rather than soft — a firm waist, a defined stomach, strong thighs, full
+# hips." And: "like every futanari in the valley — a penis and testicles."
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - brown hair
+  - long hair
+  - side ponytail
+  - high ponytail
+  - green scrunchie
+  - curled ends
+  - bangs
+  - green eyes
+  - gold earrings
+  - drop earrings
+  - large breasts
+  - toned
+  - abs
+  - narrow waist
+  - wide hips
+  - muscular thighs
+  - futanari
+  - penis
+  - testicles
+
+outfits:
+  # "A cropped green letterman jacket with yellow trim and a school letter on the
+  # sleeve, worn open over bare skin. Both breasts are out down the front with
+  # the jacket framing the sides instead of covering anything, and there is no
+  # shirt under it. Teal high-cut briefs, matching fingerless gloves, and her
+  # stomach, hips, thighs and legs bare."
+  default:
+    - green letterman jacket
+    - cropped jacket
+    - open jacket
+    - yellow trim
+    - letter on sleeve
+    - no shirt
+    - breasts out of clothes
+    - nipples
+    - teal panties
+    - highleg panties
+    - fingerless gloves
+    - bare midriff
+    - navel
+    - bare legs
+
+  # "A white-and-blue athletic one-piece cut high at the hips and low over the
+  # chest, stretched tight enough that the shape of her breasts, waist and groin
+  # reads straight through it." The version she swims in keeps the same
+  # blue-and-white sporty silhouette, so it shares this block.
+  beach:
+    - white one-piece swimsuit
+    - competition swimsuit
+    - blue stripes
+    - highleg swimsuit
+    - skin tight
+    - taut clothes
+    - covered nipples
+    - bulge
+    - cleavage
+    - bare shoulders
+    - bare legs
+
+  # "There is a version cut down further again — more bare breast and groin, the
+  # same athletic straps and colour accents."
+  swimsuit-ex:
+    - white and blue swimsuit
+    - micro bikini
+    - athletic straps
+    - breasts out of clothes
+    - nipples
+    - underboob
+    - penis
+    - flaccid
+    - testicles
+    - uncensored
+    - navel
+    - bare legs
+
+  # "Winter keeps the cropped green jacket and the accessories and adds nothing
+  # meaningful: still open over bare breasts, stomach and legs uncovered."
+  winter:
+    - green letterman jacket
+    - cropped jacket
+    - open jacket
+    - naked jacket
+    - yellow trim
+    - nipples
+    - breasts out
+    - teal panties
+    - fingerless gloves
+    - bare midriff
+    - navel
+    - bare legs
+
+  # "Stripped, she has large bare breasts with visible nipples, a defined
+  # abdomen, muscular thighs, and — like every futanari in the valley — a penis
+  # and testicles." Nothing in the prose reads as arousal, so the penis is
+  # tagged flaccid; flagged in the report.
+  nude:
+    - nude
+    - completely nude
+    - nipples
+    - large breasts
+    - toned stomach
+    - abs
+    - navel
+    - penis
+    - flaccid
+    - testicles
+    - uncensored
+
+# One block per expression. Only what changes between portraits belongs here:
+# eyes, mouth, hands, gaze, blush intensity, and any effect the portrait draws.
+#
+# Source: "a cocky grin with a hand on her hip, a triumphant cheer with one fist
+# up, a sheepish arm-behind-head pose, a playful wink while holding a gridball,
+# an eager bright-eyed shout, an annoyed frown with both hands on her hips, a
+# startled glance back over her shoulder, a flat unimpressed stare, and a
+# straining flex with her teeth gritted."
+expressions:
+  cocky:
+    - upper body
+    - grin
+    - teeth
+    - confident
+    - hand on hip
+    - looking at viewer
+
+  triumphant:
+    - upper body
+    - cheering
+    - arm up
+    - clenched hand
+    - open mouth
+    - happy
+
+  sheepish:
+    - upper body
+    - embarrassed
+    - arm behind head
+    - wry smile
+    - looking away
+    - blush
+
+  # "a playful wink while holding a gridball" — gridball reads as an American
+  # football to a Danbooru-trained checkpoint.
+  playful:
+    - upper body
+    - one eye closed
+    - wink
+    - grin
+    - american football
+    - holding ball
+
+  eager:
+    - upper body
+    - excited
+    - open mouth
+    - shouting
+    - sparkling eyes
+    - leaning forward
+
+  annoyed:
+    - upper body
+    - annoyed
+    - frown
+    - hands on hips
+    - half-closed eyes
+    - looking at viewer
+
+  startled:
+    - upper body
+    - surprised
+    - looking over shoulder
+    - looking back
+    - open mouth
+    - wide-eyed
+
+  unimpressed:
+    - upper body
+    - unamused
+    - expressionless
+    - half-closed eyes
+    - closed mouth
+    - looking at viewer
+
+  straining:
+    - upper body
+    - clenched teeth
+    - flexing
+    - flexing arm
+    - straining
+    - looking at viewer
+
+  # A second cocky slot the prose does not separate from "a cocky grin with a
+  # hand on her hip"; tagged as the same grin with her chin lifted instead of
+  # the hand placed. Flagged in the report.
+  cocky-grin:
+    - upper body
+    - smug
+    - grin
+    - teeth
+    - chin up
+    - looking at viewer
+
+  # The prose gives no separate line for this one; taken as her lively range at
+  # rest. Flagged in the report.
+  relaxed:
+    - upper body
+    - relaxed
+    - smile
+    - closed mouth
+    - half-closed eyes
+    - looking at viewer
+
+  # `bare-*` labels below appear only in the `nude` outfit. They reuse the same
+  # nine moods above, undressed.
+  #
+  # "a triumphant cheer with one fist up"
+  bare-cheer:
+    - upper body
+    - cheering
+    - arm up
+    - clenched hand
+    - open mouth
+    - happy
+
+  # The quieter end of her range: no boast, no effect lines.
+  bare-quiet:
+    - upper body
+    - calm
+    - closed mouth
+    - half-closed eyes
+    - relaxed
+    - looking at viewer
+
+  # "a startled glance" — here facing forward rather than over the shoulder.
+  bare-startled:
+    - upper body
+    - surprised
+    - wide-eyed
+    - open mouth
+    - leaning back
+    - looking at viewer
+
+  # "an annoyed frown with both hands on her hips"
+  bare-unimpressed:
+    - upper body
+    - annoyed
+    - frown
+    - hands on hips
+    - half-closed eyes
+    - looking at viewer
+
+  # "a startled glance back over her shoulder", drawn as a turned-away aside.
+  bare-aside:
+    - upper body
+    - looking over shoulder
+    - looking away
+    - from side
+    - closed mouth
+    - half-closed eyes
+
+  # "a flat unimpressed stare"
+  bare-flat:
+    - upper body
+    - expressionless
+    - unamused
+    - closed mouth
+    - half-closed eyes
+    - looking at viewer
+
+  # "a straining flex with her teeth gritted"
+  bare-straining:
+    - upper body
+    - clenched teeth
+    - flexing
+    - flexing arm
+    - straining
+    - looking at viewer
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

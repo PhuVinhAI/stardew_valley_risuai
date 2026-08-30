@@ -1,0 +1,229 @@
+# Penny — 36 portraits, 5 outfits, 10 expressions
+#
+# Every tag comes from source/characters/penny/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+
+character: penny
+futanari: false
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "She is about 158 cm, 112-60-100, a heavy J-cup ... Short red curls
+# with a heavy fringe, two thick ringlets framing her jaw, a big orange bow at
+# the back of her head and two small gold pins above one ear. Green eyes, pale
+# skin, a flush that never quite leaves her cheeks."
+#
+# The bow's colour is not constant — winter swaps the orange one for a blue one
+# — so the bow itself is here and its colour sits in each outfit block.
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - red hair
+  - short hair
+  - curly hair
+  - bangs
+  - sidelocks
+  - hair bow
+  - gold hairpin
+  - green eyes
+  - pale skin
+  - permanent blush
+  - huge breasts
+  - wide hips
+  - thick thighs
+  - plump
+
+outfits:
+  # "An orange halter top knotted at the sternum with a yellow tie ... cut away
+  # so far that both breasts are bare down the inner edge and across the top,
+  # the deep cleavage running uninterrupted from her collarbone to the knot ...
+  # A thin red choker ... a narrow red skirt panel that starts at her hips and
+  # falls in a strip between her thighs, cut away at the front into a
+  # heart-shaped opening low on her belly; thin red garter straps run down her
+  # thighs to small yellow bows."
+  default:
+    - orange bow
+    - orange halter top
+    - halterneck
+    - front-tie top
+    - yellow ribbon
+    - red choker
+    - huge cleavage
+    - breasts out of clothes
+    - bare midriff
+    - navel
+    - red skirt
+    - loincloth
+    - heart cutout
+    - garter straps
+    - yellow bow
+
+  # "For the beach she wears nothing but plants. Green vines run from her
+  # shoulders down across her body, and two large red poppies sit directly over
+  # her nipples ... A vine crosses her hips with a small orange flower and a
+  # poppy at her groin."
+  beach:
+    - orange bow
+    - nude
+    - vines
+    - red flower
+    - flower pasties
+    - covered nipples
+    - bare shoulders
+    - bare midriff
+    - navel
+    - orange flower
+
+  # "Some days there is even less of it: the poppies slip to the outer edge of
+  # each breast, leaving both nipples bare, and the vine between her legs is the
+  # only thing there at all."
+  swimsuit-ex:
+    - orange bow
+    - nude
+    - topless
+    - vines
+    - nipples
+    - red flower
+    - bare shoulders
+    - bare midriff
+    - navel
+
+  # "Winter dresses her in a dark green fringed scarf, wound twice at her throat
+  # and hanging down between her breasts. That is the entire top half. Below it,
+  # a pale blue string thong with a flower at the front, and a blue bow in her
+  # hair instead of the orange one."
+  winter:
+    - blue bow
+    - dark green scarf
+    - fringed scarf
+    - scarf between breasts
+    - topless
+    - nipples
+    - bare shoulders
+    - bare midriff
+    - navel
+    - blue thong
+    - string thong
+    - flower
+
+  # "Undressed, she keeps only the bow and the pins: enormous soft breasts with
+  # pale pink nipples sitting low under their own weight, a soft belly, wide
+  # hips, thick thighs, and a plain visible vulva with no penis."
+  nude:
+    - orange bow
+    - nude
+    - completely nude
+    - nipples
+    - sagging breasts
+    - plump belly
+    - navel
+    - pussy
+    - uncensored
+
+# One block per expression, applied to every outfit. Only what changes between
+# portraits belongs here: eyes, mouth, hands, gaze, blush intensity, and any
+# effect the portrait draws.
+#
+# Source: "A small closed-mouth smile. A delighted closed-eyed laugh with one
+# hand up near her cheek. A blank startled look, lips parted. A puzzled frown
+# with her head tipped. A bashful glance away with her fingers at her hair.
+# Several poses where she has turned side-on and pulled both arms across her
+# chest, holding her breasts against herself with her eyes shut and her mouth
+# set — embarrassed rather than inviting. One pose has her cupping a breast from
+# underneath, looking straight ahead and blushing hard."
+expressions:
+  gentle:
+    - upper body
+    - smile
+    - closed mouth
+    - looking at viewer
+    - gentle smile
+    - hands clasped
+
+  laughing:
+    - upper body
+    - happy
+    - open mouth
+    - closed eyes
+    - hand on own cheek
+    - head tilt
+
+  startled:
+    - upper body
+    - surprised
+    - parted lips
+    - wide-eyed
+    - blank stare
+    - looking at viewer
+
+  puzzled:
+    - upper body
+    - frown
+    - confused
+    - closed mouth
+    - head tilt
+    - furrowed brow
+
+  bashful:
+    - upper body
+    - embarrassed
+    - heavy blush
+    - looking away
+    - hand in own hair
+    - closed mouth
+
+  # "she cannot fold her arms without resting them on top" — the crossed arms
+  # sit on the breasts rather than hiding them.
+  arms-crossed:
+    - upper body
+    - crossed arms
+    - arms under breasts
+    - closed mouth
+    - looking at viewer
+    - half-closed eyes
+
+  # Not spelled out in the prose beyond "a small closed-mouth smile"; taken as
+  # that smile with the top off. Flagged in the report.
+  topless-smiling:
+    - upper body
+    - topless
+    - nipples
+    - smile
+    - closed mouth
+    - looking at viewer
+
+  # "One pose has her cupping a breast from underneath, looking straight ahead
+  # and blushing hard."
+  cupping-breast:
+    - upper body
+    - cupping own breast
+    - hand under own breast
+    - nipples
+    - heavy blush
+    - looking at viewer
+    - closed mouth
+
+  # "turned side-on and pulled both arms across her chest, holding her breasts
+  # against herself with her eyes shut and her mouth set"
+  turned-covering:
+    - upper body
+    - from side
+    - covering breasts
+    - arms across chest
+    - closed eyes
+    - closed mouth
+    - heavy blush
+
+  covering-shy:
+    - upper body
+    - covering breasts
+    - embarrassed
+    - closed eyes
+    - hunched over
+    - heavy blush
+    - closed mouth
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

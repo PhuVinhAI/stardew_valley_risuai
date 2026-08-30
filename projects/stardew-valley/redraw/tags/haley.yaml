@@ -1,0 +1,263 @@
+# Haley — 67 portraits, 5 outfits, 14 expressions
+#
+# Every tag comes from source/characters/haley/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+#
+# `pleased` exists only in beach and default, which is why 5 outfits and 14
+# expressions cover 67 portraits rather than 70.
+
+character: haley
+futanari: false
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "Very long golden-blonde hair in loose waves past her hips, with a
+# heavy fringe around large blue eyes and a constant light flush. She is about
+# 166 cm, 110-57-101, an H-cup — exaggeratedly curvy and soft, with enormous
+# breasts, a tiny waist, full hips, thick thighs and long legs."
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - blonde hair
+  - golden hair
+  - very long hair
+  - wavy hair
+  - hair past hips
+  - blunt bangs
+  - blue eyes
+  - permanent blush
+  - huge breasts
+  - narrow waist
+  - wide hips
+  - thick thighs
+  - long legs
+  - curvy
+
+outfits:
+  # "What she wears every day is barely clothing: a few thin blue cords, two tiny
+  # blue ornaments over her nipples, and a matching one between her legs. Her
+  # breasts, stomach, hips, thighs and legs are otherwise bare."
+  default:
+    - blue micro bikini
+    - string bikini
+    - pasties
+    - covered nipples
+    - blue gemstone
+    - jewelry
+    - o-ring bikini
+    - thong
+    - bare shoulders
+    - bare midriff
+    - navel
+    - bare legs
+
+  # "The beach and the pool keep the same blue cord-and-gem arrangement, changing
+  # only the styling around the straps and ornaments."
+  beach:
+    - blue micro bikini
+    - string bikini
+    - side-tie bikini bottom
+    - pasties
+    - covered nipples
+    - blue gemstone
+    - jewelry
+    - underboob
+    - bare shoulders
+    - bare midriff
+    - navel
+    - bare legs
+
+  # "There is a version with less blue again — the cords and jewellery reading as
+  # decoration rather than as anything that covers her."
+  swimsuit-ex:
+    - nearly naked
+    - bikini strings
+    - topless
+    - nipples
+    - pussy
+    - partially visible vulva
+    - uncensored
+    - blue gemstone
+    - jewelry
+    - navel
+    - bare legs
+
+  # "Winter adds cold-weather accents over the same uncovered body instead of any
+  # real coverage."
+  winter:
+    - blue micro bikini
+    - string bikini
+    - fur trim
+    - scarf
+    - pasties
+    - covered nipples
+    - blue gemstone
+    - jewelry
+    - bare shoulders
+    - bare midriff
+    - navel
+    - bare legs
+
+  # "Stripped, the cords and ornaments come off too: huge bare breasts with
+  # visible nipples, a small waist, full hips, and a visible vulva with no penis."
+  nude:
+    - nude
+    - completely nude
+    - nipples
+    - huge breasts
+    - narrow waist
+    - navel
+    - pussy
+    - uncensored
+    - bare shoulders
+
+# One block per expression, applied to every outfit. Only what changes between
+# portraits belongs here: eyes, mouth, hands, gaze, blush intensity, and any
+# effect the portrait draws.
+#
+# Source: "a hand-to-mouth laugh; a thrilled closed-eyed beam with flower marks
+# around her; a startled glance back; a smug arms-crossed look; a coy chin-in-
+# hands pose; an openly annoyed flash; a pleased smile; a sly half-lidded look; a
+# delighted sparkle-eyed gasp; a contented closed-eyed smile; an alarmed kneeling
+# recoil; and a flirtatious one with her arms pushed up under her breasts."
+expressions:
+  amused:
+    - upper body
+    - laughing
+    - hand over own mouth
+    - covered mouth
+    - half-closed eyes
+    - looking at viewer
+
+  thrilled:
+    - upper body
+    - happy
+    - wide smile
+    - closed eyes
+    - flower background
+    - sparkles
+
+  startled:
+    - upper body
+    - surprised
+    - looking over shoulder
+    - looking back
+    - open mouth
+    - wide-eyed
+
+  smug:
+    - upper body
+    - smug
+    - crossed arms
+    - arms under breasts
+    - closed mouth
+    - looking down at viewer
+
+  coy:
+    - upper body
+    - chin rest
+    - hands on own face
+    - coy
+    - closed mouth
+    - looking at viewer
+
+  annoyed:
+    - upper body
+    - angry
+    - open mouth
+    - furrowed brow
+    - anger vein
+    - emphasis lines
+
+  pleased:
+    - upper body
+    - smile
+    - closed mouth
+    - pleased
+    - looking at viewer
+    - head tilt
+
+  sly:
+    - upper body
+    - smirk
+    - half-closed eyes
+    - closed mouth
+    - looking to the side
+    - amused
+
+  delighted:
+    - upper body
+    - excited
+    - open mouth
+    - sparkling eyes
+    - sparkles
+    - leaning forward
+
+  content:
+    - upper body
+    - gentle smile
+    - closed eyes
+    - closed mouth
+    - relaxed
+    - head tilt
+
+  # "an alarmed kneeling recoil"
+  alarmed:
+    - kneeling
+    - shocked
+    - open mouth
+    - wide-eyed
+    - leaning back
+    - emphasis lines
+
+  # "a flirtatious one with her arms pushed up under her breasts"
+  flirtatious:
+    - upper body
+    - arms under breasts
+    - breast lift
+    - flirting
+    - half-closed eyes
+    - looking at viewer
+
+  # "Two poses are outright explicit — she is seated with her legs raised and
+  # spread, fluid visible across her thighs and chest, in the immediate aftermath
+  # of sex." Full-body poses rather than faces, so these two run longer.
+  explicit-aftermath:
+    - full body
+    - sitting
+    - legs up
+    - spread legs
+    - m legs
+    - after sex
+    - cum
+    - cum on body
+    - cum on breasts
+    - pussy
+    - uncensored
+    - heavy blush
+    - open mouth
+    - looking at viewer
+
+  # The prose does not say how the second drawing differs from the first, so this
+  # variant carries the same tags as its base and gets a different seed — the
+  # documented behaviour in redraw/README.md.
+  explicit-aftermath-alt:
+    - full body
+    - sitting
+    - legs up
+    - spread legs
+    - m legs
+    - after sex
+    - cum
+    - cum on body
+    - cum on breasts
+    - pussy
+    - uncensored
+    - heavy blush
+    - open mouth
+    - looking at viewer
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

@@ -1,0 +1,81 @@
+# Gunther — 1 portrait, 1 outfit, 1 expression
+#
+# Every tag comes from source/characters/gunther/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+#
+# One portrait means one outfit block and one expression block. That is correct,
+# not an omission.
+
+character: gunther
+futanari: true
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "Long straight black hair with a blunt fringe, falling well past her
+# shoulders. Blue-green eyes behind round wire-rimmed glasses, and a light flush
+# across the cheeks. She is about 171 cm, 118-60-104 cm, a K-cup, narrow at the
+# waist with full hips." She "has a penis" (Identity and life).
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - black hair
+  - long hair
+  - straight hair
+  - blunt bangs
+  - aqua eyes
+  - glasses
+  - round eyewear
+  - blush
+  - gigantic breasts
+  - narrow waist
+  - wide hips
+  - futanari
+  - penis
+  - testicles
+
+outfits:
+  # "A coral halter dress with a stiff white collar and a blue necktie knotted at
+  # the throat ... The front is cut open to below the navel, so both breasts are
+  # bare along the inner and upper curves with only two narrow blue panels
+  # holding them in from the sides, and the tie hangs down the gap between them.
+  # Her shoulders, arms and back are uncovered, and the skirt is a single strip
+  # down the front of her hips. She wears long white gloves for handling
+  # specimens and a wide-brimmed blue sun hat."
+  default:
+    - orange dress
+    - halter dress
+    - white collar
+    - blue necktie
+    - open dress
+    - breasts out of clothes
+    - huge cleavage
+    - navel
+    - bare shoulders
+    - bare arms
+    - backless dress
+    - front slit
+    - white gloves
+    - elbow gloves
+    - blue sun hat
+    - wide-brimmed hat
+
+# One block per expression. Only what changes between portraits belongs here.
+#
+# Source: "She has one expression and it does not change: eyes open behind the
+# glasses, a small pleased closed-mouth smile, faintly flushed ... She looks
+# quietly delighted almost all the time." The hat tip — "that she tips back with
+# one gloved hand to get a proper look at something" — is the hand position in
+# this single portrait.
+expressions:
+  pleased:
+    - upper body
+    - smile
+    - closed mouth
+    - looking at viewer
+    - open eyes
+    - adjusting headwear
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

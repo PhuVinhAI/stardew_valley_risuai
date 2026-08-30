@@ -1,0 +1,300 @@
+# Maru — 75 portraits, 10 outfits, 10 expressions
+#
+# Every tag comes from source/characters/maru/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+
+character: maru
+futanari: false
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "Deep magenta-red hair in short twin tails with small star clips, a
+# soft fringe around violet eyes, a light flush. She is about 162 cm, 94-57-90,
+# an E-cup — compact and curvy, with a slim waist, rounded hips and smooth
+# thighs, and a slightly nerdy, energetic way of standing."
+#
+# The glasses are deliberately not here: "On some days she has her glasses on
+# with it and on others she does not", and the non-glasses outfits are separate
+# blocks, so the eyewear sits in the `-glasses` outfits instead.
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - magenta hair
+  - red hair
+  - short hair
+  - twintails
+  - short twintails
+  - star hair ornament
+  - bangs
+  - purple eyes
+  - blush
+  - large breasts
+  - narrow waist
+  - wide hips
+  - curvy
+
+outfits:
+  # "In the workshop she wears a pink strapless one-piece cut more like skimpy
+  # swimwear than workwear. The front is a single narrow panel with metal clasps
+  # down the centre, so the inner and outer curves of both breasts are bare with
+  # only that strip between them. Her hips, legs, back and most of her stomach
+  # are uncovered. Heavy brown work gloves, and a spanner strapped to one thigh."
+  default:
+    - pink one-piece
+    - strapless
+    - highleg leotard
+    - clasps
+    - breasts out of clothes
+    - sideboob
+    - underboob
+    - bare shoulders
+    - backless
+    - bare midriff
+    - navel
+    - brown work gloves
+    - thigh strap
+    - wrench
+    - bare legs
+
+  # Same workshop outfit with the eyewear on: "On some days she has her glasses
+  # on with it and on others she does not."
+  default-glasses:
+    - pink one-piece
+    - strapless
+    - highleg leotard
+    - clasps
+    - breasts out of clothes
+    - sideboob
+    - underboob
+    - bare shoulders
+    - backless
+    - bare midriff
+    - navel
+    - brown work gloves
+    - thigh strap
+    - wrench
+    - glasses
+
+  # "At the clinic she changes into a smaller pink version with white-and-pink
+  # medical styling, still cut high at the hips and tight across the chest —
+  # again with or without the glasses."
+  hospital:
+    - pink leotard
+    - nurse
+    - white and pink clothes
+    - red cross
+    - highleg leotard
+    - taut clothes
+    - huge cleavage
+    - sideboob
+    - bare shoulders
+    - bare hips
+    - brown work gloves
+    - bare legs
+
+  hospital-glasses:
+    - pink leotard
+    - nurse
+    - white and pink clothes
+    - red cross
+    - highleg leotard
+    - taut clothes
+    - huge cleavage
+    - sideboob
+    - bare shoulders
+    - bare hips
+    - brown work gloves
+    - glasses
+
+  # "Winter repeats the workshop outfit with cold-weather accents and changes
+  # nothing about the bare chest, the uncovered stomach or the bare legs."
+  winter:
+    - pink one-piece
+    - strapless
+    - highleg leotard
+    - fur trim
+    - scarf
+    - breasts out of clothes
+    - sideboob
+    - underboob
+    - bare shoulders
+    - bare midriff
+    - navel
+    - brown work gloves
+    - bare legs
+
+  winter-glasses:
+    - pink one-piece
+    - strapless
+    - highleg leotard
+    - fur trim
+    - scarf
+    - breasts out of clothes
+    - sideboob
+    - underboob
+    - bare shoulders
+    - bare midriff
+    - navel
+    - brown work gloves
+    - glasses
+
+  # "At the beach she wears a tiny pink lace bikini with frilled trim and
+  # sunglasses pushed up into her hair. The cups are small on her chest, barely
+  # covering the nipples and leaving most of both breasts visible."
+  beach:
+    - pink bikini
+    - lace bikini
+    - micro bikini
+    - frilled bikini
+    - sunglasses on head
+    - eyewear on head
+    - covered nipples
+    - huge cleavage
+    - underboob
+    - bare shoulders
+    - bare midriff
+    - navel
+    - bare legs
+
+  # "The one she swims in keeps the same lace bikini."
+  swimsuit:
+    - pink bikini
+    - lace bikini
+    - frilled bikini
+    - sunglasses on head
+    - eyewear on head
+    - cleavage
+    - bare shoulders
+    - bare midriff
+    - navel
+    - bare legs
+
+  # "there is a version with less of it — more bare breast and groin, the same
+  # frills and sunglasses"
+  swimsuit-ex:
+    - pink micro bikini
+    - lace bikini
+    - frilled bikini
+    - sunglasses on head
+    - nipples
+    - underboob
+    - thong
+    - partially visible vulva
+    - bare midriff
+    - navel
+    - bare legs
+
+  # "Stripped, she keeps the star clips and the work gloves: large bare breasts
+  # with visible nipples, a slim stomach, rounded hips, and a visible vulva with
+  # no penis."
+  nude:
+    - nude
+    - completely nude
+    - nipples
+    - large breasts
+    - narrow waist
+    - navel
+    - pussy
+    - uncensored
+    - brown work gloves
+    - bare legs
+
+# One block per expression, applied to every outfit. Only what changes between
+# portraits belongs here: eyes, mouth, hands, gaze, blush intensity, and any
+# effect the portrait draws.
+#
+# Source: "a bright open-mouthed smile; a playful closed-eyed double peace sign;
+# a surprised parted-lip look; a cheeky glance over lowered sunglasses; a shy
+# hunch with both hands drawn together; a wry look aside; an eager grin; a
+# pleased small smile; a thoughtful neutral face; and a flustered flailing
+# recoil."
+expressions:
+  bright:
+    - upper body
+    - smile
+    - open mouth
+    - happy
+    - looking at viewer
+    - open eyes
+
+  playful:
+    - upper body
+    - double v
+    - v over eye
+    - closed eyes
+    - smile
+    - open mouth
+
+  surprised:
+    - upper body
+    - surprised
+    - parted lips
+    - wide-eyed
+    - looking at viewer
+    - raised eyebrows
+
+  # "a cheeky glance over lowered sunglasses" — the sunglasses belong to the
+  # beach and swimsuit blocks, so this keeps only the sidelong look over the
+  # rim; in the clothed and nude outfits it reads as the same smug glance
+  # without eyewear. Flagged in the report.
+  cheeky:
+    - upper body
+    - smug
+    - looking over eyewear
+    - half-closed eyes
+    - closed mouth
+    - looking at viewer
+
+  shy:
+    - upper body
+    - shy
+    - heavy blush
+    - hands together
+    - hunched over
+    - looking away
+
+  wry:
+    - upper body
+    - smirk
+    - looking to the side
+    - half-closed eyes
+    - closed mouth
+    - amused
+
+  eager:
+    - upper body
+    - grin
+    - open mouth
+    - teeth
+    - excited
+    - looking at viewer
+
+  pleased:
+    - upper body
+    - smile
+    - closed mouth
+    - happy
+    - looking at viewer
+    - half-closed eyes
+
+  thoughtful:
+    - upper body
+    - expressionless
+    - closed mouth
+    - neutral face
+    - looking to the side
+    - thinking
+
+  flustered:
+    - upper body
+    - flustered
+    - heavy blush
+    - open mouth
+    - flailing
+    - motion lines
+    - leaning back
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

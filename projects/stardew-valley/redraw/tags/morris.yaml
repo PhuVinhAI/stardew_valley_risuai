@@ -1,0 +1,124 @@
+# Morris — 4 portraits, 1 outfit, 4 expressions
+#
+# Every tag comes from source/characters/morris/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+
+character: morris
+futanari: true
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "Long black hair past her waist, pinned up into high twin tails with a
+# straight fringe across her forehead. Violet eyes that flare into heart-shaped
+# pupils when a sale is going well, and a flush sitting high on both cheeks. She
+# is about 169 cm, 116-58-104 cm, a J-cup, narrow at the waist with wide soft
+# hips and thighs." She "has a penis" (Identity and life).
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - black hair
+  - long hair
+  - twintails
+  - high twintails
+  - blunt bangs
+  - violet eyes
+  - permanent blush
+  - huge breasts
+  - narrow waist
+  - wide hips
+  - thick thighs
+  - futanari
+  - penis
+  - testicles
+
+outfits:
+  # "a black rabbit-ear headband with the ears flopping over, a white collar with
+  # a red bow tie, detached elbow-length black sleeves with white cuffs and a
+  # small button at each wrist. The bodice is two black heart-shaped cups and
+  # nothing else — they cover the nipples and leave the whole of both breasts bare
+  # around them, inner curve, underside and sides, and a fold of green banknotes
+  # is wedged into the cleavage where a pocket would be. Below that, a high-cut
+  # black leotard base that leaves her midriff, hips and the tops of her thighs
+  # uncovered, sheer black stockings, and a white puff tail. The current
+  # membership price — 5000G — is inked across her right thigh in her own
+  # handwriting."
+  #
+  # The thigh figure is written by hand and she updates it, so it belongs to the
+  # outfit rather than to identity.
+  default:
+    - playboy bunny
+    - black leotard
+    - highleg leotard
+    - fake animal ears
+    - rabbit ears
+    - floppy ears
+    - detached collar
+    - red bowtie
+    - black detached sleeves
+    - white cuffs
+    - heart pasties
+    - covered nipples
+    - breasts out of clothes
+    - huge cleavage
+    - underboob
+    - money
+    - money in cleavage
+    - bare midriff
+    - navel
+    - black pantyhose
+    - rabbit tail
+    - body writing
+    - thigh writing
+
+# One block per expression. Only what changes between portraits belongs here:
+# eyes, mouth, hands, gaze, blush intensity, and any effect the portrait draws.
+#
+# Source: "a pleased closed-eyed smile, a bright-eyed look straight at the
+# customer, and a double peace sign with her mouth open and her eyes gone glassy.
+# The fourth is outright arousal — eyes rolled up, tongue out, tears and drool
+# down her chin — and she is wearing exactly the same outfit in it."
+expressions:
+  pleased-closed-eyes:
+    - upper body
+    - smile
+    - closed eyes
+    - closed mouth
+    - pleased
+    - head tilt
+
+  # "Violet eyes that flare into heart-shaped pupils when a sale is going well"
+  # lands on this one, the look aimed straight at the customer.
+  bright-eyed:
+    - upper body
+    - smile
+    - open eyes
+    - sparkling eyes
+    - heart-shaped pupils
+    - looking at viewer
+
+  peace-signs-dazed:
+    - upper body
+    - double v
+    - peace sign
+    - both hands up
+    - open mouth
+    - empty eyes
+    - dazed
+
+  # The point of this portrait: not a suggestion of arousal but the full drawn
+  # convention, in the same bunny outfit as the other three.
+  ahegao:
+    - upper body
+    - ahegao
+    - rolling eyes
+    - tongue out
+    - open mouth
+    - drooling
+    - tears
+    - heavy blush
+    - orgasm
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

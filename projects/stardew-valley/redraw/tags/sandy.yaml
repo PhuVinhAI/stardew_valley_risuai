@@ -1,0 +1,107 @@
+# Sandy — 4 portraits, 1 outfit, 4 expressions
+#
+# Every tag comes from source/characters/sandy/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+
+character: sandy
+futanari: false
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "Long crimson hair in heavy waves, a blue ribbon tied at one side,
+# gold hoop earrings and a small blue gem stud. Warm amber eyes under
+# half-lowered lids with orange liner, and a flush that never leaves her cheeks.
+# Pale skin that burns rather than tans. She is about 169 cm, 114-58-104 cm, a
+# J-cup, narrow at the waist with broad soft hips and thick thighs."
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - red hair
+  - crimson hair
+  - long hair
+  - wavy hair
+  - blue hair ribbon
+  - amber eyes
+  - eyeliner
+  - orange eyeshadow
+  - hoop earrings
+  - gold earrings
+  - blue gemstone
+  - permanent blush
+  - pale skin
+  - huge breasts
+  - narrow waist
+  - wide hips
+  - thick thighs
+
+outfits:
+  # "a deep blue wrap dress with a wide ruffled collar that has slid off both
+  # shoulders and hangs around her upper arms. The front plunges past her
+  # sternum and only the outer edge of each breast is covered — the inner
+  # curves, the cleavage and most of the underside are bare, and one hip is out
+  # where the skirt wraps and does not meet. Her shoulders, arms, stomach and
+  # one whole leg are uncovered."
+  #
+  # "She stands with a hand on that hip, leaning forward over the counter" holds
+  # in all four portraits, so the stance sits with the outfit; identity may not
+  # carry a pose.
+  default:
+    - blue dress
+    - wrap dress
+    - ruffled collar
+    - off-shoulder
+    - bare shoulders
+    - bare arms
+    - plunging neckline
+    - huge cleavage
+    - underboob
+    - no bra
+    - side slit
+    - bare hips
+    - bare midriff
+    - navel
+    - bare legs
+    - hand on hip
+    - leaning forward
+
+# One block per expression. Only what changes between portraits belongs here:
+# eyes, mouth, hands, gaze, blush intensity, and any effect the portrait draws.
+#
+# Source: "Her four expressions are all warm: an open-eyed welcome, a delighted
+# closed-eyed smile, a calm serene look, and a softer near-neutral one. There is
+# no anger and no fear in her at all — even bored she looks pleased to see
+# someone."
+expressions:
+  warm:
+    - upper body
+    - smile
+    - open mouth
+    - looking at viewer
+    - happy
+
+  delighted:
+    - upper body
+    - happy
+    - wide smile
+    - closed eyes
+    - head tilt
+
+  serene:
+    - upper body
+    - gentle smile
+    - closed mouth
+    - looking at viewer
+    - half-closed eyes
+
+  soft:
+    - upper body
+    - light smile
+    - neutral face
+    - closed mouth
+    - looking at viewer
+    - half-closed eyes
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

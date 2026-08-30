@@ -1,0 +1,313 @@
+# Sam — 69 portraits, 7 outfits, 12 expressions
+#
+# Every tag comes from source/characters/sam/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+
+character: sam
+futanari: true
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "Two vast golden twin tails hang past her knees, gathered high with a
+# red X-shaped clip, and a pair of blonde cat ears sits in her hair with a slim
+# tail behind her ... Blue eyes with heavy lashes, pale skin, a red leather
+# collar with a gold bell at her throat that rings when she moves. She is about
+# 167 cm, 106-56-96, a heavy G-cup, with a narrow waist that makes the rest of
+# her look larger still."
+#
+# The ears "change colour with what she is wearing", so the ears are here and no
+# colour is. The collar and bell survive being stripped, so they are here too.
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - blonde hair
+  - very long hair
+  - twintails
+  - high twintails
+  - hair clip
+  - long eyelashes
+  - blue eyes
+  - pale skin
+  - fake animal ears
+  - cat ears
+  - cat tail
+  - red collar
+  - bell collar
+  - huge breasts
+  - narrow waist
+  - wide hips
+  - futanari
+  - penis
+  - testicles
+
+outfits:
+  # "Her usual clothes are a cropped blue idol jacket with the front hanging
+  # open, and under it only a gold string bikini top — two thin triangles that
+  # sit on the outer half of each breast, so the entire inner curve and the
+  # cleavage between are bare, and the gold cord runs up over her shoulders.
+  # Blue denim shorts sit unbuttoned low on her hips over a white string thong,
+  # with a gold chain hanging at one side. One arm wears a long pink sleeve tied
+  # with two bows; the other is bare to the shoulder."
+  default:
+    - blue jacket
+    - cropped jacket
+    - open jacket
+    - gold bikini top
+    - string bikini
+    - micro bikini
+    - huge cleavage
+    - breasts out of clothes
+    - denim shorts
+    - unbuttoned shorts
+    - short shorts
+    - white thong
+    - gold chain
+    - single detached sleeve
+    - pink sleeve
+    - bare shoulder
+    - bare midriff
+    - navel
+
+  # "At work she pulls on a short blue Joja pinafore with the store logo on the
+  # chest, and it fastens nowhere — the sides are open from armpit to hip so a
+  # whole stripe of bare skin and the outer swell of one breast shows through,
+  # and the hem stops at the top of her thighs."
+  joja-uniform:
+    - blue pinafore dress
+    - logo print
+    - name tag
+    - side cutout
+    - sideboob
+    - bare arms
+    - bare hips
+    - short dress
+    - bare legs
+    - bare midriff
+
+  # "At the beach she wears a purple frilled bandeau with pink trim, tugged low
+  # enough that both nipples sit just above the frill, and a tiny purple thong
+  # with a cat face printed on it and beads on the side ties."
+  beach:
+    - purple bandeau
+    - tube top
+    - frilled bikini top
+    - pink trim
+    - clothes pull
+    - breasts out of clothes
+    - nipples
+    - purple thong
+    - side-tie bikini bottom
+    - beads
+    - cat print
+    - bare shoulders
+    - bare midriff
+    - navel
+
+  # The prose describes one beach set and then "The more exposed version is the
+  # same bandeau with the frill dragged lower still", so the swimsuit is that same
+  # set worn as intended rather than tugged down.
+  swimsuit:
+    - purple bandeau
+    - tube top
+    - frilled bikini top
+    - pink trim
+    - purple thong
+    - side-tie bikini bottom
+    - beads
+    - cat print
+    - huge cleavage
+    - bare shoulders
+    - bare midriff
+    - navel
+
+  # "The more exposed version is the same bandeau with the frill dragged lower
+  # still."
+  #
+  # The bandeau is still on, just pulled further down, so this is
+  # `breasts out of clothes` rather than `topless` — the same wording the beach
+  # block uses, which is what the prose supports.
+  swimsuit-ex:
+    - purple bandeau
+    - tube top
+    - frilled bikini top
+    - clothes pull
+    - breasts out of clothes
+    - nipples
+    - underboob
+    - purple thong
+    - side-tie bikini bottom
+    - cat print
+    - bulge
+    - bare midriff
+    - navel
+
+  # "In winter she gets a pink-and-white striped cat hood with round ears,
+  # matching mittens and thigh boots, a blue bow at her collar — and nothing
+  # across her chest at all, so her breasts hang bare between the open front of
+  # the hood, over a thin pink thong."
+  winter:
+    - pink hood
+    - striped hood
+    - animal hood
+    - cat hood
+    - open clothes
+    - mittens
+    - thigh boots
+    - blue bow
+    - topless
+    - nipples
+    - breasts out
+    - pink thong
+    - string thong
+    - bare midriff
+    - navel
+
+  # "Stripped, she keeps the collar, the bell, the star clips and the cat ears,
+  # and nothing else: very large breasts with pink nipples sitting high on her
+  # chest, a soft stomach, wide hips, and — as with every futanari in the valley
+  # — a penis and testicles between her thighs." Nothing in the prose reads as
+  # arousal, so the state is flaccid.
+  nude:
+    - nude
+    - completely nude
+    - nipples
+    - pink nipples
+    - huge breasts
+    - plump belly
+    - navel
+    - penis
+    - flaccid
+    - testicles
+    - uncensored
+
+# One block per expression, applied to every outfit. Only what changes between
+# portraits belongs here: eyes, mouth, hands, gaze, blush intensity, and any
+# effect the portrait draws.
+#
+# Source: "An open-mouthed grin. A wincing closed-eyed apology. A glance back
+# over her shoulder. A content little smile with her eyes shut. A hunched blush.
+# An indignant puff with steam coming off her. A sideways coy look. One where she
+# reads something off a sheet of paper held up against her chest. One where
+# something startles her badly enough that both twin tails stand straight on end
+# and she recoils with her hands open and her mouth square. One where she is
+# bawling outright, eyes screwed shut, tears going sideways in two arcs. A lazy
+# stretch with both arms up behind her head. And one where her pupils have gone
+# to hearts and her mouth is open and she has clearly stopped listening."
+expressions:
+  cheerful:
+    - upper body
+    - grin
+    - open mouth
+    - teeth
+    - happy
+    - looking at viewer
+
+  sheepish:
+    - upper body
+    - wince
+    - closed eyes
+    - open mouth
+    - nervous
+    - hand up
+
+  turned:
+    - upper body
+    - looking back
+    - looking over shoulder
+    - from behind
+    - head turned
+    - closed mouth
+
+  content:
+    - upper body
+    - smile
+    - closed eyes
+    - closed mouth
+    - happy
+    - head tilt
+
+  bashful:
+    - upper body
+    - embarrassed
+    - heavy blush
+    - hunched over
+    - looking away
+    - closed mouth
+
+  # "An indignant puff with steam coming off her."
+  indignant:
+    - upper body
+    - pouting
+    - puffy cheeks
+    - angry
+    - steam
+    - anger vein
+    - closed eyes
+
+  # "One where she reads something off a sheet of paper held up against her
+  # chest."
+  holding-paper:
+    - upper body
+    - holding paper
+    - reading
+    - paper against chest
+    - both hands up
+    - looking down
+    - open mouth
+
+  coy:
+    - upper body
+    - smirk
+    - looking to the side
+    - half-closed eyes
+    - closed mouth
+    - sly
+
+  # "both twin tails stand straight on end and she recoils with her hands open
+  # and her mouth square"
+  hair-on-end:
+    - upper body
+    - shocked
+    - hair standing on end
+    - wide-eyed
+    - open mouth
+    - hands up
+    - spread fingers
+    - leaning back
+    - emphasis lines
+
+  # "bawling outright, eyes screwed shut, tears going sideways in two arcs"
+  bawling:
+    - upper body
+    - crying
+    - crying with eyes closed
+    - streaming tears
+    - tears
+    - wide open mouth
+    - screaming
+    - shut eyes
+
+  stretching:
+    - upper body
+    - stretching
+    - arms behind head
+    - arms up
+    - closed eyes
+    - open mouth
+    - yawning
+
+  # "her pupils have gone to hearts and her mouth is open and she has clearly
+  # stopped listening"
+  heart-eyes:
+    - upper body
+    - heart-shaped pupils
+    - in love
+    - open mouth
+    - heavy blush
+    - hearts
+    - looking at viewer
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

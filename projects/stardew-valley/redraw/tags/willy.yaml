@@ -1,0 +1,138 @@
+# Willy — 12 portraits, 3 outfits, 4 expressions
+#
+# Every tag comes from source/characters/willy/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+
+character: willy
+futanari: true
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "Long dark brown hair in heavy waves with a fringe that falls into her
+# eyes. Teal-green eyes with sharp dark lashes, and a flush across skin gone
+# brown from decades on open water — there is a hard line at her collarbone
+# where the sun stops. She is about 174 cm, 116-70-106 cm, a J-cup, broad
+# through the shoulders and thick through the waist."
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - dark brown hair
+  - long hair
+  - wavy hair
+  - hair over eyes
+  - aqua eyes
+  - long eyelashes
+  - blush
+  # "skin gone brown from decades on open water — there is a hard line at her
+  # collarbone where the sun stops."
+  - tan
+  - tanlines
+  - huge breasts
+  - broad shoulders
+  - thick waist
+  - tall female
+  # "She is an adult woman, and futanari — she has a penis." Anatomy, present in
+  # every render, stated plainly.
+  - futanari
+  - penis
+  - testicles
+
+outfits:
+  # "Around the shop she wears a navy one-piece swimsuit with white trim and
+  # nothing else. The neckline is scooped so low that the inner curve of both
+  # breasts and the entire cleavage are bare, the fabric strains flat across the
+  # front, and the legs are cut so high at the hip that they clear her hipbones.
+  # Shoulders, arms and legs are uncovered."
+  default:
+    - navy one-piece swimsuit
+    - white trim
+    - highleg swimsuit
+    - plunging neckline
+    - huge cleavage
+    - breasts out of clothes
+    - taut clothes
+    - skindentation
+    - bare shoulders
+    - bare arms
+    - bare legs
+    - bulge
+
+  # "For the beach and the pool it is the same red string bikini — two small
+  # triangles that sit on the outer half of each breast, so the inner and lower
+  # curves stay bare, over thin string bottoms."
+  beach:
+    - red bikini
+    - string bikini
+    - triangle bikini
+    - micro bikini
+    - underboob
+    - huge cleavage
+    - bare shoulders
+    - bare midriff
+    - navel
+    - bulge
+    - covered penis
+    - bare legs
+
+  # "Winter is a blue fringed scarf hung round her neck with both ends falling
+  # down her front, one over the outside of each breast, and the middle of her
+  # chest bare between them. Below that a blue string thong, and bare legs on the
+  # pier."
+  winter:
+    - blue scarf
+    - fringed scarf
+    - scarf over breasts
+    - topless
+    - huge cleavage
+    - blue thong
+    - micro thong
+    - bare shoulders
+    - bare midriff
+    - navel
+    - bulge
+    - bare legs
+
+# One block per expression, applied to every outfit. Only what changes between
+# portraits belongs here: eyes, mouth, hands, gaze, blush intensity, and any
+# effect the portrait draws.
+#
+# Source: "a genial closed-mouth smile; a closed-eyed rub at the bridge of her
+# nose; an arms-crossed considering look, mouth flat; and a closed-eyed amused
+# one with a hand at her hip. Nothing sharp in any of them and nothing angry."
+expressions:
+  genial:
+    - upper body
+    - smile
+    - closed mouth
+    - looking at viewer
+    - open eyes
+    - relaxed
+
+  weathered:
+    - upper body
+    - closed eyes
+    - hand on own face
+    - pinching bridge of nose
+    - tired
+    - closed mouth
+
+  considering:
+    - upper body
+    - crossed arms
+    - closed mouth
+    - looking at viewer
+    - half-closed eyes
+    - thinking
+
+  amused:
+    - upper body
+    - closed eyes
+    - smile
+    - hand on hip
+    - happy
+    - closed mouth
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

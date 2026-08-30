@@ -1,0 +1,81 @@
+# Marlon — 1 portrait, 1 outfit, 1 expression
+#
+# Every tag comes from source/characters/marlon/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+#
+# One portrait means one outfit block and one expression block. That is correct,
+# not an omission.
+
+character: marlon
+futanari: true
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "Short silver-grey hair in loose waves to jaw length, falling across
+# her face. A black leather patch covers her right eye; the left is pale green
+# and looks straight at you. A faint flush over the nose ... She is about 173 cm,
+# 112-66-102 cm, an I-cup, broad through the shoulders with thick thighs."
+# She "has a penis" (Identity and life). The bad leg is not visible in a portrait
+# crop, so it is not tagged.
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - grey hair
+  - silver hair
+  - short hair
+  - wavy hair
+  - hair over one eye
+  - eyepatch
+  - black eyepatch
+  - one eye covered
+  - green eyes
+  - blush
+  - huge breasts
+  - broad shoulders
+  - thick thighs
+  - futanari
+  - penis
+  - testicles
+
+outfits:
+  # "A black steel bustier is shaped to hold the underside of each breast and
+  # nothing above it, so the upper halves and the entire cleft between them are
+  # bare, and it joins a high gorget collar at her throat. From the bustier a
+  # narrow black strap runs down over her belly and between her legs; her waist,
+  # hips and the whole length of both thighs are uncovered. A dark green cloak
+  # hangs from her shoulders down her back, and a black band grips one upper arm.
+  # She holds a plain longsword upright in one hand without ceremony."
+  default:
+    - black armor
+    - underbust
+    - bustier
+    - breasts out of clothes
+    - huge cleavage
+    - gorget
+    - high collar
+    - navel
+    - groin strap
+    - bare hips
+    - bare thighs
+    - green cloak
+    - armband
+    - holding sword
+    - longsword
+
+# One block per expression. Only what changes between portraits belongs here.
+#
+# Source: "She has one face and it barely moves: a level stare from the single
+# visible eye, mouth set, faintly flushed."
+expressions:
+  stern:
+    - upper body
+    - expressionless
+    - serious
+    - closed mouth
+    - looking at viewer
+    - half-closed eyes
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

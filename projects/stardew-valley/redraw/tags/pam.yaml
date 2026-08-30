@@ -1,0 +1,140 @@
+# Pam — 15 portraits, 3 outfits, 5 expressions
+#
+# Every tag comes from source/characters/pam/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+
+character: pam
+futanari: false
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "Short blonde hair in a slightly messy bob pushed off her forehead.
+# Green eyes under heavy lids with sharp red-brown liner, and a flush that never
+# leaves her cheeks. She is about 168 cm, 116-72-110 cm, a K-cup, thick through
+# the soft waist and wide across the hips." The habitual weight-on-one-leg,
+# hand-on-hip stance is a pose, so it lives in the expression blocks instead.
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - blonde hair
+  - short hair
+  - bob cut
+  - messy hair
+  - forehead
+  - green eyes
+  - eyeliner
+  - permanent blush
+  - gigantic breasts
+  - wide hips
+  - plump
+
+outfits:
+  # "Her everyday clothes are a leopard-print triangle bikini top and a pair of
+  # cut-off denim shorts. The top sits on the outer half of each breast, so the
+  # inner curves and the whole deep cleavage between them are bare, and the thin
+  # printed cords go over her shoulders. The shorts are unbuttoned, unzipped and
+  # slung low enough on her hips to show the bikini strings underneath; her
+  # entire midriff is out."
+  default:
+    - leopard print bikini top
+    - animal print
+    - triangle bikini
+    - halterneck
+    - breasts out of clothes
+    - huge cleavage
+    - denim shorts
+    - cutoffs
+    - unbuttoned shorts
+    - unzipped
+    - low-rise shorts
+    - bare midriff
+    - navel
+
+  # "Beach and pool are the same leopard-print string set — the same small
+  # triangles and thin strings tied at the hips over a scrap of print."
+  beach:
+    - leopard print bikini
+    - animal print
+    - string bikini
+    - micro bikini
+    - triangle bikini
+    - side-tie bikini bottom
+    - underboob
+    - cleavage
+    - bare shoulders
+    - bare midriff
+    - navel
+
+  # "Winter is a leopard-print fringed scarf wound round her neck with the ends
+  # hanging down between her breasts, worn over the same string bottoms. The
+  # scarf is the only thing across her chest and it does not cover much of it."
+  winter:
+    - leopard print scarf
+    - animal print
+    - fringed scarf
+    - scarf
+    - topless
+    - breasts out
+    - nipples
+    - side-tie bottom
+    - bare shoulders
+    - bare midriff
+    - navel
+    - bare legs
+
+# One block per expression, applied to every outfit. Only what changes between
+# portraits belongs here: eyes, mouth, hands, gaze, blush intensity, and any
+# effect the portrait draws.
+#
+# Source: "a flat unimpressed stare with one hand on her hip; a lazy half-lidded
+# look with one arm hooked behind her head; an openly annoyed shout, mouth open,
+# red anger marks flying off her temple, arms crossed under her breasts; and a
+# narrow-eyed grumble with her arms still folded. One breaks the pattern
+# entirely — a wide open grin with her eyes screwed shut and a thumbs-up, yellow
+# lines radiating off her."
+expressions:
+  unimpressed:
+    - upper body
+    - unamused
+    - half-closed eyes
+    - closed mouth
+    - hand on hip
+    - looking at viewer
+
+  thumbs-up:
+    - upper body
+    - grin
+    - open mouth
+    - closed eyes
+    - thumbs up
+    - emphasis lines
+
+  arm-behind-head:
+    - upper body
+    - smirk
+    - half-closed eyes
+    - closed mouth
+    - arm behind head
+    - looking at viewer
+
+  shouting:
+    - upper body
+    - shouting
+    - angry
+    - open mouth
+    - anger vein
+    - crossed arms
+    - arm under breasts
+
+  arms-folded:
+    - upper body
+    - annoyed
+    - narrowed eyes
+    - frown
+    - closed mouth
+    - crossed arms
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

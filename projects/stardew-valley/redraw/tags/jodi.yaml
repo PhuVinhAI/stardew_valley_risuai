@@ -1,0 +1,136 @@
+# Jodi — 15 portraits, 3 outfits, 5 expressions
+#
+# Every tag comes from source/characters/jodi/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+
+character: jodi
+futanari: false
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "Long ginger hair in one thick braid pulled forward over her shoulder,
+# a soft fringe, small pearl drops in her ears. Blue eyes under heavy lids with
+# dark lashes, and a warm flush that sits high on her cheeks. She is about
+# 166 cm, 108-62-102 cm, an H-cup, soft through the waist and broad across the
+# hips, with a small mole below one collarbone."
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - orange hair
+  - long hair
+  - single braid
+  - braid over shoulder
+  - bangs
+  - pearl earrings
+  - blue eyes
+  - long eyelashes
+  - blush
+  - huge breasts
+  - wide hips
+  - plump
+  - mole
+  - mole on collarbone
+
+outfits:
+  # "Her house clothes are a grey-beige strapless wrap dress that has slid down
+  # to sit under the bust, so both breasts are completely bare above the fabric
+  # with the thin strap hanging loose off one arm, and the dress covers her only
+  # from the waist down."
+  default:
+    - grey dress
+    - wrap dress
+    - strapless dress
+    - dress pulled down
+    - clothes slip
+    - strap slip
+    - breasts out of clothes
+    - nipples
+    - bare shoulders
+    - bare arms
+    - bare midriff
+    - navel
+
+  # "At the beach and in the pool it is the same tiny black string bikini — two
+  # narrow triangles that leave the nipples and most of both breasts uncovered,
+  # on cords so thin they read as decoration."
+  beach:
+    - black bikini
+    - micro bikini
+    - string bikini
+    - triangle bikini
+    - nipples
+    - underboob
+    - cleavage
+    - bare shoulders
+    - bare midriff
+    - navel
+
+  # "Winter is a purple fringed scarf hanging down between her breasts over
+  # purple string bottoms, and nothing else at all."
+  winter:
+    - purple scarf
+    - fringed scarf
+    - scarf
+    - topless
+    - breasts out
+    - nipples
+    - purple bikini bottom
+    - side-tie bottom
+    - bare shoulders
+    - bare midriff
+    - navel
+    - bare legs
+
+# One block per expression, applied to every outfit. Only what changes between
+# portraits belongs here: eyes, mouth, hands, gaze, blush intensity, and any
+# effect the portrait draws.
+#
+# Source: "a warm closed-mouth smile; a closed-eyed laugh with one hand raised
+# to her mouth; a weary look with her cheek resting on her hand; a flat
+# exasperated frown with both hands planted on her hips; and a brisker
+# half-smile with one hand on her hip, the one that means she has already
+# decided what happens next."
+expressions:
+  warm:
+    - upper body
+    - smile
+    - gentle smile
+    - closed mouth
+    - looking at viewer
+
+  amused:
+    - upper body
+    - laughing
+    - closed eyes
+    - open mouth
+    - hand over own mouth
+    - happy
+
+  weary:
+    - upper body
+    - tired
+    - half-closed eyes
+    - closed mouth
+    - head rest
+    - hand on own cheek
+
+  exasperated:
+    - upper body
+    - frown
+    - annoyed
+    - closed mouth
+    - hands on hips
+    - looking at viewer
+
+  brisk:
+    - upper body
+    - half-closed eyes
+    - smile
+    - closed mouth
+    - hand on hip
+    - looking at viewer
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

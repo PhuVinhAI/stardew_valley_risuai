@@ -1,0 +1,342 @@
+# Shane — 98 portraits, 10 outfits, 11 expressions
+#
+# Every tag comes from source/characters/shane/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+
+character: shane
+futanari: true
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "Very long purple hair with magenta streaks, unbrushed, falling past
+# her hips, one stubborn cowlick standing straight up at the crown and a heavy
+# fringe hanging over one eye. Dark red eyes under low lids, a flush across the
+# cheeks that never goes away ... about 165 cm, 100-64-98 cm, an F-cup, soft
+# everywhere: a rounded belly, full thighs, heavy breasts she does nothing to
+# support. There is a small blue barcode stamped low on her groin, like stock."
+#
+# The low lids belong to the expressions rather than here, because two portraits
+# have her eyes shut and one has them wide.
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - purple hair
+  - magenta streaks
+  - streaked hair
+  - very long hair
+  - messy hair
+  - ahoge
+  - hair over one eye
+  - dark red eyes
+  - permanent blush
+  - large breasts
+  - sagging breasts
+  - plump
+  - plump belly
+  - wide hips
+  - thick thighs
+  - barcode tattoo
+  - groin tattoo
+  - futanari
+  - penis
+  - testicles
+
+outfits:
+  # "Around the ranch she wears a green knitted halter with a keyhole cut out of
+  # the front, which sits open enough that the inner curve of both breasts and
+  # one nipple show through, and a blue work jacket that is never on properly —
+  # always shoved off both shoulders and knotted low around her hips, sleeves
+  # dangling. Underneath, a green thong on a cord and green knitted legwarmers
+  # bunched at her calves."
+  default:
+    - green halter top
+    - knitted top
+    - keyhole clothing cutout
+    - cleavage cutout
+    - one breast out
+    - nipples
+    - blue jacket
+    - off shoulder
+    - jacket around waist
+    - green thong
+    - green legwarmers
+    - bare midriff
+    - navel
+
+  # The `-post-event` sets are the lighter drawing of the same outfit, from
+  # "She has been through the worst of it — a night at the cliffs, a hospital, a
+  # decision to see a therapist her doctor found her — and afterward she is
+  # trying: cutting back rather than quitting". Same clothes, a face that has
+  # stopped looking wrecked: clearer eyes and colour back in her skin.
+  default-post-event:
+    - green halter top
+    - knitted top
+    - keyhole clothing cutout
+    - cleavage cutout
+    - one breast out
+    - nipples
+    - blue jacket
+    - off shoulder
+    - jacket around waist
+    - green thong
+    - green legwarmers
+    - bare midriff
+    - clear eyes
+    - bright eyes
+    - rested
+
+  # "Her Joja shift is a short blue pinafore with the store logo across the
+  # chest, worn with a blue headband with cat ears on it. The sides are cut away
+  # from armpit to hip so the whole flank and the outer curve of one breast are
+  # bare, and the hem barely covers her."
+  joja-uniform:
+    - blue pinafore dress
+    - logo print
+    - name tag
+    - blue headband
+    - fake animal ears
+    - cat ears
+    - sideboob
+    - side cutout
+    - bare arms
+    - bare hips
+    - short dress
+    - bare legs
+
+  joja-uniform-post-event:
+    - blue pinafore dress
+    - logo print
+    - name tag
+    - blue headband
+    - fake animal ears
+    - cat ears
+    - sideboob
+    - side cutout
+    - bare arms
+    - bare hips
+    - short dress
+    - clear eyes
+    - bright eyes
+    - rested
+
+  # "At the beach the outfit is a joke at her own expense: a laminated sign on a
+  # cord round her neck reading THIS SWIMSUIT IS JOJAMART PROPERTY, hanging flat
+  # against her chest and covering less than a hand would, with a blue ribbon at
+  # her throat, a frilled JOJA armband, and frilled bottoms with the store slogan
+  # printed across them. Both breasts are bare either side of the sign; her
+  # stomach, hips and legs have nothing on them at all."
+  beach:
+    - topless
+    - sign
+    - sign around neck
+    - covered nipples
+    - sideboob
+    - blue ribbon
+    - neck ribbon
+    - frilled armband
+    - frilled bikini bottom
+    - text print
+    - bare midriff
+    - navel
+    - bare legs
+
+  beach-post-event:
+    - topless
+    - sign
+    - sign around neck
+    - covered nipples
+    - sideboob
+    - blue ribbon
+    - neck ribbon
+    - frilled armband
+    - frilled bikini bottom
+    - text print
+    - bare midriff
+    - clear eyes
+    - bright eyes
+    - rested
+
+  # "The more exposed version is the same, with the sign slid aside so it hides
+  # nothing."
+  swimsuit-ex:
+    - topless
+    - nipples
+    - sign
+    - sign around neck
+    - blue ribbon
+    - neck ribbon
+    - frilled armband
+    - frilled bikini bottom
+    - text print
+    - bare midriff
+    - navel
+    - bare legs
+
+  # "Winter is a blue Joja-branded scarf hanging down between her breasts, cuffed
+  # with white fluff, and a matching thong on a thin string. That is everything."
+  winter:
+    - blue scarf
+    - scarf between breasts
+    - fur trim
+    - topless
+    - nipples
+    - blue thong
+    - string thong
+    - bare shoulders
+    - bare midriff
+    - navel
+    - bare legs
+
+  winter-post-event:
+    - blue scarf
+    - scarf between breasts
+    - fur trim
+    - topless
+    - nipples
+    - blue thong
+    - string thong
+    - bare shoulders
+    - bare midriff
+    - clear eyes
+    - bright eyes
+    - rested
+
+  # "Undressed she keeps the barcode and nothing else: heavy bare breasts with
+  # pink nipples, a soft stomach, wide hips, and — as with every futanari here —
+  # a penis and testicles." Nothing in the prose reads as arousal, so the state
+  # is flaccid.
+  nude:
+    - nude
+    - completely nude
+    - nipples
+    - pink nipples
+    - sagging breasts
+    - plump belly
+    - navel
+    - penis
+    - flaccid
+    - testicles
+    - uncensored
+
+# One block per expression, applied to every outfit. Only what changes between
+# portraits belongs here: eyes, mouth, hands, gaze, blush intensity, and any
+# effect the portrait draws.
+#
+# Source: "a weary half-lidded look, a flat stare aimed at nothing, a glance
+# away, a glum downturned mouth, an irritated flash with pink marks flying off
+# her head, a hand-on-hip stance that reads more braced than confident, and a
+# startled open-mouthed jolt with two exclamation marks over her. Two poses break
+# the pattern completely — she is holding one of her hens against her chest, eyes
+# shut, smiling properly, and they are the only two where she looks happy. One
+# more is her face-down on the floor seen from behind and above, legs drawn up
+# under her, hips raised, crying quietly."
+expressions:
+  weary:
+    - upper body
+    - tired
+    - half-closed eyes
+    - closed mouth
+    - looking at viewer
+    - expressionless
+
+  flat:
+    - upper body
+    - expressionless
+    - blank stare
+    - half-closed eyes
+    - closed mouth
+    - unamused
+
+  # The only label the appearance paragraph does not name. Taken as the same
+  # tired face with her arms folded, which on her chest means resting on it
+  # rather than hiding it. Flagged in the report.
+  arms-crossed:
+    - upper body
+    - crossed arms
+    - arms under breasts
+    - half-closed eyes
+    - closed mouth
+    - unamused
+
+  glance-aside:
+    - upper body
+    - looking away
+    - head turned
+    - half-closed eyes
+    - closed mouth
+    - expressionless
+
+  glum:
+    - upper body
+    - sad
+    - frown
+    - looking down
+    - half-closed eyes
+    - closed mouth
+
+  # "an irritated flash with pink marks flying off her head"
+  irritated:
+    - upper body
+    - annoyed
+    - angry
+    - frown
+    - emphasis lines
+    - motion lines
+    - half-closed eyes
+
+  hand-on-hip:
+    - upper body
+    - hand on hip
+    - half-closed eyes
+    - closed mouth
+    - looking at viewer
+    - unamused
+
+  # "her face-down on the floor seen from behind and above, legs drawn up under
+  # her, hips raised, crying quietly"
+  face-down-crying:
+    - top-down bottom-up
+    - from behind
+    - from above
+    - lying
+    - face down
+    - ass
+    - crying
+    - tears
+
+  # "holding one of her hens against her chest, eyes shut, smiling properly" —
+  # the private blue flock she raised in secret. The prose describes both hen
+  # poses in one phrase; the label names split them, so this one takes the shut
+  # eyes and `hen-content` the softer open-lidded version. Flagged in the report.
+  hen-eyes-shut:
+    - upper body
+    - holding chicken
+    - blue chicken
+    - animal hug
+    - closed eyes
+    - happy
+    - smile
+
+  hen-content:
+    - upper body
+    - holding chicken
+    - blue chicken
+    - animal hug
+    - half-closed eyes
+    - happy
+    - smile
+
+  # "a startled open-mouthed jolt with two exclamation marks over her"
+  startled:
+    - upper body
+    - surprised
+    - open mouth
+    - wide-eyed
+    - leaning back
+    - exclamation mark
+    - "!!"
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

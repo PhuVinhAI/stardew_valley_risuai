@@ -1,0 +1,245 @@
+# Sebastian — 45 portraits, 5 outfits, 9 expressions
+#
+# Every tag comes from source/characters/sebastian/content.md; no image was
+# opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+#
+# The lollipop is "in her mouth or held near it in almost every pose" rather
+# than in all of them, so — as with Elliott's fan — it sits in each outfit block
+# instead of identity, and the expressions that place it say where it is.
+
+character: sebastian
+futanari: true
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "Short black hair with a purple sheen, cut messy and left that way,
+# one strand standing up at the crown and a long fringe falling over one eye.
+# Red-violet eyes under heavy lids, a silver cross earring, a black choker with
+# a ring at the front ... She is about 163 cm, 108-62-100, a heavy H-cup, soft
+# rather than toned: broad hips, thick thighs, a stomach that is not flat."
+# And: "like every futanari in the valley — a penis and testicles."
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - black hair
+  - short hair
+  - messy hair
+  - ahoge
+  - hair over one eye
+  - purple tint
+  - purple eyes
+  - red eyes
+  - heavy-lidded eyes
+  - cross earrings
+  - silver earrings
+  - black choker
+  - o-ring choker
+  - huge breasts
+  - wide hips
+  - thick thighs
+  - plump
+  - soft belly
+  - futanari
+  - penis
+  - testicles
+
+outfits:
+  # "At home it is a purple zip hoodie hanging fully open with nothing under it,
+  # so both breasts sit bare down the whole open front with the sleeves pushed to
+  # her elbows; below that a thin string thong, black fishnet thigh-highs, and
+  # heavy boots. Her stomach and navel are bare from collarbone to hip."
+  default:
+    - purple hoodie
+    - zip hoodie
+    - open hoodie
+    - naked hoodie
+    - sleeves pushed up
+    - breasts out of clothes
+    - nipples
+    - string thong
+    - black fishnet thighhighs
+    - fishnets
+    - boots
+    - bare midriff
+    - navel
+    - lollipop
+
+  # "A white T-shirt knotted at the waist and soaked through — the wet cotton
+  # goes fully transparent, so the teal bikini top and both nipples show straight
+  # through it — over teal string bottoms with a small ring at one hip."
+  beach:
+    - white t-shirt
+    - tied shirt
+    - wet shirt
+    - wet clothes
+    - see-through
+    - teal bikini top
+    - covered nipples
+    - nipples visible through clothing
+    - teal bikini bottom
+    - side-tie bikini bottom
+    - o-ring bikini
+    - bare midriff
+    - navel
+    - lollipop
+
+  # "The more exposed version is the same soaked shirt with the bikini gone,
+  # nothing beneath the transparent fabric at all."
+  swimsuit-ex:
+    - white t-shirt
+    - tied shirt
+    - wet shirt
+    - wet clothes
+    - see-through
+    - no bra
+    - nipples
+    - nipples visible through clothing
+    - bottomless
+    - penis
+    - flaccid
+    - testicles
+    - uncensored
+    - navel
+    - lollipop
+
+  # "Winter is a dark navy jacket worn open over bare breasts, a grey-and-black
+  # striped fringed scarf that hangs between them without covering anything, and
+  # grey string bottoms tied in bows at both hips."
+  winter:
+    - navy jacket
+    - open jacket
+    - naked jacket
+    - striped scarf
+    - fringed scarf
+    - scarf between breasts
+    - breasts out
+    - nipples
+    - grey thong
+    - side-tie bottom
+    - bare midriff
+    - navel
+    - lollipop
+
+  # "Stripped, she keeps only the choker and the lollipop: very large bare
+  # breasts with pink nipples, a soft belly, wide hips, and — like every futanari
+  # in the valley — a penis and testicles." Nothing in the prose reads as
+  # arousal, so the penis is tagged flaccid; flagged in the report.
+  nude:
+    - nude
+    - completely nude
+    - pink nipples
+    - huge breasts
+    - soft belly
+    - navel
+    - penis
+    - flaccid
+    - testicles
+    - uncensored
+    - lollipop
+
+# One block per expression, applied to every outfit. Only what changes between
+# portraits belongs here: eyes, mouth, hands, gaze, blush intensity, and any
+# effect the portrait draws.
+#
+# Source: "A flat sullen look with the lollipop at her lip. One genuine
+# open-mouthed laugh, eyes shut, which is startling on her. A look back over one
+# shoulder, unimpressed. A flushed look away with her eyes lowered. A sly little
+# half-smile aimed sideways. A hand-on-hip stance, chin up. A quieter softened
+# look. A small content smile with her arms folded under her breasts."
+expressions:
+  sullen:
+    - upper body
+    - expressionless
+    - bored
+    - closed mouth
+    - mouth hold
+    - half-closed eyes
+    - looking at viewer
+
+  laughing:
+    - upper body
+    - laughing
+    - closed eyes
+    - open mouth
+    - happy
+    - holding lollipop
+
+  over-shoulder:
+    - upper body
+    - looking over shoulder
+    - looking back
+    - from behind
+    - unamused
+    - closed mouth
+
+  flushed-aside:
+    - upper body
+    - heavy blush
+    - looking away
+    - looking down
+    - embarrassed
+    - closed mouth
+
+  sly-smile:
+    - upper body
+    - smirk
+    - half-closed eyes
+    - closed mouth
+    - looking to the side
+    - amused
+
+  hand-on-hip:
+    - upper body
+    - hand on hip
+    - chin up
+    - confident
+    - closed mouth
+    - looking down at viewer
+
+  quiet:
+    - upper body
+    - soft expression
+    - gentle smile
+    - closed mouth
+    - half-closed eyes
+    - looking at viewer
+
+  arms-folded:
+    - upper body
+    - crossed arms
+    - arms under breasts
+    - small smile
+    - closed mouth
+    - looking at viewer
+
+  # "seated on a workbench with both legs hauled up and spread wide toward the
+  # viewer, a spanner in one hand and a screwdriver in the other, grease smeared
+  # up her thighs and across her chest, everything between her legs open to view
+  # and her face somewhere between annoyed and daring you to comment." This one
+  # runs long because it is a full-body pose, not just a face.
+  spread-on-bench:
+    - full body
+    - sitting
+    - on workbench
+    - legs up
+    - spread legs
+    - m legs
+    - presenting
+    - penis
+    - testicles
+    - anus
+    - perineum
+    - uncensored
+    - holding wrench
+    - holding screwdriver
+    - oil on body
+    - dirty
+    - annoyed
+    - smug
+    - looking at viewer
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

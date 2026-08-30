@@ -1,0 +1,200 @@
+# Elliott — 35 portraits, 6 outfits, 7 expressions
+#
+# Every tag comes from source/characters/elliott/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+
+character: elliott
+futanari: true
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "Long copper-orange hair in heavy ringlets past her shoulders,
+# gathered at the back with a large red bow. Green eyes, flushed cheeks, soft
+# lips ... She is about 174 cm, 100-60-98, an F-cup, tall and elegant and very
+# curvy — a narrow waist, rounded hips, long legs." The fan belongs to every
+# outfit block rather than here, because several expressions place it and one
+# does not.
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - orange hair
+  - copper hair
+  - long hair
+  - drill hair
+  - ringlets
+  - red bow
+  - hair bow
+  - green eyes
+  - blush
+  - large breasts
+  - narrow waist
+  - wide hips
+  - long legs
+  - futanari
+  - penis
+  - testicles
+
+outfits:
+  # "A deep wine-red gown cut like stage lingerie. A pink ruffled band sits
+  # under the bust with the bodice cut away above it, so both breasts are bare
+  # apart from small decorative pieces and a gold-beaded chain crossing her
+  # chest. Long puffed sleeves sit off the shoulders, a translucent pink skirt
+  # panel falls open at the front over bare thighs, and white stockings frame
+  # her legs."
+  default:
+    - red dress
+    - wine red gown
+    - underbust
+    - pink frills
+    - breasts out of clothes
+    - nipples
+    - gold chain
+    - jewelry
+    - puffy sleeves
+    - off-shoulder
+    - see-through skirt
+    - open skirt
+    - white thighhighs
+    - folding fan
+
+  # "At the beach she wears a jewelled white string bikini hung with blue gem
+  # drops — the cups reduced to tiny ornaments over the nipples, leaving almost
+  # the whole of each breast bare, with narrow strings at the hips."
+  beach:
+    - white bikini
+    - micro bikini
+    - string bikini
+    - pasties
+    - covered nipples
+    - gemstone
+    - blue gemstone
+    - jewelry
+    - bare shoulders
+    - bare midriff
+    - navel
+    - folding fan
+
+  # "The one she swims in keeps the same white-and-blue jewelled design."
+  swimsuit:
+    - white bikini
+    - string bikini
+    - blue gemstone
+    - jewelry
+    - cleavage
+    - bare shoulders
+    - bare midriff
+    - navel
+    - folding fan
+
+  # "There is a version that removes most of even that, leaving her nearly bare
+  # with the bow, the fan and the jewellery still on."
+  swimsuit-ex:
+    - nearly naked
+    - topless
+    - nipples
+    - bikini strings
+    - blue gemstone
+    - jewelry
+    - bulge
+    - navel
+    - bare legs
+    - folding fan
+
+  # "Winter keeps the red gown and adds cold-weather styling without covering
+  # her chest: her breasts stay mostly bare above the underbust ruffle, with the
+  # sleeves, stockings and fan still part of it."
+  winter:
+    - red dress
+    - wine red gown
+    - underbust
+    - pink frills
+    - breasts out of clothes
+    - nipples
+    - fur trim
+    - puffy sleeves
+    - off-shoulder
+    - white thighhighs
+    - folding fan
+
+  # "Stripped, she keeps the bow and the fan: large bare breasts with visible
+  # nipples, a narrow waist, rounded hips, and — as with every futanari here —
+  # a penis and testicles."
+  nude:
+    - nude
+    - completely nude
+    - nipples
+    - narrow waist
+    - navel
+    - penis
+    - testicles
+    - uncensored
+    - folding fan
+
+# One block per expression, applied to every outfit. Only what changes between
+# portraits belongs here: eyes, mouth, hands, gaze, blush intensity, and any
+# effect the portrait draws.
+#
+# Source: "a poised look over the fan, a delighted closed-eyed laugh, a dismayed
+# face with both hands at her cheeks, a coy glance across the fan, a turned-away
+# aside, a flustered look down, and a demure one behind the open fan."
+expressions:
+  poised:
+    - upper body
+    - holding fan
+    - fan to face
+    - closed mouth
+    - looking at viewer
+    - elegant
+
+  delighted:
+    - upper body
+    - laughing
+    - closed eyes
+    - open mouth
+    - happy
+    - smile
+
+  dismayed:
+    - upper body
+    - dismayed
+    - open mouth
+    - hands on own cheeks
+    - wide-eyed
+    - looking at viewer
+
+  coy:
+    - upper body
+    - holding fan
+    - fan to face
+    - covered mouth
+    - half-closed eyes
+    - looking at viewer
+
+  aside:
+    - upper body
+    - looking away
+    - head turned
+    - closed mouth
+    - half-closed eyes
+    - holding fan
+
+  flustered:
+    - upper body
+    - flustered
+    - heavy blush
+    - looking down
+    - parted lips
+    - holding fan
+
+  demure:
+    - upper body
+    - open fan
+    - fan over mouth
+    - covered mouth
+    - shy
+    - looking at viewer
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

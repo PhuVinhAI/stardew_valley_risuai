@@ -1,0 +1,136 @@
+# Caroline — 12 portraits, 3 outfits, 4 expressions
+#
+# Every tag comes from source/characters/caroline/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+
+character: caroline
+futanari: false
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "Deep green hair to just past the shoulders, side-parted, curling
+# inward at the ends, with one thin strand pulled aside and fastened with a
+# small blue bead. Teal-green eyes with long lashes, fine brows, and a faint
+# flush that sits on her cheeks all day. She is about 164 cm, 106-58-98 cm, a
+# heavy G-cup, with a narrow waist, wide hips and thick thighs."
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - dark green hair
+  - medium hair
+  - side part
+  - inward curling hair
+  - hair bead
+  - blue hair bead
+  - aqua eyes
+  - long eyelashes
+  - thin eyebrows
+  - blush
+  - huge breasts
+  - narrow waist
+  - wide hips
+  - thick thighs
+
+outfits:
+  # "Around the shop she wears a pale blue apron dress. The bodice is a
+  # strapless blue band with a white ruffled edge, and it sits so low that the
+  # top half of both breasts and the whole depth of the cleavage are out in the
+  # open — the band holds the underside and nothing more. It ties behind her in
+  # a big white bow, and the blue skirt panel is short and split at both sides,
+  # so her hips and legs are bare."
+  default:
+    - blue apron dress
+    - strapless dress
+    - white ruffled trim
+    - bare shoulders
+    - bare arms
+    - huge cleavage
+    - breasts out of clothes
+    - underbust
+    - back bow
+    - white bow
+    - miniskirt
+    - side slit
+    - bare legs
+
+  # "Her swimwear is a dark green string bikini, the same one for the beach and
+  # for the pool: two small triangles knotted at the back of her neck, each
+  # covering a nipple and about a third of a breast, so the inner curve and the
+  # entire underside are uncovered. The bottoms are two side-tied strings and a
+  # scrap of green."
+  beach:
+    - dark green bikini
+    - string bikini
+    - triangle bikini
+    - micro bikini
+    - halterneck
+    - side-tie bikini bottom
+    - underboob
+    - huge cleavage
+    - bare shoulders
+    - bare midriff
+    - navel
+    - bare legs
+
+  # "Winter changes almost nothing. A long black fringed scarf hangs down her
+  # front, its two ends falling between her breasts and over each nipple, and
+  # under it a minimal black bikini top and black bottoms. Her shoulders,
+  # stomach and legs stay bare in the snow."
+  winter:
+    - black scarf
+    - fringed scarf
+    - scarf over breasts
+    - black bikini
+    - micro bikini
+    - black bikini bottom
+    - bare shoulders
+    - huge cleavage
+    - bare midriff
+    - navel
+    - bare legs
+
+# One block per expression, applied to every outfit. Only what changes between
+# portraits belongs here: eyes, mouth, hands, gaze, blush intensity, and any
+# effect the portrait draws.
+#
+# Source: "a pleasant open-eyed smile with one hand raised near her shoulder; a
+# closed-eyed giggle with a hand over her mouth; a flushed look away, arms drawn
+# in and shoulders hunched; and a quieter downcast expression with her eyes
+# lowered and her mouth flat. There is no anger and no fear in her at all."
+expressions:
+  pleasant:
+    - upper body
+    - smile
+    - closed mouth
+    - looking at viewer
+    - hand up
+    - open eyes
+
+  amused:
+    - upper body
+    - giggling
+    - closed eyes
+    - hand over own mouth
+    - happy
+    - smile
+
+  bashful:
+    - upper body
+    - embarrassed
+    - heavy blush
+    - looking away
+    - hunched over
+    - arms at sides
+
+  downcast:
+    - upper body
+    - sad
+    - closed mouth
+    - looking down
+    - half-closed eyes
+    - frown
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

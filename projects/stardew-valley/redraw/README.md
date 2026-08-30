@@ -29,8 +29,14 @@ mouth" with star pasties.
 Five labels are the exception, 15 images in total: `composed-alt` (Abigail),
 `explicit-aftermath-alt` (Haley), `bent-over-explicit-alt` (Harvey),
 `serene-portrait` and `quiet-portrait` (Linus). The prose does not say how the
-second drawing differs from the first, so give the variant the same tags as its
-base label and roll a different seed.
+second drawing differs from the first.
+
+Where a base label also exists — Abigail's `composed`, Haley's
+`explicit-aftermath`, Harvey's `bent-over-explicit` — give the variant the same
+tags as its base and roll a different seed. Linus is not that case: she has no
+bare `serene` or `quiet` label, only the two `-portrait` ones, so writing a base
+block would leave it `UNUSED`. Her two blocks are written separately from the
+prose that distinguishes them (`closed eyes` against `half-closed eyes`).
 
 ## Layout
 
@@ -39,35 +45,49 @@ base label and roll a different seed.
 - `sheets/<character>.md` and `SHEETS.md` — which portraits exist, their outfits,
   and their file paths. Reference material; regenerate with
   `bun tools/redraw-sheets.ts`.
-- `prompts.jsonl` — generated. One `{name, prompt}` per portrait, ready to feed a
-  ComfyUI batch loop. Build with `bun tools/redraw-prompts.ts [character]`.
+- `prompts.jsonl` — generated, and git-ignored. One `{name, prompt}` per portrait,
+  ready to feed a ComfyUI batch loop. Build with
+  `bun tools/redraw-prompts.ts [character]`.
 
 ## The format
 
 A prompt is assembled as:
 
 ```
-identity + outfits[<outfit>] + expressions[<expression>]
+identity + outfits[<outfit>] + expressions[<expression>] + overrides[<outfit>.<expression>]
 ```
 
 `tags/marnie.yaml` is the worked reference: 15 portraits from 1 identity block, 3
 outfit blocks, and 5 expression blocks. Across the whole cast that is 32 identity
-blocks, ~90 outfit blocks, and ~340 character-specific expression blocks covering
+blocks, 124 outfit blocks, and 221 character-specific expression blocks covering
 918 portraits.
 
 What belongs where:
 
 - `identity` — true in every image of that character: count tag, age impression,
   hair colour and style, eye colour, body proportions, permanent marks. For a
-  futanari character this is where `futanari, penis, testicles` goes, explicitly.
-  Never framing, pose, or expression.
+  futanari character this is where `futanari, penis, testicles` goes, explicitly —
+  in `identity` and not in the `nude` block, because a checkpoint needs `futanari`
+  to build the body correctly even when an outfit covers it. Never framing, pose,
+  or expression.
 - `outfits` — the garment, how much it covers, and the accessories belonging to
   that outfit. `nude` and `garter` blocks describe exposure and, for futanari, the
-  state of the penis.
+  state of the penis — the state only; the anatomy nouns stay in `identity`.
 - `expressions` — only what changes between portraits of the same outfit: eyes,
   mouth, hands, gaze, blush intensity, drawn effect lines. Written per character:
   the same label means different faces on different characters, and no label is
   shared by all 32 — Marlon has one (`stern`), Alex has eighteen.
+- `overrides` — optional, keyed `<outfit>.<expression>`, with `drop` and `add`
+  lists. Needed only where an expression changes what the outfit covers and plain
+  concatenation would contradict itself: `demetrius.default.respirator-stars` is a
+  topless pose whose only outfit is a turtleneck, and
+  `harvey.nude.bent-over-explicit` inherits `clothes aside` with nothing to push
+  aside. Two exist in the whole cast; a stale key is reported as
+  `UNUSED override`, and a `drop` that matches no tag as `OVERRIDE drop ...
+  matched nothing`.
+
+A tag repeated across blocks is deduped on assembly, first appearance winning, so
+`identity` keeps the lead position.
 
 Keep the blocks in that order and keep expression blocks roughly equal in length
 within a character. Anime checkpoints react to prompt length, and stable length is
@@ -79,10 +99,23 @@ ComfyUI workflow, not in these files, so the model can be swapped without editin
 
 ## Cross-checks
 
-`bun tools/redraw-prompts.ts` fails loudly rather than silently: it reports a
-`MISSING outfit` or `MISSING expression` for any portrait a tag file does not
-cover, and `UNUSED` for a block no portrait uses. A clean run means the tag file
-matches the card's asset list exactly.
+Three tools, all read-only except the first:
+
+- `bun tools/redraw-prompts.ts` fails loudly rather than silently: it reports a
+  `MISSING outfit` or `MISSING expression` for any portrait a tag file does not
+  cover, and `UNUSED` for a block no portrait uses. A clean run means the tag file
+  matches the card's asset list exactly.
+- `bun tools/redraw-audit.ts` checks the tag files and every assembled prompt: the
+  futanari flag against the cast registry, `futanari`/`penis`/`testicles` present
+  in `identity` for all 19, absent for the other 13, `1girl` everywhere, no male or
+  minor tags, no censoring or hedging tags, no framing or mood tags leaking into
+  `identity`, and no prompt that asks for a garment and nudity at once. It must
+  report `ERRORS (0)`. Its warnings are cross-block duplicates, which the prompt
+  builder removes — redundancy in the source, not a defect in the output.
+- `bun tools/redraw-verify-quotes.ts` re-reads every `"quoted"` fragment in the
+  tag-file comments and confirms it appears verbatim in that character's
+  `content.md` (or in this README, for rules quoted from here). It must report `0`.
+  This is what catches a tag block justified by a sentence nobody wrote.
 
 The futanari split is fixed and worth double-checking against
 `source/lore/cast-registry/content.md`: 19 of the 32 have a penis, 13 do not.

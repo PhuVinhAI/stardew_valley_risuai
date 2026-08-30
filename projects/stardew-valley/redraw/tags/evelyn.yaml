@@ -1,0 +1,140 @@
+# Evelyn — 12 portraits, 3 outfits, 4 expressions
+#
+# Every tag comes from source/characters/evelyn/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+#
+# Note the outfit ids: default, swimsuit, winter. She has no `beach` set.
+
+character: evelyn
+futanari: false
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "Silver-grey hair in a short softly curled bob with a side-swept
+# fringe. Pink-red eyes with long lashes and a warm flush across both cheeks.
+# She is about 158 cm, 118-66-104 cm, a K-cup — enormous, heavy, and sitting
+# high on her chest — with a soft waist, wide hips and thick pale thighs."
+identity:
+  # She is the oldest woman in the cast — "she has been dressing herself for
+  # eighty years" — so the age tags are explicit. But "nobody meeting her for
+  # the first time guesses how long she has been in this house", so no heavy
+  # wrinkle or frail-body tags: an old woman who has kept her looks.
+  - 1girl
+  - solo
+  - old woman
+  - elderly
+  - grey hair
+  - silver hair
+  - short hair
+  - curly bob
+  - swept bangs
+  - red eyes
+  - long eyelashes
+  - blush
+  - gigantic breasts
+  # "enormous, heavy, and sitting high on her chest" — explicitly not sagging,
+  # despite her age.
+  - perky breasts
+  - soft waist
+  - wide hips
+  - thick thighs
+  - pale skin
+
+outfits:
+  # "Her everyday dress is deep red with long sleeves worn off the shoulder. The
+  # bodice is a band that sits under the bust and holds nothing above it, so the
+  # entire upper half of both breasts and the whole deep cleavage between them
+  # are bare, and her shoulders and collarbones are uncovered above the sleeves.
+  # An ornate dark choker-necklace set with red stones sits at her throat."
+  default:
+    - red dress
+    - long sleeves
+    - off-shoulder dress
+    - underbust
+    - breasts out of clothes
+    - huge cleavage
+    - bare shoulders
+    - collarbone
+    - choker
+    - gemstone necklace
+    - red gemstone
+    - long skirt
+
+  # "Around the house and in the snow alike she goes without any of it. Her whole
+  # body is bare apart from two black heart-shaped covers stuck over the nipples
+  # and a matching black heart low between her thighs — breasts, belly, hips and
+  # legs entirely uncovered, the covers small enough that the areola shows
+  # around the edges."
+  swimsuit:
+    - pasties
+    - heart pasties
+    - black pasties
+    - areolae
+    - areola slip
+    - maebari
+    - heart maebari
+    - topless
+    - bottomless
+    - bare shoulders
+    - navel
+    - bare legs
+
+  # "The winter version is identical and no warmer." Same tags as `swimsuit` by
+  # the prose's own statement; roll a different seed for the variant.
+  winter:
+    - pasties
+    - heart pasties
+    - black pasties
+    - areolae
+    - areola slip
+    - maebari
+    - heart maebari
+    - topless
+    - bottomless
+    - bare shoulders
+    - navel
+    - bare legs
+
+# One block per expression, applied to every outfit. Only what changes between
+# portraits belongs here: eyes, mouth, hands, gaze, blush intensity, and any
+# effect the portrait draws.
+#
+# Source: "an open-eyed fond look; a delighted open-mouthed smile with one hand
+# raised to her cheek; a genuinely worried frown with her mouth flat; and a
+# gentle closed-mouth smile. There is no angry expression in her at all."
+expressions:
+  fond:
+    - upper body
+    - soft smile
+    - closed mouth
+    - looking at viewer
+    - open eyes
+    - affectionate
+
+  delighted:
+    - upper body
+    - happy
+    - open mouth
+    - wide smile
+    - hand on own cheek
+    - looking at viewer
+
+  worried:
+    - upper body
+    - worried
+    - frown
+    - closed mouth
+    - furrowed brow
+    - looking at viewer
+
+  gentle:
+    - upper body
+    - gentle smile
+    - closed mouth
+    - half-closed eyes
+    - looking at viewer
+    - serene
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

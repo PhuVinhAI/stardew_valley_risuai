@@ -1,0 +1,152 @@
+# Pierre — 15 portraits, 3 outfits, 5 expressions
+#
+# Every tag comes from source/characters/pierre/content.md; no image was opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+
+character: pierre
+futanari: true
+
+# True in every image. No framing, no pose, no expression here. The glasses stay
+# on in all three outfits, so they sit here rather than with the shop clothes.
+# Source: "Long brown hair in loose waves past her waist, a soft fringe, and one
+# small braided bun pinned at the side. Violet eyes behind round thin-rimmed
+# glasses she pushes up with two fingers when she is calculating something. A
+# flush that sits on her cheeks all day. She is about 167 cm, 118-60-106 cm, a
+# K-cup, with a narrow waist and wide heavy hips." She "has a penis" (Identity
+# and life).
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - brown hair
+  - long hair
+  - wavy hair
+  - very long hair
+  - bangs
+  - side bun
+  - braided bun
+  - violet eyes
+  - glasses
+  - round eyewear
+  - permanent blush
+  - gigantic breasts
+  - narrow waist
+  - wide hips
+  - futanari
+  - penis
+  - testicles
+
+outfits:
+  # "Her shop clothes are a tan cable-knit sleeveless sweater with a keyhole cut
+  # out of the entire front. The opening runs from collarbone to navel, so the
+  # inner curve of both breasts and the whole centre of her torso are bare, and
+  # below the waist the knit narrows to a dark strip that passes between her legs
+  # and nothing else. Her back, shoulders, sides and hips are uncovered."
+  default:
+    - brown sweater
+    - cable knit
+    - sleeveless sweater
+    - meme attire
+    - cleavage cutout
+    - keyhole
+    - navel cutout
+    - backless outfit
+    - bare shoulders
+    - bare arms
+    - huge cleavage
+    - sideboob
+    - underboob
+    - navel
+    - bare hips
+    - thong
+
+  # "Beach and pool are the same black string bikini: thin halter cords and two
+  # small triangles that leave the underside and inner curve of each breast bare,
+  # with string bottoms."
+  beach:
+    - black bikini
+    - string bikini
+    - micro bikini
+    - halterneck
+    - side-tie bikini bottom
+    - huge cleavage
+    - sideboob
+    - underboob
+    - bare shoulders
+    - bare midriff
+    - navel
+    - bulge
+
+  # "Winter is a green fringed scarf hung round her neck with both ends falling
+  # down her front, one across the inner edge of each breast, over green string
+  # bottoms. Nothing else covers her chest."
+  #
+  # The scarf ends fall across the inner edge of each breast without covering the
+  # nipples, so this is `topless` with the scarf hanging between — not censoring.
+  winter:
+    - green scarf
+    - fringed scarf
+    - scarf only
+    - topless
+    - nipples
+    - breasts out
+    - green side-tie bottom
+    - bare shoulders
+    - bare midriff
+    - navel
+    - bare legs
+
+# One block per expression, applied to every outfit. Only what changes between
+# portraits belongs here: eyes, mouth, hands, gaze, blush intensity, and any
+# effect the portrait draws.
+#
+# Source: "an affable open-eyed smile with one hand at her glasses; a closed-eyed
+# chuckle behind her hand; an attentive look aimed straight at the customer; an
+# unimpressed flat mouth with her arms folded under her breasts, which pushes
+# them up; and a narrow-eyed sulk turned aside. Nothing warmer and nothing
+# angrier — the sulk is as far as she goes."
+expressions:
+  affable:
+    - upper body
+    - smile
+    - open mouth
+    - looking at viewer
+    - adjusting eyewear
+    - hand on own glasses
+
+  chuckling:
+    - upper body
+    - laughing
+    - closed eyes
+    - hand over own mouth
+    - covered mouth
+    - happy
+
+  attentive:
+    - upper body
+    - closed mouth
+    - looking at viewer
+    - eye contact
+    - neutral face
+    - attentive
+
+  unimpressed:
+    - upper body
+    - unamused
+    - closed mouth
+    - crossed arms
+    - arms under breasts
+    - breasts squeezed together
+
+  sulking:
+    - upper body
+    - pout
+    - annoyed
+    - narrowed eyes
+    - looking to the side
+    - head turned
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

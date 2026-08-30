@@ -1,0 +1,199 @@
+# Demetrius — 22 portraits, 3 outfits, 8 expressions
+#
+# Every tag comes from source/characters/demetrius/content.md; no image was
+# opened.
+#
+# A prompt is assembled as:
+#   identity + outfits[<outfit>] + expressions[<expression>]
+#
+# She has no `nude` outfit, so no block states the state of the penis; the
+# anatomy tags sit in `identity` where every render picks them up.
+
+character: demetrius
+futanari: true
+
+# True in every image. No framing, no pose, no expression here.
+# Source: "Dark brown skin, a short near-black bob with a blunt fringe, and
+# amber-orange eyes lined in violet — the most deliberately composed face in the
+# valley. She is about 172 cm, 116-64-106 cm, a J-cup, heavy on top with a narrow
+# waist and broad hips." She "is an adult woman, and futanari — a penis and
+# testicles alongside the rest" (Agency).
+#
+# The folded arms are "most of the time" rather than always — `hands-on-hips` and
+# `respirator-stars` do something else — so they live in the expression blocks.
+identity:
+  - 1girl
+  - solo
+  - mature female
+  - dark skin
+  - dark-skinned female
+  - black hair
+  - short hair
+  - bob cut
+  - blunt bangs
+  - orange eyes
+  - eyeliner
+  - purple eyeshadow
+  - huge breasts
+  - narrow waist
+  - wide hips
+  - futanari
+  - penis
+  - testicles
+
+outfits:
+  # "In the lab she wears a black sleeveless ribbed turtleneck cropped so short it
+  # ends above the underside of both breasts, leaving the lower curve of each one
+  # and her entire midriff bare. A thin silver pendant hangs in the high collar.
+  # Below that, a black micro thong on strings and nothing else — hips, legs, back
+  # and shoulders uncovered while she handles specimens."
+  default:
+    - black turtleneck
+    - sleeveless turtleneck
+    - ribbed shirt
+    - crop top
+    - underboob
+    - no bra
+    - silver pendant
+    - bare shoulders
+    - bare arms
+    - bare midriff
+    - navel
+    - black thong
+    - micro thong
+    - bare legs
+
+  # "Beach and pool are the same black string bikini: two small triangles on
+  # cords, covering the nipple and little more, and a string thong."
+  beach:
+    - black bikini
+    - string bikini
+    - micro bikini
+    - triangle bikini
+    - covered nipples
+    - huge cleavage
+    - underboob
+    - thong
+    - bare shoulders
+    - bare midriff
+    - navel
+
+  # "Winter swaps that for a red fringed scarf hung round her neck with both ends
+  # falling down her front, one between her breasts and one across the outside of
+  # the other, over dark red string bottoms. Her chest is bare apart from where
+  # the scarf lands."
+  winter:
+    - red scarf
+    - fringed scarf
+    - scarf between breasts
+    - topless
+    - nipples
+    - bare shoulders
+    - bare midriff
+    - navel
+    - red thong
+    - string bottom
+    - bare legs
+
+# One block per expression, applied to every outfit. Only what changes between
+# portraits belongs here: eyes, mouth, hands, gaze, blush intensity, and any
+# effect the portrait draws.
+#
+# Source: "a composed small smile with her arms crossed; a thoughtful hand raised
+# to her mouth; an unimpressed half-lidded stare; a hands-on-hips stance
+# mid-explanation; a flat disapproving frown; a satisfied closed-mouth smile; a
+# distracted glance away at something more interesting than you."
+expressions:
+  composed:
+    - upper body
+    - small smile
+    - closed mouth
+    - crossed arms
+    - arms under breasts
+    - looking at viewer
+
+  hand-to-mouth:
+    - upper body
+    - thoughtful
+    - hand to own mouth
+    - closed mouth
+    - half-closed eyes
+    - looking at viewer
+
+  unimpressed:
+    - upper body
+    - unamused
+    - half-closed eyes
+    - closed mouth
+    - crossed arms
+    - looking at viewer
+
+  # "a hands-on-hips stance mid-explanation"
+  hands-on-hips:
+    - upper body
+    - hands on hips
+    - open mouth
+    - talking
+    - confident
+    - looking at viewer
+
+  disapproving:
+    - upper body
+    - frown
+    - flat mouth
+    - furrowed brow
+    - crossed arms
+    - looking at viewer
+
+  satisfied:
+    - upper body
+    - smile
+    - closed mouth
+    - pleased
+    - half-closed eyes
+    - crossed arms
+
+  distracted:
+    - upper body
+    - looking away
+    - looking to the side
+    - closed mouth
+    - distracted
+    - head turned
+
+  # "One pose is a laboratory accident: a grey twin-cartridge respirator strapped
+  # over her nose and mouth, her breasts completely bare apart from two yellow
+  # star-shaped covers stuck over the nipples and a matching star low at her
+  # groin, looking calmly at the viewer as though this is an ordinary Tuesday."
+  #
+  # The bare chest and the pasties belong to the pose rather than to the lab
+  # outfit, so they are here — this label only ever pairs with `default`, and the
+  # override below removes the turtleneck from that one prompt.
+  respirator-stars:
+    - upper body
+    - respirator
+    - gas mask
+    - topless
+    - breasts out
+    - star pasties
+    - yellow pasties
+    - covered nipples
+    - calm
+    - looking at viewer
+
+# Per-portrait repairs. `respirator-stars` is a topless pose, but its only outfit
+# is the lab turtleneck, so plain concatenation would ask for a covered chest and
+# a bare one in the same prompt. The prose says "her breasts completely bare apart
+# from two yellow star-shaped covers", so the shirt goes.
+overrides:
+  default.respirator-stars:
+    drop:
+      - black turtleneck
+      - sleeveless turtleneck
+      - ribbed shirt
+      - crop top
+      - no bra
+      - underboob
+
+# Checkpoint, quality tags, negatives, resolution, and sampler live in the
+# ComfyUI workflow rather than here.

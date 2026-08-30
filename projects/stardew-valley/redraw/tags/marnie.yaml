@@ -18,8 +18,9 @@ futanari: false
 # Source: "Long chestnut-auburn hair in one thick braid pulled forward over her
 # shoulder and tied off with a green band, a soft fringe, loose strands at her
 # temples. Warm amber eyes with heart-shaped catchlights and a flush that never
-# leaves her cheeks. 163 cm, 114-64-108, J-cup, soft through the middle with
-# broad heavy hips. A small brown horseshoe brand inked low on one hip."
+# leaves her cheeks." ... "163 cm, 114-64-108 cm, a J-cup, soft through the
+# middle with broad heavy hips. There is a small brown horseshoe brand inked low
+# on one hip."
 identity:
   - 1girl
   - solo
@@ -45,10 +46,10 @@ identity:
   - hip tattoo
 
 outfits:
-  # "A long green pinafore with a narrow white lace edge at the neckline, hanging
-  # from two thin halter straps. The neckline sits so low that most of both
-  # breasts are out above the lace. Shoulders, arms and upper back completely
-  # bare. The skirt is long and plain, and the whole side of her body shows."
+  # "Her everyday dress is a long green pinafore with a narrow white lace edge at
+  # the neckline, hanging from two thin halter straps." ... "her shoulders, arms
+  # and upper back are completely bare. The skirt is long and plain, and the whole
+  # side of her body shows where the pinafore does not close."
   default:
     - green pinafore dress
     - white lace trim
@@ -61,11 +62,11 @@ outfits:
     - long skirt
     - side slit
 
-  # "A black-and-white patched triangle bikini top with white cord ties hanging
-  # loose down her stomach, white side-tied bottoms with tiny horseshoe charms, a
-  # headband with black cow ears and small white horns, a yellow livestock ear
-  # tag stamped 069, a gold cowbell on a black collar. The top covers the nipple
-  # and not much else."
+  # "a black-and-white patched triangle bikini top with white cord ties hanging
+  # loose down her stomach, white side-tied bottoms with tiny horseshoe charms on
+  # the strings, a headband with black cow ears and small white horns, a yellow
+  # livestock ear tag stamped 069, and a gold cowbell on a black collar at her
+  # throat. The top covers the nipple and not much else"
   beach:
     - cow print bikini
     - triangle bikini
