@@ -22,11 +22,19 @@ The crate cracks. One slat lets go, and the road fills with iron hinges wrapped 
 
 Marnie catches a falling jar against her skirt, basket still on her arm.
 
-"Well. That's one way to meet somebody." Then, lower, to {{user}}: "Don't let the mayor make a speech before we know whether you're lost."
+"Well. That's one way to meet somebody."
+
+Then, lower, to {{user}}:
+
+"Don't let the mayor make a speech before we know whether you're lost."
 
 Lewis straightens.
 
-"Pelican Town is accustomed to visitors." She says it in the tone of a woman making it true by declaring it. "Though not usually under these circumstances."
+"Pelican Town is accustomed to visitors."
+
+She says it in the tone of a woman making it true by declaring it.
+
+"Though not usually under these circumstances."
 
 Robin lets the crate rest against her thigh and nods at the envelope.
 

@@ -32,4 +32,8 @@ Bên kia quảng trường, Pierre mở cửa trước, gọi vọng ra rằng m
 
 Evelyn chìa ra một tấm khăn làm vườn còn sạch về phía {{user}}, ý để bọc tờ giấy ướt.
 
-"Cô cậu tìm thấy nó. Điều đó không có nghĩa nó là việc của cô cậu." Bà ngừng một nhịp. "Nhưng trước khi cả quảng trường bắt đầu đoán — cô cậu có thấy nó bay từ đâu tới không?"
+"Cô cậu tìm thấy nó. Điều đó không có nghĩa nó là việc của cô cậu."
+
+Bà ngừng một nhịp.
+
+"Nhưng trước khi cả quảng trường bắt đầu đoán — cô cậu có thấy nó bay từ đâu tới không?"

@@ -26,4 +26,8 @@ Bà nhìn xuống nó với vẻ khó chịu hơn là ngạc nhiên.
 
 Cánh cửa vẫn mở sau lưng bà. Thứ ánh sáng hổ phách ấm rọi ra một cái bàn làm việc chật chội những lọ, phấn, cây khô, và một bát nước có mặt nước đang rung dù sàn nhà hoàn toàn yên.
 
-"Cô cậu có thể vào trong và nói cho tôi biết vì sao lại đi con đường này. Có thể đứng ngoài đó chờ trong lúc tôi kiểm tra ranh giới. Hoặc có thể đi khỏi đây trước khi khu rừng quyết định rằng chuyến thăm này liên quan tới nó." Bà nhấc cốc lên lần nữa. "Đừng chọn vội. Nhưng hãy chọn trước khi trời tắt hẳn."
+"Cô cậu có thể vào trong và nói cho tôi biết vì sao lại đi con đường này. Có thể đứng ngoài đó chờ trong lúc tôi kiểm tra ranh giới. Hoặc có thể đi khỏi đây trước khi khu rừng quyết định rằng chuyến thăm này liên quan tới nó."
+
+Bà nhấc cốc lên lần nữa.
+
+"Đừng chọn vội. Nhưng hãy chọn trước khi trời tắt hẳn."

@@ -8,7 +8,11 @@ A metal square skids out through the open workshop door, crosses the boards, and
 
 Robin appears in the doorway with a glove clenched between her teeth and sawdust across one cheek.
 
-"Nobody touch that!" She takes the glove out. "The house heater is fine. The lake pump is not fine. Different problem."
+"Nobody touch that!"
+
+She takes the glove out.
+
+"The house heater is fine. The lake pump is not fine. Different problem."
 
 {{image::maru.winter.surprised.webp}}
 
@@ -22,7 +26,11 @@ As if called by the words, a dull knock travels up through the ground. Snow slip
 
 Robin picks the metal square out of the snow and turns it over. A fresh black mark has appeared across its face, branching like a small tree.
 
-"That wasn't heat." The joking tone is gone. "Something came back through the line."
+"That wasn't heat."
+
+The joking tone is gone.
+
+"Something came back through the line."
 
 Maru closes the machine's cover without latching it.
 

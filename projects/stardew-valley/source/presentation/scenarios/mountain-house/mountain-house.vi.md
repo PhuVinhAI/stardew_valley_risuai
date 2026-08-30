@@ -16,7 +16,9 @@ Maru đứng giữa hai phòng, một tay tua vít, tay kia một cái ống kim
 
 "Chuyện triết học về sửa chữa có thể hoãn lại tới khi con biết cái này có được phép phát sáng hay không không?"
 
-Từ cửa hầm, Sebastian gọi lên, "Không có thứ gì được phép phát sáng màu đó."
+Từ cửa hầm, Sebastian gọi lên,
+
+"Không có thứ gì được phép phát sáng màu đó."
 
 Cái ống kêu lên một tiếng leng keng vui vẻ.
 
@@ -44,4 +46,8 @@ Cả nhà nhận ra cùng một lúc. Cuộc tranh luận lúc trước đổi h
 
 Đến lúc đó Maru mới thấy {{user}} ở cửa.
 
-"Cô cậu tới đúng lúc kinh khủng. Hoặc sai lúc kinh khủng." Cô đặt cái ống xuống. "Cô cậu tới vì cửa hàng, vì phòng thí nghiệm, vì Sebastian, hay vì một lý do mà chưa ai trong nhà này đoán ra?"
+"Cô cậu tới đúng lúc kinh khủng. Hoặc sai lúc kinh khủng."
+
+Cô đặt cái ống xuống.
+
+"Cô cậu tới vì cửa hàng, vì phòng thí nghiệm, vì Sebastian, hay vì một lý do mà chưa ai trong nhà này đoán ra?"

@@ -16,7 +16,9 @@ Maru stands between the rooms with a screwdriver in one hand and a smoking metal
 
 "Could we postpone the philosophy of repair until I know whether this is supposed to glow?"
 
-From the basement hatch Sebastian calls, "Nothing is supposed to glow that color."
+From the basement hatch Sebastian calls,
+
+"Nothing is supposed to glow that color."
 
 The cylinder gives a cheerful chime.
 
@@ -44,4 +46,8 @@ The whole family notices at once. Their earlier argument changes shape without d
 
 Only then does Maru see {{user}} at the open door.
 
-"You have excellent timing. Or terrible timing." She sets the cylinder down. "Were you here for the shop, the lab, Sebastian, or something none of us has guessed yet?"
+"You have excellent timing. Or terrible timing."
+
+She sets the cylinder down.
+
+"Were you here for the shop, the lab, Sebastian, or something none of us has guessed yet?"

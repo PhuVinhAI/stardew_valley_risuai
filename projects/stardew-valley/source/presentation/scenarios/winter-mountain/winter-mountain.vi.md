@@ -8,7 +8,11 @@ Một tấm kim loại vuông trượt ra qua cửa xưởng đang mở, băng q
 
 Robin xuất hiện ở khung cửa, một chiếc găng kẹp giữa hai hàm răng, mùn cưa vương một bên má.
 
-"Đừng ai chạm vào cái đó!" Bà nhả găng ra. "Lò sưởi nhà thì ổn. Cái máy bơm dưới hồ thì không ổn. Hai chuyện khác nhau."
+"Đừng ai chạm vào cái đó!"
+
+Bà nhả găng ra.
+
+"Lò sưởi nhà thì ổn. Cái máy bơm dưới hồ thì không ổn. Hai chuyện khác nhau."
 
 {{image::maru.winter.surprised.webp}}
 
@@ -22,7 +26,11 @@ Như thể bị mấy chữ đó gọi tới, một tiếng gõ đục truyền 
 
 Robin nhặt tấm kim loại lên khỏi tuyết và lật lại. Trên mặt nó vừa hiện một vệt đen mới, phân nhánh như một cái cây nhỏ.
 
-"Cái này không phải do nóng." Giọng bông đùa đã biến mất. "Có thứ gì đó đi ngược lại qua đường ống."
+"Cái này không phải do nóng."
+
+Giọng bông đùa đã biến mất.
+
+"Có thứ gì đó đi ngược lại qua đường ống."
 
 Maru đóng nắp máy nhưng không gài chốt.
 

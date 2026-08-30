@@ -32,4 +32,8 @@ Across the square Pierre opens the front door and calls that rain is getting int
 
 Evelyn holds out a clean gardening cloth toward {{user}}, offering it for the wet note.
 
-"You found it. That doesn't make it your responsibility." A pause. "But before the whole square starts guessing — did you see where it came from?"
+"You found it. That doesn't make it your responsibility."
+
+A pause.
+
+"But before the whole square starts guessing — did you see where it came from?"

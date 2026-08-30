@@ -26,4 +26,8 @@ She looks down at it with irritation rather than surprise.
 
 The door stays open behind her. Warm amber light shows a worktable crowded with bottles, chalk, dried plants, and a bowl of water whose surface is trembling though the floor is still.
 
-"You may come inside and tell me why you took this road. You may remain there while I examine the boundary. Or you may leave before the forest decides your visit concerns it." She lifts the cup again. "Choose without haste. But choose before the light is gone."
+"You may come inside and tell me why you took this road. You may remain there while I examine the boundary. Or you may leave before the forest decides your visit concerns it."
+
+She lifts the cup again.
+
+"Choose without haste. But choose before the light is gone."

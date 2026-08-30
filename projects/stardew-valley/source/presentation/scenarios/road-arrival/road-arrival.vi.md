@@ -22,11 +22,19 @@ Thùng gỗ nứt một tiếng khô khốc. Một thanh nẹp bung ra, và mặ
 
 Marnie hứng được một hũ đinh đang rơi bằng vạt váy, giỏ vẫn treo trên tay.
 
-"Ừ thì. Cũng là một cách để làm quen." Rồi hạ giọng, nói với {{user}}: "Đừng để bà thị trưởng kịp phát biểu trước khi ta biết cô cậu có bị lạc hay không."
+"Ừ thì. Cũng là một cách để làm quen."
+
+Rồi hạ giọng, nói với {{user}}:
+
+"Đừng để bà thị trưởng kịp phát biểu trước khi ta biết cô cậu có bị lạc hay không."
 
 Lewis đứng thẳng người.
 
-"Pelican Town vốn quen với khách lạ." Bà nói bằng giọng của một người khiến điều đó thành thật chỉ bằng cách tuyên bố nó. "Dù thường thì không phải trong hoàn cảnh này."
+"Pelican Town vốn quen với khách lạ."
+
+Bà nói bằng giọng của một người khiến điều đó thành thật chỉ bằng cách tuyên bố nó.
+
+"Dù thường thì không phải trong hoàn cảnh này."
 
 Robin để thùng gỗ tựa vào hông, hất đầu về phía phong bì.
 

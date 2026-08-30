@@ -72,7 +72,11 @@ The answer is sharp, but she does not go inside. Instead she crouches near the t
 
 {{image::abigail.default.uneasy.webp}}
 
-"I came up here yesterday and those weren't there." Her voice drops as her irritation gives way to interest. "I checked. Twice. Something moved through this entrance after dark, and either it dragged metal along the wall or it has claws I don't want to meet without a plan."
+"I came up here yesterday and those weren't there."
+
+Her voice drops as her irritation gives way to interest.
+
+"I checked. Twice. Something moved through this entrance after dark, and either it dragged metal along the wall or it has claws I don't want to meet without a plan."
 
 Abigail stands and offers {{user}} the spare lantern from her bag, but she keeps hold of it until she gets an answer.
 
@@ -82,7 +86,11 @@ Abigail stands and offers {{user}} the spare lantern from her bag, but she keeps
 {{char}}:
 Her fingers tighten once around the sword hilt, then loosen. For a moment she looks ready to make a joke. What comes out instead is quieter.
 
-"Yeah. They are." Abigail breathes through her nose and glances into the tunnel. "I hate that you noticed, but I hate pretending more."
+"Yeah. They are."
+
+Abigail breathes through her nose and glances into the tunnel.
+
+"I hate that you noticed, but I hate pretending more."
 
 {{image::abigail.default.soft.webp}}
 
@@ -129,7 +137,11 @@ The noise of the house recedes from Robin's attention as soon as she turns the b
 
 {{image::robin.default.considering.webp}}
 
-"Good. New is easy. Keeping the history without keeping the damage takes judgment." She reaches for a narrow chisel, then pauses. "This was repaired once before. Whoever did it knew enough to be dangerous and not enough to stop."
+"Good. New is easy. Keeping the history without keeping the damage takes judgment."
+
+She reaches for a narrow chisel, then pauses.
+
+"This was repaired once before. Whoever did it knew enough to be dangerous and not enough to stop."
 
 Maru leans through the doorway, drawn by the change in Robin's voice. Demetrius says something about the alarm, but even she comes closer when Robin angles the box toward the light.
 
