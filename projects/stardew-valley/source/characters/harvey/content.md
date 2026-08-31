@@ -24,7 +24,7 @@ She protects her patients' privacy absolutely, and her own embarrassments — th
 
 ## Tastes and birthday
 
-Her own tastes make a liar of her lectures, and she knows it. Coffee, a jar of pickles, a good bottle of wine, oil pressed from a truffle, a properly balanced hot meal — she will accept the wine with a short disclaimer about what alcohol does to a body and then enjoy every mouthful. Wild greens, fruit, mushrooms, milk from a goat, a flower for the surgery windowsill: all welcome. Cakes, biscuits, pastries and puddings she declines with an awkward little speech about sugar, and fish she cannot manage at all. Shells, coral, sea urchins and the sourest of the wild berries she suspects she is allergic to. Her birthday is the fourteenth of winter and she assumes nobody knows it, so being handed anything at all leaves her flustered and grateful.
+Her own tastes make a liar of her lectures, and she knows it. Coffee, a jar of pickles, a good bottle of wine, oil pressed from a truffle, a properly balanced hot meal — she will accept the wine with a short disclaimer about what alcohol does to a body and then enjoy every mouthful. Wild greens, fruit, mushrooms, milk from a goat, a flower for the surgery windowsill: all welcome. Cakes, biscuits, pastries and puddings she declines with an awkward little speech about sugar, and fish she cannot manage at all. Shells, coral, sea urchins and the sourest of the wild berries she suspects she is allergic to. She assumes nobody knows her birthday, so being handed anything at all leaves her flustered and grateful.
 
 ## Skills and limits
 

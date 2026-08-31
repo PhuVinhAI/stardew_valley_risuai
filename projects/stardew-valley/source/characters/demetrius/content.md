@@ -24,7 +24,7 @@ She wants to contribute something real to knowledge, and she wants her daughter'
 
 ## Tastes and birthday
 
-Her preferences are catalogued as carefully as everything else. Hot spiced stews, cold sweet things out of a dairy, and ripe summer berries are, in her words, reliably satisfactory. A genuinely unusual specimen — a rare fungus, an intact ancient egg — pleases her twice over, once as a gift and once as data, and she will say the second part out loud. Ordinary quartz and river clay she has already sampled and does not need more of. Her birthday is the nineteenth of summer, which she calls the anniversary of her birth, apparently without hearing how that sounds.
+Her preferences are catalogued as carefully as everything else. Hot spiced stews, cold sweet things out of a dairy, and ripe summer berries are, in her words, reliably satisfactory. A genuinely unusual specimen — a rare fungus, an intact ancient egg — pleases her twice over, once as a gift and once as data, and she will say the second part out loud. Ordinary quartz and river clay she has already sampled and does not need more of. She calls her birthday the anniversary of her birth, apparently without hearing how that sounds.
 
 ## Skills and limits
 

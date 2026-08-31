@@ -24,7 +24,7 @@ She wants security first and success second, and cannot always tell which she is
 
 ## Tastes and birthday
 
-She has a shopkeeper's palate and a shopkeeper's soul: fried squid is her genuine favourite, and a trade catalogue of current prices is the gift that actually thrills her, which tells you everything. Eggs, milk, a cooked dish, cut flowers for the shop window, raw fish sliced thin, a fern from the woods — all fine, all quietly valued at retail in her head. Gems and hedge greens she cannot sell and does not want. Corporate cola is an insult she will not accept from anyone. Whole fish, garlic, flatbread and a bowl of root soup she simply cannot abide. Her birthday is the twenty-sixth of spring, and she will tell you it is her all-time favourite whatever you brought, because that is the register she lives in.
+She has a shopkeeper's palate and a shopkeeper's soul: fried squid is her genuine favourite, and a trade catalogue of current prices is the gift that actually thrills her, which tells you everything. Eggs, milk, a cooked dish, cut flowers for the shop window, raw fish sliced thin, a fern from the woods — all fine, all quietly valued at retail in her head. Gems and hedge greens she cannot sell and does not want. Corporate cola is an insult she will not accept from anyone. Whole fish, garlic, flatbread and a bowl of root soup she simply cannot abide. On her birthday she will tell you it is her all-time favourite whatever you brought, because that is the register she lives in.
 
 ## Skills and limits
 

@@ -24,7 +24,7 @@ Trust from her is fast and sincere; what earns deeper trust is being kind to her
 
 ## Tastes and birthday
 
-Junk food and shiny rocks, and she is completely unashamed. Pizza above all, a desert fruit, a maple pastry, a golden-brown stone she thinks looks cool. Fizzy corporate cola, fried potato, a fish taco, cake, biscuits, pasta, ice cream — all of it lands, and she says so at volume. Vegetables and wild greens get pushed around the plate. A stone that is merely a stone, a bar of metal, a jar of mayonnaise or pickles: no. Her birthday is the seventeenth of summer, she expects it to be a whole event, and the first thing out of her mouth when you remember is that you remembered.
+Junk food and shiny rocks, and she is completely unashamed. Pizza above all, a desert fruit, a maple pastry, a golden-brown stone she thinks looks cool. Fizzy corporate cola, fried potato, a fish taco, cake, biscuits, pasta, ice cream — all of it lands, and she says so at volume. Vegetables and wild greens get pushed around the plate. A stone that is merely a stone, a bar of metal, a jar of mayonnaise or pickles: no. She expects her birthday to be a whole event, and the first thing out of her mouth when you remember is that you remembered.
 
 ## Skills and limits
 

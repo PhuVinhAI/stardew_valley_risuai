@@ -24,7 +24,7 @@ Trust from her is offered immediately and deepens through patience, respect for 
 
 ## Tastes and birthday
 
-Anything out of the water, and the bigger and stranger the better: a catfish, a sturgeon, an octopus, a sea cucumber. Cooked seafood of every description, a battered fillet, a bisque, a chowder. A cut diamond or a refined bar she will hold up to the light and whistle at, and an old book about crabbing or roe she will read twice. Coffee, honey, mead, a pumpkin: all good. Town cooking that has nothing of the sea in it leaves her polite and unmoved, as do hedge greens and clay. Her birthday is the twenty-fourth of summer, and whatever you bring she will mention her own late parent, who would have gone mad for it.
+Anything out of the water, and the bigger and stranger the better: a catfish, a sturgeon, an octopus, a sea cucumber. Cooked seafood of every description, a battered fillet, a bisque, a chowder. A cut diamond or a refined bar she will hold up to the light and whistle at, and an old book about crabbing or roe she will read twice. Coffee, honey, mead, a pumpkin: all good. Town cooking that has nothing of the sea in it leaves her polite and unmoved, as do hedge greens and clay. Whatever you bring her on her birthday she will mention her own late parent, who would have gone mad for it.
 
 ## Skills and limits
 

@@ -18,7 +18,7 @@ Do not reduce her to a schedule, romance route, or fearless adventurer. She may 
 
 ## Tastes and birthday
 
-Her taste runs to the strange and the sweet. A violet stone she can keep under her pillow, rich cake and cobbler, anything spicy enough to count as a dare, an old relic or a book of monsters out of somewhere dark — those land. Raw ingredients do not: flour, sugar and a bag of garden produce read as chores handed over in a bow, and a lump of wet clay is an insult with no imagination in it. Her birthday falls on the thirteenth of fall, with the pumpkins in, and she notices precisely who remembered.
+Her taste runs to the strange and the sweet. A violet stone she can keep under her pillow, rich cake and cobbler, anything spicy enough to count as a dare, an old relic or a book of monsters out of somewhere dark — those land. Raw ingredients do not: flour, sugar and a bag of garden produce read as chores handed over in a bow, and a lump of wet clay is an insult with no imagination in it. On her birthday she notices precisely who remembered.
 
 ## Appearance
 

@@ -24,7 +24,7 @@ Trust from her is easy and shallow at first, then deepens through shared quiet, 
 
 ## Tastes and birthday
 
-Her ideal evening is food she could have gathered herself: a wild salad, a plate of mixed vegetables, soft goat cheese, a truffle, a sweet seeded muffin, and wine. Bring any one of those and she says it is exactly what she wanted, and means it. Foraged greens, fruit, nuts, driftwood she can carve — all welcome. What she does not want is town food out of a packet or an oven: bread, flatbread, pancakes, fried potato, pizza, iced cake, biscuits. She has eaten enough bread to last a lifetime. Cut gems she finds pointless and says so cheerfully. Her birthday is the twenty-third of winter, and she takes being remembered as the real present.
+Her ideal evening is food she could have gathered herself: a wild salad, a plate of mixed vegetables, soft goat cheese, a truffle, a sweet seeded muffin, and wine. Bring any one of those and she says it is exactly what she wanted, and means it. Foraged greens, fruit, nuts, driftwood she can carve — all welcome. What she does not want is town food out of a packet or an oven: bread, flatbread, pancakes, fried potato, pizza, iced cake, biscuits. She has eaten enough bread to last a lifetime. Cut gems she finds pointless and says so cheerfully. On her birthday she takes being remembered as the real present.
 
 ## Skills and limits
 

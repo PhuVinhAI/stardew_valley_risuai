@@ -22,7 +22,7 @@ She wants peace, a calm household, and a daughter who is well and not distant. S
 
 ## Tastes and birthday
 
-Tea is the road to her, loose in a tin or already in the cup. After that: anything cooked with sauce and heat in it, and cut flowers for the sunroom, which she will have in water before you have finished your sentence. What she does not want is something pulled out of a hedge on the way over, a jar of shop condiment, or a plain stone. Her birthday is the seventh of winter. She thanks you first and keeps any disappointment off her face until the door has closed.
+Tea is the road to her, loose in a tin or already in the cup. After that: anything cooked with sauce and heat in it, and cut flowers for the sunroom, which she will have in water before you have finished your sentence. What she does not want is something pulled out of a hedge on the way over, a jar of shop condiment, or a plain stone. On her birthday she thanks you first and keeps any disappointment off her face until the door has closed.
 
 ## Skills and limits
 

@@ -78,11 +78,12 @@ describe("agent authoring source", () => {
 
     const regex = built.moduleWrapper.module.regex;
     const triggers = built.moduleWrapper.module.trigger;
-    expect(regex).toHaveLength(2);
+    expect(regex).toHaveLength(3);
     expect(regex[0]?.type).toBe("editdisplay");
     expect(new RegExp(String(regex[0]?.in)).test(firstMessage)).toBe(true);
     expect(regex[1]?.comment).toBe("Scene header");
     expect(new RegExp(String(regex[1]?.in)).test(firstMessage)).toBe(true);
+    expect(regex[2]?.comment).toBe("Bag line");
     expect(triggers).toHaveLength(1);
     expect(triggers[0]?.type).toBe("start");
 
@@ -127,27 +128,115 @@ describe("agent authoring source", () => {
       }
   });
 
-  test("groups the lorebook into RisuAI folders and keeps a deep, well-funded scan", () => {
+  /**
+   * The header is the card's only clock, so a scenario that opens with written
+   * prose must fill every field: the model copies the opening header's shape for
+   * the rest of the chat, and one scenario that omits the time teaches it that the
+   * time is optional. Free Start writes no prose and establishes nothing, so it is
+   * the one scenario allowed a short header.
+   */
+  test("gives every written opening a full six-field scene header", () => {
+    const built = compileAuthoringSources(primary, false);
+    const seasons: Record<string, string[]> = {
+      en: ["Spring", "Summer", "Autumn", "Winter"],
+      vi: ["Xuân", "Hè", "Thu", "Đông"],
+    };
+    let checked = 0;
+    for (const scenario of built.ir.startPanel.scenarios) {
+      if (!Object.keys(scenario.bodyText).length) continue;
+      for (const language of built.ir.startPanel.panel.languages) {
+        const tags = scenario.tags?.[language.id] ?? [];
+        expect(tags).toHaveLength(6);
+        expect(seasons[language.id]).toContain(String(tags[0]));
+        expect(String(tags[1])).toMatch(/\d/);
+        expect(String(tags[2])).toMatch(/^\d{1,2}:\d{2}$/);
+        // Weather and place are the two fields a reader could swap, so neither may
+        // hold the other's vocabulary.
+        expect(String(tags[3])).not.toMatch(/saloon|store|forest|beach|mountain/i);
+        expect(String(tags[4]).length).toBeGreaterThan(0);
+        expect(String(tags[5]).length).toBeGreaterThan(0);
+        checked += 1;
+      }
+    }
+    expect(checked).toBeGreaterThanOrEqual(20);
+  });
+
+  /**
+   * The bag line is written by the model, not by a trigger, so the only thing the
+   * build can guarantee is that the format is defined once and demonstrated in the
+   * example messages. If the examples stop showing it, the model stops writing it.
+   */
+  test("defines the bag line and demonstrates it in the example messages", () => {
+    const built = compileAuthoringSources(primary, false);
+    const bagRegex = built.moduleWrapper.module.regex[2];
+    expect(bagRegex?.type).toBe("editdisplay");
+    expect(String(bagRegex?.out).includes("\n")).toBe(false);
+    expect(built.card.data.extensions.risuai.backgroundHTML).toContain(".sv-bag__item.is-money");
+
+    const examples = String(built.card.data.mes_example);
+    const bagLines = [...examples.matchAll(/^\[Bag:[^\n]*\]$/gm)].map((match) => match[0]);
+    expect(bagLines.length).toBeGreaterThanOrEqual(4);
+    for (const line of bagLines) {
+      expect(new RegExp(String(bagRegex?.in)).test(line)).toBe(true);
+      // Money is the one field that is always present and always first.
+      expect(line).toMatch(/^\[Bag: [\d,]+g \|/);
+    }
+
+    // Every scene header in the examples has to match the format the instructions
+    // describe, or the examples are teaching an older shape.
+    const sceneRegex = built.moduleWrapper.module.regex[1];
+    const sceneLines = [...examples.matchAll(/^\[Scene:[^\n]*\]$/gm)].map((match) => match[0]);
+    expect(sceneLines.length).toBeGreaterThanOrEqual(4);
+    for (const line of sceneLines) {
+      expect(new RegExp(String(sceneRegex?.in)).test(line)).toBe(true);
+      expect(line.split("|")).toHaveLength(6);
+      expect(line).toMatch(/\| Day \d+ \| \d{1,2}:\d{2} \|/);
+    }
+  });
+
+  test("groups the lorebook into RisuAI folders and keeps the scan bounded", () => {
     const built = compileAuthoringSources(primary, false);
     const lore = built.internalLorebook;
     const folders = lore.filter((entry) => entry.mode === "folder");
     expect(folders.length).toBe(built.ir.lorebook.folders.length);
-    expect(built.ir.lorebook.scanDepth).toBeGreaterThanOrEqual(50);
-    expect(built.ir.lorebook.tokenBudget).toBeGreaterThanOrEqual(60_000);
+    // Depth is bounded on purpose. The scene header names who is present, so a
+    // resident in the room re-activates from the latest message alone; depth only
+    // buys memory of someone who has left. Activation saturates around 20, so a
+    // deeper scan spends tokens for nothing this book needs.
+    expect(built.ir.lorebook.scanDepth).toBeGreaterThanOrEqual(5);
+    expect(built.ir.lorebook.scanDepth).toBeLessThanOrEqual(20);
+    expect(built.ir.lorebook.tokenBudget).toBeGreaterThanOrEqual(20_000);
     expect(built.card.data.character_book.scan_depth).toBe(built.ir.lorebook.scanDepth);
     expect(built.card.data.character_book.token_budget).toBe(built.ir.lorebook.tokenBudget);
     // Vietnamese keys only match as substrings, so full-word matching must stay off.
     expect(built.card.data.character_book.extensions.risu_fullWordMatching).toBe(false);
     // Nothing tells the model which keys exist, so the always-active entries are
     // the only vocabulary it has for naming a resident, place, or festival — and
-    // naming one is what activates that entry's own lore on the next turn.
+    // naming one is what activates that entry's own lore on the next turn. The
+    // birthday calendar is always active for the opposite reason: a date is needed
+    // on turns where its owner was never named.
     const alwaysActive = built.card.data.character_book.entries.filter(
       (entry: { constant?: boolean }) => entry.constant,
     );
-    expect(alwaysActive.length).toBeGreaterThanOrEqual(2);
+    expect(alwaysActive.length).toBeGreaterThanOrEqual(3);
     const indexText = alwaysActive.map((entry: { content: string }) => entry.content).join("\n");
     for (const name of ["Stardrop Saloon", "Cindersap Forest", "Spirit's Eve", "Marnie"])
       expect(indexText).toContain(name);
+    // No character entry may carry a birthday date: the calendar is the one place
+    // a date lives, precisely so it is readable when its owner is absent.
+    const characters = built.card.data.character_book.entries.filter(
+      (entry: { extensions?: Record<string, unknown> }) =>
+        String(entry.extensions?.risu_authoring_kind ?? "") === "character",
+    );
+    expect(characters.length).toBe(32);
+    for (const entry of characters)
+      expect(String(entry.content)).not.toMatch(
+        /birthday (?:is|falls on) the \w+(?:-\w+)? of (?:spring|summer|fall|autumn|winter)/i,
+      );
+    const calendar = alwaysActive.find((entry: { comment?: string }) =>
+      String(entry.comment ?? "").includes("Birthday"),
+    );
+    expect(String(calendar?.content)).toMatch(/## Spring[\s\S]*## Summer[\s\S]*## Autumn[\s\S]*## Winter/);
     // Recursion must stay off precisely because those entries name everything:
     // rescanning their own content activates most of the book on turn one.
     expect(built.ir.lorebook.recursiveScanning).toBe(false);

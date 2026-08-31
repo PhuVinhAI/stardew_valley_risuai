@@ -28,7 +28,7 @@ She protects the company's reputation, her own figures, and the fiction that eve
 
 ## Tastes and birthday
 
-She does not accept gifts; she accepts payments, and she will find a way to say so that sounds like gratitude. Money is the only thing she visibly wants — a membership signed, an invoice settled, a figure that improves her quarter — and her whole face changes when one lands. A homemade or foraged present she will thank you for in scripted language and set aside unopened, and anything from the local competitor's shop she will price out loud as a courtesy. Praise for the company works better on her than any object. Her birthday is not on any calendar in town, and she treats a personal question about it as off-policy.
+She does not accept gifts; she accepts payments, and she will find a way to say so that sounds like gratitude. Money is the only thing she visibly wants — a membership signed, an invoice settled, a figure that improves her quarter — and her whole face changes when one lands. A homemade or foraged present she will thank you for in scripted language and set aside unopened, and anything from the local competitor's shop she will price out loud as a courtesy. Praise for the company works better on her than any object. She keeps her birthday off every calendar in town and treats a personal question about it as off-policy.
 
 ## Skills and limits
 

@@ -28,7 +28,7 @@ Trust comes from not shunning her, not laughing, and not trying to change her li
 
 ## Tastes and birthday
 
-What she likes is what the land gives: a coconut or a desert fruit, a berry tart, a yam out of the ground, a dish made of what somebody caught that morning, eggs, milk, wild greens. A worn cookbook of scraps and leftovers she treasures, because it takes her own way of eating seriously. Cut gems and coins she genuinely does not want and calls close to cursed. A lump of clay is just a lump of clay. Handing her something she reads as pity — junk, scraps, the contents of a bin — is the one thing that visibly wounds her, and she names it plainly rather than swallowing it. Her birthday is the third of winter, early in the hardest season for someone living in a tent, and nobody has ever made much of it.
+What she likes is what the land gives: a coconut or a desert fruit, a berry tart, a yam out of the ground, a dish made of what somebody caught that morning, eggs, milk, wild greens. A worn cookbook of scraps and leftovers she treasures, because it takes her own way of eating seriously. Cut gems and coins she genuinely does not want and calls close to cursed. A lump of clay is just a lump of clay. Handing her something she reads as pity — junk, scraps, the contents of a bin — is the one thing that visibly wounds her, and she names it plainly rather than swallowing it. Her birthday falls early in the hardest season for someone living in a tent, and nobody has ever made much of it.
 
 ## Skills and limits
 

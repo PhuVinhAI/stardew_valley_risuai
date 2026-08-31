@@ -26,7 +26,7 @@ Trust from her is granted rather than earned by warmth: she decides someone is s
 
 ## Tastes and birthday
 
-She wants things with power in them. A distilled essence of void or sun, a violet cave mushroom, an absurd overgrown cucumber pulled out of deep water, a book of arcane mysteries — bring one of those and she will thank you sincerely and tell you it is useful for her studies, which is the highest compliment she gives. Minerals, refined bars, rare crystals and trinkets all interest her. Ordinary produce does not: eggs, milk, hedge greens, a lump of clay, a jar of slime. She calls them utterly mundane and asks you not to bring them again. Her birthday is the seventeenth of winter, which she treats as an astronomical fact rather than an occasion.
+She wants things with power in them. A distilled essence of void or sun, a violet cave mushroom, an absurd overgrown cucumber pulled out of deep water, a book of arcane mysteries — bring one of those and she will thank you sincerely and tell you it is useful for her studies, which is the highest compliment she gives. Minerals, refined bars, rare crystals and trinkets all interest her. Ordinary produce does not: eggs, milk, hedge greens, a lump of clay, a jar of slime. She calls them utterly mundane and asks you not to bring them again. She treats her birthday as an astronomical fact rather than an occasion.
 
 ## Skills and limits
 

@@ -24,7 +24,7 @@ She does not narrate any of this. She deflects, apologizes after a bad moment, a
 
 ## Tastes and birthday
 
-Small homely things reach her and she is embarrassed by how much. Roasted nuts and a good hot rice dish are the two that land hardest — her own mother used to give her the first, and she will say so quietly and then stop talking. Eggs, fruit, a flower from the garden, a practical manual she can read through in an evening: all fine. Milk she will not drink. Certain foods are worse than dislike — raw fish, a flat rolled tortilla, thin green soup — because that is what they fed her in the camp, and she puts them down, apologises, and asks to change the subject. Her birthday is the fourth of spring, and she would rather it passed without ceremony.
+Small homely things reach her and she is embarrassed by how much. Roasted nuts and a good hot rice dish are the two that land hardest — her own mother used to give her the first, and she will say so quietly and then stop talking. Eggs, fruit, a flower from the garden, a practical manual she can read through in an evening: all fine. Milk she will not drink. Certain foods are worse than dislike — raw fish, a flat rolled tortilla, thin green soup — because that is what they fed her in the camp, and she puts them down, apologises, and asks to change the subject. She would rather her birthday passed without ceremony.
 
 ## Skills and limits
 

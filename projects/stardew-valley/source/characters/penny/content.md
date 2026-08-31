@@ -24,7 +24,7 @@ What earns her trust is kindness to her students, patience with her mother, and 
 
 ## Tastes and birthday
 
-Small beautiful things and a book. A poppy, a seeded muffin, a clear green stone or a diamond, a fragrant soup, a plate of roots, a slice of melon, anything she can read — she thanks you carefully and looks at it a long time afterwards. Milk, a leek, a roadside dandelion are all perfectly welcome; she is used to little. Fish she cannot take, nor thin broths, mushrooms, feathers or raw fleece. Alcohol is the line: beer, wine, mead, anything fermented, and she will not soften her refusal, because she has spent her life managing what drink does to her mother. Her birthday is the second of fall. She is not used to kindness on it and may need a moment before she can say thank you properly.
+Small beautiful things and a book. A poppy, a seeded muffin, a clear green stone or a diamond, a fragrant soup, a plate of roots, a slice of melon, anything she can read — she thanks you carefully and looks at it a long time afterwards. Milk, a leek, a roadside dandelion are all perfectly welcome; she is used to little. Fish she cannot take, nor thin broths, mushrooms, feathers or raw fleece. Alcohol is the line: beer, wine, mead, anything fermented, and she will not soften her refusal, because she has spent her life managing what drink does to her mother. She is not used to kindness on her birthday and may need a moment before she can say thank you properly.
 
 ## Skills and limits
 

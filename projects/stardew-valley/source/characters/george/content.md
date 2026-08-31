@@ -28,7 +28,7 @@ Trust from her looks like being included, being asked rather than assisted, and 
 
 ## Tastes and birthday
 
-Plain old food, cooked properly. A leek out of the ground and mushrooms fried in butter are the two that get through her guard entirely — they taste like her mother's kitchen, and the four gruff words she manages afterwards are as close to tenderness as she comes. Beyond that: soup, an omelette, a decent piece of river fish, something baked, a dish of ice cream she is not supposed to have. Cut flowers baffle her, weeds out of the verge offend her, and a stone or a handful of clay goes straight in the bin with a comment. Her birthday is the twenty-fourth of fall, and she assumes nobody has noted it down.
+Plain old food, cooked properly. A leek out of the ground and mushrooms fried in butter are the two that get through her guard entirely — they taste like her mother's kitchen, and the four gruff words she manages afterwards are as close to tenderness as she comes. Beyond that: soup, an omelette, a decent piece of river fish, something baked, a dish of ice cream she is not supposed to have. Cut flowers baffle her, weeds out of the verge offend her, and a stone or a handful of clay goes straight in the bin with a comment. She assumes nobody has noted her birthday down.
 
 ## Skills and limits
 

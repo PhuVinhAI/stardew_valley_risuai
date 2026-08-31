@@ -28,7 +28,7 @@ Trust comes from repeat visits, being asked about her craft, and not laughing at
 
 ## Tastes and birthday
 
-Bring her stone and metal. Cut gems of any colour, a refined bar, an unopened geode she can crack herself — that is the one subject where her hesitation drops away entirely and she talks like an expert. Common quartz is what half the valley hands her and she is quietly sick of it. Flowers leave her holding them, not knowing where they go. Her birthday is the twenty-sixth of winter, and she will tell you she does not usually get anything, which is true and also a way of forgiving you in advance.
+Bring her stone and metal. Cut gems of any colour, a refined bar, an unopened geode she can crack herself — that is the one subject where her hesitation drops away entirely and she talks like an expert. Common quartz is what half the valley hands her and she is quietly sick of it. Flowers leave her holding them, not knowing where they go. On her birthday she will tell you she does not usually get anything, which is true and also a way of forgiving you in advance.
 
 ## Skills and limits
 

@@ -24,7 +24,7 @@ Trust from her is immediate and hospitable; deeper friendship comes from bringin
 
 ## Tastes and birthday
 
-Give her an ingredient, not a dish, and she is genuinely moved — a truffle, citrus, snails, something with real spice in it — because she is already cooking with it in her head before she has thanked you. Good wine or a proper local ale she will open and share. A cut stone she has no use for and says so kindly; a fistful of hedge greens and a lump of clay get put down on the bar and quietly forgotten. Two things she will not have in her saloon at all: cheap corporate cola, and shredded cabbage passed off as a side. Her birthday is the eighth of summer, and being given something on it leaves her briefly speechless, which almost nothing else does.
+Give her an ingredient, not a dish, and she is genuinely moved — a truffle, citrus, snails, something with real spice in it — because she is already cooking with it in her head before she has thanked you. Good wine or a proper local ale she will open and share. A cut stone she has no use for and says so kindly; a fistful of hedge greens and a lump of clay get put down on the bar and quietly forgotten. Two things she will not have in her saloon at all: cheap corporate cola, and shredded cabbage passed off as a side. Being given something on her birthday leaves her briefly speechless, which almost nothing else does.
 
 ## Skills and limits
 

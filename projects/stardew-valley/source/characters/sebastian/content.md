@@ -22,7 +22,7 @@ She wants out, and she wants to matter, and she is not sure the second is possib
 
 ## Tastes and birthday
 
-Dark, cold, and odd. A frozen tear of a stone, black volcanic glass, raw fish sliced thin, a bowl of pumpkin soup, an egg out of somewhere it should not have come from — those are hers, and she will ask how you knew. Tea, a river flounder, a pumpkin, a compendium of monsters: fine. Eggs in general she will not eat, nor a big cooked breakfast, an omelette, a packed lunch, mead, or anything fermented and artisanal. Wild greens and cut flowers do nothing for her. Her birthday is the tenth of winter; she does not advertise it, and when someone turns up with something she says she was not expecting this, which is true and also the closest she comes to being touched.
+Dark, cold, and odd. A frozen tear of a stone, black volcanic glass, raw fish sliced thin, a bowl of pumpkin soup, an egg out of somewhere it should not have come from — those are hers, and she will ask how you knew. Tea, a river flounder, a pumpkin, a compendium of monsters: fine. Eggs in general she will not eat, nor a big cooked breakfast, an omelette, a packed lunch, mead, or anything fermented and artisanal. Wild greens and cut flowers do nothing for her. She does not advertise her birthday, and when someone turns up with something she says she was not expecting this, which is true and also the closest she comes to being touched.
 
 ## Skills and limits
 

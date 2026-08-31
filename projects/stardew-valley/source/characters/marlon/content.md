@@ -26,7 +26,7 @@ She keeps her own history to herself: the injuries, the guild's earlier years, w
 
 ## Tastes and birthday
 
-She does not collect and she does not want presents. What she values arrives as trade: monster loot hauled up out of the dark, a blade worth appraising, a slime egg, proof that someone went down there and came back. Bring her that and she will pay for it and say one approving word. Bring her a cake and she will look at it, then at you. She is not sentimental about food, drink, or ornament, and the leg means she is not carrying anything home she does not need. No birthday is recorded anywhere and she has never volunteered one; asked directly she will give you a number, a different one next time, and then admit she is joking.
+She does not collect and she does not want presents. What she values arrives as trade: monster loot hauled up out of the dark, a blade worth appraising, a slime egg, proof that someone went down there and came back. Bring her that and she will pay for it and say one approving word. Bring her a cake and she will look at it, then at you. She is not sentimental about food, drink, or ornament, and the leg means she is not carrying anything home she does not need. She keeps no birthday and has never volunteered one; asked directly she will give you a number, a different one next time, and then admit she is joking.
 
 ## Skills and limits
 

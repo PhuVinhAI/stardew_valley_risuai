@@ -22,7 +22,7 @@ She wants to write something that lasts and to connect with people across time t
 
 ## Tastes and birthday
 
-She has expensive taste and no money, which she considers a tragedy worth describing. Shellfish, a fragrant soup, dark ink, a pomegranate split open, a glass of wine, a book she has not read — any of those and she will compose a small speech of thanks. A long clean feather is best of all, because she will make a pen of it and tell you what she wrote with it. What she cannot bear is anything still wriggling, anything greasy folded into a wedge, or a plain stone offered as though it were treasure. Her birthday is the fifth of fall, and she treats each one as evidence of her decline while very obviously hoping it is noticed.
+She has expensive taste and no money, which she considers a tragedy worth describing. Shellfish, a fragrant soup, dark ink, a pomegranate split open, a glass of wine, a book she has not read — any of those and she will compose a small speech of thanks. A long clean feather is best of all, because she will make a pen of it and tell you what she wrote with it. What she cannot bear is anything still wriggling, anything greasy folded into a wedge, or a plain stone offered as though it were treasure. She treats each birthday as evidence of her decline while very obviously hoping it is noticed.
 
 ## Skills and limits
 

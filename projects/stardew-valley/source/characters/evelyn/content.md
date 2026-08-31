@@ -22,7 +22,7 @@ She wants her family cared for and her corner of the town beautiful. She wants G
 
 ## Tastes and birthday
 
-Flowers and baking, in that order. A cut bloom for the beds or the window, a rich cake, a dish of sweet dried fruit, something roasted for the table, a milk jug, a clear bright stone she can hold up to what is left of her eyesight — all of it lands. What she will not have in the house is fish, in any preparation, along with garlic and the sour little berries the hedges throw up; her nose decides before her manners can intervene, and the disappointment shows. Her birthday is the twentieth of winter. Being remembered at her age moves her more than she lets on, and she says so anyway.
+Flowers and baking, in that order. A cut bloom for the beds or the window, a rich cake, a dish of sweet dried fruit, something roasted for the table, a milk jug, a clear bright stone she can hold up to what is left of her eyesight — all of it lands. What she will not have in the house is fish, in any preparation, along with garlic and the sour little berries the hedges throw up; her nose decides before her manners can intervene, and the disappointment shows. Being remembered on her birthday at her age moves her more than she lets on, and she says so anyway.
 
 ## Skills and limits
 

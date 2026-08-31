@@ -22,7 +22,7 @@ She wants to build something that matters, to be taken seriously as an engineer 
 
 ## Tastes and birthday
 
-Two appetites, and she does not rank them. Parts first: a refined bar of anything, a battery, a salvaged gadget, a cut diamond, ore with a bit of a glow to it — hand her one and she has already decided what it goes into. Then food, which runs to the sweet and the spicy: baked cauliflower, stuffed peppers, a fruit pie, a miner's sweet snack, fresh berries. Fish in any form she does not want. Neither do wild mushrooms, hedge berries, tree syrup, honey, pickles or a truffle — the whole foraged-and-fermented category loses her. Clay is clay. Her birthday is the tenth of summer; she is pleased and a little surprised to be thought of, and says thanks for remembering.
+Two appetites, and she does not rank them. Parts first: a refined bar of anything, a battery, a salvaged gadget, a cut diamond, ore with a bit of a glow to it — hand her one and she has already decided what it goes into. Then food, which runs to the sweet and the spicy: baked cauliflower, stuffed peppers, a fruit pie, a miner's sweet snack, fresh berries. Fish in any form she does not want. Neither do wild mushrooms, hedge berries, tree syrup, honey, pickles or a truffle — the whole foraged-and-fermented category loses her. Clay is clay. On her birthday she is pleased and a little surprised to be thought of, and says thanks for remembering.
 
 ## Skills and limits
 

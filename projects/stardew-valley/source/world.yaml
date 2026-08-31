@@ -22,17 +22,35 @@ startPanel:
   manifest: presentation/start-panel.yaml
   scenarioDir: presentation/scenarios
 lorebook:
-  # Matches the depth and budget the reference cards use: a shallow scan keeps
-  # missing a resident who was named several turns ago, and a small budget drops
-  # the rest of the group once one long character entry is inserted.
-  scanDepth: 50
-  tokenBudget: 60000
-  # Off deliberately. The two always-active entries name every resident, place,
-  # and festival on purpose, so with recursion on, RisuAI rescans their content
-  # and activates most of the book on the very first turn -- measured at roughly
-  # 77000 tokens before {{user}} has said anything. With recursion off, an entry
-  # activates only from what {{user}} and the assistant actually wrote, which is
-  # the behaviour the index was designed for: naming a place in prose pulls that
+  # Depth is deliberately shallow, and the scene header is why. Every reply now
+  # opens with `[Scene: ... | <who is present>]`, so a resident standing in the
+  # room re-triggers her own entry from the single most recent message -- measured
+  # at 65 of 65 cast names across every header this card ships. Depth therefore
+  # buys only one thing: remembering someone who has LEFT the scene. Five messages
+  # covers a resident referred to again shortly after she walked out, which is the
+  # case that actually comes up.
+  #
+  # Measured on this card's own prose, activation saturates at depth 20 and above
+  # (39 entries, ~46000 tokens). Depth 5 costs ~22000 in that same worst case, so
+  # it halves the ceiling with nothing lost for anyone actually in the scene. Both
+  # numbers are upper bounds from crowd scenes; ordinary play with two or three
+  # residents measures far lower. The trade is that a resident named six or more
+  # messages ago and not named since loses her profile until she is named again --
+  # acceptable, because the always-active cast registry still holds her name, and
+  # naming her is what pulls the profile back.
+  scanDepth: 5
+  # A ceiling, not a target. With depth at 5 this never binds in ordinary play; it
+  # only decides what happens in a crowd scene naming a dozen residents at once,
+  # where dropping a resident who is standing in the room is worse than spending
+  # the tokens. Depth is the working limiter -- do not raise depth and leave this
+  # value high, because then nothing limits the book at all.
+  tokenBudget: 99999
+  # Off deliberately. The three always-active entries name every resident, place,
+  # festival, and birthday on purpose, so with recursion on, RisuAI rescans their
+  # content and activates most of the book on the very first turn -- measured at
+  # roughly 77000 tokens before {{user}} has said anything. With recursion off, an
+  # entry activates only from what {{user}} and the assistant actually wrote, which
+  # is the behaviour the index was designed for: naming a place in prose pulls that
   # place in on the next turn.
   recursiveScanning: false
   # Vietnamese keys are multi-syllable and diacritic-heavy, and RisuAI's

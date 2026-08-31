@@ -13,4 +13,7 @@ tags:
   en: [Free start]
   vi: [Bắt đầu tự do]
 # No bodies: this opening is the scene header and nothing else. Any prose here
-# would be an instruction sheet the model imitates as narration.
+# would be an instruction sheet the model imitates as narration. Because nothing
+# is written, nothing is established either — this is the one scenario exempt from
+# the full six-field header, and the model fills the fields in on its first reply
+# once {{user}} has said where and when they are.

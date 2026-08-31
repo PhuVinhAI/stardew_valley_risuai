@@ -1,4 +1,5 @@
 import type { ScenarioSource, StartPanel } from "@charx/project-schema";
+import { hudCss, hudRegex, SCENE_FIELDS } from "./hud";
 
 export interface StartPanelScenario extends ScenarioSource {
   bodyText: Record<string, string>;
@@ -150,39 +151,14 @@ function panelHtml(ir: StartPanelIR): string {
 /**
  * Scene header written as plain text rather than markup, so the model sees the
  * same `[Scene: ...]` line in the opening message and in the example messages
- * and can keep writing it. A display regex turns it into chips.
+ * and can keep writing it. `hud.ts` owns the display regex that turns it into
+ * chips, and `SCENE_FIELDS` is the field order both sides agree on.
  */
-const SCENE_LINE_SLOTS = 6;
+const SCENE_LINE_SLOTS = SCENE_FIELDS.length;
 
 function sceneLine(tags: string[]): string {
   if (!tags.length) return "";
   return `[Scene: ${tags.join(" | ")}]`;
-}
-
-/**
- * One replacement has to serve every scene line, so the pattern offers a fixed
- * number of optional slots and the stylesheet hides the chips whose group never
- * matched. Slots are lazy with the surrounding spaces outside the capture, so a
- * chip holds `Spring` rather than ` Spring `. The final slot accepts separators
- * so an unusually long line degrades into a wider last chip instead of failing
- * to match at all.
- */
-function sceneLineRegex(): Record<string, unknown> {
-  const slot = (charClass: string): string => `\\s*([${charClass}]+?)\\s*`;
-  const middle = `(?:\\|${slot("^|\\]\\n")})?`.repeat(SCENE_LINE_SLOTS - 2);
-  const pattern = `\\[Scene:${slot("^|\\]\\n")}${middle}(?:\\|${slot("^\\]\\n")})?\\]`;
-  const chips = Array.from(
-    { length: SCENE_LINE_SLOTS },
-    (_, index) => `<span class="sv-scene-tags__tag${index === 0 ? " is-lead" : ""}">$${index + 1}</span>`,
-  ).join("");
-  return {
-    comment: "Scene header",
-    in: pattern,
-    out: `<div class="sv-scene-tags">${chips}</div>`,
-    type: "editdisplay",
-    ableFlag: false,
-    flag: "g",
-  };
 }
 
 function firstMessage(ir: StartPanelIR): string {
@@ -438,42 +414,7 @@ function backgroundCss(): string {
 .${PANEL_CLASS}__card-action { margin-top: auto; }
 
 .${PANEL_CLASS}__footer { font-size: 11px; opacity: 0.6; }
-
-.sv-scene-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  align-items: center;
-  margin: 0 0 10px;
-}
-
-/*
- * Scene chips render inside the message body rather than inside the panel, so
- * they get the same forced colours for the same reason — a dark chat theme
- * would otherwise put its own light text on their cream background.
- */
-.sv-scene-tags__tag {
-  max-width: 100%;
-  padding: 2px 10px;
-  border: 1px solid rgb(120 84 44 / 35%);
-  border-radius: 999px;
-  background: rgb(246 236 216 / 85%) !important;
-  color: #6b4a24 !important;
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  line-height: 1.6;
-}
-
-.sv-scene-tags__tag.is-lead {
-  border-color: #6f9c3d;
-  background: #e7f3d2 !important;
-  color: #3f5c1e !important;
-  text-transform: uppercase;
-}
-
-.sv-scene-tags__tag:empty { display: none; }
-</style>`;
+${hudCss()}</style>`;
 }
 
 export function compileStartPanel(ir: StartPanelIR): StartPanelArtifacts {
@@ -508,6 +449,26 @@ export function compileStartPanel(ir: StartPanelIR): StartPanelArtifacts {
       for (const tag of tags)
         if (/[|\]\n]/.test(tag))
           throw new Error(`Scenario '${scenario.id}' tag '${tag}' cannot contain '|', ']', or a newline`);
+      // A header is all-or-nothing. Two shapes are legal: the full field set, or a
+      // single label for a scenario that establishes no time and no place at all.
+      // Anything between the two is worse than either, because the model copies the
+      // opening header's shape for the rest of the chat — a scenario that ships
+      // four fields teaches it that the clock and the weather are optional.
+      if (tags.length <= 1) continue;
+      if (tags.length !== SCENE_LINE_SLOTS)
+        throw new Error(
+          `Scenario '${scenario.id}' has ${tags.length} '${language}' tags; a scene header is all ${SCENE_LINE_SLOTS} fields (${SCENE_FIELDS.join(", ")}) or a single label`,
+        );
+      const day = tags[SCENE_FIELDS.indexOf("day")] ?? "";
+      if (!/\d/.test(day))
+        throw new Error(
+          `Scenario '${scenario.id}' '${language}' day field '${day}' has no number in it; the header's day field is a calendar day`,
+        );
+      const clock = tags[SCENE_FIELDS.indexOf("clock")] ?? "";
+      if (!/^\d{1,2}:\d{2}$/.test(clock))
+        throw new Error(
+          `Scenario '${scenario.id}' '${language}' clock field '${clock}' is not a HH:MM time; the header's clock field is an exact time of day`,
+        );
     }
   }
   if (!seen.has(ir.panel.defaultScenario))
@@ -527,7 +488,7 @@ export function compileStartPanel(ir: StartPanelIR): StartPanelArtifacts {
         type: "editdisplay",
         ableFlag: false,
       },
-      sceneLineRegex(),
+      ...hudRegex(),
     ],
     triggers: [
       {

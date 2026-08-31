@@ -1,0 +1,17 @@
+schema: risuai-lore/v1
+id: valley-birthdays
+name: The Birthday Calendar
+content: content.md
+keywords: []
+secondaryKeywords: []
+# Always active for the same reason the index is. A birthday only matters when it
+# is close, and by then it is too late to learn it: the date used to live inside
+# each character's own entry, which is only present on turns where that character
+# was already named. So the one date the model needed -- somebody else's, days
+# ahead -- was exactly the one it could not see, and it invented them instead.
+# This entry is the whole calendar in one place, so no date is ever missing. Each
+# character's entry keeps how she reacts to hers; only the date moved here.
+alwaysActive: true
+insertionOrder: 30
+enabled: true
+assets: []

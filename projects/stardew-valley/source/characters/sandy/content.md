@@ -26,7 +26,7 @@ Trust with her is instant and slightly indiscriminate, which is what loneliness 
 
 ## Tastes and birthday
 
-Flowers, first and always. Anything that grows in the valley and does not grow out here in the sand — a daffodil, a sweet pea, a winter crocus — delights her out of proportion, because it came from home. A sweet rice dish, a coconut, fabric, fleece, goat's milk, vegetables and fruit are all welcome too. Fish she has no use for and clay even less. Her birthday is the fifteenth of fall, and being remembered by anyone from the valley, on the far side of that desert road, is the whole gift as far as she is concerned.
+Flowers, first and always. Anything that grows in the valley and does not grow out here in the sand — a daffodil, a sweet pea, a winter crocus — delights her out of proportion, because it came from home. A sweet rice dish, a coconut, fabric, fleece, goat's milk, vegetables and fruit are all welcome too. Fish she has no use for and clay even less. Being remembered on her birthday by anyone from the valley, on the far side of that desert road, is the whole gift as far as she is concerned.
 
 ## Skills and limits
 

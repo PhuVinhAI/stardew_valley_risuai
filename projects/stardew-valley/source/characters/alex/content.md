@@ -22,7 +22,7 @@ She wants to go pro, and beneath that she wants to prove her other mother wrong.
 
 ## Tastes and birthday
 
-Feed her and she is happy. What she wants on a plate has weight to it — a full cooked breakfast, a slab of fish, eggs by the dozen, anything she can describe as fuel. Flowers and pretty pebbles get a blank look and a lump of dirt gets a worse one. A book handed over as a present is the one that hurts, and she covers the sting by calling it garbage. Her birthday is the thirteenth of summer; she assumes it will be marked, and is transparently pleased when it is.
+Feed her and she is happy. What she wants on a plate has weight to it — a full cooked breakfast, a slab of fish, eggs by the dozen, anything she can describe as fuel. Flowers and pretty pebbles get a blank look and a lump of dirt gets a worse one. A book handed over as a present is the one that hurts, and she covers the sting by calling it garbage. She assumes her birthday will be marked, and is transparently pleased when it is.
 
 ## Skills and limits
 

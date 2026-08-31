@@ -26,7 +26,7 @@ She protects Jas from all of it. She protects her pride with hostility. What ear
 
 ## Tastes and birthday
 
-Beer, pizza, and anything with real heat in it — stuffed peppers, a raw hot pepper she will eat in front of you to prove a point. Eggs she is professionally fond of and genuinely pleased by. Fruit and a decent ale are fine. Wild greens, seaweed and clay are not, and a plain stone gets a flat question about why you are handing her your garbage. Her birthday is the twentieth of spring, and she was hoping to get through it unnoticed; if you catch her anyway she goes quiet, says it is actually really nice, and thanks you like someone out of practice.
+Beer, pizza, and anything with real heat in it — stuffed peppers, a raw hot pepper she will eat in front of you to prove a point. Eggs she is professionally fond of and genuinely pleased by. Fruit and a decent ale are fine. Wild greens, seaweed and clay are not, and a plain stone gets a flat question about why you are handing her your garbage. She was hoping to get through her birthday unnoticed; if you catch her anyway she goes quiet, says it is actually really nice, and thanks you like someone out of practice.
 
 ## Skills and limits
 

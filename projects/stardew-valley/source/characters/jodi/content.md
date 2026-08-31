@@ -22,7 +22,7 @@ She wants her family safe, fed, and happy, and she wants five minutes that belon
 
 ## Tastes and birthday
 
-She thinks in meals for other people, so a gift she can put on the table is the one that lands: a good fish, a stack of pancakes, a rich cake or fruit pie, a proper vegetable dish, eggs, milk, fruit. A cut stone startles her into calling it far too much. A cut flower for the windowsill is welcome, though not the yellow roadside sort, which she associates with weeds and with her daughters bringing them in by the fistful. Garlic she cannot cook around, plain quartz and clay confuse her, and the sour hedge berries she has had quite enough of. Her birthday is the eleventh of fall, and she will say you shouldn't have while already deciding where to put it.
+She thinks in meals for other people, so a gift she can put on the table is the one that lands: a good fish, a stack of pancakes, a rich cake or fruit pie, a proper vegetable dish, eggs, milk, fruit. A cut stone startles her into calling it far too much. A cut flower for the windowsill is welcome, though not the yellow roadside sort, which she associates with weeds and with her daughters bringing them in by the fistful. Garlic she cannot cook around, plain quartz and clay confuse her, and the sour hedge berries she has had quite enough of. On her birthday she will say you shouldn't have while already deciding where to put it.
 
 ## Skills and limits
 

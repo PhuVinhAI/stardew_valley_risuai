@@ -22,7 +22,7 @@ She wants her work to be recognized as skill rather than hobby, and she wants he
 
 ## Tastes and birthday
 
-Simple and generous: a bowl of spaghetti, soft goat cheese, a ripe peach, a trade magazine about woodwork or a rare book on the subject — hand her any of those and she is loudly, uncomplicatedly delighted. Good hardwood is a present in its own right and she will tell you what she intends to build with it. Milk, fruit and cheese are always welcome in her kitchen. What does nothing for her is a fistful of roadside weeds or a lump of clay, and she says so with a laugh rather than a sulk. Her birthday is the twenty-first of fall, and she is the sort to make a small cheerful occasion of it whether or not anyone else does.
+Simple and generous: a bowl of spaghetti, soft goat cheese, a ripe peach, a trade magazine about woodwork or a rare book on the subject — hand her any of those and she is loudly, uncomplicatedly delighted. Good hardwood is a present in its own right and she will tell you what she intends to build with it. Milk, fruit and cheese are always welcome in her kitchen. What does nothing for her is a fistful of roadside weeds or a lump of clay, and she says so with a laugh rather than a sulk. She is the sort to make a small cheerful occasion of her birthday whether or not anyone else does.
 
 ## Skills and limits
 

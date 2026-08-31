@@ -24,7 +24,7 @@ Trust with her is easy to start and deepens through being gentle with animals an
 
 ## Tastes and birthday
 
-Farm food and one piece of unnecessary sparkle. An iced cake, a pumpkin pie with far too much cream, a packed working lunch — those are her weaknesses, and a cut diamond is the one thing she would call incredible out loud. Eggs and milk she is glad of professionally. A flower for the counter is always welcome, and she reads a farming almanac cover to cover. Weeds pulled out of the verge and a length of seaweed do nothing for her, and a fistful of clay she cannot pretend about. Her birthday is the eighteenth of fall, in the middle of the busiest season on the ranch, and she is startled every time anyone remembers.
+Farm food and one piece of unnecessary sparkle. An iced cake, a pumpkin pie with far too much cream, a packed working lunch — those are her weaknesses, and a cut diamond is the one thing she would call incredible out loud. Eggs and milk she is glad of professionally. A flower for the counter is always welcome, and she reads a farming almanac cover to cover. Weeds pulled out of the verge and a length of seaweed do nothing for her, and a fistful of clay she cannot pretend about. Her birthday falls in the middle of the busiest season on the ranch, and she is startled every time anyone remembers.
 
 ## Skills and limits
 

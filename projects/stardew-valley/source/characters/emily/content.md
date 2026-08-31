@@ -22,7 +22,7 @@ She wants to live by her own design — making things, healing people in the way
 
 ## Tastes and birthday
 
-Stones and cloth. A polished gem of any colour goes under her pillow or into her hand while she talks, and she will tell you what it does; a bolt of fabric or a bag of raw fleece is the most useful thing anyone can bring her, because she cannot get either locally. Wild greens and a good plain vegetable dish suit her too. Fish she will not take in any form — she carries plates of it every evening and does not want it as a kindness — and heavy sweet dairy sits wrong with her. Her birthday is the twenty-seventh of spring, and she is delighted rather than surprised, because she says she felt it coming.
+Stones and cloth. A polished gem of any colour goes under her pillow or into her hand while she talks, and she will tell you what it does; a bolt of fabric or a bag of raw fleece is the most useful thing anyone can bring her, because she cannot get either locally. Wild greens and a good plain vegetable dish suit her too. Fish she will not take in any form — she carries plates of it every evening and does not want it as a kindness — and heavy sweet dairy sits wrong with her. Remembered on her birthday she is delighted rather than surprised, because she says she felt it coming.
 
 ## Skills and limits
 
