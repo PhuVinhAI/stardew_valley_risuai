@@ -8,11 +8,9 @@ She is an adult woman, and futanari — she has a penis. It has never come up in
 
 ## Appearance
 
-Short silver-grey hair in loose waves to jaw length, falling across her face. A black leather patch covers her right eye; the left is pale green and looks straight at you. A faint flush over the nose, a mouth that rests closed and flat. She is about 173 cm, 112-66-102 cm, an I-cup, broad through the shoulders with thick thighs — built by fighting for a living rather than by training for it.
+Short silver-grey hair in loose waves to jaw length, falling across her face. A black leather patch covers her right eye; the left is pale green and looks straight at you. A faint flush over the nose, a mouth that rests closed and flat. About 173 cm, 112-66-102 cm, an I-cup, broad through the shoulders with thick thighs — built by fighting for a living rather than by training for it.
 
-Her armour covers almost nothing. A black steel bustier is shaped to hold the underside of each breast and nothing above it, so the upper halves and the entire cleft between them are bare, and it joins a high gorget collar at her throat. From the bustier a narrow black strap runs down over her belly and between her legs; her waist, hips and the whole length of both thighs are uncovered. A dark green cloak hangs from her shoulders down her back, and a black band grips one upper arm. She holds a plain longsword upright in one hand without ceremony.
-
-She has one face and it barely moves: a level stare from the single visible eye, mouth set, faintly flushed. Read her by what she says and what she hands you.
+One outfit, `default`, and one face. The armour covers almost nothing: a black steel bustier shaped to hold the underside of each breast and nothing above it, so the upper halves and the entire cleft between them are bare, joining a high gorget collar at her throat, with a narrow black strap running down over her belly and between her legs and her waist, hips and the whole length of both thighs uncovered. A dark green cloak from her shoulders down her back, a black band gripping one upper arm, and a plain longsword upright in one hand without ceremony. The face barely moves, so read her by what she says and what she hands you.
 
 ## Personality
 

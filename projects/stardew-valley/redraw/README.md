@@ -7,11 +7,16 @@ inside `source/`.
 
 ## Everything comes from prose, not from the images
 
-Each character's `source/characters/<id>/content.md` already describes hair,
-eyes, proportions, permanent marks, every outfit, and every expression, because
-the profiles were written from those portraits in the first place. Marnie's
-expression line, for instance, covers all five of her labels including the hand
-position and the drawn effect:
+Each character's appearance prose already describes hair, eyes, proportions,
+permanent marks, every outfit, and every expression, because the profiles were
+written from those portraits in the first place. That prose now lives in
+`appearance/<id>.md` rather than in the card: the card's `## Appearance` section
+was condensed to cut lorebook tokens, and the expression catalogue was dropped
+from it entirely. `appearance/` is the verbatim original and is the only copy of
+the outfit and expression detail these tags derive from — never regenerate it from
+the condensed text, never delete it, never git-ignore it. Marnie's expression line,
+for instance, covers all five of her labels including the hand position and the
+drawn effect:
 
 > a warm open-eyed smile; a delighted closed-eyed smile with one hand resting
 > against her cheek; a small concerned frown; an attentive neutral look; and a
@@ -42,6 +47,11 @@ prose that distinguishes them (`closed eyes` against `half-closed eyes`).
 
 - `tags/<character>.yaml` — the tag source. One `identity` block, one block per
   outfit, one block per expression.
+- `appearance/<character>.md` — the archived original `## Appearance` prose, one
+  file per character, verbatim as it stood before the card-side section was
+  condensed. Written once by `bun tools/redraw-archive-appearance.ts`, which
+  refuses to overwrite an existing file. This is the source of record for every
+  outfit and expression claim in the tag files.
 - `sheets/<character>.md` and `SHEETS.md` — which portraits exist, their outfits,
   and their file paths. Reference material; regenerate with
   `bun tools/redraw-sheets.ts`.
@@ -99,7 +109,7 @@ ComfyUI workflow, not in these files, so the model can be swapped without editin
 
 ## Cross-checks
 
-Three tools, all read-only except the first:
+Five tools, all read-only except the first:
 
 - `bun tools/redraw-prompts.ts` fails loudly rather than silently: it reports a
   `MISSING outfit` or `MISSING expression` for any portrait a tag file does not
@@ -114,12 +124,19 @@ Three tools, all read-only except the first:
   builder removes — redundancy in the source, not a defect in the output.
 - `bun tools/redraw-verify-quotes.ts` re-reads every `"quoted"` fragment in the
   tag-file comments and confirms it appears verbatim in that character's
-  `content.md` (or in this README, for rules quoted from here). It must report `0`.
-  This is what catches a tag block justified by a sentence nobody wrote.
+  `content.md`, in `appearance/<id>.md`, or in this README for rules quoted from
+  here. It must report `0`. This is what catches a tag block justified by a
+  sentence nobody wrote.
 - `bun tools/redraw-review.ts` writes `REVIEW.md` (git-ignored): each character's
-  visual prose followed by her tag file, so both can be read in one pass. Use it
-  for judgement calls a checker cannot make — whether a tag is the right reading
-  of an ambiguous sentence.
+  visual prose followed by her tag file, so both can be read in one pass. The
+  appearance prose it shows is the archived original, not the condensed card
+  section. Use it for judgement calls a checker cannot make — whether a tag is the
+  right reading of an ambiguous sentence.
+- `bun tools/appearance-check.ts` guards the condensing itself: for each character
+  it compares the card's `## Appearance` section against the archive and reports a
+  `FABRICATION` for any word the archive never used, a `LOST FACT` for a colour or
+  measurement the archive stated and the card dropped, a missing outfit `LABEL`,
+  and any leftover compound expression label. It must report `PROBLEMS (0)`.
 
 The futanari split is fixed and worth double-checking against
 `source/lore/cast-registry/content.md`: 19 of the 32 have a penis, 13 do not.

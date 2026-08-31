@@ -2,7 +2,7 @@ schema: risuai-event/v1
 id: luau
 name: Luau
 content: content.md
-keywords: [luau, potluck, summer 11, the soup, communal soup, governor, tiệc luau, tiệc góp món, nồi súp, súp chung, thị trưởng, tỉnh trưởng]
+keywords: [luau, potluck, summer 11, communal soup, the governor, tiệc luau, tiệc góp món, nồi súp chung, súp chung, tỉnh trưởng]
 secondaryKeywords: [soup cauldron, buffet, beach party, hot pepper chutney, roast, sand flies, vạc súp, bàn tiệc, tiệc bãi biển, tương ớt, món nướng, ruồi cát]
 insertionOrder: 300
 enabled: true

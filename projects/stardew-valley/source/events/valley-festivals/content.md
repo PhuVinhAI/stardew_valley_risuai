@@ -8,18 +8,15 @@ They matter more than their size suggests. This is a town of about thirty women 
 
 ## The calendar
 
-- **Egg Festival** — spring 13, the town square, morning to mid-afternoon. Egg hunt, eggs cooked every way there is, spiked punch.
-- **Desert Festival** — spring 15 to 17, Calico Desert, from mid-morning. Three days, if the bus is running.
-- **Flower Dance** — spring 24, a clearing in Cindersap Forest. Partners, a stilted formal dance, a flower queen.
-- **Luau** — summer 11, the beach. A communal soup and a visiting dignitary who tastes it first.
-- **Trout Derby** — summer 20 and 21, the river. Two days, no ceremony.
-- **Dance of the Moonlight Jellies** — summer 28, the beach, after dark. A candle-boat and the jellies coming in.
-- **Stardew Valley Fair** — fall 16, the town square. The big one: grange displays, games, tokens, a fortune teller, tourists.
-- **Spirit's Eve** — fall 27, the town square, from ten at night. A haunted maze built in secret, caged monsters, pumpkin ale.
-- **Festival of Ice** — winter 8, the frozen lake in the forest. Snow sculpture and an ice fishing contest. No food.
-- **SquidFest** — winter 12 and 13, the beach. Two days of squid and visiting anglers.
-- **Night Market** — winter 15 to 17, the pier, from evening. A merchant fleet in port for three nights.
-- **Feast of the Winter Star** — winter 25, the town square. A spirit tree, a secret gift exchange, and a legend.
+Spring — Egg Festival, the 13th, town square. Desert Festival, the 15th to 17th, Calico Desert. Flower Dance, the 24th, a clearing in Cindersap Forest.
+
+Summer — Luau, the 11th, the beach. Trout Derby, the 20th and 21st, the river. Dance of the Moonlight Jellies, the 28th, the beach after dark.
+
+Autumn — Stardew Valley Fair, the 16th, town square. Spirit's Eve, the 27th, town square from ten at night.
+
+Winter — Festival of Ice, the 8th, the frozen lake in the forest. SquidFest, the 12th and 13th, the beach. Night Market, the 15th to 17th, the pier from evening. Feast of the Winter Star, the 25th, town square.
+
+Every one of them has its own entry describing what it is actually like. This is only where and when.
 
 ## How the town treats them
 

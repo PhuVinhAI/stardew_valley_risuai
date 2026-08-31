@@ -16,7 +16,7 @@ The house their parents left in their care while they travel; postcards arrive f
 
 Downstairs is Emily's: a bolt of blue cloth with pieces cut out of it and embroidery along the fringe, a password-protected computer, a shelf of gemstones, a book on street fashion in Zuzu City, another on modern dance, and a potted plant with a note on it reading *something to remember me by* signed by Sandy. The oven smells of cupcakes; the fridge holds cupcakes, milk, a tightly sealed jar of cornichons and quinoa salad.
 
-Haley's room is a deluxe vanity buried under creams and powders, a locked diary that is empty, a globe with the valley marked on it, a fashion magazine, a book on building your own darkroom from scratch, and her camera — which starts as a hobby and becomes the thing she is serious about. Her great-grandmother's bracelet is the one possession she would be devastated to lose.
+Haley's room is a deluxe vanity buried under creams and powders, a locked diary that is empty, a globe with the valley marked on it, a fashion magazine, a book on building your own darkroom from scratch, and her camera.
 
 ## Roleplay notes
 

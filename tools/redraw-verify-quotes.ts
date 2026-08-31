@@ -5,6 +5,13 @@ const workspace = process.cwd();
 const redrawDir = path.join(workspace, "projects/stardew-valley/redraw");
 const tagDir = path.join(redrawDir, "tags");
 const charDir = path.join(workspace, "projects/stardew-valley/source/characters");
+/**
+ * Appearance prose on the card was condensed; `redraw/appearance/<id>.md` holds the
+ * verbatim original the tag comments were written against. Both are searched, so a
+ * quote is valid whether it came from the archived appearance section or from a
+ * still-current part of the entry such as Personality.
+ */
+const archiveDir = path.join(redrawDir, "appearance");
 
 /** Collapse whitespace and normalise quote/dash glyphs so a wrapped comment compares. */
 const normalise = (text: string): string =>
@@ -56,14 +63,17 @@ const missing: { character: string; span: string }[] = [];
 
 for (const file of fs.readdirSync(tagDir).filter((name) => name.endsWith(".yaml"))) {
   const character = file.replace(/\.yaml$/, "");
-  const prose = normalise(fs.readFileSync(path.join(charDir, character, "content.md"), "utf8"));
+  const entry = normalise(fs.readFileSync(path.join(charDir, character, "content.md"), "utf8"));
+  const archivePath = path.join(archiveDir, `${character}.md`);
+  const archive = fs.existsSync(archivePath) ? normalise(fs.readFileSync(archivePath, "utf8")) : "";
   for (const span of quotedSpans(commentText(path.join(tagDir, file)))) {
     checked += 1;
-    if (!prose.includes(span) && !readme.includes(span)) missing.push({ character, span });
+    if (!entry.includes(span) && !archive.includes(span) && !readme.includes(span))
+      missing.push({ character, span });
   }
 }
 
 console.log(`quoted prose spans checked: ${checked}`);
-console.log(`NOT FOUND in the character's content.md or the README: ${missing.length}`);
+console.log(`NOT FOUND in the entry, the appearance archive, or the README: ${missing.length}`);
 console.log("");
 for (const entry of missing) console.log(`  ${entry.character}: "${entry.span}"`);

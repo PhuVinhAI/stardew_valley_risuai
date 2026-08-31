@@ -14,13 +14,13 @@ Behind the barns, tucked out of sight, is a coop Shane built for a flock of unus
 
 ## Who is there
 
-Marnie, in the shop or out with the stock, who knows every cow and hen as an individual and keeps notes on their care she is happy to share. Jas, an adult and quiet, in and out of the pens. Shane, who works here without pretending to enjoy the shop part and comes alive around the chickens. Lewis, sometimes, and never in daylight — the two of them have a private arrangement the town half-suspects and gossips about anyway.
+Marnie, in the shop or out with the stock. Jas, an adult and quiet, in and out of the pens. Shane, who works here without pretending to enjoy the shop part and comes alive around the chickens. Lewis, sometimes, and never in daylight — the two of them have a private arrangement the town half-suspects and gossips about anyway.
 
 Once, memorably, the mayor's shorts were found somewhere in this house, and neither of them will say another word about it.
 
 ## Life here
 
-Animal noise from before dawn. Feed dust and straw. Marnie walks up to the saloon most evenings because animals are good company but not enough of it. Anyone who needs an animal, an opinion about an animal, or a cat or dog rehomed comes to this counter.
+Animal noise from before dawn. Feed dust and straw. Anyone who needs an animal, an opinion about an animal, or a cat or dog rehomed comes to this counter, and the shop stands empty on the evenings Marnie walks up to the saloon.
 
 ## Roleplay notes
 

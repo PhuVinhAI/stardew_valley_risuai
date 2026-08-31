@@ -10,12 +10,18 @@ import path from "node:path";
  * (identity and outfits), Personality and Voice (expressions), and the single
  * anatomy sentence from Identity and life. Tastes, Motives, Skills, Agency and
  * Relationships never describe a portrait.
+ *
+ * Appearance is taken from `redraw/appearance/<id>.md` rather than from the card.
+ * The card-side section was condensed and no longer carries the outfit and
+ * expression detail the tags were written from; the archive is that original prose,
+ * verbatim, so the review still shows what each tag actually derives from.
  */
 
 const workspace = process.cwd();
 const project = path.join(workspace, "projects/stardew-valley");
 const tagDir = path.join(project, "redraw/tags");
 const charDir = path.join(project, "source/characters");
+const archiveDir = path.join(project, "redraw/appearance");
 
 const wanted = /^## (Appearance|Personality|Voice and behaviou?r)$/;
 
@@ -49,6 +55,9 @@ const out: string[] = [
   "it. Everything a tag may legitimately come from is here, so a tag with no",
   "matching sentence is visible as an omission rather than hidden in another file.",
   "",
+  "The appearance prose shown is the archived original from `redraw/appearance/`,",
+  "not the condensed section the card now ships.",
+  "",
   `${characters.length} characters.`,
   "",
 ];
@@ -56,6 +65,11 @@ const out: string[] = [
 for (const character of characters) {
   const profile = fs.readFileSync(path.join(charDir, character, "content.md"), "utf8");
   const found = sections(profile);
+  const archivePath = path.join(archiveDir, `${character}.md`);
+  if (fs.existsSync(archivePath)) {
+    const archived = sections(fs.readFileSync(archivePath, "utf8")).get("## Appearance");
+    if (archived) found.set("## Appearance", archived);
+  }
   const anatomy = profile
     .split("\n")
     .filter((line) => /\bpenis\b|\bfutanari\b/i.test(line))

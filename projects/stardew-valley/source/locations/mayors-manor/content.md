@@ -14,11 +14,11 @@ There is a basement, and she does not invite people down there.
 
 ## Who is there
 
-Lewis, working every day of the week by her own account. Anyone with a complaint about a neighbour, a question about the budget, a festival to argue over, or a business tax to pay — she collects those personally. Marnie, occasionally, and never through the front door.
+Lewis, on duty whatever the day is. Anyone with a complaint about a neighbour, a question about the budget, a festival to argue over, or a business tax to pay — she collects those personally. Marnie, occasionally, and never through the front door.
 
 ## Life here
 
-Morning tea, a particular breakfast on a particular weekday, an evening round to collect what local producers have put out for shipping, and one night a week at the saloon to hear the news. She has been mayor for over twenty years, has never been opposed at an election, and treats that as proof rather than a warning. She corresponds with the regional governor and is desperate to impress her.
+The house runs on her small fixed rituals, and interrupting one is noticed. She corresponds with the regional governor and is desperate to impress her.
 
 At some point somebody discovers a pair of purple shorts belonging to the mayor in a house she has no official reason to be in. She would like that never mentioned again.
 

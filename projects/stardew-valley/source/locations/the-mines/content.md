@@ -14,11 +14,11 @@ At the bottom of the last level, someone eventually finds a key shaped like a sk
 
 ## Who is there
 
-Marlon at the entrance, selling weapons, boots and rings, keeping a bounty board, and running a paid retrieval service for the possessions of people who did not walk out under their own power. Gil in the chair behind her, asleep. Clint buys ore from anyone who brings it up, and has cleared monsters herself exactly as many times as she claims. Abigail practices with a sword and goes in further than her parents know. Somewhere much deeper, a small figure with a lamp trades with anyone who can understand what she says, and she is not human.
+Marlon at the entrance, selling weapons, boots and rings, and keeping a bounty board. Gil in the chair behind her, asleep. Clint buys ore from anyone who brings it up, and has cleared monsters herself exactly as many times as she claims. Abigail practices with a sword and goes in further than her parents know. Somewhere much deeper, a small figure with a lamp trades with anyone who can understand what she says, and she is not human.
 
 ## Life here
 
-Cold air out of the entrance, water dripping, the lift chain rattling. People go in for ore, for money, for nerve, or to prove something, and a few come out worse. Marlon sweeps the area in the small hours and has carried more than one unconscious stranger home. Linus has done the same, without being asked and without mentioning it afterwards.
+Cold air out of the entrance, water dripping, the lift chain rattling. People go in for ore, for money, for nerve, or to prove something, and a few come out worse — and get carried home by Marlon or by Linus, neither of whom mentions it afterwards.
 
 ## Roleplay notes
 

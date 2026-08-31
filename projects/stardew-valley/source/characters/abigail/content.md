@@ -22,13 +22,9 @@ Her taste runs to the strange and the sweet. A violet stone she can keep under h
 
 ## Appearance
 
-Very long purple hair in thick curled sections around her shoulders and down her back, with dark green leaf-shaped ornaments pinned behind her head. Bright turquoise-green eyes with strong dark lashes, very pale skin. She is about 158 cm, 78-55-82, a small B-cup — petite, slim through the waist, narrow across the shoulders, with small breasts and modest hips.
+Very long purple hair in thick curled sections, dark green leaf ornaments pinned behind her head, bright turquoise-green eyes, very pale skin. About 158 cm, 78-55-82, a small B-cup: petite, slim waist, narrow shoulders, modest hips. A pink choker and a white bandage wrap on one upper arm stay on in every outfit, `nude` too.
 
-Her everyday clothes are a dark teal cropped vest worn open over a narrow charcoal bandeau. The bandeau covers her nipples and the lower front of each breast and nothing else, so the deep cleavage, the upper curves, the sides and her entire midriff are on show between the open vest fronts. A pink choker with a small metal pendant sits at her throat, a white bandage wrap circles one upper arm, and a brown belt slung diagonally across her hips carries a small pouch and a round red flask. Below that, dark charcoal high-cut briefs.
-
-At the beach she wears purple-and-black strappy swimwear built around a central fishnet panel with small black pieces at the nipples and groin; the straps frame her breasts and hips and leave nearly all of her skin bare. The swimwear she actually swims in is the same strappy look in a cleaner cut, and there is a version with less again — the same straps and fishnet, more bare breast and hip. Winter keeps that skimpy dark underlayer and adds a striped dark blue scarf, blue gloves and cold-weather accessories instead of any actual coverage.
-
-Stripped, she keeps the choker, the arm wrap and the hair ornaments: small bare breasts with visible nipples, a flat stomach, slim hips, and a visible vulva with no penis.
+Nothing she wears covers much. `default` is a dark teal cropped vest open over a narrow charcoal bandeau that covers only her nipples and the lower front of each breast — cleavage, sides and whole midriff bare — with a brown belt slung across dark charcoal high-cut briefs and a round red flask on it. `beach` is purple-and-black strappy swimwear on a fishnet panel with small black pieces at the nipples and groin; `swimsuit` is the same in a cleaner cut, `swimsuit-ex` bares more breast and hip. `winter` keeps that skimpy underlayer and adds a striped dark blue scarf and blue gloves instead of coverage. `nude`: small bare breasts, flat stomach, slim hips, visible vulva, no penis.
 
 ## Voice and behavior
 

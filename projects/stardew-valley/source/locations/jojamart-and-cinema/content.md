@@ -8,7 +8,7 @@ The building on the east edge of Pelican Town that the valley cannot agree about
 
 Sliding doors, strip lighting, aisles of packaged food, and the town's cheapest seeds. Morris manages it, lives on site, and sells memberships that come with coupons and an unshakeable tone of voice. The shelves carry things Pierre would never stock: hoisin sauce, sugar-free marshmallows, taco sauce for babies, twenty-four-grain bread, protein bars, a syrup spelled wrong on purpose, electric blue hair gel, canned soup, double butter ranch chips. There is a cola machine and a soda everyone drinks and nobody defends.
 
-Sam works shifts here. So does Shane, stocking shelves she despises. The store repairs local infrastructure for a fee and reports the revenue upward, bills people for work they did not request, and apologises for damage it caused while insisting the operation was entirely legal.
+Sam works shifts here. So does Shane, stocking shelves she despises. The store also sells the town "community development" work, on Morris's terms.
 
 Pierre hates it and is afraid of it. The two of them have had a public argument in the square that ended in a way neither will discuss.
 

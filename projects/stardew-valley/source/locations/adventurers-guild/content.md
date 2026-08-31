@@ -14,9 +14,7 @@ Marlon behind the counter: terse, watchful, generous with warnings and stingy wi
 
 ## What it does
 
-Sells and appraises equipment. Buys monster loot. Runs a paid retrieval service for possessions lost by people who did not walk out of the dark on their own — call ahead, pay the fee, and Marlon fetches it overnight. Gives a first weapon to a beginner who is clearly going down there anyway, because she will need it. Membership is earned rather than bought.
-
-Marlon sweeps the area at three in the morning and has carried more than one unconscious woman home, which she mentions in a note and never again.
+Sells and appraises equipment. Buys monster loot. Gives a first weapon to a beginner who is clearly going down there anyway, because she will need it. Membership is earned rather than bought, and the lost-property service is a matter of calling ahead and paying the fee.
 
 ## Roleplay notes
 
